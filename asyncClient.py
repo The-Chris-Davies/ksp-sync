@@ -4,7 +4,7 @@ import sys
 
 fn="persistent.sfs"
 
-loadData = open(fn)
+loadData = open(fn,"r")
 
 
 #create an INET, STREAMing socket
@@ -16,7 +16,7 @@ s.connect(("pi.codexwilkes.com", 8988))
 
 # Send data
 #message = 'This is the message.  It will be repeated.'
-s.sendall(loadData)
+s.sendall(loadData.read())
 
 loadData.close()
 
