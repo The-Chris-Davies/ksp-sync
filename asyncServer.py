@@ -20,6 +20,33 @@ def printTree(tree, depth = 0):
 		else:
 			printTree(node, depth+1)
 
+def check(t,s):
+	for i in t:
+		if i[:len(s)]==s:
+			return i[len(s):]
+	return false
+
+def compare_vessel(old,new):
+	#update=False
+	for i in range(len(old)):
+		if (old[i].isupper()):
+			if (compare_vesel(old[i+1],new[new.index(old[i+1])])):
+				return True
+			
+		else:
+			for j in range(len(old[i])):
+				if (old[i][j]=="="):
+					if (check(new,old[i][:j])==False):
+						#Doesn't exist
+					else if (old[i][j+1:]==check(new,old[i][:j]):
+						return True
+		
+	
+	
+	
+	return False
+	#return update
+
 def getFromTree(tree, parents):
 	'''gets the subtree from a tree. Parents is a list of '''
 
