@@ -26,11 +26,11 @@ def check(t,s):
 			return i[len(s):]
 	return false
 
-def compare_vessel(old,new):
+def compare_tree(old,new):
 	#update=False
 	for i in range(len(old)):
 		if (old[i].isupper()):
-			if (compare_vesel(old[i+1],new[new.index(old[i+1])])):
+			if (compare_tree(old[i+1],new[new.index(old[i+1])])):
 				return True
 			
 		else:
