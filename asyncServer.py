@@ -1,6 +1,7 @@
 #!usr/bin/python
 loadData = open("persistent.sfs")
 current = []	#'directory'
+graph = []		#'tree'
 ind = 0		#expected indentation of line
 for line in loadData:
 	if line[ind:-1].isalpha() and line[ind:-1].isupper():
