@@ -21,7 +21,17 @@ def printTree(tree, depth = 0):
 			printTree(node, depth+1)
 
 def getFromTree(tree, parents):
-	'''gets the subtree from a tree. Parents is a list of '''
+	newTree = []
+	'''gets the subtree from a tree. parents is a list of 'headers' that the tree is under.'''
+	if parents == []:
+			return tree
+	for i in range(len(tree)):
+		if tree[i] == parents[0]:
+			print parents[0]
+			newTree.append(getFromTree(tree[i+1], parents[1:]))
+	return newTree
+
+
 
 
 #main
@@ -42,3 +52,5 @@ clientData = open("persistent.sfs")
 clientGraph = fillTree(clientData)
 clientData.close()
 
+testTree = getFromTree(clientGraph, ["GAME", "FLIGHTSTATE", "VESSEL"])
+printTree(testTree)
