@@ -2,7 +2,10 @@
 import socket
 import sys
 
-loadData = open("persistent.sfs")
+fn="persistent.sfs"
+
+loadData = open(fn)
+
 
 #create an INET, STREAMing socket
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -15,11 +18,20 @@ s.connect(("pi.codexwilkes.com", 8988))
 #message = 'This is the message.  It will be repeated.'
 s.sendall(loadData)
 
+loadData.close()
 
-while data!="end":
+totalData=""
+while True:
 	data = s.recv(2048)
-	#amount_received += len(data)
-	#print >>sys.stderr, 'received "%s"' % data
+	if data=="end":
+		totalData += data
+	#DO SOMETHING WITH RECIEVED DATA.
+
 
 print 'closing socket'
 s.close()
+
+
+writeFile = open(fn,"w")
+writeFile.write(totalData);
+writeFile.close()
