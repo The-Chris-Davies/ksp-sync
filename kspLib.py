@@ -19,44 +19,36 @@ def printTree(tree, depth = 0):
 		else:
 			printTree(node, depth+1)
 
-def check(t,s):
-	for i in t:
-		if i[:len(s)]==s:
-			return i[len(s):]
-	return false
 
-def compare_vessel(old,new):
+
+def compare_tree(old,new):
 	#update=False
 	skip=False
 	for i in range(len(old)):
 		if (skip==True):
 			skip=False
 			continue
-		#print i
 		
 		
 		if (i+1==len(old)):						#SAME AS ELSE STATEMENT
-			for j in range(len(old[i])):
-				if (old[i][j]=="="):
-					if (check(new,old[i][:j])==False):
-						print "FAIL" #Doesn't exist
-					elif ( old[i][j+1:]==check(new,old[i][:j]) ):
-						return True
-		
+			if ("=" in old[i]):
+				if (old[i]!=new[i]):
+					return True
+
 		elif (type(old[i+1]))==type([]):
 			skip=True
 			#print old[i]
 			#print new.index(old[i+1])
-			if (compare_vessel(old[i+1],	new[i+1]	)):
+			if (compare_tree(old[i+1],	new[i+1]	)):
 				return True
 			
 		else:
-			for j in range(len(old[i])):
-				if (old[i][j]=="="):
-					if (check(new,old[i][:j])==False):
-						print "FAIL" #Doesn't exist
-					elif ( old[i][j+1:]==check(new,old[i][:j]) ):
-						return True
+			if ("=" in old[i]):
+				if (old[i]!=new[i]):
+					return True
+			
+			
+			
 	return False
 	#return update
 

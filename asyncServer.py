@@ -21,5 +21,5 @@ clientData.close()
 testTree = getFromTree(clientGraph, ["GAME", "FLIGHTSTATE", "VESSEL"])
 
 #printTree(testTree)
-print compare_vessel(clientGraph,serverGraph)
+print compare_tree(clientGraph,serverGraph)
 #print clientGraph
