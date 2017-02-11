@@ -3,8 +3,7 @@
 def fillTree(fileData, depth):
 	tree = []
 	for line in fileData:
-		if line[depth:-1].isalpha() and line[depth:-1].isupper():
-			tree.append(line[depth:-1])
+		if line[depth:-1] == '{':
 			tree.append(fillTree(fileData, depth+1))
 		elif line[depth-1:-1] == '}':
 			return tree
