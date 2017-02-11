@@ -9,7 +9,7 @@ saveData.close()
 oldData.close()
 
 #make server tree
-serverData = open("server.sfs")
+serverData = open("persistent-NEW.sfs")
 serverGraph = fillTree(serverData)
 serverData.close()
 
