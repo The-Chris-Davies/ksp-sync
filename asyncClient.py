@@ -2,6 +2,7 @@
 import socket
 import sys
 
+loadData = open("persistent.sfs")
 
 #create an INET, STREAMing socket
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -11,8 +12,8 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect(("pi.codexwilkes.com", 8988))
 
 # Send data
-message = 'This is the message.  It will be repeated.'
-s.sendall(message)
+#message = 'This is the message.  It will be repeated.'
+s.sendall(loadData)
 
 
 while data!="end":
