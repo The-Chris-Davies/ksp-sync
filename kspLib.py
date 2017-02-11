@@ -36,8 +36,8 @@ def compare_vessel(old,new):
 			for j in range(len(old[i])):
 				if (old[i][j]=="="):
 					if (check(new,old[i][:j])==False):
-						#Doesn't exist
-					else if (old[i][j+1:]==check(new,old[i][:j]):
+						print "FAIL" #Doesn't exist
+					elif ( old[i][j+1:]==check(new,old[i][:j]) ):
 						return True
 	return False
 	#return update
