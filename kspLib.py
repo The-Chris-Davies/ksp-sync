@@ -49,6 +49,5 @@ def getFromTree(tree, parents):
 			return tree
 	for i in range(len(tree)):
 		if tree[i] == parents[0]:
-			print parents[0]
 			newTree.append(getFromTree(tree[i+1], parents[1:]))
 	return newTree

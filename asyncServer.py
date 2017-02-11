@@ -19,4 +19,4 @@ clientGraph = fillTree(clientData)
 clientData.close()
 
 testTree = getFromTree(clientGraph, ["GAME", "FLIGHTSTATE", "VESSEL"])
-printTree(testTree)
+print testTree
