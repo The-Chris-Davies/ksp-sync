@@ -27,9 +27,27 @@ def check(t,s):
 
 def compare_vessel(old,new):
 	#update=False
+	skip=False
 	for i in range(len(old)):
-		if (old[i].isupper()):
-			if (compare_vesel(old[i+1],new[new.index(old[i+1])])):
+		if (skip==True):
+			skip=False
+			continue
+		#print i
+		
+		
+		if (i+1==len(old)):						#SAME AS ELSE STATEMENT
+			for j in range(len(old[i])):
+				if (old[i][j]=="="):
+					if (check(new,old[i][:j])==False):
+						print "FAIL" #Doesn't exist
+					elif ( old[i][j+1:]==check(new,old[i][:j]) ):
+						return True
+		
+		elif (type(old[i+1]))==type([]):
+			skip=True
+			#print old[i]
+			#print new.index(old[i+1])
+			if (compare_vessel(old[i+1],	new[new.index(old[i])+1]	)):
 				return True
 			
 		else:
