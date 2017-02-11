@@ -1,17 +1,16 @@
 #!usr/bin/python
 loadData = open("persistent.sfs")
-
+current = []	#'directory'
+ind = 0		#expected indentation of line
 for line in loadData:
-	if line == "\tFLIGHTSTATE\n":
-		for line in loadData:
-			if line == "\t\tVESSEL\n":
-				#do something here to the vessel
-				for line in loadData:
-					print line,
-					if line == "\t\t}\n":
-						break
+	if line[ind:-1].isalpha() and line[ind:-1].isupper():
+		current.append(line[ind:-1])
+		ind += 1
 
-			elif line == "	}\n":
-				break
+		print " ".join(current)
+
+	elif line[ind-1:-1] == '}':
+		current.pop()
+		ind -= 1
 
 loadData.close()
