@@ -47,7 +47,7 @@ def compare_vessel(old,new):
 			skip=True
 			#print old[i]
 			#print new.index(old[i+1])
-			if (compare_vessel(old[i+1],	new[new.index(old[i])+1]	)):
+			if (compare_vessel(old[i+1],	new[i+1]	)):
 				return True
 			
 		else:

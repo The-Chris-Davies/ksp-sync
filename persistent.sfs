@@ -5,7 +5,7 @@ GAME
 	Description = No description available.
 	linkURL = 
 	linkCaption = 
-	Mode = SANDBOX1
+	Mode = SANDBOX
 	Status = 1
 	Seed = 1482710258
 	scene = 5
