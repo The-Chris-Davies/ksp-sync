@@ -25,12 +25,18 @@ clientData = open("persistent.sfs")
 clientGraph = fillTree(clientData)
 clientData.close()
 
-testTree = getFromTree(clientGraph, ["GAME", "FLIGHTSTATE", "VESSEL"])
+testTree = remove_outer(getFromTree(clientGraph, ["GAME", "FLIGHTSTATE", "VESSEL"]))
+testTree2 = remove_outer(getFromTree(serverGraph, ["GAME", "FLIGHTSTATE", "VESSEL"]))
+
+print len(testTree)
+print len(testTree2)
+
+
+
+
 
 #printTree(testTree)
 
-
-
 #True=Not same, False=Same
-print compare_tree(clientGraph,serverGraph)
+print compare_tree(testTree,testTree2)
 #print clientGraph

@@ -74,3 +74,13 @@ def getFromTree(tree, parents):
 		if tree[i] == parents[0]:
 			newTree.append(getFromTree(tree[i+1], parents[1:]))
 	return newTree
+
+
+
+def remove_outer(L):
+	if len(L)>1:
+		return L
+	else:
+		return remove_outer(L[0])
+
+
