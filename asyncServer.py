@@ -66,11 +66,8 @@ while True:
 	
 	returndata=pickle.dumps(serverGraph)
 	connection.sendall(returndata)
-	
-	
-	
 
-saveData = open("serverSave.pkl", 'w')
-pickle.dump((serverGraph, shipVers), saveData)
-saveData.close()
+	saveData = open("serverSave.pkl", 'w')
+	pickle.dump((serverGraph, shipVers), saveData)
+	saveData.close()
 
