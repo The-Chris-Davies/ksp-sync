@@ -75,6 +75,8 @@ def getFromTree(tree, parents):
 			newTree.append(getFromTree(tree[i+1], parents[1:]))
 	return newTree
 
+
+
 def remove_outer(L):
 	if len(L)==1:
 		return remove_outer(L[0])
@@ -103,5 +105,5 @@ def getPID(vessel):
 	'''given a vessel (represented as a list), return its pid.'''
 	for line in vessel:
 		if line.split(' = ')[0] == 'pid':
-			return int(line.split(' = ')[-1])
+			return line.split(' = ')[-1]
 	return -1

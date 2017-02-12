@@ -53,8 +53,7 @@ for i in range(len(clientGraphReduced)):
 
 #printTree(testTree)
 
-print len(clientGraphReduced)
-print len(serverGraphReduced)
+print getPID(clientGraphReduced[0])
 
 #True=Not same, False=Same
 print compare_tree(clientGraphReduced,serverGraphReduced)
