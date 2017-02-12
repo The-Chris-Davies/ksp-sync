@@ -47,8 +47,6 @@ saveData = open("serverSave.pkl", 'w')
 pickle.dump((serverGraph, shipVers), saveData)
 saveData.close()
 
-
-
 print shipVers
 
 print getPID(clientGraphReduced[0])
