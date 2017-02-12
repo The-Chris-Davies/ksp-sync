@@ -1,6 +1,6 @@
 #!usr/bin/python
 
-import pickle
+import cPickle as pickle
 from kspLib import *
 
 #try to load shipVers and serverGraph from file

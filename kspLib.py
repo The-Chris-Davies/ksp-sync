@@ -82,3 +82,6 @@ def getPID(vessel):
 		if line.split(' = ')[0] == 'pid':
 			return line.split(' = ')[-1]
 	return -1
+
+def setInTree(tree, parents, toSet):
+	''''''
