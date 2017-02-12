@@ -37,8 +37,17 @@ serverGraphReduced = remove_outer(getFromTree(serverGraph, ["GAME", "FLIGHTSTATE
 #print len(testTree)
 #print len(testTree2)
 
-#for i in range(len(clientGraphReduced)):
-#	print i
+for i in range(len(clientGraphReduced)):
+	pid=getPID(clientGraphReduced[i])
+	
+	if (find_ind(pid,serverGraphReduced)==-1):
+		#NOT IN SERVER
+		pass
+	
+	else:
+		
+	
+	
 
 
 
