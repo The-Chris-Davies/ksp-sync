@@ -101,4 +101,9 @@ def find_ind(s,L):
 	
 	return -1
 	
-
+def getPID(vessel):
+	'''given a vessel (represented as a list), return its pid.'''
+	for line in vessel:
+		if line.split(' = ')[0] == 'pid':
+			return line.split(' = ')[-1]
+	return -1
