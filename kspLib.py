@@ -83,7 +83,6 @@ def remove_outer(L):
 
 def find_ind(s,L):
 	#ind=-1
-	
 	#iter through list
 	for i in range(len(L)):
 		if getPID(s) == getPID(L[i]):

@@ -14,7 +14,6 @@ oldData.close()
 
 client_address="184.68.166.106"
 
-ips={"184.68.166.106":0,"24.87.29.11":1}
 shipVers={}	#whether or not the ships are updated, according to clients. True means ship is updated.
 
 
@@ -29,14 +28,22 @@ serverGraphReduced = remove_outer(getFromTree(serverGraph, ["GAME", "FLIGHTSTATE
 
 for i in range(len(clientGraphReduced)):
 	pid=getPID(clientGraphReduced[i])
-	
-	if (find_ind(pid,serverGraphReduced)==-1):
+	serverInd = find_ind(pid,serverGraphReduced)
+	if (serverInd==-1):
 		#not in server
 		serverGraphReduced.append(clientGraphReduced[i])
-		shipVers[pid] = {client_address:True}
+		shipVers[pid] = [client_address]
 	else:
-		#check if ship is new or not
-		pass
+		#if client is up to date:
+		if client_address in shipVers[pid]:
+			#check if they are the same
+			if compare_tree(clientGraphReduced[i], serverGraphReduced[serverInd]):
+				serverGraphReduced[serverInd] = clientGraphReduced[i]
+				shipVers[pid] = [client_address]
+		else:
+			#because we're updating the client
+			shipVers[pid].append(client_address)
+
 print shipVers
 
 
