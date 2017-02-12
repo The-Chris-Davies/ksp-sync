@@ -1,5 +1,6 @@
 #usr/bin/python
 import socket
+import cPickle as pickle
 import sys
 
 fn = "persistent.sfs"
@@ -33,6 +34,10 @@ while True:
 print 'closing socket'
 s.close()
 
+shipList = pickle.loads(totalData)
+for i in range(len(shipList)):
+	shipList.insert(i*2, "VESSEL")
+setInTree
 
 writeFile = open(fn,"w")
 writeFile.write(totalData);

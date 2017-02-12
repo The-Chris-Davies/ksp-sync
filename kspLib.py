@@ -1,15 +1,17 @@
 #header for asyncServer.py. Used to compare save files.
+import StringIO
 def fillTree(fileData, depth = 0):
 	'''makes a tree based on the data in persistent. We use this tree to extract values.'''
+	if depth == 0:
+		fileData = StringIO.StringIO(fileData)
 	tree = []
-	fileData = fileData.split('\n')
 	for line in fileData:
-		if line[depth:-1] == '{':
+		if line.strip() == '{':
 			tree.append(fillTree(fileData, depth+1))
-		elif line[depth-1:-1] == '}':
+		elif line.strip() == '}':
 			return tree
 		else:
-			tree.append(line[depth:-1])
+			tree.append(line.strip())
 	return tree
 
 def printTree(tree, depth = 0):
@@ -84,4 +86,20 @@ def getPID(vessel):
 	return -1
 
 def setInTree(tree, parents, toSet):
-	''''''
+	'''sets the data under parents of tree to toSet'''
+	if parents == []:
+		tree = toSet
+	for i in range(len(tree)):
+		if tree[i] == parents[0]:
+			setInTree(tree[i])
+	return
+
+def unTree(tree, depth = 0):
+	'''Turns a tree back into a string.'''
+	treeStr = ''
+	for line in tree:
+		if type(line) == str:
+			treeStr += depth*'\t' + line + '\n'
+		else:
+			treeStr += depth*'\t' + '{\n' + unTree(line, depth+1) + depth*'\t' + '}\n'
+	return treeStr
