@@ -19,6 +19,19 @@ def printTree(tree, depth = 0):
 		else:
 			printTree(node, depth+1)
 
+def is_new(s):
+	if s in L.keys():
+		if L[s][ips[client_address]]==True:
+			L[s]=[False]*len(ips.keys())
+			L[s][ips[client_address]]=True
+			return True
+		else:
+			L[s][ips[client_address]]=True
+			return False
+	else:
+		L[s]=[False]*len(ips.keys())
+		L[s][ips[client_address]]=True
+		return True	
 
 
 def compare_tree(old,new):
