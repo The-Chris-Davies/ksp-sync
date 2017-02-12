@@ -15,14 +15,7 @@ oldData.close()
 client_address="184.68.166.106"
 
 ips={"184.68.166.106":0,"24.87.29.11":1}
-L={}
-
-
-
-
-#serverData = open("persistent-NEW.sfs")
-#serverGraph = fillTree(serverData)
-#serverData.close()
+shipVers={}	#whether or not the ships are updated, according to clients. True means ship is updated.
 
 
 #GET THIS FROM CLIENT PUSH
@@ -34,24 +27,18 @@ clientData.close()
 clientGraphReduced = remove_outer(getFromTree(clientGraph, ["GAME", "FLIGHTSTATE", "VESSEL"]))
 serverGraphReduced = remove_outer(getFromTree(serverGraph, ["GAME", "FLIGHTSTATE", "VESSEL"]))
 
-#print len(testTree)
-#print len(testTree2)
-
 for i in range(len(clientGraphReduced)):
 	pid=getPID(clientGraphReduced[i])
 	
 	if (find_ind(pid,serverGraphReduced)==-1):
-		#NOT IN SERVER
-		pass
-	
+		#not in server
+		serverGraphReduced.append(clientGraphReduced[i])
+		shipVers[pid] = {client_address:True}
 	else:
-		
-	
-	
+		#check if ship is new or not
+		pass
+print shipVers
 
-
-
-#printTree(testTree)
 
 print getPID(clientGraphReduced[0])
 

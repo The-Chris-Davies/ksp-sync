@@ -75,8 +75,6 @@ def getFromTree(tree, parents):
 			newTree.append(getFromTree(tree[i+1], parents[1:]))
 	return newTree
 
-
-
 def remove_outer(L):
 	if len(L)==1:
 		return remove_outer(L[0])
@@ -88,17 +86,8 @@ def find_ind(s,L):
 	
 	#iter through list
 	for i in range(len(L)):
-		
-		#If ind is VESSEL skip
-		#if L[i][0].isupper():
-		#	continue
-		
-		
-		#iter through lines of VESSEL block
-		for j in range(len(L[i])):
-			if L[i][j].split(" - ")[0]=="pid" and L[i][j].split(" - ")[1]==s:
-				return i
-	
+		if getPID(s) == getPID(L[i]):
+			return i
 	return -1
 	
 def getPID(vessel):
