@@ -3,20 +3,13 @@
 import pickle
 from kspLib import *
 
-#try to load server graph from file
+#try to load shipVers and serverGraph from file
 try:
 	saveData = open("serverSave.pkl")
-	serverGraph = pickle.load(saveData)
+	serverGraph, shipVers = pickle.load(saveData)
 	saveData.close()
 except:
 	serverGraph = []
-
-#try to load shipVers from file
-try:
-	shipVerData = open("IPData.pkl")
-	shipVers = pickle.load(shipVerData) #whether or not the ships are updated, according to clients. True means ship is updated.
-	shipVerData.close()
-except:
 	shipVers = {}
 
 client_address="184.68.166.106"
@@ -47,8 +40,16 @@ for i in range(len(clientGraphReduced)):
 			#because we're updating the client
 			shipVers[pid].append(client_address)
 
-print shipVers
 
+#this is where we send the stuff back
+
+saveData = open("serverSave.pkl", 'w')
+pickle.dump((serverGraph, shipVers), saveData)
+saveData.close()
+
+
+
+print shipVers
 
 print getPID(clientGraphReduced[0])
 

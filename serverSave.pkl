@@ -1,0 +1,3200 @@
+((lp0
+(lp1
+S'pid = f2a4a64c680c43bdb1494559d7124f88'
+p2
+aS'name = Untitled Space Craft'
+p3
+aS'type = Ship'
+p4
+aS'sit = LANDED'
+p5
+aS'landed = True'
+p6
+aS'landedAt = '
+p7
+aS'splashed = False'
+p8
+aS'met = 115.658554534909'
+p9
+aS'lct = 10.579999999999863'
+p10
+aS'lastUT = 126.23855453490887'
+p11
+aS'root = 0'
+p12
+aS'lat = -0.1094973768678365'
+p13
+aS'lon = -76.093064164185975'
+p14
+aS'alt = 272.97382538812235'
+p15
+aS'hgt = 0.492203176'
+p16
+aS'nrm = 0.00029617548,-0.315529764,0.948915601'
+p17
+aS'rot = -0.792649508,0.60422647,0.0307216533,-0.0753212646'
+p18
+aS'CoM = -2.79806554E-05,-0.306378424,-5.8606267E-05'
+p19
+aS'stg = 0'
+p20
+aS'prst = False'
+p21
+aS'ref = 71716827'
+p22
+aS'ctrl = True'
+p23
+aS'cPch = '
+p24
+aS'cHdg = '
+p25
+aS'cMod = 0'
+p26
+aS'ORBIT'
+p27
+a(lp28
+S'SMA = 300136.54518284323'
+p29
+aS'ECC = 0.99999999999999989'
+p30
+aS'INC = 0.10948979382357202'
+p31
+aS'LPE = 90'
+p32
+aS'LAN = 286.09171982284613'
+p33
+aS'MNA = 3.1415926207170166'
+p34
+aS'EPH = 130.77855453490994'
+p35
+aS'REF = 1'
+p36
+aaS'PART'
+p37
+a(lp38
+S'name = mk1pod'
+p39
+aS'cid = 4293506700'
+p40
+aS'uid = 71716827'
+p41
+aS'mid = 3271320727'
+p42
+aS'launchID = 1'
+p43
+aS'parent = 0'
+p44
+aS'position = 0,0,0'
+p45
+aS'rotation = 0,0,0,1'
+p46
+aS'mirror = 1,1,1'
+p47
+aS'symMethod = Radial'
+p48
+aS'istg = -1'
+p49
+aS'resPri = 0'
+p50
+aS'dstg = 0'
+p51
+aS'sqor = -1'
+p52
+aS'sepI = -1'
+p53
+aS'sidx = -1'
+p54
+aS'attm = 0'
+p55
+aS'srfN = , -1'
+p56
+aS'attN = bottom, 1'
+p57
+aS'attN = top, 2'
+p58
+aS'mass = 0.800000012'
+p59
+aS'shielded = False'
+p60
+aS'temp = 339.66123115327991'
+p61
+aS'tempExt = 334.53356205833478'
+p62
+aS'tempExtUnexp = 336.45050632625163'
+p63
+aS'expt = 0.5'
+p64
+aS'state = 0'
+p65
+aS'attached = True'
+p66
+aS'autostrutMode = Off'
+p67
+aS'rigidAttachment = False'
+p68
+aS'flag = Squad/Flags/default'
+p69
+aS'rTrf = mk1pod'
+p70
+aS'modCost = 0'
+p71
+aS'crew = Jebediah Kerman'
+p72
+aS'EVENTS'
+p73
+a(lp74
+aS'ACTIONS'
+p75
+a(lp76
+aS'PARTDATA'
+p77
+a(lp78
+aS'MODULE'
+p79
+a(lp80
+S'name = ModuleCommand'
+p81
+aS'isEnabled = True'
+p82
+aS'hibernation = False'
+p83
+aS'hibernateOnWarp = False'
+p84
+aS'stagingEnabled = True'
+p85
+aS'EVENTS'
+p86
+a(lp87
+aS'ACTIONS'
+p88
+a(lp89
+S'HibernateToggle'
+p90
+a(lp91
+S'actionGroup = None'
+p92
+aS'active = False'
+p93
+aaaS'UPGRADESAPPLIED'
+p94
+a(lp95
+aaS'MODULE'
+p96
+a(lp97
+S'name = ModuleReactionWheel'
+p98
+aS'isEnabled = True'
+p99
+aS'actuatorModeCycle = 0'
+p100
+aS'authorityLimiter = 100'
+p101
+aS'stateString = Idle'
+p102
+aS'stagingEnabled = True'
+p103
+aS'WheelState = Active'
+p104
+aS'EVENTS'
+p105
+a(lp106
+aS'ACTIONS'
+p107
+a(lp108
+S'CycleAction'
+p109
+a(lp110
+S'actionGroup = None'
+p111
+aaS'Activate'
+p112
+a(lp113
+S'actionGroup = None'
+p114
+aaS'Deactivate'
+p115
+a(lp116
+S'actionGroup = None'
+p117
+aaS'Toggle'
+p118
+a(lp119
+S'actionGroup = None'
+p120
+aaaS'UPGRADESAPPLIED'
+p121
+a(lp122
+aaS'MODULE'
+p123
+a(lp124
+S'name = ModuleColorChanger'
+p125
+aS'isEnabled = True'
+p126
+aS'animState = False'
+p127
+aS'stagingEnabled = True'
+p128
+aS'EVENTS'
+p129
+a(lp130
+aS'ACTIONS'
+p131
+a(lp132
+S'ToggleAction'
+p133
+a(lp134
+S'actionGroup = Light'
+p135
+aaaS'UPGRADESAPPLIED'
+p136
+a(lp137
+aaS'MODULE'
+p138
+a(lp139
+S'name = ModuleScienceExperiment'
+p140
+aS'isEnabled = True'
+p141
+aS'Deployed = False'
+p142
+aS'Inoperable = False'
+p143
+aS'cooldownToGo = 0'
+p144
+aS'stagingEnabled = True'
+p145
+aS'EVENTS'
+p146
+a(lp147
+aS'ACTIONS'
+p148
+a(lp149
+S'DeployAction'
+p150
+a(lp151
+S'actionGroup = None'
+p152
+aaS'ResetAction'
+p153
+a(lp154
+S'actionGroup = None'
+p155
+aaaS'UPGRADESAPPLIED'
+p156
+a(lp157
+aaS'MODULE'
+p158
+a(lp159
+S'name = ModuleScienceContainer'
+p160
+aS'isEnabled = True'
+p161
+aS'stagingEnabled = True'
+p162
+aS'EVENTS'
+p163
+a(lp164
+aS'ACTIONS'
+p165
+a(lp166
+S'CollectAllAction'
+p167
+a(lp168
+S'actionGroup = None'
+p169
+aaaS'UPGRADESAPPLIED'
+p170
+a(lp171
+aaS'MODULE'
+p172
+a(lp173
+S'name = FlagDecal'
+p174
+aS'isEnabled = True'
+p175
+aS'flagDisplayed = True'
+p176
+aS'stagingEnabled = True'
+p177
+aS'EVENTS'
+p178
+a(lp179
+aS'ACTIONS'
+p180
+a(lp181
+aS'UPGRADESAPPLIED'
+p182
+a(lp183
+aaS'MODULE'
+p184
+a(lp185
+S'name = ModuleConductionMultiplier'
+p186
+aS'isEnabled = True'
+p187
+aS'stagingEnabled = True'
+p188
+aS'EVENTS'
+p189
+a(lp190
+aS'ACTIONS'
+p191
+a(lp192
+aS'UPGRADESAPPLIED'
+p193
+a(lp194
+aaS'MODULE'
+p195
+a(lp196
+S'name = ModuleDataTransmitter'
+p197
+aS'isEnabled = True'
+p198
+aS'xmitIncomplete = False'
+p199
+aS'stagingEnabled = True'
+p200
+aS'canComm = True'
+p201
+aS'EVENTS'
+p202
+a(lp203
+aS'ACTIONS'
+p204
+a(lp205
+S'StartTransmissionAction'
+p206
+a(lp207
+S'actionGroup = None'
+p208
+aS'active = False'
+p209
+aaaS'UPGRADESAPPLIED'
+p210
+a(lp211
+aaS'MODULE'
+p212
+a(lp213
+S'name = ModuleLiftingSurface'
+p214
+aS'isEnabled = True'
+p215
+aS'stagingEnabled = True'
+p216
+aS'EVENTS'
+p217
+a(lp218
+aS'ACTIONS'
+p219
+a(lp220
+aS'UPGRADESAPPLIED'
+p221
+a(lp222
+aaS'MODULE'
+p223
+a(lp224
+S'name = ModuleTripLogger'
+p225
+aS'isEnabled = True'
+p226
+aS'stagingEnabled = True'
+p227
+aS'EVENTS'
+p228
+a(lp229
+aS'ACTIONS'
+p230
+a(lp231
+aS'Log'
+p232
+a(lp233
+S'flight = 0'
+p234
+aS'0 = Flight,Kerbin'
+p235
+aS'0 = Land,Kerbin'
+p236
+aaS'UPGRADESAPPLIED'
+p237
+a(lp238
+aaS'RESOURCE'
+p239
+a(lp240
+S'name = ElectricCharge'
+p241
+aS'amount = 294.92281312131945'
+p242
+aS'maxAmount = 300'
+p243
+aS'flowState = True'
+p244
+aS'isTweakable = True'
+p245
+aS'hideFlow = False'
+p246
+aS'isVisible = True'
+p247
+aS'flowMode = Both'
+p248
+aaS'RESOURCE'
+p249
+a(lp250
+S'name = MonoPropellant'
+p251
+aS'amount = 10'
+p252
+aS'maxAmount = 10'
+p253
+aS'flowState = True'
+p254
+aS'isTweakable = True'
+p255
+aS'hideFlow = False'
+p256
+aS'isVisible = True'
+p257
+aS'flowMode = Both'
+p258
+aaaS'PART'
+p259
+a(lp260
+S'name = solidBooster.sm'
+p261
+aS'cid = 4293494052'
+p262
+aS'uid = 2001383276'
+p263
+aS'mid = 3271320727'
+p264
+aS'launchID = 1'
+p265
+aS'parent = 0'
+p266
+aS'position = 0,-1.0925378799438477,0'
+p267
+aS'rotation = 0,0,0,1'
+p268
+aS'mirror = 1,1,1'
+p269
+aS'symMethod = Radial'
+p270
+aS'istg = 0'
+p271
+aS'resPri = 0'
+p272
+aS'dstg = 0'
+p273
+aS'sqor = 0'
+p274
+aS'sepI = -1'
+p275
+aS'sidx = 1'
+p276
+aS'attm = 0'
+p277
+aS'srfN = srfAttach, -1'
+p278
+aS'attN = bottom, -1'
+p279
+aS'attN = top, 0'
+p280
+aS'mass = 0.449999988'
+p281
+aS'shielded = False'
+p282
+aS'temp = 338.96869545719613'
+p283
+aS'tempExt = 336.82972084123674'
+p284
+aS'tempExtUnexp = 337.72948723998007'
+p285
+aS'expt = 0.5'
+p286
+aS'state = 1'
+p287
+aS'attached = True'
+p288
+aS'autostrutMode = Off'
+p289
+aS'rigidAttachment = False'
+p290
+aS'flag = Squad/Flags/default'
+p291
+aS'rTrf = solidBooster.sm'
+p292
+aS'modCost = 0'
+p293
+aS'EVENTS'
+p294
+a(lp295
+aS'ACTIONS'
+p296
+a(lp297
+aS'PARTDATA'
+p298
+a(lp299
+aS'MODULE'
+p300
+a(lp301
+S'name = ModuleEngines'
+p302
+aS'isEnabled = True'
+p303
+aS'staged = True'
+p304
+aS'flameout = True'
+p305
+aS'EngineIgnited = True'
+p306
+aS'engineShutdown = False'
+p307
+aS'currentThrottle = 0'
+p308
+aS'thrustPercentage = 100'
+p309
+aS'manuallyOverridden = False'
+p310
+aS'stagingEnabled = True'
+p311
+aS'EVENTS'
+p312
+a(lp313
+aS'ACTIONS'
+p314
+a(lp315
+S'OnAction'
+p316
+a(lp317
+S'actionGroup = None'
+p318
+aaS'ShutdownAction'
+p319
+a(lp320
+S'actionGroup = None'
+p321
+aaS'ActivateAction'
+p322
+a(lp323
+S'actionGroup = None'
+p324
+aaaS'UPGRADESAPPLIED'
+p325
+a(lp326
+aaS'MODULE'
+p327
+a(lp328
+S'name = ModuleTestSubject'
+p329
+aS'isEnabled = True'
+p330
+aS'stagingEnabled = True'
+p331
+aS'EVENTS'
+p332
+a(lp333
+aS'ACTIONS'
+p334
+a(lp335
+aS'UPGRADESAPPLIED'
+p336
+a(lp337
+aaS'MODULE'
+p338
+a(lp339
+S'name = ModuleSurfaceFX'
+p340
+aS'isEnabled = True'
+p341
+aS'stagingEnabled = True'
+p342
+aS'EVENTS'
+p343
+a(lp344
+aS'ACTIONS'
+p345
+a(lp346
+aS'UPGRADESAPPLIED'
+p347
+a(lp348
+aaS'RESOURCE'
+p349
+a(lp350
+S'name = SolidFuel'
+p351
+aS'amount = 0'
+p352
+aS'maxAmount = 140.00005006790985'
+p353
+aS'flowState = True'
+p354
+aS'isTweakable = True'
+p355
+aS'hideFlow = False'
+p356
+aS'isVisible = True'
+p357
+aS'flowMode = Both'
+p358
+aaaS'PART'
+p359
+a(lp360
+S'name = parachuteSingle'
+p361
+aS'cid = 4293460004'
+p362
+aS'uid = 1535601095'
+p363
+aS'mid = 3271320727'
+p364
+aS'launchID = 1'
+p365
+aS'parent = 0'
+p366
+aS'position = 0,0.65745735168457031,0'
+p367
+aS'rotation = 0,0,0,1'
+p368
+aS'mirror = 1,1,1'
+p369
+aS'symMethod = Radial'
+p370
+aS'istg = 0'
+p371
+aS'resPri = 0'
+p372
+aS'dstg = 0'
+p373
+aS'sqor = 0'
+p374
+aS'sepI = -1'
+p375
+aS'sidx = 0'
+p376
+aS'attm = 0'
+p377
+aS'srfN = srfAttach, -1'
+p378
+aS'attN = bottom, 0'
+p379
+aS'mass = 0.100000001'
+p380
+aS'shielded = False'
+p381
+aS'temp = 310.27557788507534'
+p382
+aS'tempExt = 322.38641874400969'
+p383
+aS'tempExtUnexp = 322.35417467950629'
+p384
+aS'expt = 0.5'
+p385
+aS'state = 1'
+p386
+aS'attached = True'
+p387
+aS'autostrutMode = Off'
+p388
+aS'rigidAttachment = False'
+p389
+aS'flag = Squad/Flags/default'
+p390
+aS'rTrf = parachuteSingle'
+p391
+aS'modCost = 0'
+p392
+aS'EVENTS'
+p393
+a(lp394
+aS'ACTIONS'
+p395
+a(lp396
+aS'PARTDATA'
+p397
+a(lp398
+aS'MODULE'
+p399
+a(lp400
+S'name = ModuleParachute'
+p401
+aS'isEnabled = True'
+p402
+aS'persistentState = CUT'
+p403
+aS'animTime = 1'
+p404
+aS'minAirPressureToOpen = 0.0399999991'
+p405
+aS'deployAltitude = 1000'
+p406
+aS'spreadAngle = 7'
+p407
+aS'automateSafeDeploy = 0'
+p408
+aS'stagingEnabled = True'
+p409
+aS'EVENTS'
+p410
+a(lp411
+aS'ACTIONS'
+p412
+a(lp413
+S'DeployAction'
+p414
+a(lp415
+S'actionGroup = None'
+p416
+aaS'CutAction'
+p417
+a(lp418
+S'actionGroup = None'
+p419
+aaaS'UPGRADESAPPLIED'
+p420
+a(lp421
+aaS'MODULE'
+p422
+a(lp423
+S'name = ModuleTestSubject'
+p424
+aS'isEnabled = True'
+p425
+aS'stagingEnabled = True'
+p426
+aS'EVENTS'
+p427
+a(lp428
+aS'ACTIONS'
+p429
+a(lp430
+aS'UPGRADESAPPLIED'
+p431
+a(lp432
+aaS'MODULE'
+p433
+a(lp434
+S'name = ModuleDragModifier'
+p435
+aS'isEnabled = True'
+p436
+aS'stagingEnabled = True'
+p437
+aS'EVENTS'
+p438
+a(lp439
+aS'ACTIONS'
+p440
+a(lp441
+aS'UPGRADESAPPLIED'
+p442
+a(lp443
+aaS'MODULE'
+p444
+a(lp445
+S'name = ModuleDragModifier'
+p446
+aS'isEnabled = True'
+p447
+aS'stagingEnabled = True'
+p448
+aS'EVENTS'
+p449
+a(lp450
+aS'ACTIONS'
+p451
+a(lp452
+aS'UPGRADESAPPLIED'
+p453
+a(lp454
+aaaS'ACTIONGROUPS'
+p455
+a(lp456
+S'Stage = False, 72.3302864074692'
+p457
+aS'Gear = False, 0'
+p458
+aS'Light = False, 0'
+p459
+aS'RCS = False, 0'
+p460
+aS'SAS = False, 91.28453689575'
+p461
+aS'Brakes = False, 0'
+p462
+aS'Abort = False, 0'
+p463
+aS'Custom01 = False, 0'
+p464
+aS'Custom02 = False, 0'
+p465
+aS'Custom03 = False, 0'
+p466
+aS'Custom04 = False, 0'
+p467
+aS'Custom05 = False, 0'
+p468
+aS'Custom06 = False, 0'
+p469
+aS'Custom07 = False, 0'
+p470
+aS'Custom08 = False, 0'
+p471
+aS'Custom09 = False, 0'
+p472
+aS'Custom10 = False, 0'
+p473
+aaS'DISCOVERY'
+p474
+a(lp475
+S'state = -1'
+p476
+aS'lastObservedTime = 0'
+p477
+aS'lifetime = Infinity'
+p478
+aS'refTime = Infinity'
+p479
+aS'size = 2'
+p480
+aaS'FLIGHTPLAN'
+p481
+a(lp482
+aS'CTRLSTATE'
+p483
+a(lp484
+S'pitch = 0'
+p485
+aS'yaw = 0'
+p486
+aS'roll = 0'
+p487
+aS'trimPitch = 0'
+p488
+aS'trimYaw = 0'
+p489
+aS'trimRoll = 0'
+p490
+aS'mainThrottle = 1'
+p491
+aaS'VESSELMODULES'
+p492
+a(lp493
+S'FlightIntegrator'
+p494
+a(lp495
+aS'CommNetVessel'
+p496
+a(lp497
+S'controlState = KerbalFull'
+p498
+aS'canComm = True'
+p499
+aaaa(lp500
+S'pid = 7c30bfe0577e4e938d391e33ece1c400'
+p501
+aS'name = Ast. HSJ-227'
+p502
+aS'type = SpaceObject'
+p503
+aS'sit = ORBITING'
+p504
+aS'landed = False'
+p505
+aS'landedAt = '
+p506
+aS'splashed = False'
+p507
+aS'met = 7.5199999999999276'
+p508
+aS'lct = 7.5199999999999276'
+p509
+aS'lastUT = -1'
+p510
+aS'root = 0'
+p511
+aS'lat = -2.8345320189647025'
+p512
+aS'lon = -178.92517796977498'
+p513
+aS'alt = 14594280740.927811'
+p514
+aS'hgt = -1'
+p515
+aS'nrm = 0,1,0'
+p516
+aS'rot = -0.298433661,0.402898014,-0.817398846,0.283672005'
+p517
+aS'CoM = 0,0,0'
+p518
+aS'stg = 0'
+p519
+aS'prst = False'
+p520
+aS'ref = 0'
+p521
+aS'ctrl = False'
+p522
+aS'ORBIT'
+p523
+a(lp524
+S'SMA = 15239864471.402082'
+p525
+aS'ECC = 0.10911949124985877'
+p526
+aS'INC = 2.8722862077648763'
+p527
+aS'LPE = 2.1193955489932885'
+p528
+aS'LAN = 261.77342306308793'
+p529
+aS'MNA = -0.05551350303832623'
+p530
+aS'EPH = 2043593.2560839844'
+p531
+aS'REF = 0'
+p532
+aaS'PART'
+p533
+a(lp534
+S'name = PotatoRoid'
+p535
+aS'cid = 0'
+p536
+aS'uid = 559298752'
+p537
+aS'mid = 559298752'
+p538
+aS'launchID = 0'
+p539
+aS'parent = 0'
+p540
+aS'position = 0,0,0'
+p541
+aS'rotation = 0,0,0,1'
+p542
+aS'mirror = 1,1,1'
+p543
+aS'symMethod = Radial'
+p544
+aS'istg = 0'
+p545
+aS'resPri = 0'
+p546
+aS'dstg = 0'
+p547
+aS'sqor = 0'
+p548
+aS'sepI = 0'
+p549
+aS'sidx = 0'
+p550
+aS'attm = 0'
+p551
+aS'srfN = None, -1'
+p552
+aS'mass = 150'
+p553
+aS'shielded = False'
+p554
+aS'temp = -1'
+p555
+aS'tempExt = 0'
+p556
+aS'tempExtUnexp = 0'
+p557
+aS'expt = 0.100000001'
+p558
+aS'state = 0'
+p559
+aS'attached = True'
+p560
+aS'autostrutMode = Off'
+p561
+aS'rigidAttachment = False'
+p562
+aS'flag = '
+p563
+aS'rTrf = '
+p564
+aS'modCost = 0'
+p565
+aaS'ACTIONGROUPS'
+p566
+a(lp567
+aS'DISCOVERY'
+p568
+a(lp569
+S'state = 1'
+p570
+aS'lastObservedTime = 7.5199999999999276'
+p571
+aS'lifetime = 586354.71038818359'
+p572
+aS'refTime = 1728000'
+p573
+aS'size = 4'
+p574
+aaS'FLIGHTPLAN'
+p575
+a(lp576
+aS'CTRLSTATE'
+p577
+a(lp578
+aS'VESSELMODULES'
+p579
+a(lp580
+S'FlightIntegrator'
+p581
+a(lp582
+aaa(lp583
+S'pid = 1bf9f5427fba4f368e9c7db41144e5d3'
+p584
+aS'name = Ast. MXH-663'
+p585
+aS'type = SpaceObject'
+p586
+aS'sit = ORBITING'
+p587
+aS'landed = False'
+p588
+aS'landedAt = '
+p589
+aS'splashed = False'
+p590
+aS'met = 22.579999999999607'
+p591
+aS'lct = 22.579999999999607'
+p592
+aS'lastUT = -1'
+p593
+aS'root = 0'
+p594
+aS'lat = 0.0041056433557935925'
+p595
+aS'lon = -173.38662660470928'
+p596
+aS'alt = 14639270721.476871'
+p597
+aS'hgt = -1'
+p598
+aS'nrm = 0,1,0'
+p599
+aS'rot = 0.515455782,-0.0601078756,0.837813497,0.169590697'
+p600
+aS'CoM = 0,0,0'
+p601
+aS'stg = 0'
+p602
+aS'prst = False'
+p603
+aS'ref = 0'
+p604
+aS'ctrl = False'
+p605
+aS'ORBIT'
+p606
+a(lp607
+S'SMA = 14421747842.65262'
+p608
+aS'ECC = 0.054861975052547751'
+p609
+aS'INC = 0.059385669820586989'
+p610
+aS'LPE = 305.76692275245722'
+p611
+aS'LAN = 10.596509225968532'
+p612
+aS'MNA = -0.046082965701201267'
+p613
+aS'EPH = 3409530.3070507813'
+p614
+aS'REF = 0'
+p615
+aaS'PART'
+p616
+a(lp617
+S'name = PotatoRoid'
+p618
+aS'cid = 0'
+p619
+aS'uid = 247393590'
+p620
+aS'mid = 247393590'
+p621
+aS'launchID = 0'
+p622
+aS'parent = 0'
+p623
+aS'position = 0,0,0'
+p624
+aS'rotation = 0,0,0,1'
+p625
+aS'mirror = 1,1,1'
+p626
+aS'symMethod = Radial'
+p627
+aS'istg = 0'
+p628
+aS'resPri = 0'
+p629
+aS'dstg = 0'
+p630
+aS'sqor = 0'
+p631
+aS'sepI = 0'
+p632
+aS'sidx = 0'
+p633
+aS'attm = 0'
+p634
+aS'srfN = None, -1'
+p635
+aS'mass = 150'
+p636
+aS'shielded = False'
+p637
+aS'temp = -1'
+p638
+aS'tempExt = 0'
+p639
+aS'tempExtUnexp = 0'
+p640
+aS'expt = 0.100000001'
+p641
+aS'state = 0'
+p642
+aS'attached = True'
+p643
+aS'autostrutMode = Off'
+p644
+aS'rigidAttachment = False'
+p645
+aS'flag = '
+p646
+aS'rTrf = '
+p647
+aS'modCost = 0'
+p648
+aaS'ACTIONGROUPS'
+p649
+a(lp650
+aS'DISCOVERY'
+p651
+a(lp652
+S'state = 1'
+p653
+aS'lastObservedTime = 22.579999999999607'
+p654
+aS'lifetime = 1089866.1895751953'
+p655
+aS'refTime = 1728000'
+p656
+aS'size = 1'
+p657
+aaS'FLIGHTPLAN'
+p658
+a(lp659
+aS'CTRLSTATE'
+p660
+a(lp661
+aS'VESSELMODULES'
+p662
+a(lp663
+S'FlightIntegrator'
+p664
+a(lp665
+aaa(lp666
+S'pid = b347181d0c544fdca227eb82f6acc452'
+p667
+aS'name = Ast. NJS-286'
+p668
+aS'type = SpaceObject'
+p669
+aS'sit = ORBITING'
+p670
+aS'landed = False'
+p671
+aS'landedAt = '
+p672
+aS'splashed = False'
+p673
+aS'met = 49.476874237059597'
+p674
+aS'lct = 49.476874237059597'
+p675
+aS'lastUT = -1'
+p676
+aS'root = 0'
+p677
+aS'lat = -0.39312594165904952'
+p678
+aS'lon = -177.00872590382554'
+p679
+aS'alt = 14550832548.704494'
+p680
+aS'hgt = -1'
+p681
+aS'nrm = 0,1,0'
+p682
+aS'rot = 0.128405139,-0.778073907,0.508712292,0.345434576'
+p683
+aS'CoM = 0,0,0'
+p684
+aS'stg = 0'
+p685
+aS'prst = False'
+p686
+aS'ref = 0'
+p687
+aS'ctrl = False'
+p688
+aS'ORBIT'
+p689
+a(lp690
+S'SMA = 14425529985.492163'
+p691
+aS'ECC = 0.061430653774872758'
+p692
+aS'INC = 0.77067135854351099'
+p693
+aS'LPE = 329.6857866949984'
+p694
+aS'LAN = 332.36296972629583'
+p695
+aS'MNA = 0.41058623094930602'
+p696
+aS'EPH = 3805200.1482609557'
+p697
+aS'REF = 0'
+p698
+aaS'PART'
+p699
+a(lp700
+S'name = PotatoRoid'
+p701
+aS'cid = 0'
+p702
+aS'uid = 971591205'
+p703
+aS'mid = 971591205'
+p704
+aS'launchID = 0'
+p705
+aS'parent = 0'
+p706
+aS'position = 0,0,0'
+p707
+aS'rotation = 0,0,0,1'
+p708
+aS'mirror = 1,1,1'
+p709
+aS'symMethod = Radial'
+p710
+aS'istg = 0'
+p711
+aS'resPri = 0'
+p712
+aS'dstg = 0'
+p713
+aS'sqor = 0'
+p714
+aS'sepI = 0'
+p715
+aS'sidx = 0'
+p716
+aS'attm = 0'
+p717
+aS'srfN = None, -1'
+p718
+aS'mass = 150'
+p719
+aS'shielded = False'
+p720
+aS'temp = -1'
+p721
+aS'tempExt = 0'
+p722
+aS'tempExtUnexp = 0'
+p723
+aS'expt = 0.100000001'
+p724
+aS'state = 0'
+p725
+aS'attached = True'
+p726
+aS'autostrutMode = Off'
+p727
+aS'rigidAttachment = False'
+p728
+aS'flag = '
+p729
+aS'rTrf = '
+p730
+aS'modCost = 0'
+p731
+aaS'ACTIONGROUPS'
+p732
+a(lp733
+aS'DISCOVERY'
+p734
+a(lp735
+S'state = 1'
+p736
+aS'lastObservedTime = 49.476874237059597'
+p737
+aS'lifetime = 645795.20874023438'
+p738
+aS'refTime = 1728000'
+p739
+aS'size = 0'
+p740
+aaS'FLIGHTPLAN'
+p741
+a(lp742
+aS'CTRLSTATE'
+p743
+a(lp744
+aS'VESSELMODULES'
+p745
+a(lp746
+S'FlightIntegrator'
+p747
+a(lp748
+aaa(lp749
+S'pid = 1c5e1d7c35914216a6573df3db4b3f16'
+p750
+aS'name = Ast. BXS-847'
+p751
+aS'type = SpaceObject'
+p752
+aS'sit = ORBITING'
+p753
+aS'landed = False'
+p754
+aS'landedAt = '
+p755
+aS'splashed = False'
+p756
+aS'met = 53.236874237059517'
+p757
+aS'lct = 53.236874237059517'
+p758
+aS'lastUT = -1'
+p759
+aS'root = 0'
+p760
+aS'lat = -0.77632525204335534'
+p761
+aS'lon = -175.90171639520221'
+p762
+aS'alt = 14570880188.454699'
+p763
+aS'hgt = -1'
+p764
+aS'nrm = 0,1,0'
+p765
+aS'rot = 0.210919172,0.368133396,-0.656874239,0.623303413'
+p766
+aS'CoM = 0,0,0'
+p767
+aS'stg = 0'
+p768
+aS'prst = False'
+p769
+aS'ref = 0'
+p770
+aS'ctrl = False'
+p771
+aS'ORBIT'
+p772
+a(lp773
+S'SMA = 14555092133.697702'
+p774
+aS'ECC = 0.064903081882373773'
+p775
+aS'INC = 0.8039719572032511'
+p776
+aS'LPE = 5.5306847721164649'
+p777
+aS'LAN = 289.21283080317124'
+p778
+aS'MNA = -0.16584492527475525'
+p779
+aS'EPH = 2661321.9807707216'
+p780
+aS'REF = 0'
+p781
+aaS'PART'
+p782
+a(lp783
+S'name = PotatoRoid'
+p784
+aS'cid = 0'
+p785
+aS'uid = 1110481259'
+p786
+aS'mid = 1110481259'
+p787
+aS'launchID = 0'
+p788
+aS'parent = 0'
+p789
+aS'position = 0,0,0'
+p790
+aS'rotation = 0,0,0,1'
+p791
+aS'mirror = 1,1,1'
+p792
+aS'symMethod = Radial'
+p793
+aS'istg = 0'
+p794
+aS'resPri = 0'
+p795
+aS'dstg = 0'
+p796
+aS'sqor = 0'
+p797
+aS'sepI = 0'
+p798
+aS'sidx = 0'
+p799
+aS'attm = 0'
+p800
+aS'srfN = None, -1'
+p801
+aS'mass = 150'
+p802
+aS'shielded = False'
+p803
+aS'temp = -1'
+p804
+aS'tempExt = 0'
+p805
+aS'tempExtUnexp = 0'
+p806
+aS'expt = 0.100000001'
+p807
+aS'state = 0'
+p808
+aS'attached = True'
+p809
+aS'autostrutMode = Off'
+p810
+aS'rigidAttachment = False'
+p811
+aS'flag = '
+p812
+aS'rTrf = '
+p813
+aS'modCost = 0'
+p814
+aaS'ACTIONGROUPS'
+p815
+a(lp816
+aS'DISCOVERY'
+p817
+a(lp818
+S'state = 1'
+p819
+aS'lastObservedTime = 53.236874237059517'
+p820
+aS'lifetime = 758946.45080566406'
+p821
+aS'refTime = 1728000'
+p822
+aS'size = 0'
+p823
+aaS'FLIGHTPLAN'
+p824
+a(lp825
+aS'CTRLSTATE'
+p826
+a(lp827
+aS'VESSELMODULES'
+p828
+a(lp829
+S'FlightIntegrator'
+p830
+a(lp831
+aaa(lp832
+S'pid = d59683de63304f128eddc8b06bd20e7a'
+p833
+aS'name = Ast. VFC-923'
+p834
+aS'type = SpaceObject'
+p835
+aS'sit = ORBITING'
+p836
+aS'landed = False'
+p837
+aS'landedAt = '
+p838
+aS'splashed = False'
+p839
+aS'met = 87.764536895750041'
+p840
+aS'lct = 87.764536895750041'
+p841
+aS'lastUT = -1'
+p842
+aS'root = 0'
+p843
+aS'lat = 0.08778732746597781'
+p844
+aS'lon = -177.30965827538961'
+p845
+aS'alt = 13584901268.961046'
+p846
+aS'hgt = -1'
+p847
+aS'nrm = 0,1,0'
+p848
+aS'rot = 0.356518745,-0.797199786,0.380322278,0.304502815'
+p849
+aS'CoM = 0,0,0'
+p850
+aS'stg = 0'
+p851
+aS'prst = False'
+p852
+aS'ref = 0'
+p853
+aS'ctrl = False'
+p854
+aS'ORBIT'
+p855
+a(lp856
+S'SMA = 13678222651.076645'
+p857
+aS'ECC = 0.01261841785179788'
+p858
+aS'INC = 0.15069783731957737'
+p859
+aS'LPE = 228.31408897712211'
+p860
+aS'LAN = 147.13423886122644'
+p861
+aS'MNA = -1.0108688127932881'
+p862
+aS'EPH = 3483533.3700056458'
+p863
+aS'REF = 0'
+p864
+aaS'PART'
+p865
+a(lp866
+S'name = PotatoRoid'
+p867
+aS'cid = 0'
+p868
+aS'uid = 925229904'
+p869
+aS'mid = 925229904'
+p870
+aS'launchID = 0'
+p871
+aS'parent = 0'
+p872
+aS'position = 0,0,0'
+p873
+aS'rotation = 0,0,0,1'
+p874
+aS'mirror = 1,1,1'
+p875
+aS'symMethod = Radial'
+p876
+aS'istg = 0'
+p877
+aS'resPri = 0'
+p878
+aS'dstg = 0'
+p879
+aS'sqor = 0'
+p880
+aS'sepI = 0'
+p881
+aS'sidx = 0'
+p882
+aS'attm = 0'
+p883
+aS'srfN = None, -1'
+p884
+aS'mass = 150'
+p885
+aS'shielded = False'
+p886
+aS'temp = -1'
+p887
+aS'tempExt = 0'
+p888
+aS'tempExtUnexp = 0'
+p889
+aS'expt = 0.100000001'
+p890
+aS'state = 0'
+p891
+aS'attached = True'
+p892
+aS'autostrutMode = Off'
+p893
+aS'rigidAttachment = False'
+p894
+aS'flag = '
+p895
+aS'rTrf = '
+p896
+aS'modCost = 0'
+p897
+aaS'ACTIONGROUPS'
+p898
+a(lp899
+aS'DISCOVERY'
+p900
+a(lp901
+S'state = 1'
+p902
+aS'lastObservedTime = 87.764536895750041'
+p903
+aS'lifetime = 1397416.4428710938'
+p904
+aS'refTime = 1728000'
+p905
+aS'size = 0'
+p906
+aaS'FLIGHTPLAN'
+p907
+a(lp908
+aS'CTRLSTATE'
+p909
+a(lp910
+aS'VESSELMODULES'
+p911
+a(lp912
+S'FlightIntegrator'
+p913
+a(lp914
+aaa(lp915
+S'pid = 00f2da4cfb4c4877869987541ec53eeb'
+p916
+aS'name = Ast. VMP-039'
+p917
+aS'type = SpaceObject'
+p918
+aS'sit = ORBITING'
+p919
+aS'landed = False'
+p920
+aS'landedAt = '
+p921
+aS'splashed = False'
+p922
+aS'met = 95.684536895749872'
+p923
+aS'lct = 95.684536895749872'
+p924
+aS'lastUT = -1'
+p925
+aS'root = 0'
+p926
+aS'lat = 0.57557163023514235'
+p927
+aS'lon = -161.99031268892867'
+p928
+aS'alt = 15122840845.429564'
+p929
+aS'hgt = -1'
+p930
+aS'nrm = 0,1,0'
+p931
+aS'rot = 0.328285992,-0.503732741,-0.352294564,0.717196107'
+p932
+aS'CoM = 0,0,0'
+p933
+aS'stg = 0'
+p934
+aS'prst = False'
+p935
+aS'ref = 0'
+p936
+aS'ctrl = False'
+p937
+aS'ORBIT'
+p938
+a(lp939
+S'SMA = 14490889305.248007'
+p940
+aS'ECC = 0.061668302829105751'
+p941
+aS'INC = 2.1370438944842625'
+p942
+aS'LPE = 194.92072956498541'
+p943
+aS'LAN = 182.47187043582309'
+p944
+aS'MNA = -0.22080590508688924'
+p945
+aS'EPH = 4683261.5048493957'
+p946
+aS'REF = 0'
+p947
+aaS'PART'
+p948
+a(lp949
+S'name = PotatoRoid'
+p950
+aS'cid = 0'
+p951
+aS'uid = 452224883'
+p952
+aS'mid = 452224883'
+p953
+aS'launchID = 0'
+p954
+aS'parent = 0'
+p955
+aS'position = 0,0,0'
+p956
+aS'rotation = 0,0,0,1'
+p957
+aS'mirror = 1,1,1'
+p958
+aS'symMethod = Radial'
+p959
+aS'istg = 0'
+p960
+aS'resPri = 0'
+p961
+aS'dstg = 0'
+p962
+aS'sqor = 0'
+p963
+aS'sepI = 0'
+p964
+aS'sidx = 0'
+p965
+aS'attm = 0'
+p966
+aS'srfN = None, -1'
+p967
+aS'mass = 150'
+p968
+aS'shielded = False'
+p969
+aS'temp = -1'
+p970
+aS'tempExt = 0'
+p971
+aS'tempExtUnexp = 0'
+p972
+aS'expt = 0.100000001'
+p973
+aS'state = 0'
+p974
+aS'attached = True'
+p975
+aS'autostrutMode = Off'
+p976
+aS'rigidAttachment = False'
+p977
+aS'flag = '
+p978
+aS'rTrf = '
+p979
+aS'modCost = 0'
+p980
+aaS'ACTIONGROUPS'
+p981
+a(lp982
+aS'DISCOVERY'
+p983
+a(lp984
+S'state = 1'
+p985
+aS'lastObservedTime = 95.684536895749872'
+p986
+aS'lifetime = 699994.61059570313'
+p987
+aS'refTime = 1728000'
+p988
+aS'size = 3'
+p989
+aaS'FLIGHTPLAN'
+p990
+a(lp991
+aS'CTRLSTATE'
+p992
+a(lp993
+aS'VESSELMODULES'
+p994
+a(lp995
+S'FlightIntegrator'
+p996
+a(lp997
+aaa(lp998
+S'pid = 9ede1ad2d6b142a28487f089723551cd'
+p999
+aS'name = Untitled Space Craft'
+p1000
+aS'type = Ship'
+p1001
+aS'sit = ESCAPING'
+p1002
+aS'landed = False'
+p1003
+aS'landedAt = '
+p1004
+aS'splashed = False'
+p1005
+aS'met = 23778.973218994099'
+p1006
+aS'lct = 135.29855453491226'
+p1007
+aS'lastUT = 23914.27177352901'
+p1008
+aS'root = 0'
+p1009
+aS'lat = -1.1076748069320603'
+p1010
+aS'lon = -16.207914389854903'
+p1011
+aS'alt = 1694789.2163339742'
+p1012
+aS'hgt = -1'
+p1013
+aS'nrm = -0.268840283,0.952106774,0.145662993'
+p1014
+aS'rot = -0.195261762,-0.543321431,0.67770052,-0.455408454'
+p1015
+aS'CoM = -6.66081905E-05,-2.15103459,7.42077827E-05'
+p1016
+aS'stg = 0'
+p1017
+aS'prst = False'
+p1018
+aS'ref = 0'
+p1019
+aS'ctrl = True'
+p1020
+aS'cPch = 0.2'
+p1021
+aS'cHdg = 0.525846'
+p1022
+aS'cMod = 0'
+p1023
+aS'ORBIT'
+p1024
+a(lp1025
+S'SMA = -1089437.5608128253'
+p1026
+aS'ECC = 1.2473912119251196'
+p1027
+aS'INC = 3.2841964445710348'
+p1028
+aS'LPE = 322.77292391320094'
+p1029
+aS'LAN = 76.044320993828194'
+p1030
+aS'MNA = -1.0153749473989884'
+p1031
+aS'EPH = 23914.27177352901'
+p1032
+aS'REF = 2'
+p1033
+aaS'PART'
+p1034
+a(lp1035
+S'name = mk1pod'
+p1036
+aS'cid = 4294706596'
+p1037
+aS'uid = 3031783125'
+p1038
+aS'mid = 3010971479'
+p1039
+aS'launchID = 2'
+p1040
+aS'parent = 0'
+p1041
+aS'position = 0,0,0'
+p1042
+aS'rotation = 0,0,0,1'
+p1043
+aS'mirror = 1,1,1'
+p1044
+aS'symMethod = Radial'
+p1045
+aS'istg = -1'
+p1046
+aS'resPri = 0'
+p1047
+aS'dstg = 0'
+p1048
+aS'sqor = -1'
+p1049
+aS'sepI = -1'
+p1050
+aS'sidx = -1'
+p1051
+aS'attm = 0'
+p1052
+aS'srfN = , -1'
+p1053
+aS'attN = bottom, 1'
+p1054
+aS'attN = top, 4'
+p1055
+aS'mass = 0.800000012'
+p1056
+aS'shielded = False'
+p1057
+aS'temp = 269.69718742478653'
+p1058
+aS'tempExt = 265.56148502903801'
+p1059
+aS'tempExtUnexp = 4'
+p1060
+aS'expt = 0.5'
+p1061
+aS'state = 0'
+p1062
+aS'attached = True'
+p1063
+aS'autostrutMode = Off'
+p1064
+aS'rigidAttachment = False'
+p1065
+aS'flag = Squad/Flags/default'
+p1066
+aS'rTrf = mk1pod (Untitled Space Craft)'
+p1067
+aS'modCost = 0'
+p1068
+aS'crew = Valentina Kerman'
+p1069
+aS'EVENTS'
+p1070
+a(lp1071
+aS'ACTIONS'
+p1072
+a(lp1073
+aS'PARTDATA'
+p1074
+a(lp1075
+aS'MODULE'
+p1076
+a(lp1077
+S'name = ModuleCommand'
+p1078
+aS'isEnabled = True'
+p1079
+aS'hibernation = False'
+p1080
+aS'hibernateOnWarp = False'
+p1081
+aS'stagingEnabled = True'
+p1082
+aS'EVENTS'
+p1083
+a(lp1084
+aS'ACTIONS'
+p1085
+a(lp1086
+S'HibernateToggle'
+p1087
+a(lp1088
+S'actionGroup = None'
+p1089
+aS'active = False'
+p1090
+aaaS'UPGRADESAPPLIED'
+p1091
+a(lp1092
+aaS'MODULE'
+p1093
+a(lp1094
+S'name = ModuleReactionWheel'
+p1095
+aS'isEnabled = True'
+p1096
+aS'actuatorModeCycle = 0'
+p1097
+aS'authorityLimiter = 100'
+p1098
+aS'stateString = Running'
+p1099
+aS'stagingEnabled = True'
+p1100
+aS'WheelState = Active'
+p1101
+aS'EVENTS'
+p1102
+a(lp1103
+aS'ACTIONS'
+p1104
+a(lp1105
+S'CycleAction'
+p1106
+a(lp1107
+S'actionGroup = None'
+p1108
+aaS'Activate'
+p1109
+a(lp1110
+S'actionGroup = None'
+p1111
+aaS'Deactivate'
+p1112
+a(lp1113
+S'actionGroup = None'
+p1114
+aaS'Toggle'
+p1115
+a(lp1116
+S'actionGroup = None'
+p1117
+aaaS'UPGRADESAPPLIED'
+p1118
+a(lp1119
+aaS'MODULE'
+p1120
+a(lp1121
+S'name = ModuleColorChanger'
+p1122
+aS'isEnabled = True'
+p1123
+aS'animState = False'
+p1124
+aS'stagingEnabled = True'
+p1125
+aS'EVENTS'
+p1126
+a(lp1127
+aS'ACTIONS'
+p1128
+a(lp1129
+S'ToggleAction'
+p1130
+a(lp1131
+S'actionGroup = Light'
+p1132
+aaaS'UPGRADESAPPLIED'
+p1133
+a(lp1134
+aaS'MODULE'
+p1135
+a(lp1136
+S'name = ModuleScienceExperiment'
+p1137
+aS'isEnabled = True'
+p1138
+aS'Deployed = False'
+p1139
+aS'Inoperable = False'
+p1140
+aS'cooldownToGo = 0'
+p1141
+aS'stagingEnabled = True'
+p1142
+aS'EVENTS'
+p1143
+a(lp1144
+aS'ACTIONS'
+p1145
+a(lp1146
+S'DeployAction'
+p1147
+a(lp1148
+S'actionGroup = None'
+p1149
+aaS'ResetAction'
+p1150
+a(lp1151
+S'actionGroup = None'
+p1152
+aaaS'UPGRADESAPPLIED'
+p1153
+a(lp1154
+aaS'MODULE'
+p1155
+a(lp1156
+S'name = ModuleScienceContainer'
+p1157
+aS'isEnabled = True'
+p1158
+aS'stagingEnabled = True'
+p1159
+aS'EVENTS'
+p1160
+a(lp1161
+aS'ACTIONS'
+p1162
+a(lp1163
+S'CollectAllAction'
+p1164
+a(lp1165
+S'actionGroup = None'
+p1166
+aaaS'UPGRADESAPPLIED'
+p1167
+a(lp1168
+aaS'MODULE'
+p1169
+a(lp1170
+S'name = FlagDecal'
+p1171
+aS'isEnabled = True'
+p1172
+aS'flagDisplayed = True'
+p1173
+aS'stagingEnabled = True'
+p1174
+aS'EVENTS'
+p1175
+a(lp1176
+aS'ACTIONS'
+p1177
+a(lp1178
+aS'UPGRADESAPPLIED'
+p1179
+a(lp1180
+aaS'MODULE'
+p1181
+a(lp1182
+S'name = ModuleConductionMultiplier'
+p1183
+aS'isEnabled = True'
+p1184
+aS'stagingEnabled = True'
+p1185
+aS'EVENTS'
+p1186
+a(lp1187
+aS'ACTIONS'
+p1188
+a(lp1189
+aS'UPGRADESAPPLIED'
+p1190
+a(lp1191
+aaS'MODULE'
+p1192
+a(lp1193
+S'name = ModuleDataTransmitter'
+p1194
+aS'isEnabled = True'
+p1195
+aS'xmitIncomplete = False'
+p1196
+aS'stagingEnabled = True'
+p1197
+aS'canComm = True'
+p1198
+aS'EVENTS'
+p1199
+a(lp1200
+aS'ACTIONS'
+p1201
+a(lp1202
+S'StartTransmissionAction'
+p1203
+a(lp1204
+S'actionGroup = None'
+p1205
+aS'active = False'
+p1206
+aaaS'UPGRADESAPPLIED'
+p1207
+a(lp1208
+aaS'MODULE'
+p1209
+a(lp1210
+S'name = ModuleLiftingSurface'
+p1211
+aS'isEnabled = True'
+p1212
+aS'stagingEnabled = True'
+p1213
+aS'EVENTS'
+p1214
+a(lp1215
+aS'ACTIONS'
+p1216
+a(lp1217
+aS'UPGRADESAPPLIED'
+p1218
+a(lp1219
+aaS'MODULE'
+p1220
+a(lp1221
+S'name = ModuleTripLogger'
+p1222
+aS'isEnabled = True'
+p1223
+aS'stagingEnabled = True'
+p1224
+aS'EVENTS'
+p1225
+a(lp1226
+aS'ACTIONS'
+p1227
+a(lp1228
+aS'Log'
+p1229
+a(lp1230
+S'flight = 0'
+p1231
+aS'0 = Land,Kerbin'
+p1232
+aS'0 = Flight,Kerbin'
+p1233
+aS'0 = Suborbit,Kerbin'
+p1234
+aS'0 = Orbit,Kerbin'
+p1235
+aS'0 = Flyby,Mun'
+p1236
+aS'0 = Escape,Mun'
+p1237
+aaS'UPGRADESAPPLIED'
+p1238
+a(lp1239
+aaS'RESOURCE'
+p1240
+a(lp1241
+S'name = ElectricCharge'
+p1242
+aS'amount = 50'
+p1243
+aS'maxAmount = 50'
+p1244
+aS'flowState = True'
+p1245
+aS'isTweakable = True'
+p1246
+aS'hideFlow = False'
+p1247
+aS'isVisible = True'
+p1248
+aS'flowMode = Both'
+p1249
+aaS'RESOURCE'
+p1250
+a(lp1251
+S'name = MonoPropellant'
+p1252
+aS'amount = 10'
+p1253
+aS'maxAmount = 10'
+p1254
+aS'flowState = True'
+p1255
+aS'isTweakable = True'
+p1256
+aS'hideFlow = False'
+p1257
+aS'isVisible = True'
+p1258
+aS'flowMode = Both'
+p1259
+aaaS'PART'
+p1260
+a(lp1261
+S'name = advSasModule'
+p1262
+aS'cid = 4294697838'
+p1263
+aS'uid = 1287135477'
+p1264
+aS'mid = 3010971479'
+p1265
+aS'launchID = 2'
+p1266
+aS'parent = 0'
+p1267
+aS'position = 0,-0.60406494140625,0'
+p1268
+aS'rotation = 0,0,0,1'
+p1269
+aS'mirror = 1,1,1'
+p1270
+aS'symMethod = Radial'
+p1271
+aS'istg = -1'
+p1272
+aS'resPri = 0'
+p1273
+aS'dstg = 0'
+p1274
+aS'sqor = -1'
+p1275
+aS'sepI = -1'
+p1276
+aS'sidx = -1'
+p1277
+aS'attm = 0'
+p1278
+aS'srfN = , -1'
+p1279
+aS'attN = top, 0'
+p1280
+aS'attN = bottom, 2'
+p1281
+aS'mass = 0.100000001'
+p1282
+aS'shielded = False'
+p1283
+aS'temp = 267.57333166577985'
+p1284
+aS'tempExt = 266.61275377081864'
+p1285
+aS'tempExtUnexp = 4'
+p1286
+aS'expt = 0.5'
+p1287
+aS'state = 0'
+p1288
+aS'attached = True'
+p1289
+aS'autostrutMode = Off'
+p1290
+aS'rigidAttachment = False'
+p1291
+aS'flag = Squad/Flags/default'
+p1292
+aS'rTrf = advSasModule'
+p1293
+aS'modCost = 0'
+p1294
+aS'EVENTS'
+p1295
+a(lp1296
+aS'ACTIONS'
+p1297
+a(lp1298
+aS'PARTDATA'
+p1299
+a(lp1300
+aS'MODULE'
+p1301
+a(lp1302
+S'name = ModuleReactionWheel'
+p1303
+aS'isEnabled = True'
+p1304
+aS'actuatorModeCycle = 0'
+p1305
+aS'authorityLimiter = 100'
+p1306
+aS'stateString = Running'
+p1307
+aS'stagingEnabled = True'
+p1308
+aS'WheelState = Active'
+p1309
+aS'EVENTS'
+p1310
+a(lp1311
+aS'ACTIONS'
+p1312
+a(lp1313
+S'CycleAction'
+p1314
+a(lp1315
+S'actionGroup = None'
+p1316
+aaS'Activate'
+p1317
+a(lp1318
+S'actionGroup = None'
+p1319
+aaS'Deactivate'
+p1320
+a(lp1321
+S'actionGroup = None'
+p1322
+aaS'Toggle'
+p1323
+a(lp1324
+S'actionGroup = None'
+p1325
+aaaS'UPGRADESAPPLIED'
+p1326
+a(lp1327
+aaaS'PART'
+p1328
+a(lp1329
+S'name = fuelTank'
+p1330
+aS'cid = 4294685870'
+p1331
+aS'uid = 3683158858'
+p1332
+aS'mid = 3010971479'
+p1333
+aS'launchID = 2'
+p1334
+aS'parent = 1'
+p1335
+aS'position = 0,-1.7687816619873047,0'
+p1336
+aS'rotation = 0,0,0,1'
+p1337
+aS'mirror = 1,1,1'
+p1338
+aS'symMethod = Radial'
+p1339
+aS'istg = -1'
+p1340
+aS'resPri = 0'
+p1341
+aS'dstg = 0'
+p1342
+aS'sqor = -1'
+p1343
+aS'sepI = -1'
+p1344
+aS'sidx = -1'
+p1345
+aS'attm = 0'
+p1346
+aS'srfN = srfAttach, -1'
+p1347
+aS'attN = top, 1'
+p1348
+aS'attN = bottom, 3'
+p1349
+aS'mass = 0.25'
+p1350
+aS'shielded = False'
+p1351
+aS'temp = 268.81342494871842'
+p1352
+aS'tempExt = 267.80455467829137'
+p1353
+aS'tempExtUnexp = 4'
+p1354
+aS'expt = 0.5'
+p1355
+aS'state = 0'
+p1356
+aS'attached = True'
+p1357
+aS'autostrutMode = Off'
+p1358
+aS'rigidAttachment = False'
+p1359
+aS'flag = Squad/Flags/default'
+p1360
+aS'rTrf = fuelTank'
+p1361
+aS'modCost = 0'
+p1362
+aS'EVENTS'
+p1363
+a(lp1364
+aS'ACTIONS'
+p1365
+a(lp1366
+aS'PARTDATA'
+p1367
+a(lp1368
+aS'RESOURCE'
+p1369
+a(lp1370
+S'name = LiquidFuel'
+p1371
+aS'amount = 14.255341056845017'
+p1372
+aS'maxAmount = 180'
+p1373
+aS'flowState = True'
+p1374
+aS'isTweakable = True'
+p1375
+aS'hideFlow = False'
+p1376
+aS'isVisible = True'
+p1377
+aS'flowMode = Both'
+p1378
+aaS'RESOURCE'
+p1379
+a(lp1380
+S'name = Oxidizer'
+p1381
+aS'amount = 17.423184867835026'
+p1382
+aS'maxAmount = 220'
+p1383
+aS'flowState = True'
+p1384
+aS'isTweakable = True'
+p1385
+aS'hideFlow = False'
+p1386
+aS'isVisible = True'
+p1387
+aS'flowMode = Both'
+p1388
+aaaS'PART'
+p1389
+a(lp1390
+S'name = liquidEngine2'
+p1391
+aS'cid = 4294682044'
+p1392
+aS'uid = 3745700607'
+p1393
+aS'mid = 3010971479'
+p1394
+aS'launchID = 2'
+p1395
+aS'parent = 2'
+p1396
+aS'position = 0,-3.5831079483032227,0'
+p1397
+aS'rotation = 0,0,0,1'
+p1398
+aS'mirror = 1,1,1'
+p1399
+aS'symMethod = Radial'
+p1400
+aS'istg = 0'
+p1401
+aS'resPri = 0'
+p1402
+aS'dstg = 0'
+p1403
+aS'sqor = 0'
+p1404
+aS'sepI = -1'
+p1405
+aS'sidx = 0'
+p1406
+aS'attm = 0'
+p1407
+aS'srfN = , -1'
+p1408
+aS'attN = top, 2'
+p1409
+aS'attN = bottom, -1'
+p1410
+aS'mass = 1.5'
+p1411
+aS'shielded = False'
+p1412
+aS'temp = 269.25859253402024'
+p1413
+aS'tempExt = 268.47540427123073'
+p1414
+aS'tempExtUnexp = 4'
+p1415
+aS'expt = 0.5'
+p1416
+aS'state = 1'
+p1417
+aS'attached = True'
+p1418
+aS'autostrutMode = Off'
+p1419
+aS'rigidAttachment = False'
+p1420
+aS'flag = Squad/Flags/default'
+p1421
+aS'rTrf = liquidEngine2'
+p1422
+aS'modCost = 0'
+p1423
+aS'EVENTS'
+p1424
+a(lp1425
+aS'ACTIONS'
+p1426
+a(lp1427
+aS'PARTDATA'
+p1428
+a(lp1429
+aS'MODULE'
+p1430
+a(lp1431
+S'name = ModuleEngines'
+p1432
+aS'isEnabled = True'
+p1433
+aS'staged = True'
+p1434
+aS'flameout = False'
+p1435
+aS'EngineIgnited = True'
+p1436
+aS'engineShutdown = False'
+p1437
+aS'currentThrottle = 0'
+p1438
+aS'thrustPercentage = 100'
+p1439
+aS'manuallyOverridden = False'
+p1440
+aS'stagingEnabled = True'
+p1441
+aS'EVENTS'
+p1442
+a(lp1443
+aS'ACTIONS'
+p1444
+a(lp1445
+S'OnAction'
+p1446
+a(lp1447
+S'actionGroup = None'
+p1448
+aaS'ShutdownAction'
+p1449
+a(lp1450
+S'actionGroup = None'
+p1451
+aaS'ActivateAction'
+p1452
+a(lp1453
+S'actionGroup = None'
+p1454
+aaaS'UPGRADESAPPLIED'
+p1455
+a(lp1456
+aaS'MODULE'
+p1457
+a(lp1458
+S'name = ModuleJettison'
+p1459
+aS'isEnabled = True'
+p1460
+aS'isJettisoned = True'
+p1461
+aS'shroudHideOverride = False'
+p1462
+aS'stagingEnabled = True'
+p1463
+aS'EVENTS'
+p1464
+a(lp1465
+aS'ACTIONS'
+p1466
+a(lp1467
+S'JettisonAction'
+p1468
+a(lp1469
+S'actionGroup = None'
+p1470
+aaaS'UPGRADESAPPLIED'
+p1471
+a(lp1472
+aaS'MODULE'
+p1473
+a(lp1474
+S'name = ModuleGimbal'
+p1475
+aS'isEnabled = True'
+p1476
+aS'gimbalLock = False'
+p1477
+aS'gimbalLimiter = 100'
+p1478
+aS'currentShowToggles = False'
+p1479
+aS'enableYaw = True'
+p1480
+aS'enablePitch = True'
+p1481
+aS'enableRoll = True'
+p1482
+aS'gimbalActive = True'
+p1483
+aS'stagingEnabled = True'
+p1484
+aS'EVENTS'
+p1485
+a(lp1486
+aS'ACTIONS'
+p1487
+a(lp1488
+S'ToggleAction'
+p1489
+a(lp1490
+S'actionGroup = None'
+p1491
+aaS'LockAction'
+p1492
+a(lp1493
+S'actionGroup = None'
+p1494
+aaS'FreeAction'
+p1495
+a(lp1496
+S'actionGroup = None'
+p1497
+aaS'TogglePitchAction'
+p1498
+a(lp1499
+S'actionGroup = None'
+p1500
+aaS'ToggleYawAction'
+p1501
+a(lp1502
+S'actionGroup = None'
+p1503
+aaS'ToggleRollAction'
+p1504
+a(lp1505
+S'actionGroup = None'
+p1506
+aaaS'UPGRADESAPPLIED'
+p1507
+a(lp1508
+aaS'MODULE'
+p1509
+a(lp1510
+S'name = FXModuleAnimateThrottle'
+p1511
+aS'isEnabled = True'
+p1512
+aS'animState = 0'
+p1513
+aS'stagingEnabled = True'
+p1514
+aS'EVENTS'
+p1515
+a(lp1516
+aS'ACTIONS'
+p1517
+a(lp1518
+aS'UPGRADESAPPLIED'
+p1519
+a(lp1520
+aaS'MODULE'
+p1521
+a(lp1522
+S'name = ModuleAlternator'
+p1523
+aS'isEnabled = True'
+p1524
+aS'stagingEnabled = True'
+p1525
+aS'EVENTS'
+p1526
+a(lp1527
+aS'ACTIONS'
+p1528
+a(lp1529
+aS'UPGRADESAPPLIED'
+p1530
+a(lp1531
+aaS'MODULE'
+p1532
+a(lp1533
+S'name = ModuleSurfaceFX'
+p1534
+aS'isEnabled = True'
+p1535
+aS'stagingEnabled = True'
+p1536
+aS'EVENTS'
+p1537
+a(lp1538
+aS'ACTIONS'
+p1539
+a(lp1540
+aS'UPGRADESAPPLIED'
+p1541
+a(lp1542
+aaS'MODULE'
+p1543
+a(lp1544
+S'name = ModuleTestSubject'
+p1545
+aS'isEnabled = True'
+p1546
+aS'stagingEnabled = True'
+p1547
+aS'EVENTS'
+p1548
+a(lp1549
+aS'ACTIONS'
+p1550
+a(lp1551
+aS'UPGRADESAPPLIED'
+p1552
+a(lp1553
+aaaS'PART'
+p1554
+a(lp1555
+S'name = standardNoseCone'
+p1556
+aS'cid = 4294650132'
+p1557
+aS'uid = 2419392799'
+p1558
+aS'mid = 3010971479'
+p1559
+aS'launchID = 2'
+p1560
+aS'parent = 0'
+p1561
+aS'position = 0,0.89237594604492188,0'
+p1562
+aS'rotation = 0,0,0,1'
+p1563
+aS'mirror = 1,1,1'
+p1564
+aS'symMethod = Radial'
+p1565
+aS'istg = -1'
+p1566
+aS'resPri = 0'
+p1567
+aS'dstg = 0'
+p1568
+aS'sqor = -1'
+p1569
+aS'sepI = -1'
+p1570
+aS'sidx = -1'
+p1571
+aS'attm = 0'
+p1572
+aS'srfN = srfAttach, -1'
+p1573
+aS'attN = bottom01, 0'
+p1574
+aS'mass = 0.00999999978'
+p1575
+aS'shielded = False'
+p1576
+aS'temp = 266.02414045866499'
+p1577
+aS'tempExt = 260.9968295078038'
+p1578
+aS'tempExtUnexp = 4'
+p1579
+aS'expt = 0.5'
+p1580
+aS'state = 0'
+p1581
+aS'attached = True'
+p1582
+aS'autostrutMode = Off'
+p1583
+aS'rigidAttachment = False'
+p1584
+aS'flag = Squad/Flags/default'
+p1585
+aS'rTrf = standardNoseCone'
+p1586
+aS'modCost = 0'
+p1587
+aS'EVENTS'
+p1588
+a(lp1589
+aS'ACTIONS'
+p1590
+a(lp1591
+aS'PARTDATA'
+p1592
+a(lp1593
+aS'MODULE'
+p1594
+a(lp1595
+S'name = ModuleAnimateHeat'
+p1596
+aS'isEnabled = True'
+p1597
+aS'stagingEnabled = True'
+p1598
+aS'EVENTS'
+p1599
+a(lp1600
+aS'ACTIONS'
+p1601
+a(lp1602
+aS'UPGRADESAPPLIED'
+p1603
+a(lp1604
+aaaS'ACTIONGROUPS'
+p1605
+a(lp1606
+S'Stage = True, 137.218554534913'
+p1607
+aS'Gear = False, 0'
+p1608
+aS'Light = False, 0'
+p1609
+aS'RCS = False, 0'
+p1610
+aS'SAS = True, 365.614086761482'
+p1611
+aS'Brakes = False, 0'
+p1612
+aS'Abort = False, 0'
+p1613
+aS'Custom01 = False, 0'
+p1614
+aS'Custom02 = False, 0'
+p1615
+aS'Custom03 = False, 0'
+p1616
+aS'Custom04 = False, 0'
+p1617
+aS'Custom05 = False, 0'
+p1618
+aS'Custom06 = False, 0'
+p1619
+aS'Custom07 = False, 0'
+p1620
+aS'Custom08 = False, 0'
+p1621
+aS'Custom09 = False, 0'
+p1622
+aS'Custom10 = False, 0'
+p1623
+aaS'DISCOVERY'
+p1624
+a(lp1625
+S'state = -1'
+p1626
+aS'lastObservedTime = 0'
+p1627
+aS'lifetime = Infinity'
+p1628
+aS'refTime = Infinity'
+p1629
+aS'size = 2'
+p1630
+aaS'FLIGHTPLAN'
+p1631
+a(lp1632
+aS'CTRLSTATE'
+p1633
+a(lp1634
+S'pitch = -0.123273313'
+p1635
+aS'yaw = -0.115925305'
+p1636
+aS'roll = -8.70397416E-05'
+p1637
+aS'trimPitch = 0'
+p1638
+aS'trimYaw = 0'
+p1639
+aS'trimRoll = 0'
+p1640
+aS'mainThrottle = 0'
+p1641
+aaS'VESSELMODULES'
+p1642
+a(lp1643
+S'FlightIntegrator'
+p1644
+a(lp1645
+aS'CommNetVessel'
+p1646
+a(lp1647
+S'controlState = KerbalFull'
+p1648
+aS'canComm = True'
+p1649
+aaaa(lp1650
+S'pid = 144808ef70884d519b74e60a8bcc6ddb'
+p1651
+aS'name = Ast. BXJ-156'
+p1652
+aS'type = SpaceObject'
+p1653
+aS'sit = ORBITING'
+p1654
+aS'landed = False'
+p1655
+aS'landedAt = '
+p1656
+aS'splashed = False'
+p1657
+aS'met = 160.7985545349253'
+p1658
+aS'lct = 160.7985545349253'
+p1659
+aS'lastUT = -1'
+p1660
+aS'root = 0'
+p1661
+aS'lat = 0.033240617738146516'
+p1662
+aS'lon = -70.699489780258915'
+p1663
+aS'alt = 1359799768230.8896'
+p1664
+aS'hgt = -1'
+p1665
+aS'nrm = 0,1,0'
+p1666
+aS'rot = -0.496462375,0.582595229,0.602674723,0.225590438'
+p1667
+aS'CoM = 0,0,0'
+p1668
+aS'stg = 0'
+p1669
+aS'prst = False'
+p1670
+aS'ref = 0'
+p1671
+aS'ctrl = False'
+p1672
+aS'ORBIT'
+p1673
+a(lp1674
+S'SMA = -7731186284.1933031'
+p1675
+aS'ECC = 176.87568221112966'
+p1676
+aS'INC = 12.910497418997997'
+p1677
+aS'LPE = 181.12406435936956'
+p1678
+aS'LAN = 109.57952324974156'
+p1679
+aS'MNA = -3.4391802537813643'
+p1680
+aS'EPH = 2803737.70285141'
+p1681
+aS'REF = 0'
+p1682
+aaS'PART'
+p1683
+a(lp1684
+S'name = PotatoRoid'
+p1685
+aS'cid = 0'
+p1686
+aS'uid = 1698840657'
+p1687
+aS'mid = 1698840657'
+p1688
+aS'launchID = 0'
+p1689
+aS'parent = 0'
+p1690
+aS'position = 0,0,0'
+p1691
+aS'rotation = 0,0,0,1'
+p1692
+aS'mirror = 1,1,1'
+p1693
+aS'symMethod = Radial'
+p1694
+aS'istg = 0'
+p1695
+aS'resPri = 0'
+p1696
+aS'dstg = 0'
+p1697
+aS'sqor = 0'
+p1698
+aS'sepI = 0'
+p1699
+aS'sidx = 0'
+p1700
+aS'attm = 0'
+p1701
+aS'srfN = None, -1'
+p1702
+aS'mass = 150'
+p1703
+aS'shielded = False'
+p1704
+aS'temp = -1'
+p1705
+aS'tempExt = 0'
+p1706
+aS'tempExtUnexp = 0'
+p1707
+aS'expt = 0.100000001'
+p1708
+aS'state = 0'
+p1709
+aS'attached = True'
+p1710
+aS'autostrutMode = Off'
+p1711
+aS'rigidAttachment = False'
+p1712
+aS'flag = '
+p1713
+aS'rTrf = '
+p1714
+aS'modCost = 0'
+p1715
+aaS'ACTIONGROUPS'
+p1716
+a(lp1717
+aS'DISCOVERY'
+p1718
+a(lp1719
+S'state = 1'
+p1720
+aS'lastObservedTime = 160.7985545349253'
+p1721
+aS'lifetime = 283026.25579833984'
+p1722
+aS'refTime = 1728000'
+p1723
+aS'size = 2'
+p1724
+aaS'FLIGHTPLAN'
+p1725
+a(lp1726
+aS'CTRLSTATE'
+p1727
+a(lp1728
+aS'VESSELMODULES'
+p1729
+a(lp1730
+S'FlightIntegrator'
+p1731
+a(lp1732
+aaa(dp1733
+S'00f2da4cfb4c4877869987541ec53eeb'
+p1734
+(lp1735
+S'184.68.166.106'
+p1736
+asS'f2a4a64c680c43bdb1494559d7124f88'
+p1737
+(lp1738
+g1736
+asS'b347181d0c544fdca227eb82f6acc452'
+p1739
+(lp1740
+g1736
+asS'144808ef70884d519b74e60a8bcc6ddb'
+p1741
+(lp1742
+g1736
+asS'd59683de63304f128eddc8b06bd20e7a'
+p1743
+(lp1744
+g1736
+asS'1c5e1d7c35914216a6573df3db4b3f16'
+p1745
+(lp1746
+g1736
+asS'1bf9f5427fba4f368e9c7db41144e5d3'
+p1747
+(lp1748
+g1736
+asS'9ede1ad2d6b142a28487f089723551cd'
+p1749
+(lp1750
+g1736
+asS'7c30bfe0577e4e938d391e33ece1c400'
+p1751
+(lp1752
+g1736
+astp1753
+.
