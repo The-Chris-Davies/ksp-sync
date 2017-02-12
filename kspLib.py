@@ -33,7 +33,7 @@ def is_new(s):
 		L[s][ips[client_address]]=True
 		return True	
 
-
+#True=Not same, False=Same
 def compare_tree(old,new):
 	#update=False
 	skip=False

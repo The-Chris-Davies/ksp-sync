@@ -28,5 +28,9 @@ clientData.close()
 testTree = getFromTree(clientGraph, ["GAME", "FLIGHTSTATE", "VESSEL"])
 
 #printTree(testTree)
+
+
+
+#True=Not same, False=Same
 print compare_tree(clientGraph,serverGraph)
 #print clientGraph
