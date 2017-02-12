@@ -2,9 +2,12 @@
 
 from kspLib import *
 #make backup of data
-saveData = open("server.sfs")
+#make server tree
+
+
+saveData = open("persistent-NEW.sfs")
 oldData = open("backup.sfs", 'w')
-serverData=saveData.read()
+serverGraph = fillTree(saveData)
 oldData.write(saveData.read())
 saveData.close()
 oldData.close()
@@ -16,9 +19,9 @@ L={}
 
 
 
-#make server tree
+
 #serverData = open("persistent-NEW.sfs")
-serverGraph = fillTree(serverData)
+#serverGraph = fillTree(serverData)
 #serverData.close()
 
 
@@ -34,13 +37,16 @@ serverGraphReduced = remove_outer(getFromTree(serverGraph, ["GAME", "FLIGHTSTATE
 #print len(testTree)
 #print len(testTree2)
 
-for i in range(len(clientGraphReduced)):
-	print i
+#for i in range(len(clientGraphReduced)):
+#	print i
 
 
 
 #printTree(testTree)
 
+print len(clientGraphReduced)
+print len(serverGraphReduced)
+
 #True=Not same, False=Same
-print compare_tree(testTree,testTree2)
+print compare_tree(clientGraphReduced,serverGraphReduced)
 #print clientGraph
