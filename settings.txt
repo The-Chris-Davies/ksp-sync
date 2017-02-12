@@ -1,2 +1,2 @@
-ip localhost
-port 6969
+localhost
+6969

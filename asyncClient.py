@@ -2,15 +2,20 @@
 import socket
 import cPickle as pickle
 import sys
+from kspLib import *
 
 fn = "persistent.sfs"
-cfn = "clientSettings.txt"
+cfn = "settings.txt"
 
 loadData = open(fn)
 
 clientSettings = open(cfn)
 ip = clientSettings.readline().strip()
+port = int(clientSettings.readline().strip())
 clientSettings.close()
+fullData = loadData.read()
+loadData.close()
+'''
 #create an INET, STREAMing socket
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
@@ -20,9 +25,7 @@ s.connect((ip, 8988))
 
 # Send data
 #message = 'This is the message.  It will be repeated.'
-s.sendall(loadData.read())
-
-loadData.close()
+s.sendall(fullData)
 
 totalData=""
 while True:
@@ -33,12 +36,16 @@ while True:
 
 print 'closing socket'
 s.close()
-
-shipList = pickle.loads(totalData)
+'''
+clientGraph = fillTree(fullData)
+#shipList = pickle.loads(totalData)
+shipList = [['kill'],['me']]
 for i in range(len(shipList)):
 	shipList.insert(i*2, "VESSEL")
-setInTree
+setInTree(clientGraph, ["GAME", "FLIGHTSTATE"], shipList)
 
+print clientGraph
+fullData = unTree(clientGraph)
 writeFile = open(fn,"w")
-writeFile.write(totalData);
+writeFile.write(fullData);
 writeFile.close()

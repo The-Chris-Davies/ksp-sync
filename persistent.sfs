@@ -3,8 +3,8 @@ GAME
 	version = 1.2.2
 	Title = stock (SANDBOX)
 	Description = No description available.
-	linkURL = 
-	linkCaption = 
+	linkURL =
+	linkCaption =
 	Mode = SANDBOX
 	Status = 1
 	Seed = 1482710258
@@ -13,7 +13,7 @@ GAME
 	flag = Squad/Flags/default
 	launchID = 3
 	modded = True
-	envInfo =  - Environment Info - Unix 7FFFFFFFFFFFFFFF  Args: KSP  - 
+	envInfo =  - Environment Info - Unix 7FFFFFFFFFFFFFFF  Args: KSP  -
 	versionFull = 1.2.2.1622 (OSXPlayer)
 	versionCreated = 1.2.2.1622 (OSXPlayer)
 	PARAMETERS
@@ -47,7 +47,7 @@ GAME
 			CanLeaveToSpaceCenter = True
 			CanLeaveToMainMenu = False
 			startUpMode = 0
-			craftFileToLoad = 
+			craftFileToLoad =
 		}
 		TRACKINGSTATION
 		{
@@ -484,7 +484,7 @@ GAME
 			type = Ship
 			sit = LANDED
 			landed = True
-			landedAt = 
+			landedAt =
 			splashed = False
 			met = 115.658554534909
 			lct = 10.579999999999863
@@ -501,8 +501,8 @@ GAME
 			prst = False
 			ref = 71716827
 			ctrl = True
-			cPch = 
-			cHdg = 
+			cPch =
+			cHdg =
 			cMod = 0
 			ORBIT
 			{
@@ -1092,7 +1092,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt = 
+			landedAt =
 			splashed = False
 			met = 7.5199999999999276
 			lct = 7.5199999999999276
@@ -1150,8 +1150,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag = 
-				rTrf = 
+				flag =
+				rTrf =
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -1185,7 +1185,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt = 
+			landedAt =
 			splashed = False
 			met = 22.579999999999607
 			lct = 22.579999999999607
@@ -1243,8 +1243,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag = 
-				rTrf = 
+				flag =
+				rTrf =
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -1278,7 +1278,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt = 
+			landedAt =
 			splashed = False
 			met = 49.476874237059597
 			lct = 49.476874237059597
@@ -1336,8 +1336,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag = 
-				rTrf = 
+				flag =
+				rTrf =
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -1371,7 +1371,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt = 
+			landedAt =
 			splashed = False
 			met = 53.236874237059517
 			lct = 53.236874237059517
@@ -1429,8 +1429,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag = 
-				rTrf = 
+				flag =
+				rTrf =
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -1464,7 +1464,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt = 
+			landedAt =
 			splashed = False
 			met = 87.764536895750041
 			lct = 87.764536895750041
@@ -1522,8 +1522,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag = 
-				rTrf = 
+				flag =
+				rTrf =
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -1557,7 +1557,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt = 
+			landedAt =
 			splashed = False
 			met = 95.684536895749872
 			lct = 95.684536895749872
@@ -1615,8 +1615,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag = 
-				rTrf = 
+				flag =
+				rTrf =
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -1650,7 +1650,7 @@ GAME
 			type = Ship
 			sit = ESCAPING
 			landed = False
-			landedAt = 
+			landedAt =
 			splashed = False
 			met = 23778.973218994099
 			lct = 135.29855453491226
@@ -2437,7 +2437,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt = 
+			landedAt =
 			splashed = False
 			met = 160.7985545349253
 			lct = 160.7985545349253
@@ -2495,8 +2495,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag = 
-				rTrf = 
+				flag =
+				rTrf =
 				modCost = 0
 			}
 			ACTIONGROUPS

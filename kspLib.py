@@ -91,7 +91,7 @@ def setInTree(tree, parents, toSet):
 		tree = toSet
 	for i in range(len(tree)):
 		if tree[i] == parents[0]:
-			setInTree(tree[i])
+			setInTree(tree[i], parents[1:], toSet)
 	return
 
 def unTree(tree, depth = 0):
