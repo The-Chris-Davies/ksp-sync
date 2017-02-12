@@ -78,10 +78,10 @@ def getFromTree(tree, parents):
 
 
 def remove_outer(L):
-	if len(L)>1:
-		return L
-	else:
+	if len(L)==1:
 		return remove_outer(L[0])
+	else:
+		return L
 
 def find_ind(s,L):
 	#ind=-1
