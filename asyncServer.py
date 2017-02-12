@@ -35,7 +35,7 @@ serverGraphReduced = remove_outer(getFromTree(serverGraph, ["GAME", "FLIGHTSTATE
 #print len(testTree2)
 
 for i in range(len(clientGraphReduced)):
-	
+	print i
 
 
 

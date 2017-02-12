@@ -84,7 +84,7 @@ def remove_outer(L):
 		return remove_outer(L[0])
 
 def find_ind(s,L):
-	ind=-1
+	#ind=-1
 	
 	#iter through list
 	for i in range(len(L)):
@@ -99,6 +99,6 @@ def find_ind(s,L):
 			if L[i][j].split(" - ")[0]=="pid" and L[i][j].split(" - ")[1]==s:
 				return i
 	
-	
+	return -1
 	
 
