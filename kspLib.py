@@ -2,6 +2,7 @@
 def fillTree(fileData, depth = 0):
 	'''makes a tree based on the data in persistent. We use this tree to extract values.'''
 	tree = []
+	fileData = fileData.split('\n')
 	for line in fileData:
 		if line[depth:-1] == '{':
 			tree.append(fillTree(fileData, depth+1))
@@ -81,3 +82,6 @@ def getPID(vessel):
 		if line.split(' = ')[0] == 'pid':
 			return line.split(' = ')[-1]
 	return -1
+
+def setInTree(tree, parents, toSet):
+	''''''

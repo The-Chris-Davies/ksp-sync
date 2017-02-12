@@ -1,6 +1,6 @@
 #!usr/bin/python
 
-import pickle
+import cPickle as pickle
 from kspLib import *
 import socket
 import sys
@@ -73,5 +73,4 @@ while True:
 saveData = open("serverSave.pkl", 'w')
 pickle.dump((serverGraph, shipVers), saveData)
 saveData.close()
-
 
