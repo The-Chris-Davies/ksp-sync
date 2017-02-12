@@ -7,6 +7,7 @@ from kspLib import *
 try:
 	saveData = open("serverSave.pkl")
 	serverGraph = pickle.load(saveData)
+	saveData.close()
 except:
 	serverGraph = []
 
@@ -14,6 +15,7 @@ except:
 try:
 	shipVerData = open("IPData.pkl")
 	shipVers = pickle.load(shipVerData) #whether or not the ships are updated, according to clients. True means ship is updated.
+	shipVerData.close()
 except:
 	shipVers = {}
 
