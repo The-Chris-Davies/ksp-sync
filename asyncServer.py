@@ -2,6 +2,9 @@
 
 import pickle
 from kspLib import *
+import socket
+import sys
+
 
 #try to load shipVers and serverGraph from file
 try:
@@ -12,47 +15,63 @@ except:
 	serverGraph = []
 	shipVers = {}
 
-client_address="184.68.166.106"
 
-#GET THIS FROM CLIENT PUSH
-#make client tree
-clientData = open("persistent.sfs")
-clientGraph = fillTree(clientData)
-clientData.close()
+serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+serversocket.bind((socket.gethostname(), 8988))
+serversocket.listen(5)
 
-clientGraphReduced = remove_outer(getFromTree(clientGraph, ["GAME", "FLIGHTSTATE", "VESSEL"]))
+#client_address="184.68.166.106"
 
-for i in range(len(clientGraphReduced)):
-	pid=getPID(clientGraphReduced[i])
-	serverInd = find_ind(pid,serverGraph)
-	if (serverInd==-1):
-		#not in server
-		serverGraph.append(clientGraphReduced[i])
-		shipVers[pid] = [client_address]
-	else:
-		#if client is up to date:
-		if client_address in shipVers[pid]:
-			#check if they are the same
-			if compare_tree(clientGraphReduced[i], serverGraph[serverInd]):
-				serverGraph[serverInd] = clientGraphReduced[i]
-				shipVers[pid] = [client_address]
+
+
+while True:
+	#accept connections from outside
+	connection, client_address = serversocket.accept()
+	
+	print 'connection from',client_address
+	
+	totaldata=""
+	
+	# Receive the data in small chunks and retransmit it
+	while True:
+		data = connection.recv(2048)
+		if data:
+			totaldata+=data
 		else:
-			#because we're updating the client
-			shipVers[pid].append(client_address)
+			break
+	
+	clientGraph = fillTree(totaldata)
+	clientGraphReduced = remove_outer(getFromTree(clientGraph, ["GAME", "FLIGHTSTATE", "VESSEL"]))
+
+	for i in range(len(clientGraphReduced)):
+		pid=getPID(clientGraphReduced[i])
+		serverInd = find_ind(pid,serverGraph)
+		if (serverInd==-1):
+			#not in server
+			serverGraph.append(clientGraphReduced[i])
+			shipVers[pid] = [client_address]
+		else:
+			#if client is up to date:
+			if client_address in shipVers[pid]:
+				#check if they are the same
+				if compare_tree(clientGraphReduced[i], serverGraph[serverInd]):
+					serverGraph[serverInd] = clientGraphReduced[i]
+					shipVers[pid] = [client_address]
+			else:
+				#because we're updating the client
+				shipVers[pid].append(client_address)
 
 
-#this is where we send the stuff back
+	#this is where we send the stuff back
+	
+	returndata=pickle.dumps(serverGraph)
+	connection.sendall(returndata)
+	
+	
+	
 
 saveData = open("serverSave.pkl", 'w')
 pickle.dump((serverGraph, shipVers), saveData)
 saveData.close()
 
 
-
-print shipVers
-
-print getPID(clientGraphReduced[0])
-
-#True=Not same, False=Same
-print compare_tree(clientGraphReduced,serverGraph)
-#print clientGraph
