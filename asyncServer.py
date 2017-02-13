@@ -89,7 +89,7 @@ while True:
 	print "Flightstate handled"
 	
 	#ROSTER
-	for i in range(len(clientGraphKerbal)):
+	'''for i in range(len(clientGraphKerbal)):
 		name=get_name(clientGraphKerbal[i])
 		serverInd = find_k_ind(name,serverGraph)
 		if (serverInd==-1):
@@ -107,7 +107,7 @@ while True:
 					shipVers[name] = [client_address]
 			else:
 				#because we're updating the client
-				shipVers[name].append(client_address)
+				shipVers[name].append(client_address)'''
 	
 	print "Roster handled"
 	
