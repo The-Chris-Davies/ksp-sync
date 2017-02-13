@@ -85,6 +85,13 @@ try:
 				else:
 					#because we're updating the client
 					shipVers[pid].append(client_address[0])
+		#remove ships if client was up to date
+		for x in serverGraph:
+			if x not in clientGraphReduced and client_address[0] in shipVers[getPID(x)]:
+				serverGraph.remove(x)
+
+
+
 		
 		print "Flightstate handled"
 		
