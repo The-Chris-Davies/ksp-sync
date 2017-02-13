@@ -37,15 +37,14 @@ while True:
 print 'closing socket'
 s.close()
 '''
-clientGraph = fillTree(fullData)
 #shipList = pickle.loads(totalData)
 shipList = [['kill'],['me']]
 for i in range(len(shipList)):
 	shipList.insert(i*2, "VESSEL")
-setInTree(clientGraph, ["GAME", "FLIGHTSTATE"], shipList)
-
-print clientGraph
-fullData = unTree(clientGraph)
-writeFile = open(fn,"w")
-writeFile.write(fullData);
-writeFile.close()
+vesselStr = unTree(shipList, 2)
+print vesselStr
+#print clientGraph
+#fullData = unTree(clientGraph)
+#writeFile = open(fn,"w")
+#writeFile.write(fullData);
+#writeFile.close()
