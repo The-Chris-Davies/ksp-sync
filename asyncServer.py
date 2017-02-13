@@ -36,11 +36,13 @@ while True:
 	totalData=""
 	while True:
 		data = connection.recv(2048)
-		if data:
-			totalData+=data
-		else:
+		#print data,"\n\n\n\n\n"
+		#if data[-7:]!="abcdefg":
+		totalData+=data
+		if totalData[-7:]=="abcdefg":
 			break
-	
+	totalData=totalData[:-7]
+	#print totalData
 	
 	#totalData = connection.recv(81920)
 	#print totalData
@@ -54,10 +56,16 @@ while True:
 	print "Data graphed"
 	
 	#print clientGraphReduced
+	#print clientGraphReduced
+	#break
+	
 	
 	#FLIGHTSTATE
 	for i in range(len(clientGraphReduced)):
+		print i
+		print clientGraphReduced[i]
 		pid=getPID(clientGraphReduced[i])
+		print pid
 		serverInd = find_ind(pid,serverGraph)
 		if (serverInd==-1):
 			#print "hi"

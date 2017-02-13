@@ -26,11 +26,11 @@ s.connect((ip, port))
 
 # Send data
 s.sendall(fullData)
-s.sendall('')
+s.sendall('abcdefg')
 
 totalData=""
 while True:
-	data = connection.recv(2048)
+	data = s.recv(2048)
 	if data:
 		totalData+=data
 	else:

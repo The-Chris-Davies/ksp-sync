@@ -73,8 +73,9 @@ def remove_outer(L):
 def find_ind(s,L):
 	#ind=-1
 	#iter through list
+	#print "-",s,type(s)
 	for i in range(len(L)):
-		if getPID(s) == getPID(L[i]):
+		if (s == getPID(L[i])):		#if getPID(s) == getPID(L[i]):
 			return i
 	return -1
 
@@ -82,7 +83,7 @@ def find_k_ind(s,L):
 	#ind=-1
 	#iter through list
 	for i in range(len(L)):
-		if get_name(s) == get_name(L[i]):
+		if s == get_name(L[i]):		#if get_name(s) == get_name(L[i]):
 			return i
 	return -1
 	
