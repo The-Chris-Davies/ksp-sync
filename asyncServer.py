@@ -37,15 +37,16 @@ while True:
 	totaldata=""
 	
 	# Receive the data in small chunks and retransmit it
-	'''while True:
+	while True:
 		data = connection.recv(2048)
-		if data:
-			totaldata+=data
-		else:
-			break'''
+		totaldata+=data
+		if totaldata[-5:]=="abcde":
+			totaldata=totaldata[:-5]
+			break
 	
-	totaldata = connection.recv(81920)
 	
+	#totaldata = connection.recv(81920)
+	#print totaldata
 	
 	print "data recieved"
 	
@@ -55,11 +56,14 @@ while True:
 	
 	print "Data graphed"
 	
+	#print clientGraphReduced
+	
 	#FLIGHTSTATE
 	for i in range(len(clientGraphReduced)):
 		pid=getPID(clientGraphReduced[i])
 		serverInd = find_ind(pid,serverGraph)
 		if (serverInd==-1):
+			#print "hi"
 			#not in server
 			serverGraph.append(clientGraphReduced[i])
 			shipVers[pid] = [client_address]
@@ -68,6 +72,7 @@ while True:
 			if client_address in shipVers[pid]:
 				#check if they are the same
 				if compare_tree(clientGraphReduced[i], serverGraph[serverInd]):
+					#print "yo"
 					serverGraph[serverInd] = clientGraphReduced[i]
 					shipVers[pid] = [client_address]
 			else:
@@ -81,6 +86,7 @@ while True:
 		name=get_name(clientGraphKerbal[i])
 		serverInd = find_k_ind(name,serverGraph)
 		if (serverInd==-1):
+			#print "hi1"
 			#not in server
 			serverGraph.append(clientGraphKerbal[i])
 			shipVers[name] = [client_address]
@@ -89,6 +95,7 @@ while True:
 			if client_address in shipVers[name]:
 				#check if they are the same
 				if compare_tree(clientGraphKerbal[i], serverGraph[serverInd]):
+					#print "yo1"
 					serverGraph[serverInd] = clientGraphKerbal[i]
 					shipVers[name] = [client_address]
 			else:
@@ -96,7 +103,9 @@ while True:
 				shipVers[name].append(client_address)
 	
 	print "Roster handled"
-
+	
+	print serverGraph
+	
 	#this is where we send the stuff back
 	print "sending data"
 	returndata=pickle.dumps(serverGraph)
