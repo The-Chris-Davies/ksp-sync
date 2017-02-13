@@ -45,7 +45,7 @@ while True:
 	#print totalData
 	
 	#totalData = connection.recv(81920)
-	print totalData
+	#print totalData
 	
 
 	print "data recieved"
@@ -56,7 +56,7 @@ while True:
 	
 	print "Data graphed"
 	
-	print clientGraphReduced
+	#print clientGraphReduced
 	#print clientGraphReduced
 	#break
 	
@@ -110,12 +110,12 @@ while True:
 	
 	print "Roster handled"
 	
-	print serverGraph
+	#print serverGraph
 	
 	#this is where we send the stuff back
 	print "sending data"
 	returndata=pickle.dumps(serverGraph)
-	print returndata
+	#print returndata
 	connection.sendall(returndata)
 	print "data sent"
 	
