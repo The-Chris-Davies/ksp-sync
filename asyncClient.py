@@ -37,6 +37,7 @@ while True:
 print 'closing socket'
 s.close()
 '''
+clientGraph = fillTree(fullData)
 #shipList = pickle.loads(totalData)
 shipList = [['kill'],['me']]
 for i in range(len(shipList)):
