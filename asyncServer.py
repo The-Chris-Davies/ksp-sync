@@ -75,7 +75,6 @@ try:
 				serverGraph.append(clientGraphReduced[i])
 				shipVers[pid] = [client_address]
 			else:
-<<<<<<< HEAD
 				#if client is up to date:
 				if client_address in shipVers[pid]:
 					#check if they are the same
@@ -121,12 +120,13 @@ try:
 		connection.sendall(returndata)
 		connection.sendall('abcdefg')
 		print "data sent"
-		serversocket.close()
 
 		saveData = open("serverSave.pkl", 'w')
 		pickle.dump((serverGraph, shipVers), saveData)
 		saveData.close()
+	serversocket.close()
 		
 except Exception as exc:
 	print type(exc), exc
+	#connection.close()
 	serversocket.close()
