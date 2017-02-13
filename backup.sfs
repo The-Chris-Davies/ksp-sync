@@ -7,15 +7,15 @@ GAME
 	linkCaption = 
 	Mode = SANDBOX
 	Status = 1
-	Seed = 267380207
+	Seed = 1603325981
 	scene = 5
 	editor = None
-	flag = Squad/Flags/minimalistic
-	launchID = 1
-	modded = False
-	envInfo =  - Environment Info - Win32NT 7FFFFFFFFFFFFFFF  Args: KSP_x64.exe  - 
-	versionFull = 1.2.2.1622 (WindowsPlayer x64)
-	versionCreated = 1.2.2.1622 (WindowsPlayer x64)
+	flag = Squad/Flags/default
+	launchID = 2
+	modded = True
+	envInfo =  - Environment Info - Unix 7FFFFFFFFFFFFFFF  Args: KSP  - 
+	versionFull = 1.2.2.1622 (OSXPlayer)
+	versionCreated = 1.2.2.1622 (OSXPlayer)
 	PARAMETERS
 	{
 		preset = Normal
@@ -146,7 +146,7 @@ GAME
 		scene = 7, 8, 5, 6
 		RESOURCE_SETTINGS
 		{
-			GameSeed = 406769967
+			GameSeed = 111064258
 			MaxDeltaTime = 21600
 		}
 	}
@@ -155,7 +155,7 @@ GAME
 		name = ScenarioNewGameIntro
 		scene = 5, 6, 8
 		kscComplete = True
-		editorComplete = False
+		editorComplete = True
 		tsComplete = True
 	}
 	SCENARIO
@@ -164,20 +164,54 @@ GAME
 		scene = 7, 8, 5
 		Progress
 		{
+			FirstLaunch
+			{
+				completedManned = 16.35999999999974
+			}
 			RecordsAltitude
 			{
-				completed = 93.759999999998485
+				completed = 79.3932861328108
 				record = 70000
 			}
 			RecordsSpeed
 			{
-				reached = 103.33999999999658
-				record = 2154.8976383032941
+				completed = 223.79231445315258
+				record = 2500
 			}
 			RecordsDistance
 			{
-				completed = 93.759999999998485
+				completed = 135.35574707030972
 				record = 100000
+			}
+			ReachedSpace
+			{
+				completedManned = 79.3932861328108
+				vessel
+				{
+					name = nickleback
+					flag = Squad/Flags/default
+				}
+				crew
+				{
+					crews = Jebediah Kerman
+				}
+			}
+			Kerbin
+			{
+				reached = 130.07574707030889
+				Orbit
+				{
+					completedManned = 130.07574707030889
+					vessel
+					{
+						name = nickleback
+						flag = Squad/Flags/default
+					}
+					crew
+					{
+						crews = Jebediah Kerman
+					}
+				}
 			}
 		}
 	}
@@ -200,50 +234,6 @@ GAME
 	{
 		name = ScenarioDestructibles
 		scene = 5, 7, 6, 8
-		SpaceCenter/Administration/Facility/Building
-		{
-			intact = True
-		}
-		SpaceCenter/AstronautComplex/Facility/mainBuilding
-		{
-			intact = True
-		}
-		SpaceCenter/FlagPole/Facility
-		{
-			intact = True
-		}
-		SpaceCenter/LaunchPad/Facility/Flag
-		{
-			intact = True
-		}
-		SpaceCenter/MissionControl/Facility/mainBuilding
-		{
-			intact = True
-		}
-		SpaceCenter/ResearchAndDevelopment/Facility/mainBuilding
-		{
-			intact = True
-		}
-		SpaceCenter/ResearchAndDevelopment/Facility/ForeverAlone
-		{
-			intact = True
-		}
-		SpaceCenter/SpaceplaneHangar/Facility/Building
-		{
-			intact = True
-		}
-		SpaceCenter/TrackingStation/Facility/building
-		{
-			intact = True
-		}
-		SpaceCenter/TrackingStation/Facility/OuterDish
-		{
-			intact = True
-		}
-		SpaceCenter/VehicleAssemblyBuilding/Facility/VAB2
-		{
-			intact = True
-		}
 		SpaceCenter/VehicleAssemblyBuilding/Facility/ksp_pad_cylTank
 		{
 			intact = True
@@ -388,6 +378,10 @@ GAME
 		{
 			intact = True
 		}
+		SpaceCenter/FlagPole/Facility
+		{
+			intact = True
+		}
 		SpaceCenter/AstronautComplex/Facility/building
 		{
 			intact = True
@@ -396,12 +390,24 @@ GAME
 		{
 			intact = True
 		}
+		SpaceCenter/TrackingStation/Facility/building
+		{
+			intact = True
+		}
+		SpaceCenter/TrackingStation/Facility/OuterDish
+		{
+			intact = True
+		}
+		SpaceCenter/LaunchPad/Facility/Flag
+		{
+			intact = True
+		}
 	}
 	SCENARIO
 	{
 		name = ScenarioDiscoverableObjects
 		scene = 7, 8, 5
-		lastSeed = 559298752
+		lastSeed = 160514899
 		sizeCurve
 		{
 			key = 0 0 1.5 1.5
@@ -413,9 +419,9 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.2.2
-		UT = 116.17999999999402
-		activeVessel = 0
-		mapViewFiltering = -1026
+		UT = 336.36119628908
+		activeVessel = 9
+		mapViewFiltering = 7166
 		commNetUIModeTracking = Network
 		commNetUIModeFlight = Path
 		VESSEL
@@ -425,7 +431,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt = 
+			landedAt =
 			splashed = False
 			met = 0.02
 			lct = 0.02
@@ -483,8 +489,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag = 
-				rTrf = 
+				flag =
+				rTrf =
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -518,7 +524,7 @@ GAME
 			type = Ship
 			sit = ORBITING
 			landed = False
-			landedAt = 
+			landedAt =
 			splashed = False
 			met = 158.18278320312839
 			lct = 13.599999999999799
@@ -535,8 +541,8 @@ GAME
 			prst = False
 			ref = 3223546214
 			ctrl = True
-			cPch = 
-			cHdg = 
+			cPch = 0.19957
+			cHdg = 2.205815
 			cMod = 0
 			ORBIT
 			{
@@ -1164,7 +1170,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt = 
+			landedAt =
 			splashed = False
 			met = 38.662597656249282
 			lct = 38.662597656249282
@@ -1222,8 +1228,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag = 
-				rTrf = 
+				flag =
+				rTrf =
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -1257,7 +1263,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt = 
+			landedAt =
 			splashed = False
 			met = 54.743574218750432
 			lct = 54.743574218750432
@@ -1315,8 +1321,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag = 
-				rTrf = 
+				flag =
+				rTrf =
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -1350,7 +1356,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt = 
+			landedAt =
 			splashed = False
 			met = 99.75574707030917
 			lct = 99.75574707030917
@@ -1408,8 +1414,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag = 
-				rTrf = 
+				flag =
+				rTrf =
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -1443,7 +1449,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt = 
+			landedAt =
 			splashed = False
 			met = 107.35574707030901
 			lct = 107.35574707030901
@@ -1501,8 +1507,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag = 
-				rTrf = 
+				flag =
+				rTrf =
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -1536,7 +1542,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt = 
+			landedAt =
 			splashed = False
 			met = 114.95574707030885
 			lct = 114.95574707030885
@@ -1594,8 +1600,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag = 
-				rTrf = 
+				flag =
+				rTrf =
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -1629,7 +1635,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt = 
+			landedAt =
 			splashed = False
 			met = 141.59574707031069
 			lct = 141.59574707031069
@@ -1687,8 +1693,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag = 
-				rTrf = 
+				flag =
+				rTrf =
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -1722,7 +1728,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt = 
+			landedAt =
 			splashed = False
 			met = 0
 			lct = 0
@@ -1780,8 +1786,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag = 
-				rTrf = 
+				flag =
+				rTrf =
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -1815,7 +1821,7 @@ GAME
 			type = Ship
 			sit = ORBITING
 			landed = False
-			landedAt = 
+			landedAt =
 			splashed = False
 			met = 87.799999999996828
 			lct = 15.539999999999758
@@ -1832,8 +1838,8 @@ GAME
 			prst = False
 			ref = 2249958345
 			ctrl = True
-			cPch = 
-			cHdg = 
+			cPch =
+			cHdg =
 			cMod = 0
 			ORBIT
 			{
@@ -2478,7 +2484,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt = 
+			landedAt =
 			splashed = False
 			met = 40.500000000000732
 			lct = 40.500000000000732
@@ -2536,8 +2542,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag = 
-				rTrf = 
+				flag =
+				rTrf =
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -2571,7 +2577,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt = 
+			landedAt =
 			splashed = False
 			met = 55.52000000000308
 			lct = 55.52000000000308
@@ -2629,8 +2635,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag = 
-				rTrf = 
+				flag =
+				rTrf =
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -2664,7 +2670,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt = 
+			landedAt =
 			splashed = False
 			met = 138.98734863281237
 			lct = 138.98734863281237
@@ -2722,8 +2728,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag = 
-				rTrf = 
+				flag =
+				rTrf =
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -2757,7 +2763,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt = 
+			landedAt =
 			splashed = False
 			met = 150.6673486328142
 			lct = 150.6673486328142
@@ -2815,8 +2821,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag = 
-				rTrf = 
+				flag =
+				rTrf =
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -2850,7 +2856,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt = 
+			landedAt =
 			splashed = False
 			met = 316.93193115234629
 			lct = 316.93193115234629
@@ -2908,8 +2914,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag = 
-				rTrf = 
+				flag =
+				rTrf =
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -2943,7 +2949,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt = 
+			landedAt =
 			splashed = False
 			met = 331.17558349609629
 			lct = 331.17558349609629
@@ -3001,8 +3007,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag = 
-				rTrf = 
+				flag =
+				rTrf =
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -3036,7 +3042,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt = 
+			landedAt =
 			splashed = False
 			met = 2.6400000000000019
 			lct = 2.6400000000000019
@@ -3094,8 +3100,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag = 
-				rTrf = 
+				flag =
+				rTrf =
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -3122,9 +3128,1409 @@ GAME
 				}
 			}
 		}
+		VESSEL
+		{
+			pid = 91eb41ad1c0b4d209231d57e3db1fc4c
+			name = Untitled Space Craft
+			type = Plane
+			sit = PRELAUNCH
+			landed = True
+			landedAt = LaunchPad
+			splashed = False
+			met = 0
+			lct = 120.67999999999313
+			lastUT = 120.67999999999313
+			root = 0
+			lat = -0.097207768005365985
+			lon = -74.557680931386187
+			alt = 78.973697278415784
+			hgt = 6.43803787
+			nrm = 0.000589460135,0.999999821,-8.3565712E-05
+			rot = -0.700959861,-0.0923312083,-0.0972613916,0.700478792
+			CoM = 9.29832458E-06,-1.25027037,0.0128365755
+			stg = 1
+			prst = False
+			ref = 1889657593
+			ctrl = True
+			cPch = 0.2
+			cHdg = 0.3
+			cMod = 0
+			ORBIT
+			{
+				SMA = 300821.23968403396
+				ECC = 0.99479838609935456
+				INC = 0.097206552872571572
+				LPE = 90.000000000000014
+				LAN = 107.458372923669
+				MNA = 3.1415926535897887
+				EPH = 120.67999999999313
+				REF = 1
+			}
+			PART
+			{
+				name = mk3FuselageLF.50
+				cid = 4294622570
+				uid = 2830822272
+				mid = 1081798322
+				launchID = 1
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = -1
+				resPri = 0
+				dstg = 0
+				sqor = -1
+				sepI = -1
+				sidx = -1
+				attm = 0
+				srfN = srfAttach, -1
+				attN = top, 5
+				attN = bottom, -1
+				mass = 3.56999993
+				shielded = False
+				temp = 311.3693172790409
+				tempExt = 311.52751090961453
+				tempExtUnexp = 311.51016819970795
+				expt = 0.5
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = Squad/Flags/minimalistic
+				rTrf = mk3FuselageLF.50
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				RESOURCE
+				{
+					name = LiquidFuel
+					amount = 5000
+					maxAmount = 5000
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = turboFanSize2
+				cid = 4294613048
+				uid = 1993752422
+				mid = 1081798322
+				launchID = 1
+				parent = 0
+				position = -2.1375219821929932,-4.4643621444702148,-2.1375195980072021
+				rotation = -0.923879325,-6.48376286E-08,0.382684082,-1.56531556E-07
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = -1
+				sidx = 0
+				attm = 1
+				sym = 2
+				sym = 3
+				sym = 4
+				srfN = srfAttach, 0
+				attN = top, -1
+				mass = 4.5
+				shielded = False
+				temp = 311.3700890797993
+				tempExt = 311.66411897485011
+				tempExtUnexp = 311.66945087291913
+				expt = 0.5
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = Squad/Flags/minimalistic
+				rTrf = turboFanSize2
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleResourceIntake
+					isEnabled = True
+					intakeEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleEnginesFX
+					isEnabled = True
+					staged = False
+					flameout = False
+					EngineIgnited = False
+					engineShutdown = False
+					currentThrottle = 0
+					thrustPercentage = 100
+					manuallyOverridden = False
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+						OnAction
+						{
+							actionGroup = None
+						}
+						ShutdownAction
+						{
+							actionGroup = None
+						}
+						ActivateAction
+						{
+							actionGroup = None
+						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleAnimateHeat
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleAnimateGeneric
+					isEnabled = True
+					aniState = LOCKED
+					animSwitch = False
+					animTime = 1
+					animSpeed = 10
+					deployPercent = 100
+					animationIsDisabled = False
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = FXModuleAnimateThrottle
+					isEnabled = True
+					animState = 0
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleJettison
+					isEnabled = True
+					isJettisoned = True
+					shroudHideOverride = False
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+						JettisonAction
+						{
+							actionGroup = None
+						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = FlagDecal
+					isEnabled = True
+					flagDisplayed = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleAlternator
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleTestSubject
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleSurfaceFX
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				RESOURCE
+				{
+					name = IntakeAir
+					amount = 3.3999999999999999
+					maxAmount = 3.3999999999999999
+					flowState = True
+					isTweakable = False
+					hideFlow = False
+					isVisible = False
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = turboFanSize2
+				cid = 4294612776
+				uid = 2282115265
+				mid = 1081798322
+				launchID = 1
+				parent = 0
+				position = -2.1375195980072021,-4.4643621444702148,2.1375217437744141
+				rotation = -0.38268283,-1.56531655E-07,0.923879802,-6.48373941E-08
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = -1
+				sidx = 0
+				attm = 1
+				sym = 1
+				sym = 3
+				sym = 4
+				srfN = srfAttach, 0
+				attN = top, -1
+				mass = 4.5
+				shielded = False
+				temp = 311.36958993720862
+				tempExt = 311.48042238773417
+				tempExtUnexp = 311.48131848674683
+				expt = 0.5
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = Squad/Flags/minimalistic
+				rTrf = turboFanSize2
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleResourceIntake
+					isEnabled = True
+					intakeEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleEnginesFX
+					isEnabled = True
+					staged = False
+					flameout = False
+					EngineIgnited = False
+					engineShutdown = False
+					currentThrottle = 0
+					thrustPercentage = 100
+					manuallyOverridden = False
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+						OnAction
+						{
+							actionGroup = None
+						}
+						ShutdownAction
+						{
+							actionGroup = None
+						}
+						ActivateAction
+						{
+							actionGroup = None
+						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleAnimateHeat
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleAnimateGeneric
+					isEnabled = True
+					aniState = LOCKED
+					animSwitch = False
+					animTime = 1
+					animSpeed = 10
+					deployPercent = 100
+					animationIsDisabled = False
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = FXModuleAnimateThrottle
+					isEnabled = True
+					animState = 0
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleJettison
+					isEnabled = True
+					isJettisoned = True
+					shroudHideOverride = False
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+						JettisonAction
+						{
+							actionGroup = None
+						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = FlagDecal
+					isEnabled = True
+					flagDisplayed = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleAlternator
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleTestSubject
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleSurfaceFX
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				RESOURCE
+				{
+					name = IntakeAir
+					amount = 3.3999999999999999
+					maxAmount = 3.3999999999999999
+					flowState = True
+					isTweakable = False
+					hideFlow = False
+					isVisible = False
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = turboFanSize2
+				cid = 4294612626
+				uid = 1579284561
+				mid = 1081798322
+				launchID = 1
+				parent = 0
+				position = 2.1375222206115723,-4.4643621444702148,2.137519359588623
+				rotation = 0.382684112,-1.56531556E-07,0.923879325,6.48376357E-08
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = -1
+				sidx = 0
+				attm = 1
+				sym = 1
+				sym = 2
+				sym = 4
+				srfN = srfAttach, 0
+				attN = top, -1
+				mass = 4.5
+				shielded = False
+				temp = 311.36567518380639
+				tempExt = 310.04159086985663
+				tempExtUnexp = 310.00736946624573
+				expt = 0.5
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = Squad/Flags/minimalistic
+				rTrf = turboFanSize2
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleResourceIntake
+					isEnabled = True
+					intakeEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleEnginesFX
+					isEnabled = True
+					staged = False
+					flameout = False
+					EngineIgnited = False
+					engineShutdown = False
+					currentThrottle = 0
+					thrustPercentage = 100
+					manuallyOverridden = False
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+						OnAction
+						{
+							actionGroup = None
+						}
+						ShutdownAction
+						{
+							actionGroup = None
+						}
+						ActivateAction
+						{
+							actionGroup = None
+						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleAnimateHeat
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleAnimateGeneric
+					isEnabled = True
+					aniState = LOCKED
+					animSwitch = False
+					animTime = 1
+					animSpeed = 10
+					deployPercent = 100
+					animationIsDisabled = False
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = FXModuleAnimateThrottle
+					isEnabled = True
+					animState = 0
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleJettison
+					isEnabled = True
+					isJettisoned = True
+					shroudHideOverride = False
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+						JettisonAction
+						{
+							actionGroup = None
+						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = FlagDecal
+					isEnabled = True
+					flagDisplayed = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleAlternator
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleTestSubject
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleSurfaceFX
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				RESOURCE
+				{
+					name = IntakeAir
+					amount = 3.3999999999999999
+					maxAmount = 3.3999999999999999
+					flowState = True
+					isTweakable = False
+					hideFlow = False
+					isVisible = False
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = turboFanSize2
+				cid = 4294612476
+				uid = 4206857482
+				mid = 1081798322
+				launchID = 1
+				parent = 0
+				position = 2.137519359588623,-4.4643621444702148,-2.1375219821929932
+				rotation = 0.923879802,-6.48373941E-08,0.38268283,1.56531655E-07
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = -1
+				sidx = 0
+				attm = 1
+				sym = 1
+				sym = 2
+				sym = 3
+				srfN = srfAttach, 0
+				attN = top, -1
+				mass = 4.5
+				shielded = False
+				temp = 311.36567520151294
+				tempExt = 310.04159284800767
+				tempExtUnexp = 310.00737150246897
+				expt = 0.5
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = Squad/Flags/minimalistic
+				rTrf = turboFanSize2
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleResourceIntake
+					isEnabled = True
+					intakeEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleEnginesFX
+					isEnabled = True
+					staged = False
+					flameout = False
+					EngineIgnited = False
+					engineShutdown = False
+					currentThrottle = 0
+					thrustPercentage = 100
+					manuallyOverridden = False
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+						OnAction
+						{
+							actionGroup = None
+						}
+						ShutdownAction
+						{
+							actionGroup = None
+						}
+						ActivateAction
+						{
+							actionGroup = None
+						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleAnimateHeat
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleAnimateGeneric
+					isEnabled = True
+					aniState = LOCKED
+					animSwitch = False
+					animTime = 1
+					animSpeed = 10
+					deployPercent = 100
+					animationIsDisabled = False
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = FXModuleAnimateThrottle
+					isEnabled = True
+					animState = 0
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleJettison
+					isEnabled = True
+					isJettisoned = True
+					shroudHideOverride = False
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+						JettisonAction
+						{
+							actionGroup = None
+						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = FlagDecal
+					isEnabled = True
+					flagDisplayed = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleAlternator
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleTestSubject
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleSurfaceFX
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				RESOURCE
+				{
+					name = IntakeAir
+					amount = 3.3999999999999999
+					maxAmount = 3.3999999999999999
+					flowState = True
+					isTweakable = False
+					hideFlow = False
+					isVisible = False
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = mk3Cockpit.Shuttle
+				cid = 4294599246
+				uid = 1889657593
+				mid = 1081798322
+				launchID = 1
+				parent = 0
+				position = 0,3.75,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = -1
+				resPri = 0
+				dstg = 0
+				sqor = -1
+				sepI = -1
+				sidx = -1
+				attm = 0
+				srfN = , -1
+				attN = bottom, 0
+				attN = top, -1
+				mass = 3.5
+				shielded = False
+				temp = 311.3731548036501
+				tempExt = 314.65808388228726
+				tempExtUnexp = 314.71963290115167
+				expt = 0.5
+				state = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = Squad/Flags/minimalistic
+				rTrf = mk3Cockpit.Shuttle
+				modCost = 0
+				crew = Valentina Kerman
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleCommand
+					isEnabled = True
+					hibernation = False
+					hibernateOnWarp = False
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+						HibernateToggle
+						{
+							actionGroup = None
+							active = False
+						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleReactionWheel
+					isEnabled = True
+					actuatorModeCycle = 0
+					authorityLimiter = 100
+					stateString = Idle
+					stagingEnabled = True
+					WheelState = Active
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+						CycleAction
+						{
+							actionGroup = None
+						}
+						Activate
+						{
+							actionGroup = None
+						}
+						Deactivate
+						{
+							actionGroup = None
+						}
+						Toggle
+						{
+							actionGroup = None
+						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleScienceExperiment
+					isEnabled = True
+					Deployed = False
+					Inoperable = False
+					cooldownToGo = 0
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+						DeployAction
+						{
+							actionGroup = None
+						}
+						ResetAction
+						{
+							actionGroup = None
+						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleScienceContainer
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+						CollectAllAction
+						{
+							actionGroup = None
+						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = FlagDecal
+					isEnabled = True
+					flagDisplayed = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleAnimateGeneric
+					isEnabled = True
+					aniState = LOCKED
+					animSwitch = True
+					animTime = 0
+					animSpeed = 1
+					deployPercent = 100
+					animationIsDisabled = False
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = Light
+						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleDataTransmitter
+					isEnabled = True
+					xmitIncomplete = False
+					stagingEnabled = True
+					canComm = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+						StartTransmissionAction
+						{
+							actionGroup = None
+							active = False
+						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleTripLogger
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+					Log
+					{
+						flight = 0
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				RESOURCE
+				{
+					name = ElectricCharge
+					amount = 500
+					maxAmount = 500
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+				RESOURCE
+				{
+					name = MonoPropellant
+					amount = 100
+					maxAmount = 100
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 0
+				Gear = False, 0
+				Light = False, 0
+				RCS = False, 0
+				SAS = False, 0
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+			DISCOVERY
+			{
+				state = -1
+				lastObservedTime = 0
+				lifetime = Infinity
+				refTime = Infinity
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+				pitch = 0
+				yaw = 0
+				roll = 0
+				trimPitch = 0
+				trimYaw = 0
+				trimRoll = 0
+				mainThrottle = 0
+			}
+			VESSELMODULES
+			{
+				FlightIntegrator
+				{
+				}
+				CommNetVessel
+				{
+					controlState = KerbalFull
+					canComm = True
+				}
+			}
+		}
 	}
 	LoaderInfo
 	{
+		.DS_Store = True
 	}
 	ROSTER
 	{
@@ -3154,6 +4560,11 @@ GAME
 			FLIGHT_LOG
 			{
 				flight = 0
+				0 = Flight,Kerbin
+				0 = Land,Kerbin
+				0 = Suborbit,Kerbin
+				0 = Orbit,Kerbin
+				0 = Escape,Kerbin
 			}
 		}
 		KERBAL
@@ -3182,6 +4593,7 @@ GAME
 			FLIGHT_LOG
 			{
 				flight = 0
+				0 = Escape,Kerbin
 			}
 		}
 		KERBAL
@@ -3210,6 +4622,7 @@ GAME
 			FLIGHT_LOG
 			{
 				flight = 0
+				0 = Escape,Kerbin
 			}
 		}
 		KERBAL
@@ -3223,7 +4636,7 @@ GAME
 			badS = True
 			veteran = True
 			tour = False
-			state = Available
+			state = Assigned
 			inactive = False
 			inactiveTimeEnd = 0
 			gExperienced = 0
