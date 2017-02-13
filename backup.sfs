@@ -10,21 +10,12 @@ GAME
 	Seed = 1603325981
 	scene = 5
 	editor = None
-<<<<<<< HEAD
 	flag = Squad/Flags/default
 	launchID = 2
 	modded = True
 	envInfo =  - Environment Info - Unix 7FFFFFFFFFFFFFFF  Args: KSP  - 
 	versionFull = 1.2.2.1622 (OSXPlayer)
 	versionCreated = 1.2.2.1622 (OSXPlayer)
-=======
-	flag = Squad/Flags/minimalistic
-	launchID = 3
-	modded = False
-	envInfo =  - Environment Info - Win32NT 7FFFFFFFFFFFFFFF  Args: KSP_x64.exe  - 
-	versionFull = 1.2.2.1622 (WindowsPlayer x64)
-	versionCreated = 1.2.2.1622 (WindowsPlayer x64)
->>>>>>> 4a37393d86c3a33d871af2a874d570b6acad7f1d
 	PARAMETERS
 	{
 		preset = Normal
@@ -161,17 +152,6 @@ GAME
 	}
 	SCENARIO
 	{
-<<<<<<< HEAD
-		name = ScenarioNewGameIntro
-		scene = 5, 6, 8
-		kscComplete = True
-		editorComplete = True
-		tsComplete = True
-	}
-	SCENARIO
-	{
-=======
->>>>>>> 4a37393d86c3a33d871af2a874d570b6acad7f1d
 		name = ProgressTracking
 		scene = 7, 8, 5
 		Progress
@@ -431,15 +411,9 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.2.2
-<<<<<<< HEAD
-		UT = 336.36119628908
+		UT = 1170.9047119133231
 		activeVessel = 9
 		mapViewFiltering = 7166
-=======
-		UT = 160.08000000000808
-		activeVessel = 18
-		mapViewFiltering = -1026
->>>>>>> 4a37393d86c3a33d871af2a874d570b6acad7f1d
 		commNetUIModeTracking = Network
 		commNetUIModeFlight = Path
 		VESSEL
@@ -449,7 +423,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt =
+			landedAt = 
 			splashed = False
 			met = 0.02
 			lct = 0.02
@@ -507,8 +481,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag =
-				rTrf =
+				flag = 
+				rTrf = 
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -542,7 +516,7 @@ GAME
 			type = Ship
 			sit = ORBITING
 			landed = False
-			landedAt =
+			landedAt = 
 			splashed = False
 			met = 158.18278320312839
 			lct = 13.599999999999799
@@ -559,8 +533,8 @@ GAME
 			prst = False
 			ref = 3223546214
 			ctrl = True
-			cPch = 0.19957
-			cHdg = 2.205815
+			cPch = 
+			cHdg = 
 			cMod = 0
 			ORBIT
 			{
@@ -1188,7 +1162,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt =
+			landedAt = 
 			splashed = False
 			met = 38.662597656249282
 			lct = 38.662597656249282
@@ -1246,8 +1220,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag =
-				rTrf =
+				flag = 
+				rTrf = 
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -1281,7 +1255,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt =
+			landedAt = 
 			splashed = False
 			met = 54.743574218750432
 			lct = 54.743574218750432
@@ -1339,8 +1313,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag =
-				rTrf =
+				flag = 
+				rTrf = 
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -1374,7 +1348,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt =
+			landedAt = 
 			splashed = False
 			met = 99.75574707030917
 			lct = 99.75574707030917
@@ -1432,8 +1406,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag =
-				rTrf =
+				flag = 
+				rTrf = 
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -1467,7 +1441,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt =
+			landedAt = 
 			splashed = False
 			met = 107.35574707030901
 			lct = 107.35574707030901
@@ -1525,8 +1499,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag =
-				rTrf =
+				flag = 
+				rTrf = 
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -1560,7 +1534,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt =
+			landedAt = 
 			splashed = False
 			met = 114.95574707030885
 			lct = 114.95574707030885
@@ -1618,8 +1592,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag =
-				rTrf =
+				flag = 
+				rTrf = 
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -1653,7 +1627,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt =
+			landedAt = 
 			splashed = False
 			met = 141.59574707031069
 			lct = 141.59574707031069
@@ -1711,8 +1685,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag =
-				rTrf =
+				flag = 
+				rTrf = 
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -1746,7 +1720,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt =
+			landedAt = 
 			splashed = False
 			met = 0
 			lct = 0
@@ -1804,8 +1778,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag =
-				rTrf =
+				flag = 
+				rTrf = 
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -1837,37 +1811,37 @@ GAME
 			pid = e2ff139060074e17b550e130d8318da9
 			name = CASHMONEY
 			type = Ship
-			sit = ORBITING
+			sit = ESCAPING
 			landed = False
-			landedAt =
+			landedAt = 
 			splashed = False
-			met = 87.799999999996828
+			met = 1155.3647119133234
 			lct = 15.539999999999758
-			lastUT = 103.33999999999658
+			lastUT = 1170.9047119133231
 			root = 0
-			lat = -0.83755783896056435
-			lon = -57.222483766772775
-			alt = 315540.24975679617
+			lat = -0.063336333947369955
+			lon = 62.032581653648897
+			alt = 589472.89513859805
 			hgt = -1
-			nrm = 0.789020061,-0.614283204,0.0101925135
-			rot = 0.472040802,-0.531538963,-0.512021482,-0.482159644
-			CoM = 9.53674316E-07,-3.00950789,1.07288361E-06
+			nrm = -0.0459621549,-0.378090084,-0.924627185
+			rot = -0.642060995,-0.638180375,0.315957785,0.283996999
+			CoM = 1.68383121E-06,-3.00950789,1.0356307E-06
 			stg = 0
 			prst = False
-			ref = 2249958345
+			ref = 0
 			ctrl = True
-			cPch =
-			cHdg =
+			cPch = 0.2
+			cHdg = -0.300458
 			cMod = 0
 			ORBIT
 			{
-				SMA = 1149912.6657282463
-				ECC = 0.22309386425321912
-				INC = 1.3075881227368231
-				LPE = 249.69330488800367
-				LAN = 174.67687543758291
-				MNA = -0.32805445595102783
-				EPH = 103.33999999999658
+				SMA = -409938.92034183
+				ECC = 3.6338813250778612
+				INC = 1.3961746105765436
+				LPE = 329.32676610057189
+				LAN = 174.1930036020276
+				MNA = 1.038786479422356
+				EPH = 1170.9047119133231
 				REF = 1
 			}
 			PART
@@ -1894,8 +1868,8 @@ GAME
 				attN = top, -1
 				mass = 4
 				shielded = False
-				temp = 516.84115312907124
-				tempExt = 517.13955999807536
+				temp = 165.71146134971977
+				tempExt = 180.11501589835026
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -2140,6 +2114,7 @@ GAME
 						0 = Land,Kerbin
 						0 = Suborbit,Kerbin
 						0 = Orbit,Kerbin
+						0 = Escape,Kerbin
 					}
 					UPGRADESAPPLIED
 					{
@@ -2148,7 +2123,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 149.93277210439123
+					amount = 150
 					maxAmount = 150
 					flowState = True
 					isTweakable = True
@@ -2192,8 +2167,8 @@ GAME
 				attN = bottom, 2
 				mass = 2
 				shielded = False
-				temp = 526.20278793478644
-				tempExt = 521.95740845358978
+				temp = 185.62171651359725
+				tempExt = 190.08089840582809
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -2259,8 +2234,8 @@ GAME
 				attN = bottom, -1
 				mass = 6
 				shielded = False
-				temp = 549.51537647831105
-				tempExt = 536.69205798566827
+				temp = 228.36558978041643
+				tempExt = 218.38332587030192
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -2384,7 +2359,7 @@ GAME
 				{
 					name = FXModuleAnimateThrottle
 					isEnabled = True
-					animState = 0.143796012
+					animState = 0.247241452
 					stagingEnabled = True
 					EVENTS
 					{
@@ -2475,9 +2450,9 @@ GAME
 			}
 			CTRLSTATE
 			{
-				pitch = -2.25437111E-06
-				yaw = 2.42365277E-05
-				roll = 7.3948986E-06
+				pitch = 0.0293674264
+				yaw = 0.0307654552
+				roll = -0.0016514262
 				trimPitch = 0
 				trimYaw = 0
 				trimRoll = 0
@@ -2502,7 +2477,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt =
+			landedAt = 
 			splashed = False
 			met = 40.500000000000732
 			lct = 40.500000000000732
@@ -2560,8 +2535,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag =
-				rTrf =
+				flag = 
+				rTrf = 
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -2595,7 +2570,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt =
+			landedAt = 
 			splashed = False
 			met = 55.52000000000308
 			lct = 55.52000000000308
@@ -2653,8 +2628,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag =
-				rTrf =
+				flag = 
+				rTrf = 
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -2688,7 +2663,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt =
+			landedAt = 
 			splashed = False
 			met = 138.98734863281237
 			lct = 138.98734863281237
@@ -2746,8 +2721,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag =
-				rTrf =
+				flag = 
+				rTrf = 
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -2781,7 +2756,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt =
+			landedAt = 
 			splashed = False
 			met = 150.6673486328142
 			lct = 150.6673486328142
@@ -2839,8 +2814,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag =
-				rTrf =
+				flag = 
+				rTrf = 
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -2874,7 +2849,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt =
+			landedAt = 
 			splashed = False
 			met = 316.93193115234629
 			lct = 316.93193115234629
@@ -2932,8 +2907,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag =
-				rTrf =
+				flag = 
+				rTrf = 
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -2967,7 +2942,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt =
+			landedAt = 
 			splashed = False
 			met = 331.17558349609629
 			lct = 331.17558349609629
@@ -3025,8 +3000,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag =
-				rTrf =
+				flag = 
+				rTrf = 
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -3060,7 +3035,7 @@ GAME
 			type = SpaceObject
 			sit = ORBITING
 			landed = False
-			landedAt =
+			landedAt = 
 			splashed = False
 			met = 2.6400000000000019
 			lct = 2.6400000000000019
@@ -3118,8 +3093,8 @@ GAME
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
-				flag =
-				rTrf =
+				flag = 
+				rTrf = 
 				modCost = 0
 			}
 			ACTIONGROUPS
@@ -3156,13 +3131,8 @@ GAME
 			landedAt = LaunchPad
 			splashed = False
 			met = 0
-<<<<<<< HEAD
 			lct = 120.67999999999313
 			lastUT = 120.67999999999313
-=======
-			lct = 160.08000000000808
-			lastUT = 160.08000000000808
->>>>>>> 4a37393d86c3a33d871af2a874d570b6acad7f1d
 			root = 0
 			lat = -0.097207768005365985
 			lon = -74.557680931386187
@@ -3170,42 +3140,23 @@ GAME
 			hgt = 6.43803787
 			nrm = 0.000589460135,0.999999821,-8.3565712E-05
 			rot = -0.700959861,-0.0923312083,-0.0972613916,0.700478792
-<<<<<<< HEAD
 			CoM = 9.29832458E-06,-1.25027037,0.0128365755
-=======
-			CoM = 4.67300415E-05,-1.25028813,0.0128511786
->>>>>>> 4a37393d86c3a33d871af2a874d570b6acad7f1d
 			stg = 1
 			prst = False
 			ref = 1889657593
 			ctrl = True
-<<<<<<< HEAD
-			cPch = 0.2
-			cHdg = 0.3
+			cPch = 
+			cHdg = 
 			cMod = 0
 			ORBIT
 			{
-				SMA = 300821.23968403396
-				ECC = 0.99479838609935456
-				INC = 0.097206552872571572
-				LPE = 90.000000000000014
-				LAN = 107.458372923669
-				MNA = 3.1415926535897887
-				EPH = 120.67999999999313
-=======
-			cPch = 0
-			cHdg = 0
-			cMod = 0
-			ORBIT
-			{
-				SMA = 300821.23969398334
-				ECC = 0.9947983860988423
-				INC = 0.097206552790085068
+				SMA = 0
+				ECC = 1
+				INC = 0.097206552850075262
 				LPE = 90
-				LAN = 108.11658073406863
-				MNA = 3.1415926535897887
-				EPH = 160.08000000000808
->>>>>>> 4a37393d86c3a33d871af2a874d570b6acad7f1d
+				LAN = 303.70476593364458
+				MNA = 0
+				EPH = 1093.1811962883917
 				REF = 1
 			}
 			PART
@@ -3232,26 +3183,16 @@ GAME
 				attN = bottom, -1
 				mass = 3.56999993
 				shielded = False
-<<<<<<< HEAD
 				temp = 311.3693172790409
 				tempExt = 311.52751090961453
 				tempExtUnexp = 311.51016819970795
-=======
-				temp = 311.37504936527478
-				tempExt = 311.50871485018769
-				tempExtUnexp = 311.508900182329
->>>>>>> 4a37393d86c3a33d871af2a874d570b6acad7f1d
 				expt = 0.5
 				state = 0
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
 				flag = Squad/Flags/minimalistic
-<<<<<<< HEAD
 				rTrf = mk3FuselageLF.50
-=======
-				rTrf = mk3FuselageLF.50 (Untitled Space Craft)
->>>>>>> 4a37393d86c3a33d871af2a874d570b6acad7f1d
 				modCost = 0
 				EVENTS
 				{
@@ -3300,15 +3241,9 @@ GAME
 				attN = top, -1
 				mass = 4.5
 				shielded = False
-<<<<<<< HEAD
 				temp = 311.3700890797993
 				tempExt = 311.66411897485011
 				tempExtUnexp = 311.66945087291913
-=======
-				temp = 311.39029449177491
-				tempExt = 311.49084943398469
-				tempExtUnexp = 311.49078922539303
->>>>>>> 4a37393d86c3a33d871af2a874d570b6acad7f1d
 				expt = 0.5
 				state = 0
 				attached = True
@@ -3556,15 +3491,9 @@ GAME
 				attN = top, -1
 				mass = 4.5
 				shielded = False
-<<<<<<< HEAD
 				temp = 311.36958993720862
 				tempExt = 311.48042238773417
 				tempExtUnexp = 311.48131848674683
-=======
-				temp = 311.38315529862217
-				tempExt = 311.46198542742451
-				tempExtUnexp = 311.46193690323275
->>>>>>> 4a37393d86c3a33d871af2a874d570b6acad7f1d
 				expt = 0.5
 				state = 0
 				attached = True
@@ -3812,15 +3741,9 @@ GAME
 				attN = top, -1
 				mass = 4.5
 				shielded = False
-<<<<<<< HEAD
 				temp = 311.36567518380639
 				tempExt = 310.04159086985663
 				tempExtUnexp = 310.00736946624573
-=======
-				temp = 311.33223180409323
-				tempExt = 311.26364329520561
-				tempExtUnexp = 311.2636640357814
->>>>>>> 4a37393d86c3a33d871af2a874d570b6acad7f1d
 				expt = 0.5
 				state = 0
 				attached = True
@@ -4068,15 +3991,9 @@ GAME
 				attN = top, -1
 				mass = 4.5
 				shielded = False
-<<<<<<< HEAD
 				temp = 311.36567520151294
 				tempExt = 310.04159284800767
 				tempExtUnexp = 310.00737150246897
-=======
-				temp = 311.33223158431025
-				tempExt = 311.26364277546338
-				tempExtUnexp = 311.26366351616912
->>>>>>> 4a37393d86c3a33d871af2a874d570b6acad7f1d
 				expt = 0.5
 				state = 0
 				attached = True
@@ -4322,15 +4239,9 @@ GAME
 				attN = top, -1
 				mass = 3.5
 				shielded = False
-<<<<<<< HEAD
 				temp = 311.3731548036501
 				tempExt = 314.65808388228726
 				tempExtUnexp = 314.71963290115167
-=======
-				temp = 311.42316438029849
-				tempExt = 311.9219370498306
-				tempExtUnexp = 311.92205355648326
->>>>>>> 4a37393d86c3a33d871af2a874d570b6acad7f1d
 				expt = 0.5
 				state = 0
 				attached = True
@@ -4609,12 +4520,6 @@ GAME
 				}
 			}
 		}
-<<<<<<< HEAD
-	}
-	LoaderInfo
-	{
-		.DS_Store = True
-=======
 		VESSEL
 		{
 			pid = 6675f95439904b7381c062f8763368fb
@@ -4639,18 +4544,18 @@ GAME
 			prst = False
 			ref = 3117924698
 			ctrl = True
-			cPch = 0.258
-			cHdg = 1.540001
+			cPch = 
+			cHdg = 
 			cMod = 0
 			ORBIT
 			{
-				SMA = 300818.26604050549
-				ECC = 0.99479520453009784
-				INC = 0.04850545214876277
-				LPE = 89.862102403680893
-				LAN = 108.08769842003892
-				MNA = -3.1415921705324417
-				EPH = 160.08000000000808
+				SMA = NaN
+				ECC = 1
+				INC = 0.048505311631251755
+				LPE = 90
+				LAN = 303.53798668097818
+				MNA = 0
+				EPH = 1093.1811962883917
 				REF = 1
 			}
 			PART
@@ -6878,7 +6783,7 @@ GAME
 	}
 	LoaderInfo
 	{
->>>>>>> 4a37393d86c3a33d871af2a874d570b6acad7f1d
+		.DS_Store = True
 	}
 	ROSTER
 	{
@@ -6908,14 +6813,11 @@ GAME
 			FLIGHT_LOG
 			{
 				flight = 0
-<<<<<<< HEAD
 				0 = Flight,Kerbin
 				0 = Land,Kerbin
 				0 = Suborbit,Kerbin
 				0 = Orbit,Kerbin
 				0 = Escape,Kerbin
-=======
->>>>>>> 4a37393d86c3a33d871af2a874d570b6acad7f1d
 			}
 		}
 		KERBAL
@@ -6944,10 +6846,7 @@ GAME
 			FLIGHT_LOG
 			{
 				flight = 0
-<<<<<<< HEAD
 				0 = Escape,Kerbin
-=======
->>>>>>> 4a37393d86c3a33d871af2a874d570b6acad7f1d
 			}
 		}
 		KERBAL
@@ -6976,10 +6875,7 @@ GAME
 			FLIGHT_LOG
 			{
 				flight = 0
-<<<<<<< HEAD
 				0 = Escape,Kerbin
-=======
->>>>>>> 4a37393d86c3a33d871af2a874d570b6acad7f1d
 			}
 		}
 		KERBAL
@@ -6999,233 +6895,6 @@ GAME
 			gExperienced = 0
 			outDueToG = False
 			ToD = 0
-<<<<<<< HEAD
-=======
-			idx = 0
-			extraXP = 0
-			CAREER_LOG
-			{
-				flight = 0
-			}
-			FLIGHT_LOG
-			{
-				flight = 0
-			}
-		}
-		KERBAL
-		{
-			name = Shelford Kerman
-			gender = Male
-			type = Crew
-			trait = Pilot
-			brave = 0.78857249
-			dumb = 0.640021384
-			badS = False
-			veteran = False
-			tour = False
-			state = Assigned
-			inactive = False
-			inactiveTimeEnd = 0
-			gExperienced = 0
-			outDueToG = False
-			ToD = 168486.46370483399
-			idx = 0
-			extraXP = 0
-			CAREER_LOG
-			{
-				flight = 0
-			}
-			FLIGHT_LOG
-			{
-				flight = 0
-			}
-		}
-		KERBAL
-		{
-			name = Samfield Kerman
-			gender = Male
-			type = Crew
-			trait = Pilot
-			brave = 0.754392982
-			dumb = 0.111754335
-			badS = False
-			veteran = False
-			tour = False
-			state = Assigned
-			inactive = False
-			inactiveTimeEnd = 0
-			gExperienced = 0
-			outDueToG = False
-			ToD = 258271.12480712892
-			idx = 1
-			extraXP = 0
-			CAREER_LOG
-			{
-				flight = 0
-			}
-			FLIGHT_LOG
-			{
-				flight = 0
-			}
-		}
-		KERBAL
-		{
-			name = Anicca Kerman
-			gender = Female
-			type = Applicant
-			trait = Engineer
-			brave = 0.11632061
-			dumb = 0.759212613
-			badS = False
-			veteran = False
-			tour = False
-			state = Available
-			inactive = False
-			inactiveTimeEnd = 0
-			gExperienced = 0
-			outDueToG = False
-			ToD = 190492.39479614259
-			idx = -1
-			extraXP = 0
-			CAREER_LOG
-			{
-				flight = 0
-			}
-			FLIGHT_LOG
-			{
-				flight = 0
-			}
-		}
-		KERBAL
-		{
-			name = Gletine Kerman
-			gender = Female
-			type = Applicant
-			trait = Engineer
-			brave = 0.0384777226
-			dumb = 0.920923173
-			badS = False
-			veteran = False
-			tour = False
-			state = Available
-			inactive = False
-			inactiveTimeEnd = 0
-			gExperienced = 0
-			outDueToG = False
-			ToD = 158849.70985961915
-			idx = -1
-			extraXP = 0
-			CAREER_LOG
-			{
-				flight = 0
-			}
-			FLIGHT_LOG
-			{
-				flight = 0
-			}
-		}
-		KERBAL
-		{
-			name = Camsel Kerman
-			gender = Male
-			type = Applicant
-			trait = Pilot
-			brave = 0.887392879
-			dumb = 0.242561996
-			badS = False
-			veteran = False
-			tour = False
-			state = Available
-			inactive = False
-			inactiveTimeEnd = 0
-			gExperienced = 0
-			outDueToG = False
-			ToD = 191983.0472619629
-			idx = -1
-			extraXP = 0
-			CAREER_LOG
-			{
-				flight = 0
-			}
-			FLIGHT_LOG
-			{
-				flight = 0
-			}
-		}
-		KERBAL
-		{
-			name = Gerdi Kerman
-			gender = Female
-			type = Applicant
-			trait = Scientist
-			brave = 0.914997995
-			dumb = 0.40912056
-			badS = False
-			veteran = False
-			tour = False
-			state = Available
-			inactive = False
-			inactiveTimeEnd = 0
-			gExperienced = 0
-			outDueToG = False
-			ToD = 134332.00546813966
-			idx = -1
-			extraXP = 0
-			CAREER_LOG
-			{
-				flight = 0
-			}
-			FLIGHT_LOG
-			{
-				flight = 0
-			}
-		}
-		KERBAL
-		{
-			name = Mibe Kerman
-			gender = Female
-			type = Applicant
-			trait = Engineer
-			brave = 0.393337965
-			dumb = 0.276587963
-			badS = False
-			veteran = False
-			tour = False
-			state = Available
-			inactive = False
-			inactiveTimeEnd = 0
-			gExperienced = 0
-			outDueToG = False
-			ToD = 186350.39803100587
-			idx = -1
-			extraXP = 0
-			CAREER_LOG
-			{
-				flight = 0
-			}
-			FLIGHT_LOG
-			{
-				flight = 0
-			}
-		}
-		KERBAL
-		{
-			name = Jerus Kerman
-			gender = Male
-			type = Applicant
-			trait = Pilot
-			brave = 0.518161356
-			dumb = 0.936710417
-			badS = False
-			veteran = False
-			tour = False
-			state = Available
-			inactive = False
-			inactiveTimeEnd = 0
-			gExperienced = 0
-			outDueToG = False
-			ToD = 179169.9124963379
->>>>>>> 4a37393d86c3a33d871af2a874d570b6acad7f1d
 			idx = -1
 			extraXP = 0
 			CAREER_LOG
