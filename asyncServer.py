@@ -14,6 +14,7 @@ try:
 		saveData.close()
 	except:
 		serverGraph = []
+		kerbalGraph = []
 		shipVers = {}
 
 
