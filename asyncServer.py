@@ -63,10 +63,10 @@ while True:
 	
 	#FLIGHTSTATE
 	for i in range(len(clientGraphReduced)):
-		print i
-		print clientGraphReduced[i]
+		#print i
+		#print clientGraphReduced[i]
 		pid=getPID(clientGraphReduced[i])
-		print pid
+		#print pid
 		serverInd = find_ind(pid,serverGraph)
 		if (serverInd==-1):
 			#print "hi"
@@ -117,6 +117,7 @@ while True:
 	returndata=pickle.dumps(serverGraph)
 	#print returndata
 	connection.sendall(returndata)
+	connection.sendall('abcdefg')
 	print "data sent"
 	
 

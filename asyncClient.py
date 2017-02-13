@@ -31,11 +31,10 @@ s.sendall('abcdefg')
 totalData=""
 while True:
 	data = s.recv(2048)
-	if data:
-		totalData+=data
-	else:
+	totalData+=data
+	if totalData[-7:]=="abcdefg":
 		break
-
+totalData=totalData[:-7]
 
 print 'closing socket'
 s.close()
