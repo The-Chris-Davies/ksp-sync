@@ -52,7 +52,8 @@ while True:
 	
 	clientGraph = fillTree(totalData)
 	clientGraphReduced = getFromTree(clientGraph, ["GAME", "FLIGHTSTATE", "VESSEL"])
-	clientGraphKerbal = getFromTree(clientGraph, ["GAME", "ROSTER", "KERBAL"])
+	#clientGraphKerbal = getFromTree(clientGraph, ["GAME", "ROSTER", "KERBAL"])
+	clientGraphKerbal=[]
 	
 	print "Data graphed"
 	
