@@ -60,7 +60,9 @@ for line in dataStream:
 				upData += vesselStr
 				upData += waste
 				break
-	upData += line
+	else:
+		upData += line
+
 writeFile = open(fn,"w")
 writeFile.write(upData);
 writeFile.close()
