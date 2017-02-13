@@ -41,16 +41,20 @@ s.close()
 shipList = [['kill'],['me']]
 for i in range(len(shipList)):
 	shipList.insert(i*2, "VESSEL")
+
 vesselStr = unTree(shipList, 2)
-print vesselStr
+#print vesselStr
 
 upData = ''
-for i in fullData:
-	if i == '\t\tVESSEL\n':
-		for waste in fullData:
+dataStream = StringIO.StringIO(fullData)
+for line in dataStream:
+	if line == '\t\tVESSEL\n':
+		for waste in dataStream:
 			if waste == '\t}\n':
+				upData += vesselStr
+				upData += waste
 				break
-	upData += i
+	upData += line
 print upData
 #print clientGraph
 #fullData = unTree(clientGraph)
