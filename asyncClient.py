@@ -60,5 +60,5 @@ for line in dataStream:
 	upData += line
 fullData = unTree(clientGraph)
 writeFile = open(fn,"w")
-writeFile.write(fullData);
+writeFile.write(upData);
 writeFile.close()
