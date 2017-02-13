@@ -45,8 +45,9 @@ while True:
 	#print totalData
 	
 	#totalData = connection.recv(81920)
-	#print totalData
+	print totalData
 	
+
 	print "data recieved"
 	
 	clientGraph = fillTree(totalData)
@@ -55,7 +56,7 @@ while True:
 	
 	print "Data graphed"
 	
-	#print clientGraphReduced
+	print clientGraphReduced
 	#print clientGraphReduced
 	#break
 	
