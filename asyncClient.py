@@ -44,7 +44,18 @@ for i in range(len(shipList)):
 	shipList.insert(i*2, "VESSEL")
 setInTree(clientGraph, ["GAME", "FLIGHTSTATE"], shipList)
 
-print clientGraph
+
+rFile = open(fn,"r")
+lines=rFile.readlines()
+rFile.close()
+#print lines
+
+de=0
+for i in range(len(lines)):
+	if ("VESSEL\n" in lines[i]):
+		
+
+#print clientGraph
 fullData = unTree(clientGraph)
 writeFile = open(fn,"w")
 writeFile.write(fullData);
