@@ -67,12 +67,6 @@ def getFromTree(tree, parents):
 				return newTree
 	return newTree
 
-def remove_outer(L):
-	if len(L)==1:
-		return remove_outer(L[0])
-	else:
-		return L
-
 def find_ind(s,L):
 	#ind=-1
 	#iter through list

@@ -50,8 +50,8 @@ while True:
 	print "data recieved"
 	
 	clientGraph = fillTree(totalData)
-	clientGraphReduced = remove_outer(getFromTree(clientGraph, ["GAME", "FLIGHTSTATE", "VESSEL"]))
-	clientGraphKerbal = remove_outer(getFromTree(clientGraph, ["GAME", "ROSTER", "KERBAL"]))
+	clientGraphReduced = getFromTree(clientGraph, ["GAME", "FLIGHTSTATE", "VESSEL"])
+	clientGraphKerbal = getFromTree(clientGraph, ["GAME", "ROSTER", "KERBAL"])
 	
 	print "Data graphed"
 	
