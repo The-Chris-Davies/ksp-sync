@@ -123,7 +123,7 @@ try:
 		
 		#this is where we send the stuff back
 		print "sending data"
-		returndata=(pickle.dumps(serverGraph),pickle.dumps(kerbalGraph),pickle.dumps(kerbalGraph))
+		returndata=(pickle.dumps((serverGraph,kerbalGraph)))
 		#print returndata
 		connection.sendall(returndata)
 		connection.sendall('abcdefg')

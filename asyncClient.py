@@ -43,13 +43,15 @@ totalData=totalData[:-7]
 print 'closing socket'
 s.close()
 
-shipList = pickle.loads(totalData)[0]
+datafromserver=pickle.loads(totalData)
+
+shipList = datafromserver[0]
 for i in range(len(shipList)):
 	shipList.insert(i*2, "VESSEL")
 vesselStr = unTree(shipList, 2)
 
 
-kerbalList = pickle.loads(totalData)[1]
+kerbalList = datafromserver[1]
 for i in range(len(kerbalList)):
 	kerbalList.insert(i*2, "KERBAL")
 kerbalStr = unTree(kerbalList, 2)
@@ -67,7 +69,7 @@ for line in dataStream:
 				upData += vesselStr
 				upData += waste
 				break
-	else if line == '\t\tKERBAL\n':
+	elif line == '\t\tKERBAL\n':
 		for waste in dataStream:
 			if waste == '\t}\n':
 				upData += kerbalStr
