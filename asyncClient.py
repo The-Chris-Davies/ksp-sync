@@ -1,6 +1,7 @@
 #usr/bin/python
 import socket
-import cPickle as pickle
+#import cPickle as pickle
+import pickle
 import sys
 from kspLib import *
 
@@ -34,7 +35,7 @@ totalData=""
 	else:
 		break'''
 	
-totaldata = s.recv(20480)
+totaldata = s.recv(81920)
 
 #print totaldata
 

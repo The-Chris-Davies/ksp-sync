@@ -1,6 +1,7 @@
 #!usr/bin/python
 
-import cPickle as pickle
+#import cPickle as pickle
+import pickle
 from kspLib import *
 import socket
 import sys
@@ -43,7 +44,7 @@ while True:
 		else:
 			break'''
 	
-	totaldata = connection.recv(20480)
+	totaldata = connection.recv(81920)
 	
 	
 	print "data recieved"
@@ -99,7 +100,7 @@ while True:
 	#this is where we send the stuff back
 	print "sending data"
 	returndata=pickle.dumps(serverGraph)
-	#print returndata
+	print returndata
 	connection.sendall(returndata)
 	print "data sent"
 	
