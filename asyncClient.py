@@ -53,7 +53,7 @@ rFile.close()
 de=0
 for i in range(len(lines)):
 	if ("VESSEL\n" in lines[i]):
-		
+		pass
 
 #print clientGraph
 fullData = unTree(clientGraph)
