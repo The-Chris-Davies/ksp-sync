@@ -1,7 +1,7 @@
 #usr/bin/python
 import socket
-#import cPickle as pickle
-import pickle
+import cPickle as pickle
+#import pickle
 import sys
 from kspLib import *
 
