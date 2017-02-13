@@ -43,6 +43,15 @@ for i in range(len(shipList)):
 	shipList.insert(i*2, "VESSEL")
 vesselStr = unTree(shipList, 2)
 print vesselStr
+
+upData = ''
+for i in fullData:
+	if i == '\t\tVESSEL\n':
+		for waste in fullData:
+			if waste == '\t}\n':
+				break
+	upData += i
+print upData
 #print clientGraph
 #fullData = unTree(clientGraph)
 #writeFile = open(fn,"w")

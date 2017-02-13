@@ -85,15 +85,6 @@ def getPID(vessel):
 			return line.split(' = ')[-1]
 	return -1
 
-def setInTree(tree, parents, toSet):
-	'''sets the data under parents of tree to toSet'''
-	if parents == []:
-		return toSet
-	for i in range(len(tree)):
-		if tree[i] == parents[0]:
-			return setInTree(tree[i+1], parents[1:], toSet)
-	return tree
-
 def unTree(tree, depth = 0):
 	'''Turns a tree back into a string.'''
 	treeStr = ''
