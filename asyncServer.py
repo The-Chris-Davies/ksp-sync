@@ -36,12 +36,15 @@ while True:
 	totaldata=""
 	
 	# Receive the data in small chunks and retransmit it
-	while True:
+	'''while True:
 		data = connection.recv(2048)
 		if data:
 			totaldata+=data
 		else:
-			break
+			break'''
+	
+	totaldata = connection.recv(20480)
+	
 	
 	print "data recieved"
 	
@@ -96,6 +99,7 @@ while True:
 	#this is where we send the stuff back
 	print "sending data"
 	returndata=pickle.dumps(serverGraph)
+	#print returndata
 	connection.sendall(returndata)
 	print "data sent"
 	

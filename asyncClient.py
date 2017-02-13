@@ -27,12 +27,16 @@ s.connect((ip, port))
 s.sendall(fullData)
 
 totalData=""
-while True:
-	data = s.recv(2048)
+'''while True:
+	data = connection.recv(2048)
 	if data:
-		totalData += data
+		totaldata+=data
 	else:
-		break
+		break'''
+	
+totaldata = s.recv(20480)
+
+#print totaldata
 
 print 'closing socket'
 s.close()
