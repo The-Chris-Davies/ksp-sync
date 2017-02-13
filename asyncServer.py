@@ -75,6 +75,7 @@ try:
 				serverGraph.append(clientGraphReduced[i])
 				shipVers[pid] = [client_address]
 			else:
+<<<<<<< HEAD
 				#if client is up to date:
 				if client_address in shipVers[pid]:
 					#check if they are the same
@@ -121,6 +122,46 @@ try:
 		connection.sendall('abcdefg')
 		print "data sent"
 		serversocket.close()
+=======
+				#because we're updating the client
+				shipVers[pid].append(client_address)
+	
+	print "Flightstate handled"
+	
+	#ROSTER
+	'''for i in range(len(clientGraphKerbal)):
+		name=get_name(clientGraphKerbal[i])
+		serverInd = find_k_ind(name,serverGraph)
+		if (serverInd==-1):
+			#print "hi1"
+			#not in server
+			serverGraph.append(clientGraphKerbal[i])
+			shipVers[name] = [client_address]
+		else:
+			#if client is up to date:
+			if client_address in shipVers[name]:
+				#check if they are the same
+				if compare_tree(clientGraphKerbal[i], serverGraph[serverInd]):
+					#print "yo1"
+					serverGraph[serverInd] = clientGraphKerbal[i]
+					shipVers[name] = [client_address]
+			else:
+				#because we're updating the client
+				shipVers[name].append(client_address)'''
+	
+	print "Roster handled"
+	
+	#print serverGraph
+	
+	#this is where we send the stuff back
+	print "sending data"
+	returndata=pickle.dumps(serverGraph)
+	#print returndata
+	connection.sendall(returndata)
+	connection.sendall('abcdefg')
+	print "data sent"
+	
+>>>>>>> 30411068757a552fb166192a2975e4089d0f8f2b
 
 		saveData = open("serverSave.pkl", 'w')
 		pickle.dump((serverGraph, shipVers), saveData)
