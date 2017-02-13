@@ -10,7 +10,7 @@ try:
 	#try to load shipVers and serverGraph from file
 	try:
 		saveData = open("serverSave.pkl")
-		serverGraph, shipVers = pickle.load(saveData)
+		serverGraph,kerbalGraph, shipVers = pickle.load(saveData)
 		saveData.close()
 	except:
 		serverGraph = []
@@ -52,8 +52,8 @@ try:
 		
 		clientGraph = fillTree(totalData)
 		clientGraphReduced = getFromTree(clientGraph, ["GAME", "FLIGHTSTATE", "VESSEL"])
-		#clientGraphKerbal = getFromTree(clientGraph, ["GAME", "ROSTER", "KERBAL"])
-		clientGraphKerbal=[]
+		clientGraphKerbal = getFromTree(clientGraph, ["GAME", "ROSTER", "KERBAL"])
+		#clientGraphKerbal=[]
 		
 		print "Data graphed"
 		
@@ -98,19 +98,19 @@ try:
 		#ROSTER
 		for i in range(len(clientGraphKerbal)):
 			name=get_name(clientGraphKerbal[i])
-			serverInd = find_k_ind(name,serverGraph)
+			serverInd = find_k_ind(name,kerbalGraph)
 			if (serverInd==-1):
 				#print "hi1"
 				#not in server
-				serverGraph.append(clientGraphKerbal[i])
+				kerbalGraph.append(clientGraphKerbal[i])
 				shipVers[name] = [client_address[0]]
 			else:
 				#if client is up to date:
 				if client_address[0] in shipVers[name]:
 					#check if they are the same
-					if compare_tree(clientGraphKerbal[i], serverGraph[serverInd]):
+					if compare_tree(clientGraphKerbal[i], kerbalGraph[serverInd]):
 						#print "yo1"
-						serverGraph[serverInd] = clientGraphKerbal[i]
+						kerbalGraph[serverInd] = clientGraphKerbal[i]
 						shipVers[name] = [client_address[0]]
 				else:
 					#because we're updating the client
@@ -122,14 +122,14 @@ try:
 		
 		#this is where we send the stuff back
 		print "sending data"
-		returndata=pickle.dumps(serverGraph)
+		returndata=(pickle.dumps(serverGraph),pickle.dumps(kerbalGraph),pickle.dumps(kerbalGraph))
 		#print returndata
 		connection.sendall(returndata)
 		connection.sendall('abcdefg')
 		print "data sent"
 
 		saveData = open("serverSave.pkl", 'w')
-		pickle.dump((serverGraph, shipVers), saveData)
+		pickle.dump((serverGraph, kerbalGraph, shipVers), saveData)
 		saveData.close()
 	serversocket.close()
 		

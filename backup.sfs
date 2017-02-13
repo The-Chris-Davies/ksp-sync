@@ -10,12 +10,21 @@ GAME
 	Seed = 267380207
 	scene = 5
 	editor = None
+<<<<<<< HEAD
 	flag = Squad/Flags/minimalistic
 	launchID = 3
 	modded = False
 	envInfo =  - Environment Info - Win32NT 7FFFFFFFFFFFFFFF  Args: KSP_x64.exe  - 
 	versionFull = 1.2.2.1622 (WindowsPlayer x64)
 	versionCreated = 1.2.2.1622 (WindowsPlayer x64)
+=======
+	flag = Squad/Flags/default
+	launchID = 2
+	modded = True
+	envInfo =  - Environment Info - Unix 7FFFFFFFFFFFFFFF  Args: KSP  - 
+	versionFull = 1.2.2.1622 (OSXPlayer)
+	versionCreated = 1.2.2.1622 (OSXPlayer)
+>>>>>>> cf7003a74007ca17559b4142e86770e9b36b9bf2
 	PARAMETERS
 	{
 		preset = Normal
@@ -405,9 +414,15 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.2.2
+<<<<<<< HEAD
 		UT = 780.37999999958026
 		activeVessel = 0
 		mapViewFiltering = -1026
+=======
+		UT = 1170.9047119133231
+		activeVessel = 9
+		mapViewFiltering = 7166
+>>>>>>> cf7003a74007ca17559b4142e86770e9b36b9bf2
 		commNetUIModeTracking = Network
 		commNetUIModeFlight = Path
 		VESSEL
@@ -1805,37 +1820,42 @@ GAME
 			pid = e2ff139060074e17b550e130d8318da9
 			name = CASHMONEY
 			type = Ship
-			sit = ORBITING
+			sit = ESCAPING
 			landed = False
 			landedAt = 
 			splashed = False
-			met = 87.799999999996828
+			met = 1155.3647119133234
 			lct = 15.539999999999758
-			lastUT = 103.33999999999658
+			lastUT = 1170.9047119133231
 			root = 0
-			lat = -0.83755783896056435
-			lon = -57.222483766772775
-			alt = 315540.24975679617
+			lat = -0.063336333947369955
+			lon = 62.032581653648897
+			alt = 589472.89513859805
 			hgt = -1
-			nrm = 0.789020061,-0.614283204,0.0101925135
-			rot = 0.472040802,-0.531538963,-0.512021482,-0.482159644
-			CoM = 9.53674316E-07,-3.00950789,1.07288361E-06
+			nrm = -0.0459621549,-0.378090084,-0.924627185
+			rot = -0.642060995,-0.638180375,0.315957785,0.283996999
+			CoM = 1.68383121E-06,-3.00950789,1.0356307E-06
 			stg = 0
 			prst = False
-			ref = 2249958345
+			ref = 0
 			ctrl = True
+<<<<<<< HEAD
 			cPch = 
 			cHdg = 
+=======
+			cPch = 0.2
+			cHdg = -0.300458
+>>>>>>> cf7003a74007ca17559b4142e86770e9b36b9bf2
 			cMod = 0
 			ORBIT
 			{
-				SMA = 1149912.6657282463
-				ECC = 0.22309386425321912
-				INC = 1.3075881227368231
-				LPE = 249.69330488800367
-				LAN = 174.67687543758291
-				MNA = -0.32805445595102783
-				EPH = 103.33999999999658
+				SMA = -409938.92034183
+				ECC = 3.6338813250778612
+				INC = 1.3961746105765436
+				LPE = 329.32676610057189
+				LAN = 174.1930036020276
+				MNA = 1.038786479422356
+				EPH = 1170.9047119133231
 				REF = 1
 			}
 			PART
@@ -1862,8 +1882,8 @@ GAME
 				attN = top, -1
 				mass = 4
 				shielded = False
-				temp = 516.84115312907124
-				tempExt = 517.13955999807536
+				temp = 165.71146134971977
+				tempExt = 180.11501589835026
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -2108,6 +2128,7 @@ GAME
 						0 = Land,Kerbin
 						0 = Suborbit,Kerbin
 						0 = Orbit,Kerbin
+						0 = Escape,Kerbin
 					}
 					UPGRADESAPPLIED
 					{
@@ -2116,7 +2137,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 149.93277210439123
+					amount = 150
 					maxAmount = 150
 					flowState = True
 					isTweakable = True
@@ -2160,8 +2181,8 @@ GAME
 				attN = bottom, 2
 				mass = 2
 				shielded = False
-				temp = 526.20278793478644
-				tempExt = 521.95740845358978
+				temp = 185.62171651359725
+				tempExt = 190.08089840582809
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -2227,8 +2248,8 @@ GAME
 				attN = bottom, -1
 				mass = 6
 				shielded = False
-				temp = 549.51537647831105
-				tempExt = 536.69205798566827
+				temp = 228.36558978041643
+				tempExt = 218.38332587030192
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -2352,7 +2373,7 @@ GAME
 				{
 					name = FXModuleAnimateThrottle
 					isEnabled = True
-					animState = 0.143796012
+					animState = 0.247241452
 					stagingEnabled = True
 					EVENTS
 					{
@@ -2443,9 +2464,9 @@ GAME
 			}
 			CTRLSTATE
 			{
-				pitch = -2.25437111E-06
-				yaw = 2.42365277E-05
-				roll = 7.3948986E-06
+				pitch = 0.0293674264
+				yaw = 0.0307654552
+				roll = -0.0016514262
 				trimPitch = 0
 				trimYaw = 0
 				trimRoll = 0
@@ -3143,6 +3164,7 @@ GAME
 			cMod = 0
 			ORBIT
 			{
+<<<<<<< HEAD
 				SMA = 300038.86171299242
 				ECC = 0.99999999999999989
 				INC = 0.097206552861323417
@@ -3150,6 +3172,15 @@ GAME
 				LAN = 298.44977515306323
 				MNA = 3.1415926207170166
 				EPH = 778.61999999958186
+=======
+				SMA = 0
+				ECC = 1
+				INC = 0.097206552850075262
+				LPE = 90
+				LAN = 303.70476593364458
+				MNA = 0
+				EPH = 1093.1811962883917
+>>>>>>> cf7003a74007ca17559b4142e86770e9b36b9bf2
 				REF = 1
 			}
 			PART
@@ -4542,6 +4573,7 @@ GAME
 			cMod = 0
 			ORBIT
 			{
+<<<<<<< HEAD
 				SMA = 0
 				ECC = 1.0000000000000002
 				INC = 0.048505311661307421
@@ -4549,6 +4581,15 @@ GAME
 				LAN = 298.28299590040592
 				MNA = Infinity
 				EPH = 778.61999999958186
+=======
+				SMA = NaN
+				ECC = 1
+				INC = 0.048505311631251755
+				LPE = 90
+				LAN = 303.53798668097818
+				MNA = 0
+				EPH = 1093.1811962883917
+>>>>>>> cf7003a74007ca17559b4142e86770e9b36b9bf2
 				REF = 1
 			}
 			PART
@@ -6776,6 +6817,10 @@ GAME
 	}
 	LoaderInfo
 	{
+<<<<<<< HEAD
+=======
+		.DS_Store = True
+>>>>>>> cf7003a74007ca17559b4142e86770e9b36b9bf2
 	}
 	ROSTER
 	{
@@ -6805,6 +6850,14 @@ GAME
 			FLIGHT_LOG
 			{
 				flight = 0
+<<<<<<< HEAD
+=======
+				0 = Flight,Kerbin
+				0 = Land,Kerbin
+				0 = Suborbit,Kerbin
+				0 = Orbit,Kerbin
+				0 = Escape,Kerbin
+>>>>>>> cf7003a74007ca17559b4142e86770e9b36b9bf2
 			}
 		}
 		KERBAL
@@ -6833,6 +6886,10 @@ GAME
 			FLIGHT_LOG
 			{
 				flight = 0
+<<<<<<< HEAD
+=======
+				0 = Escape,Kerbin
+>>>>>>> cf7003a74007ca17559b4142e86770e9b36b9bf2
 			}
 		}
 		KERBAL
@@ -6861,6 +6918,10 @@ GAME
 			FLIGHT_LOG
 			{
 				flight = 0
+<<<<<<< HEAD
+=======
+				0 = Escape,Kerbin
+>>>>>>> cf7003a74007ca17559b4142e86770e9b36b9bf2
 			}
 		}
 		KERBAL
@@ -6880,6 +6941,7 @@ GAME
 			gExperienced = 0
 			outDueToG = False
 			ToD = 0
+<<<<<<< HEAD
 			idx = 0
 			extraXP = 0
 			CAREER_LOG
@@ -7104,6 +7166,8 @@ GAME
 			gExperienced = 0
 			outDueToG = False
 			ToD = 179169.9124963379
+=======
+>>>>>>> cf7003a74007ca17559b4142e86770e9b36b9bf2
 			idx = -1
 			extraXP = 0
 			CAREER_LOG
