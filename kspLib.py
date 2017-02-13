@@ -61,7 +61,10 @@ def getFromTree(tree, parents):
 			return tree
 	for i in range(len(tree)):
 		if tree[i] == parents[0]:
-			newTree.append(getFromTree(tree[i+1], parents[1:]))
+			if len(parents) == 1:
+				newTree.append(getFromTree(tree[i+1], parents[1:]))
+			else:
+				return newTree
 	return newTree
 
 def remove_outer(L):
