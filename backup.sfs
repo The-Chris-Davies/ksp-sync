@@ -7,15 +7,24 @@ GAME
 	linkCaption = 
 	Mode = SANDBOX
 	Status = 1
-	Seed = 1603325981
+	Seed = 267380207
 	scene = 5
 	editor = None
+<<<<<<< HEAD
+	flag = Squad/Flags/minimalistic
+	launchID = 3
+	modded = False
+	envInfo =  - Environment Info - Win32NT 7FFFFFFFFFFFFFFF  Args: KSP_x64.exe  - 
+	versionFull = 1.2.2.1622 (WindowsPlayer x64)
+	versionCreated = 1.2.2.1622 (WindowsPlayer x64)
+=======
 	flag = Squad/Flags/default
 	launchID = 2
 	modded = True
 	envInfo =  - Environment Info - Unix 7FFFFFFFFFFFFFFF  Args: KSP  - 
 	versionFull = 1.2.2.1622 (OSXPlayer)
 	versionCreated = 1.2.2.1622 (OSXPlayer)
+>>>>>>> cf7003a74007ca17559b4142e86770e9b36b9bf2
 	PARAMETERS
 	{
 		preset = Normal
@@ -146,7 +155,7 @@ GAME
 		scene = 7, 8, 5, 6
 		RESOURCE_SETTINGS
 		{
-			GameSeed = 111064258
+			GameSeed = 406769967
 			MaxDeltaTime = 21600
 		}
 	}
@@ -156,54 +165,20 @@ GAME
 		scene = 7, 8, 5
 		Progress
 		{
-			FirstLaunch
-			{
-				completedManned = 16.35999999999974
-			}
 			RecordsAltitude
 			{
-				completed = 79.3932861328108
+				completed = 93.759999999998485
 				record = 70000
 			}
 			RecordsSpeed
 			{
-				completed = 223.79231445315258
-				record = 2500
+				reached = 103.33999999999658
+				record = 2154.8976383032941
 			}
 			RecordsDistance
 			{
-				completed = 135.35574707030972
+				completed = 93.759999999998485
 				record = 100000
-			}
-			ReachedSpace
-			{
-				completedManned = 79.3932861328108
-				vessel
-				{
-					name = nickleback
-					flag = Squad/Flags/default
-				}
-				crew
-				{
-					crews = Jebediah Kerman
-				}
-			}
-			Kerbin
-			{
-				reached = 130.07574707030889
-				Orbit
-				{
-					completedManned = 130.07574707030889
-					vessel
-					{
-						name = nickleback
-						flag = Squad/Flags/default
-					}
-					crew
-					{
-						crews = Jebediah Kerman
-					}
-				}
 			}
 		}
 	}
@@ -226,6 +201,50 @@ GAME
 	{
 		name = ScenarioDestructibles
 		scene = 5, 7, 6, 8
+		SpaceCenter/Administration/Facility/Building
+		{
+			intact = True
+		}
+		SpaceCenter/AstronautComplex/Facility/mainBuilding
+		{
+			intact = True
+		}
+		SpaceCenter/FlagPole/Facility
+		{
+			intact = True
+		}
+		SpaceCenter/LaunchPad/Facility/Flag
+		{
+			intact = True
+		}
+		SpaceCenter/MissionControl/Facility/mainBuilding
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/mainBuilding
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/ForeverAlone
+		{
+			intact = True
+		}
+		SpaceCenter/SpaceplaneHangar/Facility/Building
+		{
+			intact = True
+		}
+		SpaceCenter/TrackingStation/Facility/building
+		{
+			intact = True
+		}
+		SpaceCenter/TrackingStation/Facility/OuterDish
+		{
+			intact = True
+		}
+		SpaceCenter/VehicleAssemblyBuilding/Facility/VAB2
+		{
+			intact = True
+		}
 		SpaceCenter/VehicleAssemblyBuilding/Facility/ksp_pad_cylTank
 		{
 			intact = True
@@ -370,10 +389,6 @@ GAME
 		{
 			intact = True
 		}
-		SpaceCenter/FlagPole/Facility
-		{
-			intact = True
-		}
 		SpaceCenter/AstronautComplex/Facility/building
 		{
 			intact = True
@@ -382,24 +397,12 @@ GAME
 		{
 			intact = True
 		}
-		SpaceCenter/TrackingStation/Facility/building
-		{
-			intact = True
-		}
-		SpaceCenter/TrackingStation/Facility/OuterDish
-		{
-			intact = True
-		}
-		SpaceCenter/LaunchPad/Facility/Flag
-		{
-			intact = True
-		}
 	}
 	SCENARIO
 	{
 		name = ScenarioDiscoverableObjects
 		scene = 7, 8, 5
-		lastSeed = 160514899
+		lastSeed = 559298752
 		sizeCurve
 		{
 			key = 0 0 1.5 1.5
@@ -411,9 +414,15 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.2.2
+<<<<<<< HEAD
+		UT = 780.37999999958026
+		activeVessel = 0
+		mapViewFiltering = -1026
+=======
 		UT = 1170.9047119133231
 		activeVessel = 9
 		mapViewFiltering = 7166
+>>>>>>> cf7003a74007ca17559b4142e86770e9b36b9bf2
 		commNetUIModeTracking = Network
 		commNetUIModeFlight = Path
 		VESSEL
@@ -1830,8 +1839,13 @@ GAME
 			prst = False
 			ref = 0
 			ctrl = True
+<<<<<<< HEAD
+			cPch = 
+			cHdg = 
+=======
 			cPch = 0.2
 			cHdg = -0.300458
+>>>>>>> cf7003a74007ca17559b4142e86770e9b36b9bf2
 			cMod = 0
 			ORBIT
 			{
@@ -3150,6 +3164,15 @@ GAME
 			cMod = 0
 			ORBIT
 			{
+<<<<<<< HEAD
+				SMA = 300038.86171299242
+				ECC = 0.99999999999999989
+				INC = 0.097206552861323417
+				LPE = 90
+				LAN = 298.44977515306323
+				MNA = 3.1415926207170166
+				EPH = 778.61999999958186
+=======
 				SMA = 0
 				ECC = 1
 				INC = 0.097206552850075262
@@ -3157,6 +3180,7 @@ GAME
 				LAN = 303.70476593364458
 				MNA = 0
 				EPH = 1093.1811962883917
+>>>>>>> cf7003a74007ca17559b4142e86770e9b36b9bf2
 				REF = 1
 			}
 			PART
@@ -4549,6 +4573,15 @@ GAME
 			cMod = 0
 			ORBIT
 			{
+<<<<<<< HEAD
+				SMA = 0
+				ECC = 1.0000000000000002
+				INC = 0.048505311661307421
+				LPE = 90
+				LAN = 298.28299590040592
+				MNA = Infinity
+				EPH = 778.61999999958186
+=======
 				SMA = NaN
 				ECC = 1
 				INC = 0.048505311631251755
@@ -4556,6 +4589,7 @@ GAME
 				LAN = 303.53798668097818
 				MNA = 0
 				EPH = 1093.1811962883917
+>>>>>>> cf7003a74007ca17559b4142e86770e9b36b9bf2
 				REF = 1
 			}
 			PART
@@ -6783,7 +6817,10 @@ GAME
 	}
 	LoaderInfo
 	{
+<<<<<<< HEAD
+=======
 		.DS_Store = True
+>>>>>>> cf7003a74007ca17559b4142e86770e9b36b9bf2
 	}
 	ROSTER
 	{
@@ -6813,11 +6850,14 @@ GAME
 			FLIGHT_LOG
 			{
 				flight = 0
+<<<<<<< HEAD
+=======
 				0 = Flight,Kerbin
 				0 = Land,Kerbin
 				0 = Suborbit,Kerbin
 				0 = Orbit,Kerbin
 				0 = Escape,Kerbin
+>>>>>>> cf7003a74007ca17559b4142e86770e9b36b9bf2
 			}
 		}
 		KERBAL
@@ -6846,7 +6886,10 @@ GAME
 			FLIGHT_LOG
 			{
 				flight = 0
+<<<<<<< HEAD
+=======
 				0 = Escape,Kerbin
+>>>>>>> cf7003a74007ca17559b4142e86770e9b36b9bf2
 			}
 		}
 		KERBAL
@@ -6875,7 +6918,10 @@ GAME
 			FLIGHT_LOG
 			{
 				flight = 0
+<<<<<<< HEAD
+=======
 				0 = Escape,Kerbin
+>>>>>>> cf7003a74007ca17559b4142e86770e9b36b9bf2
 			}
 		}
 		KERBAL
@@ -6895,6 +6941,233 @@ GAME
 			gExperienced = 0
 			outDueToG = False
 			ToD = 0
+<<<<<<< HEAD
+			idx = 0
+			extraXP = 0
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Shelford Kerman
+			gender = Male
+			type = Crew
+			trait = Pilot
+			brave = 0.78857249
+			dumb = 0.640021384
+			badS = False
+			veteran = False
+			tour = False
+			state = Assigned
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 168486.46370483399
+			idx = 0
+			extraXP = 0
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Samfield Kerman
+			gender = Male
+			type = Crew
+			trait = Pilot
+			brave = 0.754392982
+			dumb = 0.111754335
+			badS = False
+			veteran = False
+			tour = False
+			state = Assigned
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 258271.12480712892
+			idx = 1
+			extraXP = 0
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Anicca Kerman
+			gender = Female
+			type = Applicant
+			trait = Engineer
+			brave = 0.11632061
+			dumb = 0.759212613
+			badS = False
+			veteran = False
+			tour = False
+			state = Available
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 190492.39479614259
+			idx = -1
+			extraXP = 0
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Gletine Kerman
+			gender = Female
+			type = Applicant
+			trait = Engineer
+			brave = 0.0384777226
+			dumb = 0.920923173
+			badS = False
+			veteran = False
+			tour = False
+			state = Available
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 158849.70985961915
+			idx = -1
+			extraXP = 0
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Camsel Kerman
+			gender = Male
+			type = Applicant
+			trait = Pilot
+			brave = 0.887392879
+			dumb = 0.242561996
+			badS = False
+			veteran = False
+			tour = False
+			state = Available
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 191983.0472619629
+			idx = -1
+			extraXP = 0
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Gerdi Kerman
+			gender = Female
+			type = Applicant
+			trait = Scientist
+			brave = 0.914997995
+			dumb = 0.40912056
+			badS = False
+			veteran = False
+			tour = False
+			state = Available
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 134332.00546813966
+			idx = -1
+			extraXP = 0
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Mibe Kerman
+			gender = Female
+			type = Applicant
+			trait = Engineer
+			brave = 0.393337965
+			dumb = 0.276587963
+			badS = False
+			veteran = False
+			tour = False
+			state = Available
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 186350.39803100587
+			idx = -1
+			extraXP = 0
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Jerus Kerman
+			gender = Male
+			type = Applicant
+			trait = Pilot
+			brave = 0.518161356
+			dumb = 0.936710417
+			badS = False
+			veteran = False
+			tour = False
+			state = Available
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 179169.9124963379
+=======
+>>>>>>> cf7003a74007ca17559b4142e86770e9b36b9bf2
 			idx = -1
 			extraXP = 0
 			CAREER_LOG
