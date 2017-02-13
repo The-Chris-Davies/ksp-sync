@@ -70,7 +70,7 @@ try:
 			pid=getPID(clientGraphReduced[i])
 			#print pid
 			serverInd = find_ind(pid,serverGraph)
-			if (serverInd==-1):
+			if serverInd==-1 and pid not in deletedShips:
 				#print "hi"
 				#not in server
 				serverGraph.append(clientGraphReduced[i])
@@ -85,8 +85,7 @@ try:
 						shipVers[pid] = [client_address[0]]
 				else:
 					#because we're updating the client
-					if pid not in deletedShips:
-						shipVers[pid].append(client_address[0])
+					shipVers[pid].append(client_address[0])
 		#remove ships if client was up to date
 		for x in serverGraph:
 			if x not in clientGraphReduced and client_address[0] in shipVers[getPID(x)]:
@@ -132,7 +131,7 @@ try:
 		print "data sent"
 
 		saveData = open("serverSave.pkl", 'w')
-		pickle.dump((serverGraph, kerbalGraph, shipVers), saveData)
+		pickle.dump((serverGraph, kerbalGraph, shipVers, deletedShips), saveData)
 		saveData.close()
 	serversocket.close()
 		
