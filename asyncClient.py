@@ -26,6 +26,7 @@ s.connect((ip, port))
 
 # Send data
 s.sendall(fullData)
+s.sendall('abcde')
 
 totalData=""
 '''while True:
@@ -35,12 +36,14 @@ totalData=""
 	else:
 		break'''
 	
-totaldata = s.recv(81920)
+totalData = s.recv(81920)
 
 #print totaldata
 
 print 'closing socket'
 s.close()
+
+print totalData
 
 clientGraph = fillTree(fullData)
 shipList = pickle.loads(totalData)
