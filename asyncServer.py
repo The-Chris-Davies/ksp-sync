@@ -25,6 +25,9 @@ serversocket.listen(5)
 
 
 while True:
+	
+	print "waiting for connection"
+	
 	#accept connections from outside
 	connection, client_address = serversocket.accept()
 	
@@ -40,11 +43,13 @@ while True:
 		else:
 			break
 	
+	print "data recieved"
+	
 	clientGraph = fillTree(totaldata)
 	clientGraphReduced = remove_outer(getFromTree(clientGraph, ["GAME", "FLIGHTSTATE", "VESSEL"]))
 	clientGraphKerbal = remove_outer(getFromTree(clientGraph, ["GAME", "ROSTER", "KERBAL"]))
 	
-	
+	print "Data graphed"
 	
 	#FLIGHTSTATE
 	for i in range(len(clientGraphReduced)):
@@ -65,6 +70,8 @@ while True:
 				#because we're updating the client
 				shipVers[pid].append(client_address)
 	
+	print "Flightstate handled"
+	
 	#ROSTER
 	for i in range(len(clientGraphKerbal)):
 		name=get_name(clientGraphKerbal[i])
@@ -84,12 +91,14 @@ while True:
 				#because we're updating the client
 				shipVers[name].append(client_address)
 	
-	
+	print "Roster handled"
 
 	#this is where we send the stuff back
-	
+	print "sending data"
 	returndata=pickle.dumps(serverGraph)
 	connection.sendall(returndata)
+	print "data sent"
+	
 
 	saveData = open("serverSave.pkl", 'w')
 	pickle.dump((serverGraph, shipVers), saveData)
