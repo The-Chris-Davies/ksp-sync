@@ -15,6 +15,10 @@ ip = clientSettings.readline().strip()
 port = int(clientSettings.readline().strip())
 clientSettings.close()
 fullData = loadData.read()
+#make backups
+backups = open("backup.sfs", 'w')
+backups.write(fullData)
+backups.close()
 loadData.close()
 
 #create an INET, STREAMing socket
@@ -39,14 +43,13 @@ totalData=totalData[:-7]
 print 'closing socket'
 s.close()
 
-print totalData
-
-clientGraph = fillTree(fullData)
 shipList = pickle.loads(totalData)
 for i in range(len(shipList)):
 	shipList.insert(i*2, "VESSEL")
 
 vesselStr = unTree(shipList, 2)
+
+print vesselStr
 
 upData = ''
 dataStream = StringIO.StringIO(fullData)
@@ -57,8 +60,9 @@ for line in dataStream:
 				upData += vesselStr
 				upData += waste
 				break
-	upData += line
-fullData = unTree(clientGraph)
+	else:
+		upData += line
+
 writeFile = open(fn,"w")
 writeFile.write(upData);
 writeFile.close()
