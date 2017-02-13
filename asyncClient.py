@@ -37,23 +37,26 @@ while True:
 print 'closing socket'
 s.close()
 '''
+clientGraph = fillTree(fullData)
 #shipList = pickle.loads(totalData)
 shipList = [['kill'],['me']]
 for i in range(len(shipList)):
 	shipList.insert(i*2, "VESSEL")
-vesselStr = unTree(shipList, 2)
-print vesselStr
+setInTree(clientGraph, ["GAME", "FLIGHTSTATE"], shipList)
 
-upData = ''
-for i in fullData:
-	if i == '\t\tVESSEL\n':
-		for waste in fullData:
-			if waste == '\t}\n':
-				break
-	upData += i
-print upData
+
+rFile = open(fn,"r")
+lines=rFile.readlines()
+rFile.close()
+#print lines
+
+de=0
+for i in range(len(lines)):
+	if ("VESSEL\n" in lines[i]):
+		
+
 #print clientGraph
-#fullData = unTree(clientGraph)
-#writeFile = open(fn,"w")
-#writeFile.write(fullData);
-#writeFile.close()
+fullData = unTree(clientGraph)
+writeFile = open(fn,"w")
+writeFile.write(fullData);
+writeFile.close()

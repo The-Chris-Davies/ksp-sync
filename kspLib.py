@@ -77,6 +77,14 @@ def find_ind(s,L):
 		if getPID(s) == getPID(L[i]):
 			return i
 	return -1
+
+def find_k_ind(s,L):
+	#ind=-1
+	#iter through list
+	for i in range(len(L)):
+		if get_name(s) == get_name(L[i]):
+			return i
+	return -1
 	
 def getPID(vessel):
 	'''given a vessel (represented as a list), return its pid.'''
@@ -84,6 +92,23 @@ def getPID(vessel):
 		if line.split(' = ')[0] == 'pid':
 			return line.split(' = ')[-1]
 	return -1
+
+def get_name(kerbal):
+	'''given a kerbal (represented as a list), return its name.'''
+	for line in kerbal:
+		if line.split(' = ')[0] == 'name':
+			return line.split(' = ')[-1]
+	return -1
+
+
+def setInTree(tree, parents, toSet):
+	'''sets the data under parents of tree to toSet'''
+	if parents == []:
+		tree = toSet
+	for i in range(len(tree)):
+		if tree[i] == parents[0]:
+			setInTree(tree[i], parents[1:], toSet)
+	return
 
 def unTree(tree, depth = 0):
 	'''Turns a tree back into a string.'''
