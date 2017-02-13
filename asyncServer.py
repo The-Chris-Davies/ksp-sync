@@ -99,15 +99,15 @@ try:
 				shipVers[name] = [client_address]
 			else:
 				#if client is up to date:
-				if client_address in shipVers[name]:
+				if client_address[0] in shipVers[name]:
 					#check if they are the same
 					if compare_tree(clientGraphKerbal[i], serverGraph[serverInd]):
 						#print "yo1"
 						serverGraph[serverInd] = clientGraphKerbal[i]
-						shipVers[name] = [client_address]
+						shipVers[name] = [client_address[0]]
 				else:
 					#because we're updating the client
-					shipVers[name].append(client_address)
+					shipVers[name].append(client_address[0])
 		
 		print "Roster handled"
 		
