@@ -21,10 +21,6 @@ serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 serversocket.bind((socket.gethostname(), 8988))
 serversocket.listen(5)
 
-#client_address="184.68.166.106"
-
-
-
 while True:
 	
 	print "waiting for connection"
@@ -34,23 +30,24 @@ while True:
 	
 	print 'connection from',client_address
 	
-	totaldata=""
+	totalData=""
 	
 	# Receive the data in small chunks and retransmit it
+	totalData=""
 	while True:
 		data = connection.recv(2048)
-		totaldata+=data
-		if totaldata[-5:]=="abcde":
-			totaldata=totaldata[:-5]
+		if data:
+			totalData+=data
+		else:
 			break
 	
 	
-	#totaldata = connection.recv(81920)
-	#print totaldata
+	#totalData = connection.recv(81920)
+	#print totalData
 	
 	print "data recieved"
 	
-	clientGraph = fillTree(totaldata)
+	clientGraph = fillTree(totalData)
 	clientGraphReduced = remove_outer(getFromTree(clientGraph, ["GAME", "FLIGHTSTATE", "VESSEL"]))
 	clientGraphKerbal = remove_outer(getFromTree(clientGraph, ["GAME", "ROSTER", "KERBAL"]))
 	
