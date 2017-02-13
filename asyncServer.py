@@ -73,18 +73,18 @@ try:
 				#print "hi"
 				#not in server
 				serverGraph.append(clientGraphReduced[i])
-				shipVers[pid] = [client_address]
+				shipVers[pid] = [client_address[0]]
 			else:
 				#if client is up to date:
-				if client_address in shipVers[pid]:
+				if client_address[0] in shipVers[pid]:
 					#check if they are the same
 					if compare_tree(clientGraphReduced[i], serverGraph[serverInd]):
 						#print "yo"
 						serverGraph[serverInd] = clientGraphReduced[i]
-						shipVers[pid] = [client_address]
+						shipVers[pid] = [client_address[0]]
 				else:
 					#because we're updating the client
-					shipVers[pid].append(client_address)
+					shipVers[pid].append(client_address[0])
 		
 		print "Flightstate handled"
 		
@@ -96,7 +96,7 @@ try:
 				#print "hi1"
 				#not in server
 				serverGraph.append(clientGraphKerbal[i])
-				shipVers[name] = [client_address]
+				shipVers[name] = [client_address[0]]
 			else:
 				#if client is up to date:
 				if client_address[0] in shipVers[name]:
