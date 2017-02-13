@@ -1,2 +1,2 @@
-localhost
-6969
+pi.codexwilkes.com
+8988

@@ -15,13 +15,13 @@ port = int(clientSettings.readline().strip())
 clientSettings.close()
 fullData = loadData.read()
 loadData.close()
-'''
+
 #create an INET, STREAMing socket
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 #now connect to the web server on port 80
 # - the normal http port
-s.connect((ip, 8988))
+s.connect((ip, port))
 
 # Send data
 #message = 'This is the message.  It will be repeated.'
@@ -36,10 +36,9 @@ while True:
 
 print 'closing socket'
 s.close()
-'''
+
 clientGraph = fillTree(fullData)
-#shipList = pickle.loads(totalData)
-shipList = [['kill'],['me']]
+shipList = pickle.loads(totalData)
 for i in range(len(shipList)):
 	shipList.insert(i*2, "VESSEL")
 
