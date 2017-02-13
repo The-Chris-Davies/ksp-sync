@@ -42,7 +42,11 @@ while True:
 	
 	clientGraph = fillTree(totaldata)
 	clientGraphReduced = remove_outer(getFromTree(clientGraph, ["GAME", "FLIGHTSTATE", "VESSEL"]))
-
+	clientGraphKerbal = remove_outer(getFromTree(clientGraph, ["GAME", "ROSTER", "KERBAL"]))
+	
+	
+	
+	#FLIGHTSTATE
 	for i in range(len(clientGraphReduced)):
 		pid=getPID(clientGraphReduced[i])
 		serverInd = find_ind(pid,serverGraph)
@@ -60,7 +64,27 @@ while True:
 			else:
 				#because we're updating the client
 				shipVers[pid].append(client_address)
-
+	
+	#ROSTER
+	for i in range(len(clientGraphKerbal)):
+		name=get_name(clientGraphKerbal[i])
+		serverInd = find_k_ind(name,serverGraph)
+		if (serverInd==-1):
+			#not in server
+			serverGraph.append(clientGraphKerbal[i])
+			shipVers[name] = [client_address]
+		else:
+			#if client is up to date:
+			if client_address in shipVers[name]:
+				#check if they are the same
+				if compare_tree(clientGraphKerbal[i], serverGraph[serverInd]):
+					serverGraph[serverInd] = clientGraphKerbal[i]
+					shipVers[name] = [client_address]
+			else:
+				#because we're updating the client
+				shipVers[name].append(client_address)
+	
+	
 
 	#this is where we send the stuff back
 	
@@ -70,4 +94,4 @@ while True:
 	saveData = open("serverSave.pkl", 'w')
 	pickle.dump((serverGraph, shipVers), saveData)
 	saveData.close()
-
+	
