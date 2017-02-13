@@ -120,12 +120,13 @@ try:
 		connection.sendall(returndata)
 		connection.sendall('abcdefg')
 		print "data sent"
-		serversocket.close()
 
 		saveData = open("serverSave.pkl", 'w')
 		pickle.dump((serverGraph, shipVers), saveData)
 		saveData.close()
+	serversocket.close()
 		
 except Exception as exc:
 	print type(exc), exc
+	#connection.close()
 	serversocket.close()
