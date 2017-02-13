@@ -75,7 +75,6 @@ try:
 				serverGraph.append(clientGraphReduced[i])
 				shipVers[pid] = [client_address]
 			else:
-<<<<<<< HEAD
 				#if client is up to date:
 				if client_address in shipVers[pid]:
 					#check if they are the same
