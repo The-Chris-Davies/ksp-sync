@@ -10,13 +10,13 @@ try:
 	#try to load shipVers and serverGraph from file
 	try:
 		saveData = open("serverSave.pkl")
-		serverGraph,kerbalGraph, shipVers = pickle.load(saveData)
+		serverGraph, kerbalGraph, deletedShips, shipVers = pickle.load(saveData)
 		saveData.close()
 	except:
 		serverGraph = []
 		kerbalGraph = []
+		deletedShips = []
 		shipVers = {}
-
 
 	serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 	serversocket.bind((socket.gethostname(), 8988))
@@ -85,11 +85,13 @@ try:
 						shipVers[pid] = [client_address[0]]
 				else:
 					#because we're updating the client
-					shipVers[pid].append(client_address[0])
+					if pid not in deletedShips:
+						shipVers[pid].append(client_address[0])
 		#remove ships if client was up to date
 		for x in serverGraph:
 			if x not in clientGraphReduced and client_address[0] in shipVers[getPID(x)]:
 				serverGraph.remove(x)
+				deletedShips.append(getPID(x))
 
 
 
