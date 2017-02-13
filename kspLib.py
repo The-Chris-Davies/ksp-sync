@@ -64,7 +64,7 @@ def getFromTree(tree, parents):
 			if len(parents) == 1:
 				newTree.append(getFromTree(tree[i+1], parents[1:]))
 			else:
-				return newTree
+				return getFromTree(tree[i+1], parents[1:])
 	return newTree
 
 def find_ind(s,L):
