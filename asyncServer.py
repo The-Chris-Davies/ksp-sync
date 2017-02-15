@@ -96,11 +96,12 @@ while True:
 			print "removed",getPID(x) 
 			deletedShips.append(getPID(x))
 			serverGraph.remove(x)
-			
+			shipVers[getPID(x)]=[]
 			#print ""
 			#print serverGraph
 			#print ""
-		shipVers[getPID(x)].append(client_address[0])
+		else:
+			shipVers[getPID(x)].append(client_address[0])
 
 	
 	print "Flightstate handled"
