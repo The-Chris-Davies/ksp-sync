@@ -77,7 +77,7 @@ while True:
 			#print "hi"
 			#not in server
 			serverGraph.append(clientGraphReduced[i])
-			shipVers[pid] = [client_address[0]]
+			shipVers[pid] = []#[client_address[0]]
 		else:
 			#if client is up to date:
 			if client_address[0] in shipVers[pid]:
@@ -85,17 +85,22 @@ while True:
 				if compare_tree(clientGraphReduced[i], serverGraph[serverInd]):
 					#print "yo"
 					serverGraph[serverInd] = clientGraphReduced[i]
-					shipVers[pid] = [client_address[0]]
+					shipVers[pid] = []#[client_address[0]]
 			else:
 				#because we're updating the client
-				shipVers[pid].append(client_address[0])
+				pass
+				#shipVers[pid].append(client_address[0])
 	#remove ships if client was up to date
 	for x in serverGraph:
 		if x not in clientGraphReduced and client_address[0] in shipVers[getPID(x)]:
 			print "removed",getPID(x) 
 			deletedShips.append(getPID(x))
 			serverGraph.remove(x)
-
+			
+			#print ""
+			#print serverGraph
+			#print ""
+		shipVers[getPID(x)].append(client_address[0])
 
 	
 	print "Flightstate handled"

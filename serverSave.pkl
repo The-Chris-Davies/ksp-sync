@@ -3193,49 +3193,49 @@ S'FlightIntegrator'
 p1709
 a(lp1710
 aaa(lp1711
-S'pid = 2db1e2d3db0f40efa147b7f0fdb62ec4'
+S'pid = 8d76f097a8f741a59badcf8c42e018f1'
 p1712
-aS"name = Empire's State"
+aS'name = KenKato'
 p1713
-aS'type = Plane'
+aS'type = Ship'
 p1714
-aS'sit = ORBITING'
+aS'sit = PRELAUNCH'
 p1715
-aS'landed = False'
+aS'landed = True'
 p1716
-aS'landedAt ='
+aS'landedAt = LaunchPad'
 p1717
 aS'splashed = False'
 p1718
-aS'met = 351.40979492179747'
+aS'met = 0'
 p1719
-aS'lct = 15.679999999999755'
+aS'lct = 743.51255859352307'
 p1720
-aS'lastUT = 367.08979492179725'
+aS'lastUT = 743.51255859352307'
 p1721
 aS'root = 0'
 p1722
-aS'lat = 24.913783603094252'
+aS'lat = -0.09719997731870457'
 p1723
-aS'lon = -79.559990031982537'
+aS'lon = -74.557681945944651'
 p1724
-aS'alt = 152920.93664558488'
+aS'alt = 91.729682268225588'
 p1725
-aS'hgt = -1'
+aS'hgt = 19.3359795'
 p1726
-aS'nrm = -0.0588300824,0.206239358,-0.97673142'
+aS'nrm = 0.000589370728,0.999999881,-8.43405724E-05'
 p1727
-aS'rot = -0.112986192,0.120693244,-0.00867065508,-0.986200809'
+aS'rot = -0.700959563,-0.0923313349,-0.0972613841,0.700479031'
 p1728
-aS'CoM = -2.19643116E-05,3.01919031,0.000498324633'
+aS'CoM = 0,-10.3476582,4.76837158E-07'
 p1729
-aS'stg = 0'
+aS'stg = 3'
 p1730
 aS'prst = False'
 p1731
-aS'ref = 2702270023'
+aS'ref = 2125264913'
 p1732
-aS'ctrl = True'
+aS'ctrl = False'
 p1733
 aS'cPch ='
 p1734
@@ -3246,34 +3246,34 @@ p1736
 aS'ORBIT'
 p1737
 a(lp1738
-S'SMA = 754370.07422194118'
+S'SMA = 300040.69101285812'
 p1739
-aS'ECC = 0.005874775826972491'
+aS'ECC = 0.99999999999999989'
 p1740
-aS'INC = 89.201727254204869'
+aS'INC = 0.097200064530920977'
 p1741
-aS'LPE = 96.157369001485577'
+aS'LPE = 90'
 p1742
-aS'LAN = 16.201721436142293'
+aS'LAN = 297.86361149250627'
 p1743
-aS'MNA = -1.2322765321661335'
+aS'MNA = 3.1415926207170166'
 p1744
-aS'EPH = 367.08979492179725'
+aS'EPH = 743.53255859352305'
 p1745
 aS'REF = 1'
 p1746
 aaS'PART'
 p1747
 a(lp1748
-S'name = Mark2Cockpit'
+S'name = mk1pod'
 p1749
-aS'cid = 4293853786'
+aS'cid = 4294565116'
 p1750
-aS'uid = 2702270023'
+aS'uid = 2125264913'
 p1751
-aS'mid = 3392428063'
+aS'mid = 3605032730'
 p1752
-aS'launchID = 1'
+aS'launchID = 3'
 p1753
 aS'parent = 0'
 p1754
@@ -3283,7 +3283,7 @@ aS'rotation = 0,0,0,1'
 p1756
 aS'mirror = 1,1,1'
 p1757
-aS'symMethod = Mirror'
+aS'symMethod = Radial'
 p1758
 aS'istg = -1'
 p1759
@@ -3301,19 +3301,19 @@ aS'attm = 0'
 p1765
 aS'srfN = , -1'
 p1766
-aS'attN = top, 25'
+aS'attN = bottom, 1'
 p1767
-aS'attN = bottom, 21'
+aS'attN = top, -1'
 p1768
-aS'mass = 1'
+aS'mass = 0.800000012'
 p1769
 aS'shielded = False'
 p1770
-aS'temp = 389.14825320409972'
+aS'temp = 310.16035817418771'
 p1771
-aS'tempExt = 391.15949923387814'
+aS'tempExt = 310.6684832047651'
 p1772
-aS'tempExtUnexp = 4'
+aS'tempExtUnexp = 310.66616339354414'
 p1773
 aS'expt = 0.5'
 p1774
@@ -3325,148 +3325,148 @@ aS'autostrutMode = Off'
 p1777
 aS'rigidAttachment = False'
 p1778
-aS'flag = Squad/Flags/rings'
+aS'flag = Squad/Agencies/StrutCo'
 p1779
-aS'rTrf = Mark2Cockpit'
+aS'rTrf = mk1pod'
 p1780
 aS'modCost = 0'
 p1781
-aS'crew = Jebediah Kerman'
+aS'EVENTS'
 p1782
-aS'EVENTS'
-p1783
-a(lp1784
+a(lp1783
 aS'ACTIONS'
-p1785
-a(lp1786
+p1784
+a(lp1785
 aS'PARTDATA'
-p1787
-a(lp1788
+p1786
+a(lp1787
 aS'MODULE'
-p1789
-a(lp1790
+p1788
+a(lp1789
 S'name = ModuleCommand'
+p1790
+aS'isEnabled = True'
 p1791
-aS'isEnabled = True'
-p1792
 aS'hibernation = False'
-p1793
+p1792
 aS'hibernateOnWarp = False'
+p1793
+aS'stagingEnabled = True'
 p1794
-aS'stagingEnabled = True'
+aS'EVENTS'
 p1795
-aS'EVENTS'
-p1796
-a(lp1797
+a(lp1796
 aS'ACTIONS'
-p1798
-a(lp1799
+p1797
+a(lp1798
 S'HibernateToggle'
-p1800
-a(lp1801
+p1799
+a(lp1800
 S'actionGroup = None'
-p1802
+p1801
 aS'active = False'
+p1802
+aaaS'UPGRADESAPPLIED'
 p1803
-aaaS'UPGRADESAPPLIED'
-p1804
-a(lp1805
+a(lp1804
 aaS'MODULE'
-p1806
-a(lp1807
+p1805
+a(lp1806
 S'name = ModuleReactionWheel'
+p1807
+aS'isEnabled = True'
 p1808
-aS'isEnabled = True'
-p1809
 aS'actuatorModeCycle = 0'
-p1810
+p1809
 aS'authorityLimiter = 100'
+p1810
+aS'stateString = Idle'
 p1811
-aS'stateString = Running'
+aS'stagingEnabled = True'
 p1812
-aS'stagingEnabled = True'
-p1813
 aS'WheelState = Active'
+p1813
+aS'EVENTS'
 p1814
-aS'EVENTS'
-p1815
-a(lp1816
+a(lp1815
 aS'ACTIONS'
-p1817
-a(lp1818
+p1816
+a(lp1817
 S'CycleAction'
-p1819
-a(lp1820
+p1818
+a(lp1819
 S'actionGroup = None'
-p1821
+p1820
 aaS'Activate'
-p1822
-a(lp1823
+p1821
+a(lp1822
 S'actionGroup = None'
-p1824
+p1823
 aaS'Deactivate'
-p1825
-a(lp1826
+p1824
+a(lp1825
 S'actionGroup = None'
-p1827
+p1826
 aaS'Toggle'
-p1828
-a(lp1829
+p1827
+a(lp1828
 S'actionGroup = None'
-p1830
+p1829
 aaaS'UPGRADESAPPLIED'
-p1831
-a(lp1832
+p1830
+a(lp1831
 aaS'MODULE'
-p1833
-a(lp1834
-S'name = ModuleScienceExperiment'
-p1835
+p1832
+a(lp1833
+S'name = ModuleColorChanger'
+p1834
 aS'isEnabled = True'
+p1835
+aS'animState = False'
 p1836
-aS'Deployed = False'
-p1837
-aS'Inoperable = False'
-p1838
-aS'cooldownToGo = 0'
-p1839
 aS'stagingEnabled = True'
-p1840
+p1837
 aS'EVENTS'
-p1841
-a(lp1842
+p1838
+a(lp1839
 aS'ACTIONS'
-p1843
-a(lp1844
-S'DeployAction'
+p1840
+a(lp1841
+S'ToggleAction'
+p1842
+a(lp1843
+S'actionGroup = Light'
+p1844
+aaaS'UPGRADESAPPLIED'
 p1845
 a(lp1846
-S'actionGroup = None'
-p1847
-aaS'ResetAction'
-p1848
-a(lp1849
-S'actionGroup = None'
-p1850
-aaaS'UPGRADESAPPLIED'
-p1851
-a(lp1852
 aaS'MODULE'
-p1853
-a(lp1854
-S'name = ModuleScienceContainer'
-p1855
+p1847
+a(lp1848
+S'name = ModuleScienceExperiment'
+p1849
 aS'isEnabled = True'
-p1856
+p1850
+aS'Deployed = False'
+p1851
+aS'Inoperable = False'
+p1852
+aS'cooldownToGo = 0'
+p1853
 aS'stagingEnabled = True'
-p1857
+p1854
 aS'EVENTS'
-p1858
-a(lp1859
+p1855
+a(lp1856
 aS'ACTIONS'
-p1860
-a(lp1861
-S'CollectAllAction'
+p1857
+a(lp1858
+S'DeployAction'
+p1859
+a(lp1860
+S'actionGroup = None'
+p1861
+aaS'ResetAction'
 p1862
 a(lp1863
 S'actionGroup = None'
@@ -3477,629 +3477,623 @@ a(lp1866
 aaS'MODULE'
 p1867
 a(lp1868
-S'name = FlagDecal'
+S'name = ModuleScienceContainer'
 p1869
 aS'isEnabled = True'
 p1870
-aS'flagDisplayed = True'
-p1871
 aS'stagingEnabled = True'
-p1872
+p1871
 aS'EVENTS'
-p1873
-a(lp1874
+p1872
+a(lp1873
 aS'ACTIONS'
-p1875
-a(lp1876
-aS'UPGRADESAPPLIED'
-p1877
-a(lp1878
-aaS'MODULE'
+p1874
+a(lp1875
+S'CollectAllAction'
+p1876
+a(lp1877
+S'actionGroup = None'
+p1878
+aaaS'UPGRADESAPPLIED'
 p1879
 a(lp1880
-S'name = ModuleAnimateGeneric'
+aaS'MODULE'
 p1881
-aS'isEnabled = True'
-p1882
-aS'aniState = LOCKED'
+a(lp1882
+S'name = FlagDecal'
 p1883
-aS'animSwitch = True'
+aS'isEnabled = True'
 p1884
-aS'animTime = 0'
+aS'flagDisplayed = True'
 p1885
-aS'animSpeed = 0.25'
+aS'stagingEnabled = True'
 p1886
-aS'deployPercent = 100'
+aS'EVENTS'
 p1887
-aS'animationIsDisabled = False'
-p1888
-aS'stagingEnabled = True'
+a(lp1888
+aS'ACTIONS'
 p1889
-aS'EVENTS'
-p1890
-a(lp1891
-aS'ACTIONS'
-p1892
-a(lp1893
-S'ToggleAction'
-p1894
-a(lp1895
-S'actionGroup = Light'
+a(lp1890
+aS'UPGRADESAPPLIED'
+p1891
+a(lp1892
+aaS'MODULE'
+p1893
+a(lp1894
+S'name = ModuleConductionMultiplier'
+p1895
+aS'isEnabled = True'
 p1896
-aaaS'UPGRADESAPPLIED'
+aS'stagingEnabled = True'
 p1897
-a(lp1898
-aaS'MODULE'
-p1899
-a(lp1900
-S'name = ModuleDataTransmitter'
-p1901
-aS'isEnabled = True'
-p1902
-aS'xmitIncomplete = False'
-p1903
-aS'stagingEnabled = True'
-p1904
-aS'canComm = True'
-p1905
 aS'EVENTS'
-p1906
-a(lp1907
+p1898
+a(lp1899
 aS'ACTIONS'
-p1908
-a(lp1909
-S'StartTransmissionAction'
-p1910
-a(lp1911
-S'actionGroup = None'
-p1912
-aS'active = False'
-p1913
-aaaS'UPGRADESAPPLIED'
-p1914
-a(lp1915
+p1900
+a(lp1901
+aS'UPGRADESAPPLIED'
+p1902
+a(lp1903
 aaS'MODULE'
-p1916
-a(lp1917
-S'name = ModuleTripLogger'
-p1918
+p1904
+a(lp1905
+S'name = ModuleDataTransmitter'
+p1906
 aS'isEnabled = True'
-p1919
+p1907
+aS'xmitIncomplete = False'
+p1908
 aS'stagingEnabled = True'
-p1920
+p1909
+aS'canComm = True'
+p1910
 aS'EVENTS'
+p1911
+a(lp1912
+aS'ACTIONS'
+p1913
+a(lp1914
+S'StartTransmissionAction'
+p1915
+a(lp1916
+S'actionGroup = None'
+p1917
+aS'active = False'
+p1918
+aaaS'UPGRADESAPPLIED'
+p1919
+a(lp1920
+aaS'MODULE'
 p1921
 a(lp1922
-aS'ACTIONS'
+S'name = ModuleLiftingSurface'
 p1923
-a(lp1924
-aS'Log'
+aS'isEnabled = True'
+p1924
+aS'stagingEnabled = True'
 p1925
-a(lp1926
-S'flight = 0'
-p1927
-aS'0 = Flight,Kerbin'
+aS'EVENTS'
+p1926
+a(lp1927
+aS'ACTIONS'
 p1928
-aS'0 = Suborbit,Kerbin'
-p1929
-aS'0 = Orbit,Kerbin'
+a(lp1929
+aS'UPGRADESAPPLIED'
 p1930
-aaS'UPGRADESAPPLIED'
-p1931
-a(lp1932
-aaS'RESOURCE'
-p1933
-a(lp1934
-S'name = ElectricCharge'
+a(lp1931
+aaS'MODULE'
+p1932
+a(lp1933
+S'name = ModuleTripLogger'
+p1934
+aS'isEnabled = True'
 p1935
-aS'amount = 50'
+aS'stagingEnabled = True'
 p1936
-aS'maxAmount = 50'
+aS'EVENTS'
 p1937
-aS'flowState = True'
-p1938
-aS'isTweakable = True'
+a(lp1938
+aS'ACTIONS'
 p1939
-aS'hideFlow = False'
-p1940
-aS'isVisible = True'
+a(lp1940
+aS'Log'
 p1941
-aS'flowMode = Both'
-p1942
-aaS'RESOURCE'
+a(lp1942
+S'flight = 0'
 p1943
-a(lp1944
-S'name = MonoPropellant'
-p1945
-aS'amount = 7.5'
+aaS'UPGRADESAPPLIED'
+p1944
+a(lp1945
+aaS'RESOURCE'
 p1946
-aS'maxAmount = 7.5'
-p1947
-aS'flowState = True'
+a(lp1947
+S'name = ElectricCharge'
 p1948
-aS'isTweakable = True'
+aS'amount = 50'
 p1949
-aS'hideFlow = False'
+aS'maxAmount = 50'
 p1950
-aS'isVisible = True'
+aS'flowState = True'
 p1951
-aS'flowMode = Both'
+aS'isTweakable = True'
 p1952
-aaaS'PART'
+aS'hideFlow = False'
 p1953
-a(lp1954
-S'name = structuralIBeam3'
+aS'isVisible = True'
+p1954
+aS'flowMode = Both'
 p1955
-aS'cid = 4293834612'
+aaS'RESOURCE'
 p1956
-aS'uid = 3150804765'
-p1957
-aS'mid = 3392428063'
+a(lp1957
+S'name = MonoPropellant'
 p1958
-aS'launchID = 1'
+aS'amount = 10'
 p1959
-aS'parent = 0'
+aS'maxAmount = 10'
 p1960
-aS'position = 1.4217944145202637,0.025609016418457031,-3.7252902984619141E-09'
+aS'flowState = True'
 p1961
-aS'rotation = 0.500000119,0.50000006,-0.49999994,0.5'
+aS'isTweakable = True'
 p1962
-aS'mirror = 1,1,1'
+aS'hideFlow = False'
 p1963
-aS'symMethod = Mirror'
+aS'isVisible = True'
 p1964
-aS'istg = -1'
+aS'flowMode = Both'
 p1965
-aS'resPri = 0'
+aaaS'PART'
 p1966
-aS'dstg = 0'
-p1967
-aS'sqor = -1'
+a(lp1967
+S'name = fuelTank'
 p1968
-aS'sepI = -1'
+aS'cid = 4294557588'
 p1969
-aS'sidx = -1'
+aS'uid = 973933330'
 p1970
-aS'attm = 1'
+aS'mid = 3605032730'
 p1971
-aS'sym = 11'
+aS'launchID = 3'
 p1972
-aS'srfN = srfAttach, 0'
+aS'parent = 0'
 p1973
-aS'attN = top, 2'
+aS'position = 0,-1.3707275390625,0'
 p1974
-aS'attN = bottom, -1'
+aS'rotation = 0,0,0,1'
 p1975
-aS'mass = 0.1875'
+aS'mirror = 1,1,1'
 p1976
-aS'shielded = False'
+aS'symMethod = Radial'
 p1977
-aS'temp = 323.42843380493122'
+aS'istg = -1'
 p1978
-aS'tempExt = 344.43451820666479'
+aS'resPri = 0'
 p1979
-aS'tempExtUnexp = 4'
+aS'dstg = 0'
 p1980
-aS'expt = 0.5'
+aS'sqor = -1'
 p1981
-aS'state = 0'
+aS'sepI = -1'
 p1982
-aS'attached = True'
+aS'sidx = -1'
 p1983
-aS'autostrutMode = Off'
-p1984
-aS'rigidAttachment = False'
-p1985
-aS'flag = Squad/Flags/rings'
-p1986
-aS'rTrf = structuralIBeam3'
-p1987
-aS'modCost = 0'
-p1988
-aS'EVENTS'
-p1989
-a(lp1990
-aS'ACTIONS'
-p1991
-a(lp1992
-aS'PARTDATA'
-p1993
-a(lp1994
-aaS'PART'
-p1995
-a(lp1996
-S'name = structuralPanel2'
-p1997
-aS'cid = 4293573876'
-p1998
-aS'uid = 1181633462'
-p1999
-aS'mid = 3392428063'
-p2000
-aS'launchID = 1'
-p2001
-aS'parent = 1'
-p2002
-aS'position = 2.2517609596252441,0.025609016418457031,2.9313378036022186E-07'
-p2003
-aS'rotation = 2.98023224E-08,0,-0.707106829,0.707106948'
-p2004
-aS'mirror = 1,1,1'
-p2005
-aS'symMethod = Mirror'
-p2006
-aS'istg = -1'
-p2007
-aS'resPri = 0'
-p2008
-aS'dstg = 0'
-p2009
-aS'sqor = -1'
-p2010
-aS'sepI = -1'
-p2011
-aS'sidx = -1'
-p2012
 aS'attm = 0'
-p2013
-aS'sym = 12'
-p2014
+p1984
 aS'srfN = srfAttach, -1'
+p1985
+aS'attN = top, 0'
+p1986
+aS'attN = bottom, 4'
+p1987
+aS'mass = 0.25'
+p1988
+aS'shielded = False'
+p1989
+aS'temp = 310.15967757445037'
+p1990
+aS'tempExt = 310.32873598685222'
+p1991
+aS'tempExtUnexp = 310.32797146461212'
+p1992
+aS'expt = 0.5'
+p1993
+aS'state = 0'
+p1994
+aS'attached = True'
+p1995
+aS'autostrutMode = Off'
+p1996
+aS'rigidAttachment = False'
+p1997
+aS'flag = Squad/Agencies/StrutCo'
+p1998
+aS'rTrf = fuelTank'
+p1999
+aS'modCost = 0'
+p2000
+aS'EVENTS'
+p2001
+a(lp2002
+aS'ACTIONS'
+p2003
+a(lp2004
+aS'PARTDATA'
+p2005
+a(lp2006
+aS'RESOURCE'
+p2007
+a(lp2008
+S'name = LiquidFuel'
+p2009
+aS'amount = 180'
+p2010
+aS'maxAmount = 180'
+p2011
+aS'flowState = True'
+p2012
+aS'isTweakable = True'
+p2013
+aS'hideFlow = False'
+p2014
+aS'isVisible = True'
 p2015
-aS'attN = top, -1'
+aS'flowMode = Both'
 p2016
-aS'attN = bottom, 1'
+aaS'RESOURCE'
 p2017
-aS'mass = 0.300000012'
-p2018
-aS'shielded = False'
+a(lp2018
+S'name = Oxidizer'
 p2019
-aS'temp = 322.93086639153125'
+aS'amount = 220'
 p2020
-aS'tempExt = 322.07804106652264'
+aS'maxAmount = 220'
 p2021
-aS'tempExtUnexp = 4'
+aS'flowState = True'
 p2022
-aS'expt = 0.5'
+aS'isTweakable = True'
 p2023
-aS'state = 0'
+aS'hideFlow = False'
 p2024
-aS'attached = True'
+aS'isVisible = True'
 p2025
-aS'autostrutMode = Off'
+aS'flowMode = Both'
 p2026
-aS'rigidAttachment = False'
+aaaS'PART'
 p2027
-aS'flag = Squad/Flags/rings'
-p2028
-aS'rTrf = structuralPanel2'
+a(lp2028
+S'name = batteryPack'
 p2029
-aS'modCost = 0'
+aS'cid = 4294551912'
 p2030
-aS'EVENTS'
+aS'uid = 1068494337'
 p2031
-a(lp2032
-aS'ACTIONS'
+aS'mid = 3605032730'
+p2032
+aS'launchID = 3'
 p2033
-a(lp2034
-aS'PARTDATA'
+aS'parent = 1'
+p2034
+aS'position = -0.62328344583511353,-0.71930885314941406,3.7252902984619141E-08'
 p2035
-a(lp2036
-aaS'PART'
-p2037
-a(lp2038
-S'name = largeSolarPanel'
-p2039
-aS'cid = 4293573488'
-p2040
-aS'uid = 875584481'
-p2041
-aS'mid = 3392428063'
-p2042
-aS'launchID = 1'
-p2043
-aS'parent = 2'
-p2044
-aS'position = 2.2355790138244629,1.0256471633911133,9.4994902610778809E-07'
-p2045
-aS'rotation = -0.500000238,0.49999994,-0.500000119,0.5'
-p2046
+aS'rotation = 1.25607384E-15,0.707106829,-1.25607395E-15,0.707106709'
+p2036
 aS'mirror = 1,1,1'
-p2047
-aS'symMethod = Mirror'
-p2048
+p2037
+aS'symMethod = Radial'
+p2038
 aS'istg = -1'
-p2049
+p2039
 aS'resPri = 0'
-p2050
+p2040
 aS'dstg = 0'
-p2051
+p2041
 aS'sqor = -1'
-p2052
+p2042
 aS'sepI = -1'
-p2053
+p2043
 aS'sidx = -1'
-p2054
+p2044
 aS'attm = 1'
-p2055
-aS'sym = 13'
-p2056
-aS'srfN = srfAttach, 2'
-p2057
-aS'mass = 0.300000012'
-p2058
+p2045
+aS'sym = 3'
+p2046
+aS'srfN = srfAttach, 1'
+p2047
+aS'mass = 0.00499999989'
+p2048
 aS'shielded = False'
-p2059
-aS'temp = 318.74152400838597'
-p2060
-aS'tempExt = 314.53850155440682'
-p2061
-aS'tempExtUnexp = 4'
-p2062
+p2049
+aS'temp = 310.1673643227615'
+p2050
+aS'tempExt = 310.32455676884933'
+p2051
+aS'tempExtUnexp = 310.32383951963465'
+p2052
 aS'expt = 0.5'
-p2063
+p2053
 aS'state = 0'
-p2064
+p2054
 aS'attached = True'
-p2065
+p2055
 aS'autostrutMode = Off'
-p2066
+p2056
 aS'rigidAttachment = False'
-p2067
-aS'flag = Squad/Flags/rings'
-p2068
-aS'rTrf = largeSolarPanel'
-p2069
+p2057
+aS'flag = Squad/Agencies/StrutCo'
+p2058
+aS'rTrf = batteryPack'
+p2059
 aS'modCost = 0'
-p2070
+p2060
 aS'EVENTS'
-p2071
-a(lp2072
+p2061
+a(lp2062
 aS'ACTIONS'
-p2073
-a(lp2074
+p2063
+a(lp2064
 aS'PARTDATA'
+p2065
+a(lp2066
+aS'RESOURCE'
+p2067
+a(lp2068
+S'name = ElectricCharge'
+p2069
+aS'amount = 100'
+p2070
+aS'maxAmount = 100'
+p2071
+aS'flowState = True'
+p2072
+aS'isTweakable = True'
+p2073
+aS'hideFlow = False'
+p2074
+aS'isVisible = True'
 p2075
-a(lp2076
-aS'MODULE'
+aS'flowMode = Both'
+p2076
+aaaS'PART'
 p2077
 a(lp2078
-S'name = ModuleDeployableSolarPanel'
+S'name = batteryPack'
 p2079
-aS'isEnabled = True'
+aS'cid = 4294551874'
 p2080
-aS'efficiencyMult = 1'
+aS'uid = 2239413341'
 p2081
-aS'launchUT = 15.679999999999755'
+aS'mid = 3605032730'
 p2082
-aS'currentRotation = (-0.581043899, -0.581045568, -0.402970999, 0.402974457)'
+aS'launchID = 3'
 p2083
-aS'storedAnimationTime = 0'
+aS'parent = 1'
 p2084
-aS'storedAnimationSpeed = 1'
+aS'position = 0.62328344583511353,-0.71930885314941406,-8.9406967163085938E-08'
 p2085
-aS'deployState = EXTENDED'
+aS'rotation = -1.25607405E-15,0.70710665,-1.25607373E-15,-0.707106888'
 p2086
-aS'stagingEnabled = True'
+aS'mirror = 1,1,1'
 p2087
-aS'EVENTS'
+aS'symMethod = Radial'
 p2088
-a(lp2089
-aS'ACTIONS'
+aS'istg = -1'
+p2089
+aS'resPri = 0'
 p2090
-a(lp2091
-S'ExtendPanelsAction'
+aS'dstg = 0'
+p2091
+aS'sqor = -1'
 p2092
-a(lp2093
-S'actionGroup = None'
+aS'sepI = -1'
+p2093
+aS'sidx = -1'
 p2094
-aaS'ExtendAction'
+aS'attm = 1'
 p2095
-a(lp2096
-S'actionGroup = None'
+aS'sym = 2'
+p2096
+aS'srfN = srfAttach, 1'
 p2097
-aaS'RetractAction'
+aS'mass = 0.00499999989'
 p2098
-a(lp2099
-S'actionGroup = None'
+aS'shielded = False'
+p2099
+aS'temp = 310.16581219341788'
 p2100
-aaaS'UPGRADESAPPLIED'
+aS'tempExt = 310.29678609094714'
 p2101
-a(lp2102
-aaaS'PART'
+aS'tempExtUnexp = 310.29591943745493'
+p2102
+aS'expt = 0.5'
 p2103
-a(lp2104
-S'name = structuralPanel2'
+aS'state = 0'
+p2104
+aS'attached = True'
 p2105
-aS'cid = 4293573356'
+aS'autostrutMode = Off'
 p2106
-aS'uid = 995229864'
+aS'rigidAttachment = False'
 p2107
-aS'mid = 3392428063'
+aS'flag = Squad/Agencies/StrutCo'
 p2108
-aS'launchID = 1'
+aS'rTrf = batteryPack'
 p2109
-aS'parent = 2'
+aS'modCost = 0'
 p2110
-aS'position = 1.5552197694778442,0.025606155395507813,-1.6924749612808228'
+aS'EVENTS'
 p2111
-aS'rotation = -0.270598084,0.270598143,-0.653281689,0.65328145'
-p2112
-aS'mirror = 1,1,1'
+a(lp2112
+aS'ACTIONS'
 p2113
-aS'symMethod = Mirror'
-p2114
-aS'istg = -1'
+a(lp2114
+aS'PARTDATA'
 p2115
-aS'resPri = 0'
-p2116
-aS'dstg = 0'
+a(lp2116
+aS'RESOURCE'
 p2117
-aS'sqor = -1'
-p2118
-aS'sepI = -1'
+a(lp2118
+S'name = ElectricCharge'
 p2119
-aS'sidx = -1'
+aS'amount = 100'
 p2120
-aS'attm = 1'
+aS'maxAmount = 100'
 p2121
-aS'sym = 14'
+aS'flowState = True'
 p2122
-aS'srfN = srfAttach, 2'
+aS'isTweakable = True'
 p2123
-aS'attN = top, -1'
+aS'hideFlow = False'
 p2124
-aS'attN = bottom, -1'
+aS'isVisible = True'
 p2125
-aS'mass = 0.300000012'
+aS'flowMode = Both'
 p2126
-aS'shielded = False'
+aaaS'PART'
 p2127
-aS'temp = 319.3412821736016'
-p2128
-aS'tempExt = 318.91366403350236'
+a(lp2128
+S'name = liquidEngine2'
 p2129
-aS'tempExtUnexp = 4'
+aS'cid = 4294544088'
 p2130
-aS'expt = 0.5'
+aS'uid = 3289795761'
 p2131
-aS'state = 0'
+aS'mid = 3605032730'
 p2132
-aS'attached = True'
+aS'launchID = 3'
 p2133
-aS'autostrutMode = Off'
+aS'parent = 1'
 p2134
-aS'rigidAttachment = False'
+aS'position = 0,-3.1850547790527344,0'
 p2135
-aS'flag = Squad/Flags/rings'
+aS'rotation = 0,0,0,1'
 p2136
-aS'rTrf = structuralPanel2'
-p2137
-aS'modCost = 0'
-p2138
-aS'EVENTS'
-p2139
-a(lp2140
-aS'ACTIONS'
-p2141
-a(lp2142
-aS'PARTDATA'
-p2143
-a(lp2144
-aaS'PART'
-p2145
-a(lp2146
-S'name = largeSolarPanel'
-p2147
-aS'cid = 4293573334'
-p2148
-aS'uid = 1585401471'
-p2149
-aS'mid = 3392428063'
-p2150
-aS'launchID = 1'
-p2151
-aS'parent = 4'
-p2152
-aS'position = 1.5437775850296021,1.0256443023681641,-1.6810319423675537'
-p2153
-aS'rotation = -0.653281689,0.653281629,-0.270598233,0.270597816'
-p2154
 aS'mirror = 1,1,1'
-p2155
-aS'symMethod = Mirror'
-p2156
-aS'istg = -1'
-p2157
+p2137
+aS'symMethod = Radial'
+p2138
+aS'istg = 0'
+p2139
 aS'resPri = 0'
-p2158
+p2140
 aS'dstg = 0'
-p2159
-aS'sqor = -1'
-p2160
+p2141
+aS'sqor = 0'
+p2142
 aS'sepI = -1'
-p2161
-aS'sidx = -1'
-p2162
-aS'attm = 1'
-p2163
-aS'sym = 15'
-p2164
-aS'srfN = srfAttach, 4'
-p2165
-aS'mass = 0.300000012'
-p2166
+p2143
+aS'sidx = 0'
+p2144
+aS'attm = 0'
+p2145
+aS'srfN = , -1'
+p2146
+aS'attN = top, 1'
+p2147
+aS'attN = bottom, 5'
+p2148
+aS'mass = 1.5'
+p2149
 aS'shielded = False'
-p2167
-aS'temp = 317.50240175242078'
-p2168
-aS'tempExt = 314.62565171787105'
-p2169
-aS'tempExtUnexp = 4'
-p2170
+p2150
+aS'temp = 310.15970404642053'
+p2151
+aS'tempExt = 310.19097804580315'
+p2152
+aS'tempExtUnexp = 310.19098800123282'
+p2153
 aS'expt = 0.5'
-p2171
+p2154
 aS'state = 0'
-p2172
+p2155
 aS'attached = True'
-p2173
+p2156
 aS'autostrutMode = Off'
-p2174
+p2157
 aS'rigidAttachment = False'
-p2175
-aS'flag = Squad/Flags/rings'
-p2176
-aS'rTrf = largeSolarPanel'
-p2177
+p2158
+aS'flag = Squad/Agencies/StrutCo'
+p2159
+aS'rTrf = liquidEngine2'
+p2160
 aS'modCost = 0'
-p2178
+p2161
 aS'EVENTS'
-p2179
-a(lp2180
+p2162
+a(lp2163
 aS'ACTIONS'
-p2181
-a(lp2182
+p2164
+a(lp2165
 aS'PARTDATA'
-p2183
-a(lp2184
+p2166
+a(lp2167
 aS'MODULE'
-p2185
-a(lp2186
-S'name = ModuleDeployableSolarPanel'
-p2187
+p2168
+a(lp2169
+S'name = ModuleEngines'
+p2170
 aS'isEnabled = True'
-p2188
-aS'efficiencyMult = 1'
-p2189
-aS'launchUT = 15.679999999999755'
-p2190
-aS'currentRotation = (-0.382600248, -0.382603168, -0.594655335, 0.594656885)'
-p2191
-aS'storedAnimationTime = 0'
-p2192
-aS'storedAnimationSpeed = 1'
-p2193
-aS'deployState = EXTENDED'
-p2194
+p2171
+aS'staged = False'
+p2172
+aS'flameout = False'
+p2173
+aS'EngineIgnited = False'
+p2174
+aS'engineShutdown = False'
+p2175
+aS'currentThrottle = 0'
+p2176
+aS'thrustPercentage = 100'
+p2177
+aS'manuallyOverridden = False'
+p2178
 aS'stagingEnabled = True'
-p2195
+p2179
 aS'EVENTS'
-p2196
-a(lp2197
+p2180
+a(lp2181
 aS'ACTIONS'
+p2182
+a(lp2183
+S'OnAction'
+p2184
+a(lp2185
+S'actionGroup = None'
+p2186
+aaS'ShutdownAction'
+p2187
+a(lp2188
+S'actionGroup = None'
+p2189
+aaS'ActivateAction'
+p2190
+a(lp2191
+S'actionGroup = None'
+p2192
+aaaS'UPGRADESAPPLIED'
+p2193
+a(lp2194
+aaS'MODULE'
+p2195
+a(lp2196
+S'name = ModuleJettison'
+p2197
+aS'isEnabled = True'
 p2198
-a(lp2199
-S'ExtendPanelsAction'
+aS'isJettisoned = False'
+p2199
+aS'shroudHideOverride = False'
 p2200
-a(lp2201
-S'actionGroup = None'
+aS'stagingEnabled = True'
+p2201
+aS'EVENTS'
 p2202
-aaS'ExtendAction'
-p2203
-a(lp2204
-S'actionGroup = None'
-p2205
-aaS'RetractAction'
+a(lp2203
+aS'ACTIONS'
+p2204
+a(lp2205
+S'JettisonAction'
 p2206
 a(lp2207
 S'actionGroup = None'
@@ -4107,442 +4101,417 @@ p2208
 aaaS'UPGRADESAPPLIED'
 p2209
 a(lp2210
-aaaS'PART'
+aaS'MODULE'
 p2211
 a(lp2212
-S'name = vernierEngine'
+S'name = ModuleGimbal'
 p2213
-aS'cid = 4293572242'
+aS'isEnabled = True'
 p2214
-aS'uid = 224026089'
+aS'gimbalLock = False'
 p2215
-aS'mid = 3392428063'
+aS'gimbalLimiter = 100'
 p2216
-aS'launchID = 1'
+aS'currentShowToggles = False'
 p2217
-aS'parent = 4'
+aS'enableYaw = True'
 p2218
-aS'position = 1.5670057535171509,-0.49001312255859375,-1.7042624950408936'
+aS'enablePitch = True'
 p2219
-aS'rotation = -5.36441803E-07,-0.923879683,-5.06639481E-07,0.382683665'
+aS'enableRoll = True'
 p2220
-aS'mirror = 1,1,1'
+aS'gimbalActive = False'
 p2221
-aS'symMethod = Mirror'
+aS'stagingEnabled = True'
 p2222
-aS'istg = -1'
-p2223
-aS'resPri = 0'
-p2224
-aS'dstg = 0'
-p2225
-aS'sqor = -1'
-p2226
-aS'sepI = -1'
-p2227
-aS'sidx = -1'
-p2228
-aS'attm = 1'
-p2229
-aS'sym = 16'
-p2230
-aS'srfN = srfAttach, 4'
-p2231
-aS'mass = 0.0799999982'
-p2232
-aS'shielded = False'
-p2233
-aS'temp = 318.84617637525031'
-p2234
-aS'tempExt = 318.38037501458433'
-p2235
-aS'tempExtUnexp = 4'
-p2236
-aS'expt = 0.5'
-p2237
-aS'state = 0'
-p2238
-aS'attached = True'
-p2239
-aS'autostrutMode = Off'
-p2240
-aS'rigidAttachment = False'
-p2241
-aS'flag = Squad/Flags/rings'
-p2242
-aS'rTrf = vernierEngine'
-p2243
-aS'modCost = 0'
-p2244
 aS'EVENTS'
+p2223
+a(lp2224
+aS'ACTIONS'
+p2225
+a(lp2226
+S'ToggleAction'
+p2227
+a(lp2228
+S'actionGroup = None'
+p2229
+aaS'LockAction'
+p2230
+a(lp2231
+S'actionGroup = None'
+p2232
+aaS'FreeAction'
+p2233
+a(lp2234
+S'actionGroup = None'
+p2235
+aaS'TogglePitchAction'
+p2236
+a(lp2237
+S'actionGroup = None'
+p2238
+aaS'ToggleYawAction'
+p2239
+a(lp2240
+S'actionGroup = None'
+p2241
+aaS'ToggleRollAction'
+p2242
+a(lp2243
+S'actionGroup = None'
+p2244
+aaaS'UPGRADESAPPLIED'
 p2245
 a(lp2246
-aS'ACTIONS'
+aaS'MODULE'
 p2247
 a(lp2248
-aS'PARTDATA'
+S'name = FXModuleAnimateThrottle'
 p2249
-a(lp2250
-aS'MODULE'
+aS'isEnabled = True'
+p2250
+aS'animState = 0'
 p2251
-a(lp2252
-S'name = ModuleRCSFX'
-p2253
-aS'isEnabled = True'
-p2254
-aS'rcsEnabled = True'
-p2255
-aS'thrustPercentage = 100'
-p2256
-aS'currentShowToggles = False'
-p2257
-aS'enableYaw = True'
-p2258
-aS'enablePitch = True'
-p2259
-aS'enableRoll = True'
-p2260
-aS'enableX = True'
-p2261
-aS'enableY = True'
-p2262
-aS'enableZ = True'
-p2263
-aS'useThrottle = False'
-p2264
-aS'fullThrust = False'
-p2265
-aS'stagingEnabled = False'
-p2266
-aS'EVENTS'
-p2267
-a(lp2268
-aS'ACTIONS'
-p2269
-a(lp2270
-S'ToggleAction'
-p2271
-a(lp2272
-S'actionGroup = None'
-p2273
-aaaS'UPGRADESAPPLIED'
-p2274
-a(lp2275
-aaaS'PART'
-p2276
-a(lp2277
-S'name = structuralPanel2'
-p2278
-aS'cid = 4293573180'
-p2279
-aS'uid = 3689707208'
-p2280
-aS'mid = 3392428063'
-p2281
-aS'launchID = 1'
-p2282
-aS'parent = 2'
-p2283
-aS'position = 1.532256007194519,0.025609016418457031,1.7067552804946899'
-p2284
-aS'rotation = -0.270597637,0.270598263,0.653281748,-0.65328151'
-p2285
-aS'mirror = 1,1,1'
-p2286
-aS'symMethod = Mirror'
-p2287
-aS'istg = -1'
-p2288
-aS'resPri = 0'
-p2289
-aS'dstg = 0'
-p2290
-aS'sqor = -1'
-p2291
-aS'sepI = -1'
-p2292
-aS'sidx = -1'
-p2293
-aS'attm = 1'
-p2294
-aS'sym = 17'
-p2295
-aS'srfN = srfAttach, 2'
-p2296
-aS'attN = top, -1'
-p2297
-aS'attN = bottom, -1'
-p2298
-aS'mass = 0.300000012'
-p2299
-aS'shielded = False'
-p2300
-aS'temp = 318.03103412147919'
-p2301
-aS'tempExt = 317.71436965740895'
-p2302
-aS'tempExtUnexp = 4'
-p2303
-aS'expt = 0.5'
-p2304
-aS'state = 0'
-p2305
-aS'attached = True'
-p2306
-aS'autostrutMode = Off'
-p2307
-aS'rigidAttachment = False'
-p2308
-aS'flag = Squad/Flags/rings'
-p2309
-aS'rTrf = structuralPanel2'
-p2310
-aS'modCost = 0'
-p2311
-aS'EVENTS'
-p2312
-a(lp2313
-aS'ACTIONS'
-p2314
-a(lp2315
-aS'PARTDATA'
-p2316
-a(lp2317
-aaS'PART'
-p2318
-a(lp2319
-S'name = largeSolarPanel'
-p2320
-aS'cid = 4293573158'
-p2321
-aS'uid = 2137960001'
-p2322
-aS'mid = 3392428063'
-p2323
-aS'launchID = 1'
-p2324
-aS'parent = 7'
-p2325
-aS'position = 1.5208139419555664,1.0256481170654297,1.6953128576278687'
-p2326
-aS'rotation = 0.270598382,-0.270597905,0.653282046,-0.653281152'
-p2327
-aS'mirror = 1,1,1'
-p2328
-aS'symMethod = Mirror'
-p2329
-aS'istg = -1'
-p2330
-aS'resPri = 0'
-p2331
-aS'dstg = 0'
-p2332
-aS'sqor = -1'
-p2333
-aS'sepI = -1'
-p2334
-aS'sidx = -1'
-p2335
-aS'attm = 1'
-p2336
-aS'sym = 18'
-p2337
-aS'srfN = srfAttach, 7'
-p2338
-aS'mass = 0.300000012'
-p2339
-aS'shielded = False'
-p2340
-aS'temp = 315.36619630570249'
-p2341
-aS'tempExt = 312.49659971514262'
-p2342
-aS'tempExtUnexp = 4'
-p2343
-aS'expt = 0.5'
-p2344
-aS'state = 0'
-p2345
-aS'attached = True'
-p2346
-aS'autostrutMode = Off'
-p2347
-aS'rigidAttachment = False'
-p2348
-aS'flag = Squad/Flags/rings'
-p2349
-aS'rTrf = largeSolarPanel'
-p2350
-aS'modCost = 0'
-p2351
-aS'EVENTS'
-p2352
-a(lp2353
-aS'ACTIONS'
-p2354
-a(lp2355
-aS'PARTDATA'
-p2356
-a(lp2357
-aS'MODULE'
-p2358
-a(lp2359
-S'name = ModuleDeployableSolarPanel'
-p2360
-aS'isEnabled = True'
-p2361
-aS'efficiencyMult = 1'
-p2362
-aS'launchUT = 15.679999999999755'
-p2363
-aS'currentRotation = (-0.691031635, -0.691020191, -0.149942741, 0.149945289)'
-p2364
-aS'storedAnimationTime = 0'
-p2365
-aS'storedAnimationSpeed = 1'
-p2366
-aS'deployState = EXTENDED'
-p2367
 aS'stagingEnabled = True'
-p2368
+p2252
 aS'EVENTS'
-p2369
-a(lp2370
+p2253
+a(lp2254
 aS'ACTIONS'
-p2371
-a(lp2372
-S'ExtendPanelsAction'
+p2255
+a(lp2256
+aS'UPGRADESAPPLIED'
+p2257
+a(lp2258
+aaS'MODULE'
+p2259
+a(lp2260
+S'name = ModuleAlternator'
+p2261
+aS'isEnabled = True'
+p2262
+aS'stagingEnabled = True'
+p2263
+aS'EVENTS'
+p2264
+a(lp2265
+aS'ACTIONS'
+p2266
+a(lp2267
+aS'UPGRADESAPPLIED'
+p2268
+a(lp2269
+aaS'MODULE'
+p2270
+a(lp2271
+S'name = ModuleSurfaceFX'
+p2272
+aS'isEnabled = True'
+p2273
+aS'stagingEnabled = True'
+p2274
+aS'EVENTS'
+p2275
+a(lp2276
+aS'ACTIONS'
+p2277
+a(lp2278
+aS'UPGRADESAPPLIED'
+p2279
+a(lp2280
+aaS'MODULE'
+p2281
+a(lp2282
+S'name = ModuleTestSubject'
+p2283
+aS'isEnabled = True'
+p2284
+aS'stagingEnabled = True'
+p2285
+aS'EVENTS'
+p2286
+a(lp2287
+aS'ACTIONS'
+p2288
+a(lp2289
+aS'UPGRADESAPPLIED'
+p2290
+a(lp2291
+aaaS'PART'
+p2292
+a(lp2293
+S'name = stackDecoupler'
+p2294
+aS'cid = 4294526350'
+p2295
+aS'uid = 929517328'
+p2296
+aS'mid = 3605032730'
+p2297
+aS'launchID = 3'
+p2298
+aS'parent = 4'
+p2299
+aS'position = 0,-3.9680290222167969,0'
+p2300
+aS'rotation = 0,0,0,1'
+p2301
+aS'mirror = 1,1,1'
+p2302
+aS'symMethod = Radial'
+p2303
+aS'istg = 1'
+p2304
+aS'resPri = 0'
+p2305
+aS'dstg = 1'
+p2306
+aS'sqor = 1'
+p2307
+aS'sepI = 1'
+p2308
+aS'sidx = 0'
+p2309
+aS'attm = 0'
+p2310
+aS'srfN = , -1'
+p2311
+aS'attN = bottom, 6'
+p2312
+aS'attN = top, 4'
+p2313
+aS'mass = 0.0500000007'
+p2314
+aS'shielded = False'
+p2315
+aS'temp = 310.161169880388'
+p2316
+aS'tempExt = 310.26677110748403'
+p2317
+aS'tempExtUnexp = 310.26618183124413'
+p2318
+aS'expt = 0.5'
+p2319
+aS'state = 0'
+p2320
+aS'attached = True'
+p2321
+aS'autostrutMode = Off'
+p2322
+aS'rigidAttachment = False'
+p2323
+aS'flag = Squad/Agencies/StrutCo'
+p2324
+aS'rTrf = stackDecoupler'
+p2325
+aS'modCost = 0'
+p2326
+aS'EVENTS'
+p2327
+a(lp2328
+aS'ACTIONS'
+p2329
+a(lp2330
+aS'PARTDATA'
+p2331
+a(lp2332
+aS'MODULE'
+p2333
+a(lp2334
+S'name = ModuleDecouple'
+p2335
+aS'isEnabled = True'
+p2336
+aS'ejectionForcePercent = 100'
+p2337
+aS'isDecoupled = False'
+p2338
+aS'stagingEnabled = True'
+p2339
+aS'EVENTS'
+p2340
+a(lp2341
+aS'ACTIONS'
+p2342
+a(lp2343
+S'DecoupleAction'
+p2344
+a(lp2345
+S'actionGroup = None'
+p2346
+aaaS'UPGRADESAPPLIED'
+p2347
+a(lp2348
+aaS'MODULE'
+p2349
+a(lp2350
+S'name = ModuleToggleCrossfeed'
+p2351
+aS'isEnabled = True'
+p2352
+aS'crossfeedStatus = False'
+p2353
+aS'stagingEnabled = True'
+p2354
+aS'EVENTS'
+p2355
+a(lp2356
+aS'ACTIONS'
+p2357
+a(lp2358
+S'ToggleAction'
+p2359
+a(lp2360
+S'actionGroup = None'
+p2361
+aaS'EnableAction'
+p2362
+a(lp2363
+S'actionGroup = None'
+p2364
+aaS'DisableAction'
+p2365
+a(lp2366
+S'actionGroup = None'
+p2367
+aaaS'UPGRADESAPPLIED'
+p2368
+a(lp2369
+aaS'MODULE'
+p2370
+a(lp2371
+S'name = ModuleTestSubject'
+p2372
+aS'isEnabled = True'
 p2373
-a(lp2374
-S'actionGroup = None'
+aS'stagingEnabled = True'
+p2374
+aS'EVENTS'
 p2375
-aaS'ExtendAction'
-p2376
-a(lp2377
-S'actionGroup = None'
-p2378
-aaS'RetractAction'
+a(lp2376
+aS'ACTIONS'
+p2377
+a(lp2378
+aS'UPGRADESAPPLIED'
 p2379
 a(lp2380
-S'actionGroup = None'
-p2381
-aaaS'UPGRADESAPPLIED'
-p2382
-a(lp2383
 aaaS'PART'
+p2381
+a(lp2382
+S'name = advSasModule'
+p2383
+aS'cid = 4294506036'
 p2384
-a(lp2385
-S'name = vernierEngine'
+aS'uid = 2426987491'
+p2385
+aS'mid = 3605032730'
 p2386
-aS'cid = 4293572178'
+aS'launchID = 3'
 p2387
-aS'uid = 3772683282'
+aS'parent = 5'
 p2388
-aS'mid = 3392428063'
+aS'position = 0,-4.3000507354736328,0'
 p2389
-aS'launchID = 1'
+aS'rotation = 0,0,0,1'
 p2390
-aS'parent = 7'
-p2391
-aS'position = 1.5440422296524048,-0.48220920562744141,1.7185428142547607'
-p2392
-aS'rotation = 2.98023224E-08,-0.923879623,4.47034836E-08,-0.382683277'
-p2393
 aS'mirror = 1,1,1'
-p2394
-aS'symMethod = Mirror'
-p2395
-aS'istg = -1'
-p2396
+p2391
+aS'symMethod = Radial'
+p2392
+aS'istg = 1'
+p2393
 aS'resPri = 0'
-p2397
-aS'dstg = 0'
-p2398
+p2394
+aS'dstg = 2'
+p2395
 aS'sqor = -1'
-p2399
-aS'sepI = -1'
-p2400
+p2396
+aS'sepI = 1'
+p2397
 aS'sidx = -1'
+p2398
+aS'attm = 0'
+p2399
+aS'srfN = , -1'
+p2400
+aS'attN = top, 5'
 p2401
-aS'attm = 1'
+aS'attN = bottom, 7'
 p2402
-aS'sym = 19'
+aS'mass = 0.100000001'
 p2403
-aS'srfN = srfAttach, 7'
-p2404
-aS'mass = 0.0799999982'
-p2405
 aS'shielded = False'
+p2404
+aS'temp = 310.16108433038465'
+p2405
+aS'tempExt = 310.28500996001179'
 p2406
-aS'temp = 317.38838960149297'
+aS'tempExtUnexp = 310.28444144987157'
 p2407
-aS'tempExt = 317.06231561098036'
-p2408
-aS'tempExtUnexp = 4'
-p2409
 aS'expt = 0.5'
-p2410
+p2408
 aS'state = 0'
-p2411
+p2409
 aS'attached = True'
-p2412
+p2410
 aS'autostrutMode = Off'
-p2413
+p2411
 aS'rigidAttachment = False'
+p2412
+aS'flag = Squad/Agencies/StrutCo'
+p2413
+aS'rTrf = advSasModule'
 p2414
-aS'flag = Squad/Flags/rings'
-p2415
-aS'rTrf = vernierEngine'
-p2416
 aS'modCost = 0'
-p2417
+p2415
 aS'EVENTS'
+p2416
+a(lp2417
+aS'ACTIONS'
 p2418
 a(lp2419
-aS'ACTIONS'
+aS'PARTDATA'
 p2420
 a(lp2421
-aS'PARTDATA'
+aS'MODULE'
 p2422
 a(lp2423
-aS'MODULE'
+S'name = ModuleReactionWheel'
 p2424
-a(lp2425
-S'name = ModuleRCSFX'
-p2426
 aS'isEnabled = True'
+p2425
+aS'actuatorModeCycle = 0'
+p2426
+aS'authorityLimiter = 100'
 p2427
-aS'rcsEnabled = True'
+aS'stateString = Idle'
 p2428
-aS'thrustPercentage = 100'
+aS'stagingEnabled = True'
 p2429
-aS'currentShowToggles = False'
+aS'WheelState = Active'
 p2430
-aS'enableYaw = True'
-p2431
-aS'enablePitch = True'
-p2432
-aS'enableRoll = True'
-p2433
-aS'enableX = True'
-p2434
-aS'enableY = True'
-p2435
-aS'enableZ = True'
-p2436
-aS'useThrottle = False'
-p2437
-aS'fullThrust = False'
-p2438
-aS'stagingEnabled = False'
-p2439
 aS'EVENTS'
-p2440
-a(lp2441
+p2431
+a(lp2432
 aS'ACTIONS'
-p2442
-a(lp2443
-S'ToggleAction'
+p2433
+a(lp2434
+S'CycleAction'
+p2435
+a(lp2436
+S'actionGroup = None'
+p2437
+aaS'Activate'
+p2438
+a(lp2439
+S'actionGroup = None'
+p2440
+aaS'Deactivate'
+p2441
+a(lp2442
+S'actionGroup = None'
+p2443
+aaS'Toggle'
 p2444
 a(lp2445
 S'actionGroup = None'
@@ -4553,4743 +4522,1211 @@ a(lp2448
 aaaS'PART'
 p2449
 a(lp2450
-S'name = radPanelLg'
+S'name = MassiveBooster'
 p2451
-aS'cid = 4293572960'
+aS'cid = 4294519944'
 p2452
-aS'uid = 2951090034'
+aS'uid = 1193129250'
 p2453
-aS'mid = 3392428063'
+aS'mid = 3605032730'
 p2454
-aS'launchID = 1'
+aS'launchID = 3'
 p2455
-aS'parent = 2'
+aS'parent = 6'
 p2456
-aS'position = 2.2684288024902344,-0.038475990295410156,3.0919909477233887E-07'
+aS'position = 0,-11.92823600769043,0'
 p2457
-aS'rotation = -8.94069814E-08,0.707106888,-8.94069672E-08,-0.707107067'
+aS'rotation = 0,0,0,1'
 p2458
 aS'mirror = 1,1,1'
 p2459
-aS'symMethod = Mirror'
+aS'symMethod = Radial'
 p2460
-aS'istg = -1'
+aS'istg = 2'
 p2461
 aS'resPri = 0'
 p2462
-aS'dstg = 0'
+aS'dstg = 2'
 p2463
-aS'sqor = -1'
+aS'sqor = 2'
 p2464
-aS'sepI = -1'
+aS'sepI = 1'
 p2465
-aS'sidx = -1'
+aS'sidx = 0'
 p2466
-aS'attm = 1'
+aS'attm = 0'
 p2467
-aS'sym = 20'
+aS'srfN = srfAttach, -1'
 p2468
-aS'srfN = srfAttach, 2'
+aS'attN = top, 6'
 p2469
-aS'mass = 0.0500000007'
+aS'attN = bottom, -1'
 p2470
-aS'shielded = False'
+aS'mass = 4.5'
 p2471
-aS'temp = 312.15453668702617'
+aS'shielded = False'
 p2472
-aS'tempExt = 311.97847767725631'
+aS'temp = 310.16003036809906'
 p2473
-aS'tempExtUnexp = 4'
+aS'tempExt = 310.30755854199475'
 p2474
-aS'expt = 0.5'
+aS'tempExtUnexp = 310.30768716006787'
 p2475
-aS'state = 0'
+aS'expt = 0.5'
 p2476
-aS'attached = True'
+aS'state = 0'
 p2477
-aS'autostrutMode = Off'
+aS'attached = True'
 p2478
-aS'rigidAttachment = False'
+aS'autostrutMode = Off'
 p2479
-aS'flag = Squad/Flags/rings'
+aS'rigidAttachment = False'
 p2480
-aS'rTrf = radPanelLg'
+aS'flag = Squad/Agencies/StrutCo'
 p2481
-aS'modCost = 0'
+aS'rTrf = MassiveBooster'
 p2482
-aS'EVENTS'
+aS'modCost = 0'
 p2483
-a(lp2484
-aS'ACTIONS'
-p2485
-a(lp2486
-aS'PARTDATA'
-p2487
-a(lp2488
-aS'MODULE'
-p2489
-a(lp2490
-S'name = ModuleActiveRadiator'
-p2491
-aS'isEnabled = True'
-p2492
-aS'IsCooling = False'
-p2493
-aS'stagingEnabled = True'
-p2494
 aS'EVENTS'
-p2495
-a(lp2496
+p2484
+a(lp2485
 aS'ACTIONS'
+p2486
+a(lp2487
+aS'PARTDATA'
+p2488
+a(lp2489
+aS'MODULE'
+p2490
+a(lp2491
+S'name = ModuleEnginesFX'
+p2492
+aS'isEnabled = True'
+p2493
+aS'staged = False'
+p2494
+aS'flameout = False'
+p2495
+aS'EngineIgnited = False'
+p2496
+aS'engineShutdown = False'
 p2497
-a(lp2498
-S'ToggleRadiatorAction'
+aS'currentThrottle = 0'
+p2498
+aS'thrustPercentage = 100'
 p2499
-a(lp2500
-S'actionGroup = None'
+aS'manuallyOverridden = False'
+p2500
+aS'stagingEnabled = True'
 p2501
-aaS'ActivateAction'
+aS'EVENTS'
 p2502
 a(lp2503
-S'actionGroup = None'
+aS'ACTIONS'
 p2504
-aaS'ShutdownAction'
-p2505
-a(lp2506
+a(lp2505
+S'OnAction'
+p2506
+a(lp2507
 S'actionGroup = None'
-p2507
-aaaS'UPGRADESAPPLIED'
 p2508
-a(lp2509
-aaaS'PART'
-p2510
-a(lp2511
-S'name = structuralIBeam3'
+aaS'ShutdownAction'
+p2509
+a(lp2510
+S'actionGroup = None'
+p2511
+aaS'ActivateAction'
 p2512
-aS'cid = 4293833600'
-p2513
-aS'uid = 1618181286'
+a(lp2513
+S'actionGroup = None'
 p2514
-aS'mid = 3392428063'
+aaaS'UPGRADESAPPLIED'
 p2515
-aS'launchID = 1'
-p2516
-aS'parent = 0'
+a(lp2516
+aaS'MODULE'
 p2517
-aS'position = -1.4217944145202637,0.025609970092773438,-3.7252902984619141E-09'
-p2518
-aS'rotation = 0.500000119,-0.5,0.49999994,0.5'
+a(lp2518
+S'name = FXModuleAnimateThrottle'
 p2519
-aS'mirror = 1,1,1'
+aS'isEnabled = True'
 p2520
-aS'symMethod = Mirror'
+aS'animState = 0'
 p2521
-aS'istg = -1'
+aS'stagingEnabled = True'
 p2522
-aS'resPri = 0'
+aS'EVENTS'
 p2523
-aS'dstg = 0'
-p2524
-aS'sqor = -1'
+a(lp2524
+aS'ACTIONS'
 p2525
-aS'sepI = -1'
-p2526
-aS'sidx = -1'
+a(lp2526
+aS'UPGRADESAPPLIED'
 p2527
-aS'attm = 1'
-p2528
-aS'sym = 1'
+a(lp2528
+aaS'MODULE'
 p2529
-aS'srfN = srfAttach, 0'
-p2530
-aS'attN = top, 12'
+a(lp2530
+S'name = ModuleTestSubject'
 p2531
-aS'attN = bottom, -1'
+aS'isEnabled = True'
 p2532
-aS'mass = 0.1875'
+aS'stagingEnabled = True'
 p2533
-aS'shielded = False'
+aS'EVENTS'
 p2534
-aS'temp = 320.60256325856017'
-p2535
-aS'tempExt = 342.71679975198077'
+a(lp2535
+aS'ACTIONS'
 p2536
-aS'tempExtUnexp = 4'
-p2537
-aS'expt = 0.5'
+a(lp2537
+aS'UPGRADESAPPLIED'
 p2538
-aS'state = 0'
-p2539
-aS'attached = True'
+a(lp2539
+aaS'MODULE'
 p2540
-aS'autostrutMode = Off'
-p2541
-aS'rigidAttachment = False'
+a(lp2541
+S'name = ModuleSurfaceFX'
 p2542
-aS'flag = Squad/Flags/rings'
+aS'isEnabled = True'
 p2543
-aS'rTrf = structuralIBeam3'
+aS'stagingEnabled = True'
 p2544
-aS'modCost = 0'
+aS'EVENTS'
 p2545
-aS'EVENTS'
-p2546
-a(lp2547
+a(lp2546
 aS'ACTIONS'
-p2548
-a(lp2549
-aS'PARTDATA'
-p2550
-a(lp2551
-aaS'PART'
-p2552
-a(lp2553
-S'name = structuralPanel2'
+p2547
+a(lp2548
+aS'UPGRADESAPPLIED'
+p2549
+a(lp2550
+aaS'RESOURCE'
+p2551
+a(lp2552
+S'name = SolidFuel'
+p2553
+aS'amount = 2600'
 p2554
-aS'cid = 4293573854'
+aS'maxAmount = 2600'
 p2555
-aS'uid = 3169840659'
+aS'flowState = True'
 p2556
-aS'mid = 3392428063'
+aS'isTweakable = True'
 p2557
-aS'launchID = 1'
+aS'hideFlow = False'
 p2558
-aS'parent = 11'
+aS'isVisible = True'
 p2559
-aS'position = -2.2517597675323486,0.025609016418457031,8.3935447037220001E-08'
+aS'flowMode = Both'
 p2560
-aS'rotation = 2.98023224E-08,-2.98023224E-08,0.707106829,0.707106829'
+aaaS'PART'
 p2561
-aS'mirror = 1,1,1'
-p2562
-aS'symMethod = Mirror'
+a(lp2562
+S'name = R8winglet'
 p2563
-aS'istg = -1'
+aS'cid = 4294510764'
 p2564
-aS'resPri = 0'
+aS'uid = 1073929577'
 p2565
-aS'dstg = 0'
+aS'mid = 3605032730'
 p2566
-aS'sqor = -1'
+aS'launchID = 3'
 p2567
-aS'sepI = -1'
+aS'parent = 7'
 p2568
-aS'sidx = -1'
+aS'position = -8.3819031715393066E-08,-18.075767517089844,-1.1323564052581787'
 p2569
-aS'attm = 0'
+aS'rotation = 0,0.707106769,0,-0.707106888'
 p2570
-aS'sym = 2'
-p2571
-aS'srfN = srfAttach, -1'
-p2572
-aS'attN = top, -1'
-p2573
-aS'attN = bottom, 11'
-p2574
-aS'mass = 0.300000012'
-p2575
-aS'shielded = False'
-p2576
-aS'temp = 320.08964815842592'
-p2577
-aS'tempExt = 319.67817480887277'
-p2578
-aS'tempExtUnexp = 4'
-p2579
-aS'expt = 0.5'
-p2580
-aS'state = 0'
-p2581
-aS'attached = True'
-p2582
-aS'autostrutMode = Off'
-p2583
-aS'rigidAttachment = False'
-p2584
-aS'flag = Squad/Flags/rings'
-p2585
-aS'rTrf = structuralPanel2'
-p2586
-aS'modCost = 0'
-p2587
-aS'EVENTS'
-p2588
-a(lp2589
-aS'ACTIONS'
-p2590
-a(lp2591
-aS'PARTDATA'
-p2592
-a(lp2593
-aaS'PART'
-p2594
-a(lp2595
-S'name = largeSolarPanel'
-p2596
-aS'cid = 4293573422'
-p2597
-aS'uid = 3144872169'
-p2598
-aS'mid = 3392428063'
-p2599
-aS'launchID = 1'
-p2600
-aS'parent = 12'
-p2601
-aS'position = -2.2355785369873047,1.0256471633911133,3.5390257835388184E-07'
-p2602
-aS'rotation = 0.500000238,-0.499999881,0.500000298,-0.499999881'
-p2603
 aS'mirror = 1,1,1'
-p2604
-aS'symMethod = Mirror'
-p2605
-aS'istg = -1'
-p2606
+p2571
+aS'symMethod = Radial'
+p2572
+aS'istg = 2'
+p2573
 aS'resPri = 0'
-p2607
-aS'dstg = 0'
-p2608
+p2574
+aS'dstg = 2'
+p2575
 aS'sqor = -1'
-p2609
-aS'sepI = -1'
-p2610
+p2576
+aS'sepI = 1'
+p2577
 aS'sidx = -1'
-p2611
+p2578
 aS'attm = 1'
-p2612
-aS'sym = 3'
-p2613
-aS'srfN = srfAttach, 12'
-p2614
-aS'mass = 0.300000012'
-p2615
+p2579
+aS'sym = 9'
+p2580
+aS'sym = 10'
+p2581
+aS'sym = 11'
+p2582
+aS'srfN = srfAttach, 7'
+p2583
+aS'mass = 0.100000001'
+p2584
 aS'shielded = False'
-p2616
-aS'temp = 315.72081373090447'
-p2617
-aS'tempExt = 311.80688921484017'
-p2618
-aS'tempExtUnexp = 4'
-p2619
-aS'expt = 0.5'
-p2620
+p2585
+aS'temp = 310.15954868867533'
+p2586
+aS'tempExt = 310.19157957994611'
+p2587
+aS'tempExtUnexp = 310.19130902238214'
+p2588
+aS'expt = 0.100000001'
+p2589
 aS'state = 0'
-p2621
+p2590
 aS'attached = True'
-p2622
+p2591
 aS'autostrutMode = Off'
-p2623
+p2592
 aS'rigidAttachment = False'
-p2624
-aS'flag = Squad/Flags/rings'
-p2625
-aS'rTrf = largeSolarPanel'
-p2626
+p2593
+aS'flag = Squad/Agencies/StrutCo'
+p2594
+aS'rTrf = R8winglet'
+p2595
 aS'modCost = 0'
-p2627
+p2596
 aS'EVENTS'
-p2628
-a(lp2629
+p2597
+a(lp2598
 aS'ACTIONS'
+p2599
+a(lp2600
+aS'PARTDATA'
+p2601
+a(lp2602
+aS'MODULE'
+p2603
+a(lp2604
+S'name = ModuleControlSurface'
+p2605
+aS'isEnabled = True'
+p2606
+aS'mirrorDeploy = False'
+p2607
+aS'usesMirrorDeploy = True'
+p2608
+aS'ignorePitch = False'
+p2609
+aS'ignoreYaw = False'
+p2610
+aS'ignoreRoll = False'
+p2611
+aS'deploy = False'
+p2612
+aS'deployInvert = False'
+p2613
+aS'partDeployInvert = False'
+p2614
+aS'authorityLimiter = 100'
+p2615
+aS'stagingEnabled = True'
+p2616
+aS'EVENTS'
+p2617
+a(lp2618
+aS'ACTIONS'
+p2619
+a(lp2620
+S'ActionToggle'
+p2621
+a(lp2622
+S'actionGroup = None'
+p2623
+aaS'ActionExtend'
+p2624
+a(lp2625
+S'actionGroup = None'
+p2626
+aaS'ActionRetract'
+p2627
+a(lp2628
+S'actionGroup = None'
+p2629
+aaaS'UPGRADESAPPLIED'
 p2630
 a(lp2631
-aS'PARTDATA'
+aaaS'PART'
 p2632
 a(lp2633
-aS'MODULE'
+S'name = R8winglet'
 p2634
-a(lp2635
-S'name = ModuleDeployableSolarPanel'
+aS'cid = 4294510544'
+p2635
+aS'uid = 4031337837'
 p2636
-aS'isEnabled = True'
+aS'mid = 3605032730'
 p2637
-aS'efficiencyMult = 1'
+aS'launchID = 3'
 p2638
-aS'launchUT = 15.679999999999755'
+aS'parent = 7'
 p2639
-aS'currentRotation = (-0.581046283, -0.581043899, -0.402972221, 0.402972311)'
+aS'position = -1.1323562860488892,-18.075767517089844,1.4901161193847656E-08'
 p2640
-aS'storedAnimationTime = 0'
+aS'rotation = 0,-8.42936956E-08,0,-1'
 p2641
-aS'storedAnimationSpeed = 1'
-p2642
-aS'deployState = EXTENDED'
-p2643
-aS'stagingEnabled = True'
-p2644
-aS'EVENTS'
-p2645
-a(lp2646
-aS'ACTIONS'
-p2647
-a(lp2648
-S'ExtendPanelsAction'
-p2649
-a(lp2650
-S'actionGroup = None'
-p2651
-aaS'ExtendAction'
-p2652
-a(lp2653
-S'actionGroup = None'
-p2654
-aaS'RetractAction'
-p2655
-a(lp2656
-S'actionGroup = None'
-p2657
-aaaS'UPGRADESAPPLIED'
-p2658
-a(lp2659
-aaaS'PART'
-p2660
-a(lp2661
-S'name = structuralPanel2'
-p2662
-aS'cid = 4293573268'
-p2663
-aS'uid = 1896032317'
-p2664
-aS'mid = 3392428063'
-p2665
-aS'launchID = 1'
-p2666
-aS'parent = 12'
-p2667
-aS'position = -1.5552198886871338,0.025606155395507813,-1.692473292350769'
-p2668
-aS'rotation = 0.653281808,-0.653281331,0.270598054,-0.270597965'
-p2669
 aS'mirror = 1,1,1'
-p2670
-aS'symMethod = Mirror'
-p2671
-aS'istg = -1'
-p2672
+p2642
+aS'symMethod = Radial'
+p2643
+aS'istg = 2'
+p2644
 aS'resPri = 0'
-p2673
-aS'dstg = 0'
-p2674
+p2645
+aS'dstg = 2'
+p2646
 aS'sqor = -1'
-p2675
-aS'sepI = -1'
-p2676
+p2647
+aS'sepI = 1'
+p2648
 aS'sidx = -1'
-p2677
+p2649
 aS'attm = 1'
-p2678
-aS'sym = 4'
-p2679
-aS'srfN = srfAttach, 12'
-p2680
-aS'attN = top, -1'
-p2681
-aS'attN = bottom, -1'
-p2682
-aS'mass = 0.300000012'
-p2683
+p2650
+aS'sym = 8'
+p2651
+aS'sym = 10'
+p2652
+aS'sym = 11'
+p2653
+aS'srfN = srfAttach, 7'
+p2654
+aS'mass = 0.100000001'
+p2655
 aS'shielded = False'
-p2684
-aS'temp = 317.0979095440884'
-p2685
-aS'tempExt = 317.51033786206051'
-p2686
-aS'tempExtUnexp = 4'
-p2687
-aS'expt = 0.5'
-p2688
+p2656
+aS'temp = 310.15945731389223'
+p2657
+aS'tempExt = 310.16405175027933'
+p2658
+aS'tempExtUnexp = 310.1639829791215'
+p2659
+aS'expt = 0.100000001'
+p2660
 aS'state = 0'
-p2689
+p2661
 aS'attached = True'
-p2690
+p2662
 aS'autostrutMode = Off'
-p2691
+p2663
 aS'rigidAttachment = False'
-p2692
-aS'flag = Squad/Flags/rings'
-p2693
-aS'rTrf = structuralPanel2'
-p2694
+p2664
+aS'flag = Squad/Agencies/StrutCo'
+p2665
+aS'rTrf = R8winglet'
+p2666
 aS'modCost = 0'
-p2695
+p2667
 aS'EVENTS'
-p2696
-a(lp2697
+p2668
+a(lp2669
 aS'ACTIONS'
+p2670
+a(lp2671
+aS'PARTDATA'
+p2672
+a(lp2673
+aS'MODULE'
+p2674
+a(lp2675
+S'name = ModuleControlSurface'
+p2676
+aS'isEnabled = True'
+p2677
+aS'mirrorDeploy = False'
+p2678
+aS'usesMirrorDeploy = True'
+p2679
+aS'ignorePitch = False'
+p2680
+aS'ignoreYaw = False'
+p2681
+aS'ignoreRoll = False'
+p2682
+aS'deploy = False'
+p2683
+aS'deployInvert = False'
+p2684
+aS'partDeployInvert = False'
+p2685
+aS'authorityLimiter = 100'
+p2686
+aS'stagingEnabled = True'
+p2687
+aS'EVENTS'
+p2688
+a(lp2689
+aS'ACTIONS'
+p2690
+a(lp2691
+S'ActionToggle'
+p2692
+a(lp2693
+S'actionGroup = None'
+p2694
+aaS'ActionExtend'
+p2695
+a(lp2696
+S'actionGroup = None'
+p2697
+aaS'ActionRetract'
 p2698
 a(lp2699
-aS'PARTDATA'
+S'actionGroup = None'
 p2700
-a(lp2701
-aaS'PART'
-p2702
-a(lp2703
-S'name = largeSolarPanel'
-p2704
-aS'cid = 4293573246'
+aaaS'UPGRADESAPPLIED'
+p2701
+a(lp2702
+aaaS'PART'
+p2703
+a(lp2704
+S'name = R8winglet'
 p2705
-aS'uid = 4100537770'
+aS'cid = 4294510500'
 p2706
-aS'mid = 3392428063'
+aS'uid = 3508585105'
 p2707
-aS'launchID = 1'
+aS'mid = 3605032730'
 p2708
-aS'parent = 14'
+aS'launchID = 3'
 p2709
-aS'position = -1.5437777042388916,1.0256452560424805,-1.6810308694839478'
+aS'parent = 7'
 p2710
-aS'rotation = -0.270598263,0.270598114,-0.653281689,0.65328145'
+aS'position = 1.8253922462463379E-07,-18.075767517089844,1.1323564052581787'
 p2711
-aS'mirror = 1,1,1'
+aS'rotation = 0,-0.707106948,0,-0.707106709'
 p2712
-aS'symMethod = Mirror'
+aS'mirror = 1,1,1'
 p2713
-aS'istg = -1'
+aS'symMethod = Radial'
 p2714
-aS'resPri = 0'
+aS'istg = 2'
 p2715
-aS'dstg = 0'
+aS'resPri = 0'
 p2716
-aS'sqor = -1'
+aS'dstg = 2'
 p2717
-aS'sepI = -1'
+aS'sqor = -1'
 p2718
-aS'sidx = -1'
+aS'sepI = 1'
 p2719
-aS'attm = 1'
+aS'sidx = -1'
 p2720
-aS'sym = 5'
+aS'attm = 1'
 p2721
-aS'srfN = srfAttach, 14'
+aS'sym = 8'
 p2722
-aS'mass = 0.300000012'
+aS'sym = 9'
 p2723
-aS'shielded = False'
+aS'sym = 11'
 p2724
-aS'temp = 315.73091234663337'
+aS'srfN = srfAttach, 7'
 p2725
-aS'tempExt = 315.60247078978733'
+aS'mass = 0.100000001'
 p2726
-aS'tempExtUnexp = 4'
+aS'shielded = False'
 p2727
-aS'expt = 0.5'
+aS'temp = 310.15944298099839'
 p2728
-aS'state = 0'
+aS'tempExt = 310.15904714809528'
 p2729
-aS'attached = True'
+aS'tempExtUnexp = 310.15901520683417'
 p2730
-aS'autostrutMode = Off'
+aS'expt = 0.100000001'
 p2731
-aS'rigidAttachment = False'
+aS'state = 0'
 p2732
-aS'flag = Squad/Flags/rings'
+aS'attached = True'
 p2733
-aS'rTrf = largeSolarPanel'
+aS'autostrutMode = Off'
 p2734
-aS'modCost = 0'
+aS'rigidAttachment = False'
 p2735
-aS'EVENTS'
+aS'flag = Squad/Agencies/StrutCo'
 p2736
-a(lp2737
-aS'ACTIONS'
+aS'rTrf = R8winglet'
+p2737
+aS'modCost = 0'
 p2738
-a(lp2739
-aS'PARTDATA'
-p2740
-a(lp2741
-aS'MODULE'
-p2742
-a(lp2743
-S'name = ModuleDeployableSolarPanel'
-p2744
-aS'isEnabled = True'
-p2745
-aS'efficiencyMult = 1'
-p2746
-aS'launchUT = 15.679999999999755'
-p2747
-aS'currentRotation = (-0.691032052, -0.691019952, -0.149942607, 0.149944484)'
-p2748
-aS'storedAnimationTime = 0'
-p2749
-aS'storedAnimationSpeed = 1'
-p2750
-aS'deployState = EXTENDED'
-p2751
-aS'stagingEnabled = True'
-p2752
 aS'EVENTS'
-p2753
-a(lp2754
+p2739
+a(lp2740
 aS'ACTIONS'
+p2741
+a(lp2742
+aS'PARTDATA'
+p2743
+a(lp2744
+aS'MODULE'
+p2745
+a(lp2746
+S'name = ModuleControlSurface'
+p2747
+aS'isEnabled = True'
+p2748
+aS'mirrorDeploy = False'
+p2749
+aS'usesMirrorDeploy = True'
+p2750
+aS'ignorePitch = False'
+p2751
+aS'ignoreYaw = False'
+p2752
+aS'ignoreRoll = False'
+p2753
+aS'deploy = False'
+p2754
+aS'deployInvert = False'
 p2755
-a(lp2756
-S'ExtendPanelsAction'
+aS'partDeployInvert = False'
+p2756
+aS'authorityLimiter = 100'
 p2757
-a(lp2758
-S'actionGroup = None'
+aS'stagingEnabled = True'
+p2758
+aS'EVENTS'
 p2759
-aaS'ExtendAction'
-p2760
-a(lp2761
-S'actionGroup = None'
-p2762
-aaS'RetractAction'
+a(lp2760
+aS'ACTIONS'
+p2761
+a(lp2762
+S'ActionToggle'
 p2763
 a(lp2764
 S'actionGroup = None'
 p2765
-aaaS'UPGRADESAPPLIED'
+aaS'ActionExtend'
 p2766
 a(lp2767
-aaaS'PART'
-p2768
-a(lp2769
-S'name = vernierEngine'
-p2770
-aS'cid = 4293572210'
-p2771
-aS'uid = 4040863707'
-p2772
-aS'mid = 3392428063'
-p2773
-aS'launchID = 1'
-p2774
-aS'parent = 14'
-p2775
-aS'position = -1.5670061111450195,-0.49001121520996094,-1.7042596340179443'
-p2776
-aS'rotation = 3.57627869E-07,-0.382683665,4.47034836E-07,0.923879623'
-p2777
-aS'mirror = 1,1,1'
-p2778
-aS'symMethod = Mirror'
-p2779
-aS'istg = -1'
-p2780
-aS'resPri = 0'
-p2781
-aS'dstg = 0'
-p2782
-aS'sqor = -1'
-p2783
-aS'sepI = -1'
-p2784
-aS'sidx = -1'
-p2785
-aS'attm = 1'
-p2786
-aS'sym = 6'
-p2787
-aS'srfN = srfAttach, 14'
-p2788
-aS'mass = 0.0799999982'
-p2789
-aS'shielded = False'
-p2790
-aS'temp = 316.30318758950176'
-p2791
-aS'tempExt = 316.43067627003865'
-p2792
-aS'tempExtUnexp = 4'
-p2793
-aS'expt = 0.5'
-p2794
-aS'state = 0'
-p2795
-aS'attached = True'
-p2796
-aS'autostrutMode = Off'
-p2797
-aS'rigidAttachment = False'
-p2798
-aS'flag = Squad/Flags/rings'
-p2799
-aS'rTrf = vernierEngine'
-p2800
-aS'modCost = 0'
-p2801
-aS'EVENTS'
-p2802
-a(lp2803
-aS'ACTIONS'
-p2804
-a(lp2805
-aS'PARTDATA'
-p2806
-a(lp2807
-aS'MODULE'
-p2808
-a(lp2809
-S'name = ModuleRCSFX'
-p2810
-aS'isEnabled = True'
-p2811
-aS'rcsEnabled = True'
-p2812
-aS'thrustPercentage = 100'
-p2813
-aS'currentShowToggles = False'
-p2814
-aS'enableYaw = True'
-p2815
-aS'enablePitch = True'
-p2816
-aS'enableRoll = True'
-p2817
-aS'enableX = True'
-p2818
-aS'enableY = True'
-p2819
-aS'enableZ = True'
-p2820
-aS'useThrottle = False'
-p2821
-aS'fullThrust = False'
-p2822
-aS'stagingEnabled = False'
-p2823
-aS'EVENTS'
-p2824
-a(lp2825
-aS'ACTIONS'
-p2826
-a(lp2827
-S'ToggleAction'
-p2828
-a(lp2829
 S'actionGroup = None'
-p2830
+p2768
+aaS'ActionRetract'
+p2769
+a(lp2770
+S'actionGroup = None'
+p2771
 aaaS'UPGRADESAPPLIED'
-p2831
-a(lp2832
+p2772
+a(lp2773
 aaaS'PART'
-p2833
-a(lp2834
-S'name = structuralPanel2'
-p2835
-aS'cid = 4293636932'
-p2836
-aS'uid = 956307348'
-p2837
-aS'mid = 3392428063'
-p2838
-aS'launchID = 1'
-p2839
-aS'parent = 12'
-p2840
-aS'position = -1.5322556495666504,0.025609016418457031,1.7067539691925049'
-p2841
-aS'rotation = 0.653281808,-0.65328145,-0.270597607,0.270598203'
-p2842
+p2774
+a(lp2775
+S'name = R8winglet'
+p2776
+aS'cid = 4294510456'
+p2777
+aS'uid = 49074196'
+p2778
+aS'mid = 3605032730'
+p2779
+aS'launchID = 3'
+p2780
+aS'parent = 7'
+p2781
+aS'position = 1.1323562860488892,-18.075767517089844,-1.4901161193847656E-07'
+p2782
+aS'rotation = 0,-1,0,8.42936956E-08'
+p2783
 aS'mirror = 1,1,1'
-p2843
-aS'symMethod = Mirror'
-p2844
-aS'istg = -1'
-p2845
+p2784
+aS'symMethod = Radial'
+p2785
+aS'istg = 2'
+p2786
 aS'resPri = 0'
-p2846
-aS'dstg = 0'
-p2847
+p2787
+aS'dstg = 2'
+p2788
 aS'sqor = -1'
-p2848
-aS'sepI = -1'
-p2849
+p2789
+aS'sepI = 1'
+p2790
 aS'sidx = -1'
-p2850
+p2791
 aS'attm = 1'
-p2851
-aS'sym = 7'
-p2852
-aS'srfN = srfAttach, 12'
-p2853
-aS'attN = top, -1'
-p2854
-aS'attN = bottom, -1'
-p2855
-aS'mass = 0.300000012'
-p2856
+p2792
+aS'sym = 8'
+p2793
+aS'sym = 9'
+p2794
+aS'sym = 10'
+p2795
+aS'srfN = srfAttach, 7'
+p2796
+aS'mass = 0.100000001'
+p2797
 aS'shielded = False'
-p2857
-aS'temp = 314.99775999895587'
-p2858
-aS'tempExt = 314.80053366903024'
-p2859
-aS'tempExtUnexp = 4'
-p2860
-aS'expt = 0.5'
-p2861
+p2798
+aS'temp = 310.15944297965905'
+p2799
+aS'tempExt = 310.15904643927286'
+p2800
+aS'tempExtUnexp = 310.15901450542975'
+p2801
+aS'expt = 0.100000001'
+p2802
 aS'state = 0'
-p2862
+p2803
 aS'attached = True'
-p2863
+p2804
 aS'autostrutMode = Off'
-p2864
+p2805
 aS'rigidAttachment = False'
-p2865
-aS'flag = Squad/Flags/rings'
-p2866
-aS'rTrf = structuralPanel2'
-p2867
+p2806
+aS'flag = Squad/Agencies/StrutCo'
+p2807
+aS'rTrf = R8winglet'
+p2808
 aS'modCost = 0'
-p2868
+p2809
 aS'EVENTS'
-p2869
-a(lp2870
+p2810
+a(lp2811
 aS'ACTIONS'
+p2812
+a(lp2813
+aS'PARTDATA'
+p2814
+a(lp2815
+aS'MODULE'
+p2816
+a(lp2817
+S'name = ModuleControlSurface'
+p2818
+aS'isEnabled = True'
+p2819
+aS'mirrorDeploy = False'
+p2820
+aS'usesMirrorDeploy = True'
+p2821
+aS'ignorePitch = False'
+p2822
+aS'ignoreYaw = False'
+p2823
+aS'ignoreRoll = False'
+p2824
+aS'deploy = False'
+p2825
+aS'deployInvert = False'
+p2826
+aS'partDeployInvert = False'
+p2827
+aS'authorityLimiter = 100'
+p2828
+aS'stagingEnabled = True'
+p2829
+aS'EVENTS'
+p2830
+a(lp2831
+aS'ACTIONS'
+p2832
+a(lp2833
+S'ActionToggle'
+p2834
+a(lp2835
+S'actionGroup = None'
+p2836
+aaS'ActionExtend'
+p2837
+a(lp2838
+S'actionGroup = None'
+p2839
+aaS'ActionRetract'
+p2840
+a(lp2841
+S'actionGroup = None'
+p2842
+aaaS'UPGRADESAPPLIED'
+p2843
+a(lp2844
+aaaS'ACTIONGROUPS'
+p2845
+a(lp2846
+S'Stage = False, 0'
+p2847
+aS'Gear = False, 0'
+p2848
+aS'Light = False, 0'
+p2849
+aS'RCS = False, 0'
+p2850
+aS'SAS = False, 0'
+p2851
+aS'Brakes = False, 0'
+p2852
+aS'Abort = False, 0'
+p2853
+aS'Custom01 = False, 0'
+p2854
+aS'Custom02 = False, 0'
+p2855
+aS'Custom03 = False, 0'
+p2856
+aS'Custom04 = False, 0'
+p2857
+aS'Custom05 = False, 0'
+p2858
+aS'Custom06 = False, 0'
+p2859
+aS'Custom07 = False, 0'
+p2860
+aS'Custom08 = False, 0'
+p2861
+aS'Custom09 = False, 0'
+p2862
+aS'Custom10 = False, 0'
+p2863
+aaS'DISCOVERY'
+p2864
+a(lp2865
+S'state = -1'
+p2866
+aS'lastObservedTime = 0'
+p2867
+aS'lifetime = Infinity'
+p2868
+aS'refTime = Infinity'
+p2869
+aS'size = 2'
+p2870
+aaS'FLIGHTPLAN'
 p2871
 a(lp2872
-aS'PARTDATA'
+aS'CTRLSTATE'
 p2873
 a(lp2874
-aaS'PART'
+S'pitch = 0'
 p2875
-a(lp2876
-S'name = largeSolarPanel'
+aS'yaw = 0'
+p2876
+aS'roll = 0'
 p2877
-aS'cid = 4293636888'
+aS'trimPitch = 0'
 p2878
-aS'uid = 204443649'
+aS'trimYaw = 0'
 p2879
-aS'mid = 3392428063'
+aS'trimRoll = 0'
 p2880
-aS'launchID = 1'
+aS'mainThrottle = 0'
 p2881
-aS'parent = 17'
+aaS'VESSELMODULES'
 p2882
-aS'position = -1.5208137035369873,1.0256452560424805,1.6953111886978149'
-p2883
-aS'rotation = 0.653281927,-0.653281093,0.270598412,-0.270597935'
+a(lp2883
+S'FlightIntegrator'
 p2884
-aS'mirror = 1,1,1'
-p2885
-aS'symMethod = Mirror'
+a(lp2885
+aS'CommNetVessel'
 p2886
-aS'istg = -1'
-p2887
-aS'resPri = 0'
+a(lp2887
+S'controlState = Kerbal'
 p2888
-aS'dstg = 0'
+aS'canComm = False'
 p2889
-aS'sqor = -1'
-p2890
-aS'sepI = -1'
-p2891
-aS'sidx = -1'
+aaaa(lp2890
+(lp2891
+S'name = Jebediah Kerman'
 p2892
-aS'attm = 1'
+aS'gender = Male'
 p2893
-aS'sym = 8'
+aS'type = Crew'
 p2894
-aS'srfN = srfAttach, 17'
+aS'trait = Pilot'
 p2895
-aS'mass = 0.300000012'
+aS'brave = 0.5'
 p2896
-aS'shielded = False'
+aS'dumb = 0.5'
 p2897
-aS'temp = 312.17502876767162'
+aS'badS = True'
 p2898
-aS'tempExt = 309.0986615369319'
+aS'veteran = True'
 p2899
-aS'tempExtUnexp = 4'
+aS'tour = False'
 p2900
-aS'expt = 0.5'
+aS'state = Missing'
 p2901
-aS'state = 0'
+aS'inactive = False'
 p2902
-aS'attached = True'
+aS'inactiveTimeEnd = 0'
 p2903
-aS'autostrutMode = Off'
+aS'gExperienced = 0'
 p2904
-aS'rigidAttachment = False'
+aS'outDueToG = False'
 p2905
-aS'flag = Squad/Flags/rings'
+aS'ToD = 7818.79131835926'
 p2906
-aS'rTrf = largeSolarPanel'
+aS'idx = 0'
 p2907
-aS'modCost = 0'
+aS'extraXP = 0'
 p2908
-aS'EVENTS'
+aS'CAREER_LOG'
 p2909
 a(lp2910
-aS'ACTIONS'
+S'flight = 0'
 p2911
-a(lp2912
-aS'PARTDATA'
-p2913
-a(lp2914
-aS'MODULE'
+aaS'FLIGHT_LOG'
+p2912
+a(lp2913
+S'flight = 0'
+p2914
+aS'0 = Flight,Kerbin'
 p2915
-a(lp2916
-S'name = ModuleDeployableSolarPanel'
+aS'0 = Suborbit,Kerbin'
+p2916
+aS'0 = Orbit,Kerbin'
 p2917
-aS'isEnabled = True'
-p2918
-aS'efficiencyMult = 1'
+aaa(lp2918
+S'name = Bill Kerman'
 p2919
-aS'launchUT = 15.679999999999755'
+aS'gender = Male'
 p2920
-aS'currentRotation = (-0.3826029, -0.382604092, -0.594655573, 0.594654441)'
+aS'type = Crew'
 p2921
-aS'storedAnimationTime = 0'
+aS'trait = Engineer'
 p2922
-aS'storedAnimationSpeed = 1'
+aS'brave = 0.5'
 p2923
-aS'deployState = EXTENDED'
+aS'dumb = 0.800000012'
 p2924
-aS'stagingEnabled = True'
+aS'badS = False'
 p2925
-aS'EVENTS'
+aS'veteran = True'
 p2926
-a(lp2927
-aS'ACTIONS'
+aS'tour = False'
+p2927
+aS'state = Missing'
 p2928
-a(lp2929
-S'ExtendPanelsAction'
+aS'inactive = False'
+p2929
+aS'inactiveTimeEnd = 0'
 p2930
-a(lp2931
-S'actionGroup = None'
+aS'gExperienced = 0'
+p2931
+aS'outDueToG = False'
 p2932
-aaS'ExtendAction'
+aS'ToD = 2729.172558593536'
 p2933
-a(lp2934
-S'actionGroup = None'
+aS'idx = 0'
+p2934
+aS'extraXP = 0'
 p2935
-aaS'RetractAction'
+aS'CAREER_LOG'
 p2936
 a(lp2937
-S'actionGroup = None'
+S'flight = 3'
 p2938
-aaaS'UPGRADESAPPLIED'
+aS'0 = Flight,Kerbin'
 p2939
-a(lp2940
-aaaS'PART'
+aS'0 = Land,Kerbin'
+p2940
+aS'0 = Recover'
 p2941
-a(lp2942
-S'name = vernierEngine'
+aS'1 = Recover'
+p2942
+aS'2 = Recover'
 p2943
-aS'cid = 4293583850'
+aaS'FLIGHT_LOG'
 p2944
-aS'uid = 1552865203'
-p2945
-aS'mid = 3392428063'
+a(lp2945
+S'flight = 3'
 p2946
-aS'launchID = 1'
+aS'3 = Land,Kerbin'
 p2947
-aS'parent = 17'
+aS'3 = Flight,Kerbin'
 p2948
-aS'position = -1.5440418720245361,-0.48220920562744141,1.7185404300689697'
-p2949
-aS'rotation = 1.49011612E-08,0.382683218,1.49011612E-07,0.923879743'
-p2950
-aS'mirror = 1,1,1'
-p2951
-aS'symMethod = Mirror'
-p2952
-aS'istg = -1'
-p2953
-aS'resPri = 0'
-p2954
-aS'dstg = 0'
-p2955
-aS'sqor = -1'
-p2956
-aS'sepI = -1'
-p2957
-aS'sidx = -1'
-p2958
-aS'attm = 1'
-p2959
-aS'sym = 9'
-p2960
-aS'srfN = srfAttach, 17'
-p2961
-aS'mass = 0.0799999982'
-p2962
-aS'shielded = False'
-p2963
-aS'temp = 314.32431852903869'
-p2964
-aS'tempExt = 314.27435522919598'
-p2965
-aS'tempExtUnexp = 4'
-p2966
-aS'expt = 0.5'
-p2967
-aS'state = 0'
-p2968
-aS'attached = True'
-p2969
-aS'autostrutMode = Off'
-p2970
-aS'rigidAttachment = False'
-p2971
-aS'flag = Squad/Flags/rings'
-p2972
-aS'rTrf = vernierEngine'
-p2973
-aS'modCost = 0'
-p2974
-aS'EVENTS'
-p2975
-a(lp2976
-aS'ACTIONS'
-p2977
-a(lp2978
-aS'PARTDATA'
-p2979
-a(lp2980
-aS'MODULE'
-p2981
-a(lp2982
-S'name = ModuleRCSFX'
-p2983
-aS'isEnabled = True'
-p2984
-aS'rcsEnabled = True'
-p2985
-aS'thrustPercentage = 100'
-p2986
-aS'currentShowToggles = False'
-p2987
-aS'enableYaw = True'
-p2988
-aS'enablePitch = True'
-p2989
-aS'enableRoll = True'
-p2990
-aS'enableX = True'
-p2991
-aS'enableY = True'
-p2992
-aS'enableZ = True'
-p2993
-aS'useThrottle = False'
-p2994
-aS'fullThrust = False'
-p2995
-aS'stagingEnabled = False'
-p2996
-aS'EVENTS'
-p2997
-a(lp2998
-aS'ACTIONS'
-p2999
-a(lp3000
-S'ToggleAction'
-p3001
-a(lp3002
-S'actionGroup = None'
-p3003
-aaaS'UPGRADESAPPLIED'
-p3004
-a(lp3005
-aaaS'PART'
-p3006
-a(lp3007
-S'name = radPanelLg'
-p3008
-aS'cid = 4293573004'
-p3009
-aS'uid = 1718018451'
-p3010
-aS'mid = 3392428063'
-p3011
-aS'launchID = 1'
-p3012
-aS'parent = 12'
-p3013
-aS'position = -2.2684280872344971,-0.038475990295410156,1.0803341865539551E-07'
-p3014
-aS'rotation = -1.11758723E-07,-0.707106769,0,-0.707106888'
-p3015
-aS'mirror = 1,1,1'
-p3016
-aS'symMethod = Mirror'
-p3017
-aS'istg = -1'
-p3018
-aS'resPri = 0'
-p3019
-aS'dstg = 0'
-p3020
-aS'sqor = -1'
-p3021
-aS'sepI = -1'
-p3022
-aS'sidx = -1'
-p3023
-aS'attm = 1'
-p3024
-aS'sym = 10'
-p3025
-aS'srfN = srfAttach, 12'
-p3026
-aS'mass = 0.0500000007'
-p3027
-aS'shielded = False'
-p3028
-aS'temp = 303.94310135632264'
-p3029
-aS'tempExt = 303.78544925845171'
-p3030
-aS'tempExtUnexp = 4'
-p3031
-aS'expt = 0.5'
-p3032
-aS'state = 0'
-p3033
-aS'attached = True'
-p3034
-aS'autostrutMode = Off'
-p3035
-aS'rigidAttachment = False'
-p3036
-aS'flag = Squad/Flags/rings'
-p3037
-aS'rTrf = radPanelLg'
-p3038
-aS'modCost = 0'
-p3039
-aS'EVENTS'
-p3040
-a(lp3041
-aS'ACTIONS'
-p3042
-a(lp3043
-aS'PARTDATA'
-p3044
-a(lp3045
-aS'MODULE'
-p3046
-a(lp3047
-S'name = ModuleActiveRadiator'
-p3048
-aS'isEnabled = True'
-p3049
-aS'IsCooling = False'
-p3050
-aS'stagingEnabled = True'
-p3051
-aS'EVENTS'
-p3052
-a(lp3053
-aS'ACTIONS'
-p3054
-a(lp3055
-S'ToggleRadiatorAction'
-p3056
-a(lp3057
-S'actionGroup = None'
-p3058
-aaS'ActivateAction'
-p3059
-a(lp3060
-S'actionGroup = None'
-p3061
-aaS'ShutdownAction'
-p3062
-a(lp3063
-S'actionGroup = None'
-p3064
-aaaS'UPGRADESAPPLIED'
-p3065
-a(lp3066
-aaaS'PART'
-p3067
-a(lp3068
-S'name = stackTriCoupler'
-p3069
-aS'cid = 4293804930'
-p3070
-aS'uid = 4018595887'
-p3071
-aS'mid = 3392428063'
-p3072
-aS'launchID = 1'
-p3073
-aS'parent = 0'
-p3074
-aS'position = 0,-1.4724197387695313,1.1920928955078125E-07'
-p3075
-aS'rotation = 0,0,0,1'
-p3076
-aS'mirror = 1,1,1'
-p3077
-aS'symMethod = Mirror'
-p3078
-aS'istg = -1'
-p3079
-aS'resPri = 0'
-p3080
-aS'dstg = 0'
-p3081
-aS'sqor = -1'
-p3082
-aS'sepI = -1'
-p3083
-aS'sidx = -1'
-p3084
-aS'attm = 0'
-p3085
-aS'srfN = , -1'
-p3086
-aS'attN = top, 0'
-p3087
-aS'attN = bottom01, 24'
-p3088
-aS'attN = bottom02, 22'
-p3089
-aS'attN = bottom03, 23'
-p3090
-aS'mass = 0.150000006'
-p3091
-aS'shielded = False'
-p3092
-aS'temp = 472.01670940600025'
-p3093
-aS'tempExt = 445.48749664010558'
-p3094
-aS'tempExtUnexp = 4'
-p3095
-aS'expt = 0.5'
-p3096
-aS'state = 0'
-p3097
-aS'attached = True'
-p3098
-aS'autostrutMode = Off'
-p3099
-aS'rigidAttachment = False'
-p3100
-aS'flag = Squad/Flags/rings'
-p3101
-aS'rTrf = stackTriCoupler'
-p3102
-aS'modCost = 0'
-p3103
-aS'EVENTS'
-p3104
-a(lp3105
-aS'ACTIONS'
-p3106
-a(lp3107
-aS'PARTDATA'
-p3108
-a(lp3109
-aaS'PART'
-p3110
-a(lp3111
-S'name = SSME'
-p3112
-aS'cid = 4293573806'
-p3113
-aS'uid = 1269377107'
-p3114
-aS'mid = 3392428063'
-p3115
-aS'launchID = 1'
-p3116
-aS'parent = 21'
-p3117
-aS'position = -0.62640047073364258,-1.9085702896118164,0.36165261268615723'
-p3118
-aS'rotation = 0,0,0,1'
-p3119
-aS'mirror = 1,1,1'
-p3120
-aS'symMethod = Radial'
-p3121
-aS'istg = 0'
-p3122
-aS'resPri = 0'
-p3123
-aS'dstg = 0'
-p3124
-aS'sqor = 0'
-p3125
-aS'sepI = -1'
-p3126
-aS'sidx = 0'
-p3127
-aS'attm = 0'
-p3128
-aS'sym = 23'
-p3129
-aS'sym = 24'
-p3130
-aS'srfN = , -1'
-p3131
-aS'attN = top, 21'
-p3132
-aS'attN = bottom, -1'
-p3133
-aS'mass = 4'
-p3134
-aS'shielded = False'
-p3135
-aS'temp = 491.53516118198098'
-p3136
-aS'tempExt = 467.85720065881253'
-p3137
-aS'tempExtUnexp = 4'
-p3138
-aS'expt = 0.5'
-p3139
-aS'state = 1'
-p3140
-aS'attached = True'
-p3141
-aS'autostrutMode = Off'
-p3142
-aS'rigidAttachment = False'
-p3143
-aS'flag = Squad/Flags/rings'
-p3144
-aS'rTrf = SSME'
-p3145
-aS'modCost = 0'
-p3146
-aS'EVENTS'
-p3147
-a(lp3148
-aS'ACTIONS'
-p3149
-a(lp3150
-aS'PARTDATA'
-p3151
-a(lp3152
-aS'MODULE'
-p3153
-a(lp3154
-S'name = ModuleEnginesFX'
-p3155
-aS'isEnabled = True'
-p3156
-aS'staged = True'
-p3157
-aS'flameout = False'
-p3158
-aS'EngineIgnited = True'
-p3159
-aS'engineShutdown = False'
-p3160
-aS'currentThrottle = 0'
-p3161
-aS'thrustPercentage = 100'
-p3162
-aS'manuallyOverridden = False'
-p3163
-aS'stagingEnabled = True'
-p3164
-aS'EVENTS'
-p3165
-a(lp3166
-aS'ACTIONS'
-p3167
-a(lp3168
-S'OnAction'
-p3169
-a(lp3170
-S'actionGroup = None'
-p3171
-aaS'ShutdownAction'
-p3172
-a(lp3173
-S'actionGroup = None'
-p3174
-aaS'ActivateAction'
-p3175
-a(lp3176
-S'actionGroup = None'
-p3177
-aaaS'UPGRADESAPPLIED'
-p3178
-a(lp3179
-aaS'MODULE'
-p3180
-a(lp3181
-S'name = ModuleAlternator'
-p3182
-aS'isEnabled = True'
-p3183
-aS'stagingEnabled = True'
-p3184
-aS'EVENTS'
-p3185
-a(lp3186
-aS'ACTIONS'
-p3187
-a(lp3188
-aS'UPGRADESAPPLIED'
-p3189
-a(lp3190
-aaS'MODULE'
-p3191
-a(lp3192
-S'name = ModuleJettison'
-p3193
-aS'isEnabled = True'
-p3194
-aS'isJettisoned = True'
-p3195
-aS'shroudHideOverride = False'
-p3196
-aS'stagingEnabled = True'
-p3197
-aS'EVENTS'
-p3198
-a(lp3199
-aS'ACTIONS'
-p3200
-a(lp3201
-S'JettisonAction'
-p3202
-a(lp3203
-S'actionGroup = None'
-p3204
-aaaS'UPGRADESAPPLIED'
-p3205
-a(lp3206
-aaS'MODULE'
-p3207
-a(lp3208
-S'name = ModuleGimbal'
-p3209
-aS'isEnabled = True'
-p3210
-aS'gimbalLock = False'
-p3211
-aS'gimbalLimiter = 100'
-p3212
-aS'currentShowToggles = False'
-p3213
-aS'enableYaw = True'
-p3214
-aS'enablePitch = True'
-p3215
-aS'enableRoll = True'
-p3216
-aS'gimbalActive = True'
-p3217
-aS'stagingEnabled = True'
-p3218
-aS'EVENTS'
-p3219
-a(lp3220
-aS'ACTIONS'
-p3221
-a(lp3222
-S'ToggleAction'
-p3223
-a(lp3224
-S'actionGroup = None'
-p3225
-aaS'LockAction'
-p3226
-a(lp3227
-S'actionGroup = None'
-p3228
-aaS'FreeAction'
-p3229
-a(lp3230
-S'actionGroup = None'
-p3231
-aaS'TogglePitchAction'
-p3232
-a(lp3233
-S'actionGroup = None'
-p3234
-aaS'ToggleYawAction'
-p3235
-a(lp3236
-S'actionGroup = None'
-p3237
-aaS'ToggleRollAction'
-p3238
-a(lp3239
-S'actionGroup = None'
-p3240
-aaaS'UPGRADESAPPLIED'
-p3241
-a(lp3242
-aaS'MODULE'
-p3243
-a(lp3244
-S'name = FXModuleAnimateThrottle'
-p3245
-aS'isEnabled = True'
-p3246
-aS'animState = 0.109338634'
-p3247
-aS'stagingEnabled = True'
-p3248
-aS'EVENTS'
-p3249
-a(lp3250
-aS'ACTIONS'
-p3251
-a(lp3252
-aS'UPGRADESAPPLIED'
-p3253
-a(lp3254
-aaS'MODULE'
-p3255
-a(lp3256
-S'name = ModuleTestSubject'
-p3257
-aS'isEnabled = True'
-p3258
-aS'stagingEnabled = True'
-p3259
-aS'EVENTS'
-p3260
-a(lp3261
-aS'ACTIONS'
-p3262
-a(lp3263
-aS'UPGRADESAPPLIED'
-p3264
-a(lp3265
-aaS'MODULE'
-p3266
-a(lp3267
-S'name = ModuleSurfaceFX'
-p3268
-aS'isEnabled = True'
-p3269
-aS'stagingEnabled = True'
-p3270
-aS'EVENTS'
-p3271
-a(lp3272
-aS'ACTIONS'
-p3273
-a(lp3274
-aS'UPGRADESAPPLIED'
-p3275
-a(lp3276
-aaaS'PART'
-p3277
-a(lp3278
-S'name = SSME'
-p3279
-aS'cid = 4293573700'
-p3280
-aS'uid = 3614796578'
-p3281
-aS'mid = 3392428063'
-p3282
-aS'launchID = 1'
-p3283
-aS'parent = 21'
-p3284
-aS'position = 0.62640058994293213,-1.9085702896118164,0.36165261268615723'
-p3285
-aS'rotation = 0,0.866025448,8.94069672E-08,0.49999997'
-p3286
-aS'mirror = 1,1,1'
-p3287
-aS'symMethod = Radial'
-p3288
-aS'istg = 0'
-p3289
-aS'resPri = 0'
-p3290
-aS'dstg = 0'
-p3291
-aS'sqor = 0'
-p3292
-aS'sepI = -1'
-p3293
-aS'sidx = 0'
-p3294
-aS'attm = 0'
-p3295
-aS'sym = 22'
-p3296
-aS'sym = 24'
-p3297
-aS'srfN = , -1'
-p3298
-aS'attN = top, 21'
-p3299
-aS'attN = bottom, -1'
-p3300
-aS'mass = 4'
-p3301
-aS'shielded = False'
-p3302
-aS'temp = 491.53523827157414'
-p3303
-aS'tempExt = 467.93513915027808'
-p3304
-aS'tempExtUnexp = 4'
-p3305
-aS'expt = 0.5'
-p3306
-aS'state = 1'
-p3307
-aS'attached = True'
-p3308
-aS'autostrutMode = Off'
-p3309
-aS'rigidAttachment = False'
-p3310
-aS'flag = Squad/Flags/rings'
-p3311
-aS'rTrf = SSME'
-p3312
-aS'modCost = 0'
-p3313
-aS'EVENTS'
-p3314
-a(lp3315
-aS'ACTIONS'
-p3316
-a(lp3317
-aS'PARTDATA'
-p3318
-a(lp3319
-aS'MODULE'
-p3320
-a(lp3321
-S'name = ModuleEnginesFX'
-p3322
-aS'isEnabled = True'
-p3323
-aS'staged = True'
-p3324
-aS'flameout = False'
-p3325
-aS'EngineIgnited = True'
-p3326
-aS'engineShutdown = False'
-p3327
-aS'currentThrottle = 0'
-p3328
-aS'thrustPercentage = 100'
-p3329
-aS'manuallyOverridden = False'
-p3330
-aS'stagingEnabled = True'
-p3331
-aS'EVENTS'
-p3332
-a(lp3333
-aS'ACTIONS'
-p3334
-a(lp3335
-S'OnAction'
-p3336
-a(lp3337
-S'actionGroup = None'
-p3338
-aaS'ShutdownAction'
-p3339
-a(lp3340
-S'actionGroup = None'
-p3341
-aaS'ActivateAction'
-p3342
-a(lp3343
-S'actionGroup = None'
-p3344
-aaaS'UPGRADESAPPLIED'
-p3345
-a(lp3346
-aaS'MODULE'
-p3347
-a(lp3348
-S'name = ModuleAlternator'
-p3349
-aS'isEnabled = True'
-p3350
-aS'stagingEnabled = True'
-p3351
-aS'EVENTS'
-p3352
-a(lp3353
-aS'ACTIONS'
-p3354
-a(lp3355
-aS'UPGRADESAPPLIED'
-p3356
-a(lp3357
-aaS'MODULE'
-p3358
-a(lp3359
-S'name = ModuleJettison'
-p3360
-aS'isEnabled = True'
-p3361
-aS'isJettisoned = True'
-p3362
-aS'shroudHideOverride = False'
-p3363
-aS'stagingEnabled = True'
-p3364
-aS'EVENTS'
-p3365
-a(lp3366
-aS'ACTIONS'
-p3367
-a(lp3368
-S'JettisonAction'
-p3369
-a(lp3370
-S'actionGroup = None'
-p3371
-aaaS'UPGRADESAPPLIED'
-p3372
-a(lp3373
-aaS'MODULE'
-p3374
-a(lp3375
-S'name = ModuleGimbal'
-p3376
-aS'isEnabled = True'
-p3377
-aS'gimbalLock = False'
-p3378
-aS'gimbalLimiter = 100'
-p3379
-aS'currentShowToggles = False'
-p3380
-aS'enableYaw = True'
-p3381
-aS'enablePitch = True'
-p3382
-aS'enableRoll = True'
-p3383
-aS'gimbalActive = True'
-p3384
-aS'stagingEnabled = True'
-p3385
-aS'EVENTS'
-p3386
-a(lp3387
-aS'ACTIONS'
-p3388
-a(lp3389
-S'ToggleAction'
-p3390
-a(lp3391
-S'actionGroup = None'
-p3392
-aaS'LockAction'
-p3393
-a(lp3394
-S'actionGroup = None'
-p3395
-aaS'FreeAction'
-p3396
-a(lp3397
-S'actionGroup = None'
-p3398
-aaS'TogglePitchAction'
-p3399
-a(lp3400
-S'actionGroup = None'
-p3401
-aaS'ToggleYawAction'
-p3402
-a(lp3403
-S'actionGroup = None'
-p3404
-aaS'ToggleRollAction'
-p3405
-a(lp3406
-S'actionGroup = None'
-p3407
-aaaS'UPGRADESAPPLIED'
-p3408
-a(lp3409
-aaS'MODULE'
-p3410
-a(lp3411
-S'name = FXModuleAnimateThrottle'
-p3412
-aS'isEnabled = True'
-p3413
-aS'animState = 0.109338634'
-p3414
-aS'stagingEnabled = True'
-p3415
-aS'EVENTS'
-p3416
-a(lp3417
-aS'ACTIONS'
-p3418
-a(lp3419
-aS'UPGRADESAPPLIED'
-p3420
-a(lp3421
-aaS'MODULE'
-p3422
-a(lp3423
-S'name = ModuleTestSubject'
-p3424
-aS'isEnabled = True'
-p3425
-aS'stagingEnabled = True'
-p3426
-aS'EVENTS'
-p3427
-a(lp3428
-aS'ACTIONS'
-p3429
-a(lp3430
-aS'UPGRADESAPPLIED'
-p3431
-a(lp3432
-aaS'MODULE'
-p3433
-a(lp3434
-S'name = ModuleSurfaceFX'
-p3435
-aS'isEnabled = True'
-p3436
-aS'stagingEnabled = True'
-p3437
-aS'EVENTS'
-p3438
-a(lp3439
-aS'ACTIONS'
-p3440
-a(lp3441
-aS'UPGRADESAPPLIED'
-p3442
-a(lp3443
-aaaS'PART'
-p3444
-a(lp3445
-S'name = SSME'
-p3446
-aS'cid = 4293573594'
-p3447
-aS'uid = 1184211899'
-p3448
-aS'mid = 3392428063'
-p3449
-aS'launchID = 1'
-p3450
-aS'parent = 21'
-p3451
-aS'position = 0,-1.9085702896118164,-0.7233046293258667'
-p3452
-aS'rotation = 0,0.866025388,8.94069672E-08,-0.500000119'
-p3453
-aS'mirror = 1,1,1'
-p3454
-aS'symMethod = Radial'
-p3455
-aS'istg = 0'
-p3456
-aS'resPri = 0'
-p3457
-aS'dstg = 0'
-p3458
-aS'sqor = 0'
-p3459
-aS'sepI = -1'
-p3460
-aS'sidx = 0'
-p3461
-aS'attm = 0'
-p3462
-aS'sym = 22'
-p3463
-aS'sym = 23'
-p3464
-aS'srfN = , -1'
-p3465
-aS'attN = top, 21'
-p3466
-aS'attN = bottom, -1'
-p3467
-aS'mass = 4'
-p3468
-aS'shielded = False'
-p3469
-aS'temp = 491.53676710158635'
-p3470
-aS'tempExt = 468.43820884373679'
-p3471
-aS'tempExtUnexp = 4'
-p3472
-aS'expt = 0.5'
-p3473
-aS'state = 1'
-p3474
-aS'attached = True'
-p3475
-aS'autostrutMode = Off'
-p3476
-aS'rigidAttachment = False'
-p3477
-aS'flag = Squad/Flags/rings'
-p3478
-aS'rTrf = SSME'
-p3479
-aS'modCost = 0'
-p3480
-aS'EVENTS'
-p3481
-a(lp3482
-aS'ACTIONS'
-p3483
-a(lp3484
-aS'PARTDATA'
-p3485
-a(lp3486
-aS'MODULE'
-p3487
-a(lp3488
-S'name = ModuleEnginesFX'
-p3489
-aS'isEnabled = True'
-p3490
-aS'staged = True'
-p3491
-aS'flameout = False'
-p3492
-aS'EngineIgnited = True'
-p3493
-aS'engineShutdown = False'
-p3494
-aS'currentThrottle = 0'
-p3495
-aS'thrustPercentage = 100'
-p3496
-aS'manuallyOverridden = False'
-p3497
-aS'stagingEnabled = True'
-p3498
-aS'EVENTS'
-p3499
-a(lp3500
-aS'ACTIONS'
-p3501
-a(lp3502
-S'OnAction'
-p3503
-a(lp3504
-S'actionGroup = None'
-p3505
-aaS'ShutdownAction'
-p3506
-a(lp3507
-S'actionGroup = None'
-p3508
-aaS'ActivateAction'
-p3509
-a(lp3510
-S'actionGroup = None'
-p3511
-aaaS'UPGRADESAPPLIED'
-p3512
-a(lp3513
-aaS'MODULE'
-p3514
-a(lp3515
-S'name = ModuleAlternator'
-p3516
-aS'isEnabled = True'
-p3517
-aS'stagingEnabled = True'
-p3518
-aS'EVENTS'
-p3519
-a(lp3520
-aS'ACTIONS'
-p3521
-a(lp3522
-aS'UPGRADESAPPLIED'
-p3523
-a(lp3524
-aaS'MODULE'
-p3525
-a(lp3526
-S'name = ModuleJettison'
-p3527
-aS'isEnabled = True'
-p3528
-aS'isJettisoned = True'
-p3529
-aS'shroudHideOverride = False'
-p3530
-aS'stagingEnabled = True'
-p3531
-aS'EVENTS'
-p3532
-a(lp3533
-aS'ACTIONS'
-p3534
-a(lp3535
-S'JettisonAction'
-p3536
-a(lp3537
-S'actionGroup = None'
-p3538
-aaaS'UPGRADESAPPLIED'
-p3539
-a(lp3540
-aaS'MODULE'
-p3541
-a(lp3542
-S'name = ModuleGimbal'
-p3543
-aS'isEnabled = True'
-p3544
-aS'gimbalLock = False'
-p3545
-aS'gimbalLimiter = 100'
-p3546
-aS'currentShowToggles = False'
-p3547
-aS'enableYaw = True'
-p3548
-aS'enablePitch = True'
-p3549
-aS'enableRoll = True'
-p3550
-aS'gimbalActive = True'
-p3551
-aS'stagingEnabled = True'
-p3552
-aS'EVENTS'
-p3553
-a(lp3554
-aS'ACTIONS'
-p3555
-a(lp3556
-S'ToggleAction'
-p3557
-a(lp3558
-S'actionGroup = None'
-p3559
-aaS'LockAction'
-p3560
-a(lp3561
-S'actionGroup = None'
-p3562
-aaS'FreeAction'
-p3563
-a(lp3564
-S'actionGroup = None'
-p3565
-aaS'TogglePitchAction'
-p3566
-a(lp3567
-S'actionGroup = None'
-p3568
-aaS'ToggleYawAction'
-p3569
-a(lp3570
-S'actionGroup = None'
-p3571
-aaS'ToggleRollAction'
-p3572
-a(lp3573
-S'actionGroup = None'
-p3574
-aaaS'UPGRADESAPPLIED'
-p3575
-a(lp3576
-aaS'MODULE'
-p3577
-a(lp3578
-S'name = FXModuleAnimateThrottle'
-p3579
-aS'isEnabled = True'
-p3580
-aS'animState = 0.109338634'
-p3581
-aS'stagingEnabled = True'
-p3582
-aS'EVENTS'
-p3583
-a(lp3584
-aS'ACTIONS'
-p3585
-a(lp3586
-aS'UPGRADESAPPLIED'
-p3587
-a(lp3588
-aaS'MODULE'
-p3589
-a(lp3590
-S'name = ModuleTestSubject'
-p3591
-aS'isEnabled = True'
-p3592
-aS'stagingEnabled = True'
-p3593
-aS'EVENTS'
-p3594
-a(lp3595
-aS'ACTIONS'
-p3596
-a(lp3597
-aS'UPGRADESAPPLIED'
-p3598
-a(lp3599
-aaS'MODULE'
-p3600
-a(lp3601
-S'name = ModuleSurfaceFX'
-p3602
-aS'isEnabled = True'
-p3603
-aS'stagingEnabled = True'
-p3604
-aS'EVENTS'
-p3605
-a(lp3606
-aS'ACTIONS'
-p3607
-a(lp3608
-aS'UPGRADESAPPLIED'
-p3609
-a(lp3610
-aaaS'PART'
-p3611
-a(lp3612
-S'name = adapterSize2-Size1'
-p3613
-aS'cid = 4293749690'
-p3614
-aS'uid = 142585586'
-p3615
-aS'mid = 3392428063'
-p3616
-aS'launchID = 1'
-p3617
-aS'parent = 0'
-p3618
-aS'position = 0,2.1874990463256836,0'
-p3619
-aS'rotation = 1,0,0,0'
-p3620
-aS'mirror = 1,1,1'
-p3621
-aS'symMethod = Mirror'
-p3622
-aS'istg = -1'
-p3623
-aS'resPri = 0'
-p3624
-aS'dstg = 0'
-p3625
-aS'sqor = -1'
-p3626
-aS'sepI = -1'
-p3627
-aS'sidx = -1'
-p3628
-aS'attm = 0'
-p3629
-aS'srfN = srfAttach, -1'
-p3630
-aS'attN = top, 0'
-p3631
-aS'attN = bottom, 26'
-p3632
-aS'mass = 0.569999993'
-p3633
-aS'shielded = False'
-p3634
-aS'temp = 365.37908441089257'
-p3635
-aS'tempExt = 364.85080746577523'
-p3636
-aS'tempExtUnexp = 4'
-p3637
-aS'expt = 0.5'
-p3638
-aS'state = 0'
-p3639
-aS'attached = True'
-p3640
-aS'autostrutMode = Off'
-p3641
-aS'rigidAttachment = False'
-p3642
-aS'flag = Squad/Flags/rings'
-p3643
-aS'rTrf = adapterSize2-Size1'
-p3644
-aS'modCost = 0'
-p3645
-aS'EVENTS'
-p3646
-a(lp3647
-aS'ACTIONS'
-p3648
-a(lp3649
-aS'PARTDATA'
-p3650
-a(lp3651
-aS'RESOURCE'
-p3652
-a(lp3653
-S'name = LiquidFuel'
-p3654
-aS'amount = 259.14174212820808'
-p3655
-aS'maxAmount = 360'
-p3656
-aS'flowState = True'
-p3657
-aS'isTweakable = True'
-p3658
-aS'hideFlow = False'
-p3659
-aS'isVisible = True'
-p3660
-aS'flowMode = Both'
-p3661
-aaS'RESOURCE'
-p3662
-a(lp3663
-S'name = Oxidizer'
-p3664
-aS'amount = 312.1631896265755'
-p3665
-aS'maxAmount = 440'
-p3666
-aS'flowState = True'
-p3667
-aS'isTweakable = True'
-p3668
-aS'hideFlow = False'
-p3669
-aS'isVisible = True'
-p3670
-aS'flowMode = Both'
-p3671
-aaaS'PART'
-p3672
-a(lp3673
-S'name = adapterLargeSmallQuad'
-p3674
-aS'cid = 4293572884'
-p3675
-aS'uid = 2527268442'
-p3676
-aS'mid = 3392428063'
-p3677
-aS'launchID = 1'
-p3678
-aS'parent = 25'
-p3679
-aS'position = 0,3.4374990463256836,0'
-p3680
-aS'rotation = -1,0,0,0'
-p3681
-aS'mirror = 1,1,1'
-p3682
-aS'symMethod = Mirror'
-p3683
-aS'istg = -1'
-p3684
-aS'resPri = 0'
-p3685
-aS'dstg = 0'
-p3686
-aS'sqor = -1'
-p3687
-aS'sepI = -1'
-p3688
-aS'sidx = -1'
-p3689
-aS'attm = 0'
-p3690
-aS'srfN = , -1'
-p3691
-aS'attN = top, 25'
-p3692
-aS'attN = bottom01, 31'
-p3693
-aS'attN = bottom02, 33'
-p3694
-aS'attN = bottom03, 29'
-p3695
-aS'attN = bottom04, 27'
-p3696
-aS'mass = 0.200000003'
-p3697
-aS'shielded = False'
-p3698
-aS'temp = 349.63640779004646'
-p3699
-aS'tempExt = 341.48433506568824'
-p3700
-aS'tempExtUnexp = 4'
-p3701
-aS'expt = 0.5'
-p3702
-aS'state = 0'
-p3703
-aS'attached = True'
-p3704
-aS'autostrutMode = Off'
-p3705
-aS'rigidAttachment = False'
-p3706
-aS'flag = Squad/Flags/rings'
-p3707
-aS'rTrf = adapterLargeSmallQuad'
-p3708
-aS'modCost = 0'
-p3709
-aS'EVENTS'
-p3710
-a(lp3711
-aS'ACTIONS'
-p3712
-a(lp3713
-aS'PARTDATA'
-p3714
-a(lp3715
-aaS'PART'
-p3716
-a(lp3717
-S'name = fuelTank.long'
-p3718
-aS'cid = 4293572856'
-p3719
-aS'uid = 3947124053'
-p3720
-aS'mid = 3392428063'
-p3721
-aS'launchID = 1'
-p3722
-aS'parent = 26'
-p3723
-aS'position = -0.625,6.0624990463256836,0.625'
-p3724
-aS'rotation = -1,0,0,0'
-p3725
-aS'mirror = 1,1,1'
-p3726
-aS'symMethod = Radial'
-p3727
-aS'istg = -1'
-p3728
-aS'resPri = 0'
-p3729
-aS'dstg = 0'
-p3730
-aS'sqor = -1'
-p3731
-aS'sepI = -1'
-p3732
-aS'sidx = -1'
-p3733
-aS'attm = 0'
-p3734
-aS'sym = 29'
-p3735
-aS'sym = 31'
-p3736
-aS'sym = 33'
-p3737
-aS'srfN = srfAttach, -1'
-p3738
-aS'attN = top, 26'
-p3739
-aS'attN = bottom, -1'
-p3740
-aS'mass = 0.5'
-p3741
-aS'shielded = False'
-p3742
-aS'temp = 331.48767608239865'
-p3743
-aS'tempExt = 334.91375183335748'
-p3744
-aS'tempExtUnexp = 4'
-p3745
-aS'expt = 0.5'
-p3746
-aS'state = 0'
-p3747
-aS'attached = True'
-p3748
-aS'autostrutMode = Off'
-p3749
-aS'rigidAttachment = False'
-p3750
-aS'flag = Squad/Flags/rings'
-p3751
-aS'rTrf = fuelTank.long'
-p3752
-aS'modCost = 0'
-p3753
-aS'EVENTS'
-p3754
-a(lp3755
-aS'ACTIONS'
-p3756
-a(lp3757
-aS'PARTDATA'
-p3758
-a(lp3759
-aS'RESOURCE'
-p3760
-a(lp3761
-S'name = LiquidFuel'
-p3762
-aS'amount = 259.14174212820808'
-p3763
-aS'maxAmount = 360'
-p3764
-aS'flowState = True'
-p3765
-aS'isTweakable = True'
-p3766
-aS'hideFlow = False'
-p3767
-aS'isVisible = True'
-p3768
-aS'flowMode = Both'
-p3769
-aaS'RESOURCE'
-p3770
-a(lp3771
-S'name = Oxidizer'
-p3772
-aS'amount = 312.1631896265755'
-p3773
-aS'maxAmount = 440'
-p3774
-aS'flowState = True'
-p3775
-aS'isTweakable = True'
-p3776
-aS'hideFlow = False'
-p3777
-aS'isVisible = True'
-p3778
-aS'flowMode = Both'
-p3779
-aaaS'PART'
-p3780
-a(lp3781
-S'name = strutConnector'
-p3782
-aS'cid = 4293572826'
-p3783
-aS'uid = 647284218'
-p3784
-aS'mid = 3392428063'
-p3785
-aS'launchID = 1'
-p3786
-aS'parent = 27'
-p3787
-aS'position = -1.0763671398162842,7.7431821823120117,1.0763671398162842'
-p3788
-aS'rotation = -0.923879564,4.76898663E-08,0.382683426,-1.97537879E-08'
-p3789
-aS'mirror = 1,1,1'
-p3790
-aS'symMethod = Radial'
-p3791
-aS'istg = -1'
-p3792
-aS'resPri = 0'
-p3793
-aS'dstg = 0'
-p3794
-aS'sqor = -1'
-p3795
-aS'sepI = -1'
-p3796
-aS'sidx = -1'
-p3797
-aS'attm = 1'
-p3798
-aS'sym = 30'
-p3799
-aS'sym = 32'
-p3800
-aS'sym = 42'
-p3801
-aS'srfN = srfAttach, 27'
-p3802
-aS'mass = 0.0500000007'
-p3803
-aS'shielded = False'
-p3804
-aS'temp = 331.40414285931035'
-p3805
-aS'tempExt = 333.09774354390368'
-p3806
-aS'tempExtUnexp = 4'
-p3807
-aS'expt = 0'
-p3808
-aS'state = 0'
-p3809
-aS'attached = True'
-p3810
-aS'autostrutMode = Off'
-p3811
-aS'rigidAttachment = False'
-p3812
-aS'flag = Squad/Flags/rings'
-p3813
-aS'rTrf = strutConnector'
-p3814
-aS'modCost = 0'
-p3815
-aS'EVENTS'
-p3816
-a(lp3817
-aS'ACTIONS'
-p3818
-a(lp3819
-aS'PARTDATA'
-p3820
-a(lp3821
-S'tgt = 4293708086'
-p3822
-aS'pos = 0.0568457618,-0.219316334,0.00254920986'
-p3823
-aS'rot = -1.78151467E-08,4.64430883E-07,0.707107127,0.707106829'
-p3824
-aS'dir = -0.250907719,-0.967945457,-0.0112750046'
-p3825
-aaS'MODULE'
-p3826
-a(lp3827
-S'name = CModuleLinkedMesh'
-p3828
-aS'isEnabled = True'
-p3829
-aS'stagingEnabled = True'
-p3830
-aS'EVENTS'
-p3831
-a(lp3832
-aS'ACTIONS'
-p3833
-a(lp3834
-aS'UPGRADESAPPLIED'
-p3835
-a(lp3836
-aaS'MODULE'
-p3837
-a(lp3838
-S'name = CModuleStrut'
-p3839
-aS'isEnabled = True'
-p3840
-aS'stagingEnabled = True'
-p3841
-aS'EVENTS'
-p3842
-a(lp3843
-aS'ACTIONS'
-p3844
-a(lp3845
-aS'UPGRADESAPPLIED'
-p3846
-a(lp3847
-aaaS'PART'
-p3848
-a(lp3849
-S'name = fuelTank.long'
-p3850
-aS'cid = 4293572764'
-p3851
-aS'uid = 324723862'
-p3852
-aS'mid = 3392428063'
-p3853
-aS'launchID = 1'
-p3854
-aS'parent = 26'
-p3855
-aS'position = -0.625,6.0624990463256836,-0.625'
-p3856
-aS'rotation = -0.707106829,0,-0.707106829,0'
-p3857
-aS'mirror = 1,1,1'
-p3858
-aS'symMethod = Radial'
-p3859
-aS'istg = -1'
-p3860
-aS'resPri = 0'
-p3861
-aS'dstg = 0'
-p3862
-aS'sqor = -1'
-p3863
-aS'sepI = -1'
-p3864
-aS'sidx = -1'
-p3865
-aS'attm = 0'
-p3866
-aS'sym = 27'
-p3867
-aS'sym = 31'
-p3868
-aS'sym = 33'
-p3869
-aS'srfN = srfAttach, -1'
-p3870
-aS'attN = top, 26'
-p3871
-aS'attN = bottom, -1'
-p3872
-aS'mass = 0.5'
-p3873
-aS'shielded = False'
-p3874
-aS'temp = 331.68059792683567'
-p3875
-aS'tempExt = 335.0248678372019'
-p3876
-aS'tempExtUnexp = 4'
-p3877
-aS'expt = 0.5'
-p3878
-aS'state = 0'
-p3879
-aS'attached = True'
-p3880
-aS'autostrutMode = Off'
-p3881
-aS'rigidAttachment = False'
-p3882
-aS'flag = Squad/Flags/rings'
-p3883
-aS'rTrf = fuelTank.long'
-p3884
-aS'modCost = 0'
-p3885
-aS'EVENTS'
-p3886
-a(lp3887
-aS'ACTIONS'
-p3888
-a(lp3889
-aS'PARTDATA'
-p3890
-a(lp3891
-aS'RESOURCE'
-p3892
-a(lp3893
-S'name = LiquidFuel'
-p3894
-aS'amount = 259.14174212820808'
-p3895
-aS'maxAmount = 360'
-p3896
-aS'flowState = True'
-p3897
-aS'isTweakable = True'
-p3898
-aS'hideFlow = False'
-p3899
-aS'isVisible = True'
-p3900
-aS'flowMode = Both'
-p3901
-aaS'RESOURCE'
-p3902
-a(lp3903
-S'name = Oxidizer'
-p3904
-aS'amount = 312.1631896265755'
-p3905
-aS'maxAmount = 440'
-p3906
-aS'flowState = True'
-p3907
-aS'isTweakable = True'
-p3908
-aS'hideFlow = False'
-p3909
-aS'isVisible = True'
-p3910
-aS'flowMode = Both'
-p3911
-aaaS'PART'
-p3912
-a(lp3913
-S'name = strutConnector'
-p3914
-aS'cid = 4293572734'
-p3915
-aS'uid = 2277557944'
-p3916
-aS'mid = 3392428063'
-p3917
-aS'launchID = 1'
-p3918
-aS'parent = 29'
-p3919
-aS'position = -1.0763677358627319,7.7431821823120117,-1.0763677358627319'
-p3920
-aS'rotation = -0.923879623,4.76898663E-08,-0.382683486,1.97537915E-08'
-p3921
-aS'mirror = 1,1,1'
-p3922
-aS'symMethod = Radial'
-p3923
-aS'istg = -1'
-p3924
-aS'resPri = 0'
-p3925
-aS'dstg = 0'
-p3926
-aS'sqor = -1'
-p3927
-aS'sepI = -1'
-p3928
-aS'sidx = -1'
-p3929
-aS'attm = 1'
-p3930
-aS'sym = 28'
-p3931
-aS'sym = 32'
-p3932
-aS'sym = 42'
-p3933
-aS'srfN = srfAttach, 29'
-p3934
-aS'mass = 0.0500000007'
-p3935
-aS'shielded = False'
-p3936
-aS'temp = 331.59778688988939'
-p3937
-aS'tempExt = 333.25070478117004'
-p3938
-aS'tempExtUnexp = 4'
-p3939
-aS'expt = 0'
-p3940
-aS'state = 0'
-p3941
-aS'attached = True'
-p3942
-aS'autostrutMode = Off'
-p3943
-aS'rigidAttachment = False'
-p3944
-aS'flag = Squad/Flags/rings'
-p3945
-aS'rTrf = strutConnector'
-p3946
-aS'modCost = 0'
-p3947
-aS'EVENTS'
-p3948
-a(lp3949
-aS'ACTIONS'
-p3950
-a(lp3951
-aS'PARTDATA'
-p3952
-a(lp3953
-S'tgt = 4293708086'
-p3954
-aS'pos = 0.0568491742,-0.219316602,0.00254870253'
-p3955
-aS'rot = 3.64305919E-09,4.85889132E-07,0.707106948,0.707107425'
-p3956
-aS'dir = 0.0112748966,-0.967945457,-0.25090766'
-p3957
-aaS'MODULE'
-p3958
-a(lp3959
-S'name = CModuleLinkedMesh'
-p3960
-aS'isEnabled = True'
-p3961
-aS'stagingEnabled = True'
-p3962
-aS'EVENTS'
-p3963
-a(lp3964
-aS'ACTIONS'
-p3965
-a(lp3966
-aS'UPGRADESAPPLIED'
-p3967
-a(lp3968
-aaS'MODULE'
-p3969
-a(lp3970
-S'name = CModuleStrut'
-p3971
-aS'isEnabled = True'
-p3972
-aS'stagingEnabled = True'
-p3973
-aS'EVENTS'
-p3974
-a(lp3975
-aS'ACTIONS'
-p3976
-a(lp3977
-aS'UPGRADESAPPLIED'
-p3978
-a(lp3979
-aaaS'PART'
-p3980
-a(lp3981
-S'name = fuelTank.long'
-p3982
-aS'cid = 4293572672'
-p3983
-aS'uid = 79892061'
-p3984
-aS'mid = 3392428063'
-p3985
-aS'launchID = 1'
-p3986
-aS'parent = 26'
-p3987
-aS'position = 0.625,6.0624990463256836,-0.625'
-p3988
-aS'rotation = 4.37113883E-08,0,-1,0'
-p3989
-aS'mirror = 1,1,1'
-p3990
-aS'symMethod = Radial'
-p3991
-aS'istg = -1'
-p3992
-aS'resPri = 0'
-p3993
-aS'dstg = 0'
-p3994
-aS'sqor = -1'
-p3995
-aS'sepI = -1'
-p3996
-aS'sidx = -1'
-p3997
-aS'attm = 0'
-p3998
-aS'sym = 27'
-p3999
-aS'sym = 29'
-p4000
-aS'sym = 33'
-p4001
-aS'srfN = srfAttach, -1'
-p4002
-aS'attN = top, 26'
-p4003
-aS'attN = bottom, -1'
-p4004
-aS'mass = 0.5'
-p4005
-aS'shielded = False'
-p4006
-aS'temp = 331.83456113149833'
-p4007
-aS'tempExt = 335.11354441191185'
-p4008
-aS'tempExtUnexp = 4'
-p4009
-aS'expt = 0.5'
-p4010
-aS'state = 0'
-p4011
-aS'attached = True'
-p4012
-aS'autostrutMode = Off'
-p4013
-aS'rigidAttachment = False'
-p4014
-aS'flag = Squad/Flags/rings'
-p4015
-aS'rTrf = fuelTank.long'
-p4016
-aS'modCost = 0'
-p4017
-aS'EVENTS'
-p4018
-a(lp4019
-aS'ACTIONS'
-p4020
-a(lp4021
-aS'PARTDATA'
-p4022
-a(lp4023
-aS'RESOURCE'
-p4024
-a(lp4025
-S'name = LiquidFuel'
-p4026
-aS'amount = 259.14174212820808'
-p4027
-aS'maxAmount = 360'
-p4028
-aS'flowState = True'
-p4029
-aS'isTweakable = True'
-p4030
-aS'hideFlow = False'
-p4031
-aS'isVisible = True'
-p4032
-aS'flowMode = Both'
-p4033
-aaS'RESOURCE'
-p4034
-a(lp4035
-S'name = Oxidizer'
-p4036
-aS'amount = 312.1631896265755'
-p4037
-aS'maxAmount = 440'
-p4038
-aS'flowState = True'
-p4039
-aS'isTweakable = True'
-p4040
-aS'hideFlow = False'
-p4041
-aS'isVisible = True'
-p4042
-aS'flowMode = Both'
-p4043
-aaaS'PART'
-p4044
-a(lp4045
-S'name = strutConnector'
-p4046
-aS'cid = 4293572642'
-p4047
-aS'uid = 4042904716'
-p4048
-aS'mid = 3392428063'
-p4049
-aS'launchID = 1'
-p4050
-aS'parent = 31'
-p4051
-aS'position = 1.0763671398162842,7.7431821823120117,-1.0763671398162842'
-p4052
-aS'rotation = -0.382683396,1.97537862E-08,-0.923879564,4.76898663E-08'
-p4053
-aS'mirror = 1,1,1'
-p4054
-aS'symMethod = Radial'
-p4055
-aS'istg = -1'
-p4056
-aS'resPri = 0'
-p4057
-aS'dstg = 0'
-p4058
-aS'sqor = -1'
-p4059
-aS'sepI = -1'
-p4060
-aS'sidx = -1'
-p4061
-aS'attm = 1'
-p4062
-aS'sym = 28'
-p4063
-aS'sym = 30'
-p4064
-aS'sym = 42'
-p4065
-aS'srfN = srfAttach, 31'
-p4066
-aS'mass = 0.0500000007'
-p4067
-aS'shielded = False'
-p4068
-aS'temp = 331.7523264640509'
-p4069
-aS'tempExt = 333.37277668671101'
-p4070
-aS'tempExtUnexp = 4'
-p4071
-aS'expt = 0'
-p4072
-aS'state = 0'
-p4073
-aS'attached = True'
-p4074
-aS'autostrutMode = Off'
-p4075
-aS'rigidAttachment = False'
-p4076
-aS'flag = Squad/Flags/rings'
-p4077
-aS'rTrf = strutConnector'
-p4078
-aS'modCost = 0'
-p4079
-aS'EVENTS'
-p4080
-a(lp4081
-aS'ACTIONS'
-p4082
-a(lp4083
-aS'PARTDATA'
-p4084
-a(lp4085
-S'tgt = 4293708086'
-p4086
-aS'pos = 0.056852676,-0.219316483,0.0025578097'
-p4087
-aS'rot = 0,-4.7434051E-07,0.70710659,0.707107067'
-p4088
-aS'dir = 0.0112748668,-0.967945457,0.25090763'
-p4089
-aaS'MODULE'
-p4090
-a(lp4091
-S'name = CModuleLinkedMesh'
-p4092
-aS'isEnabled = True'
-p4093
-aS'stagingEnabled = True'
-p4094
-aS'EVENTS'
-p4095
-a(lp4096
-aS'ACTIONS'
-p4097
-a(lp4098
-aS'UPGRADESAPPLIED'
-p4099
-a(lp4100
-aaS'MODULE'
-p4101
-a(lp4102
-S'name = CModuleStrut'
-p4103
-aS'isEnabled = True'
-p4104
-aS'stagingEnabled = True'
-p4105
-aS'EVENTS'
-p4106
-a(lp4107
-aS'ACTIONS'
-p4108
-a(lp4109
-aS'UPGRADESAPPLIED'
-p4110
-a(lp4111
-aaaS'PART'
-p4112
-a(lp4113
-S'name = fuelTank.long'
-p4114
-aS'cid = 4293572580'
-p4115
-aS'uid = 952210065'
-p4116
-aS'mid = 3392428063'
-p4117
-aS'launchID = 1'
-p4118
-aS'parent = 26'
-p4119
-aS'position = 0.625,6.0624990463256836,0.625'
-p4120
-aS'rotation = 0.707106829,0,-0.707106829,0'
-p4121
-aS'mirror = 1,1,1'
-p4122
-aS'symMethod = Radial'
-p4123
-aS'istg = -1'
-p4124
-aS'resPri = 0'
-p4125
-aS'dstg = 0'
-p4126
-aS'sqor = -1'
-p4127
-aS'sepI = -1'
-p4128
-aS'sidx = -1'
-p4129
-aS'attm = 0'
-p4130
-aS'sym = 27'
-p4131
-aS'sym = 29'
-p4132
-aS'sym = 31'
-p4133
-aS'srfN = srfAttach, -1'
-p4134
-aS'attN = top, 26'
-p4135
-aS'attN = bottom, 34'
-p4136
-aS'mass = 0.5'
-p4137
-aS'shielded = False'
-p4138
-aS'temp = 328.81325743575434'
-p4139
-aS'tempExt = 331.39129732781413'
-p4140
-aS'tempExtUnexp = 4'
-p4141
-aS'expt = 0.5'
-p4142
-aS'state = 0'
-p4143
-aS'attached = True'
-p4144
-aS'autostrutMode = Off'
-p4145
-aS'rigidAttachment = False'
-p4146
-aS'flag = Squad/Flags/rings'
-p4147
-aS'rTrf = fuelTank.long'
-p4148
-aS'modCost = 0'
-p4149
-aS'EVENTS'
-p4150
-a(lp4151
-aS'ACTIONS'
-p4152
-a(lp4153
-aS'PARTDATA'
-p4154
-a(lp4155
-aS'RESOURCE'
-p4156
-a(lp4157
-S'name = LiquidFuel'
-p4158
-aS'amount = 259.14174212820808'
-p4159
-aS'maxAmount = 360'
-p4160
-aS'flowState = True'
-p4161
-aS'isTweakable = True'
-p4162
-aS'hideFlow = False'
-p4163
-aS'isVisible = True'
-p4164
-aS'flowMode = Both'
-p4165
-aaS'RESOURCE'
-p4166
-a(lp4167
-S'name = Oxidizer'
-p4168
-aS'amount = 312.1631896265755'
-p4169
-aS'maxAmount = 440'
-p4170
-aS'flowState = True'
-p4171
-aS'isTweakable = True'
-p4172
-aS'hideFlow = False'
-p4173
-aS'isVisible = True'
-p4174
-aS'flowMode = Both'
-p4175
-aaaS'PART'
-p4176
-a(lp4177
-S'name = adapterLargeSmallQuad'
-p4178
-aS'cid = 4293572550'
-p4179
-aS'uid = 364717091'
-p4180
-aS'mid = 3392428063'
-p4181
-aS'launchID = 1'
-p4182
-aS'parent = 33'
-p4183
-aS'position = -4.76837158203125E-07,8.6999998092651367,-5.3644180297851563E-07'
-p4184
-aS'rotation = 0,0,0,1.00000012'
-p4185
-aS'mirror = 1,1,1'
-p4186
-aS'symMethod = Radial'
-p4187
-aS'istg = -1'
-p4188
-aS'resPri = 0'
-p4189
-aS'dstg = 0'
-p4190
-aS'sqor = -1'
-p4191
-aS'sepI = -1'
-p4192
-aS'sidx = -1'
-p4193
-aS'attm = 0'
-p4194
-aS'srfN = , -1'
-p4195
-aS'attN = top, 35'
-p4196
-aS'attN = bottom01, 33'
-p4197
-aS'attN = bottom02, -1'
-p4198
-aS'attN = bottom03, -1'
-p4199
-aS'attN = bottom04, -1'
-p4200
-aS'mass = 0.200000003'
-p4201
-aS'shielded = False'
-p4202
-aS'temp = 326.77905855546084'
-p4203
-aS'tempExt = 327.25646760416782'
-p4204
-aS'tempExtUnexp = 4'
-p4205
-aS'expt = 0.5'
-p4206
-aS'state = 0'
-p4207
-aS'attached = True'
-p4208
-aS'autostrutMode = Off'
-p4209
-aS'rigidAttachment = False'
-p4210
-aS'flag = Squad/Flags/rings'
-p4211
-aS'rTrf = adapterLargeSmallQuad'
-p4212
-aS'modCost = 0'
-p4213
-aS'EVENTS'
-p4214
-a(lp4215
-aS'ACTIONS'
-p4216
-a(lp4217
-aS'PARTDATA'
-p4218
-a(lp4219
-aaS'PART'
-p4220
-a(lp4221
-S'name = adapterSize2-Size1'
-p4222
-aS'cid = 4293572522'
-p4223
-aS'uid = 3531910181'
-p4224
-aS'mid = 3392428063'
-p4225
-aS'launchID = 1'
-p4226
-aS'parent = 34'
-p4227
-aS'position = -6.5565109252929688E-07,9.9499998092651367,-7.152557373046875E-07'
-p4228
-aS'rotation = 0,0,0,1.00000012'
-p4229
-aS'mirror = 1,1,1'
-p4230
-aS'symMethod = Radial'
-p4231
-aS'istg = -1'
-p4232
-aS'resPri = 0'
-p4233
-aS'dstg = 0'
-p4234
-aS'sqor = -1'
-p4235
-aS'sepI = -1'
-p4236
-aS'sidx = -1'
-p4237
-aS'attm = 0'
-p4238
-aS'srfN = srfAttach, -1'
-p4239
-aS'attN = top, 36'
-p4240
-aS'attN = bottom, 34'
-p4241
-aS'mass = 0.569999993'
-p4242
-aS'shielded = False'
-p4243
-aS'temp = 324.34777090553769'
-p4244
-aS'tempExt = 324.40255593728534'
-p4245
-aS'tempExtUnexp = 4'
-p4246
-aS'expt = 0.5'
-p4247
-aS'state = 0'
-p4248
-aS'attached = True'
-p4249
-aS'autostrutMode = Off'
-p4250
-aS'rigidAttachment = False'
-p4251
-aS'flag = Squad/Flags/rings'
-p4252
-aS'rTrf = adapterSize2-Size1'
-p4253
-aS'modCost = 0'
-p4254
-aS'EVENTS'
-p4255
-a(lp4256
-aS'ACTIONS'
-p4257
-a(lp4258
-aS'PARTDATA'
-p4259
-a(lp4260
-aS'RESOURCE'
-p4261
-a(lp4262
-S'name = LiquidFuel'
-p4263
-aS'amount = 259.14174212820808'
-p4264
-aS'maxAmount = 360'
-p4265
-aS'flowState = True'
-p4266
-aS'isTweakable = True'
-p4267
-aS'hideFlow = False'
-p4268
-aS'isVisible = True'
-p4269
-aS'flowMode = Both'
-p4270
-aaS'RESOURCE'
-p4271
-a(lp4272
-S'name = Oxidizer'
-p4273
-aS'amount = 312.1631896265755'
-p4274
-aS'maxAmount = 440'
-p4275
-aS'flowState = True'
-p4276
-aS'isTweakable = True'
-p4277
-aS'hideFlow = False'
-p4278
-aS'isVisible = True'
-p4279
-aS'flowMode = Both'
-p4280
-aaaS'PART'
-p4281
-a(lp4282
-S'name = noseConeAdapter'
-p4283
-aS'cid = 4293572490'
-p4284
-aS'uid = 3388656840'
-p4285
-aS'mid = 3392428063'
-p4286
-aS'launchID = 1'
-p4287
-aS'parent = 35'
-p4288
-aS'position = -8.3446502685546875E-07,11.950005531311035,-8.9406967163085938E-07'
-p4289
-aS'rotation = 0,0,0,1.00000012'
-p4290
-aS'mirror = 1,1,1'
-p4291
-aS'symMethod = Radial'
-p4292
-aS'istg = -1'
-p4293
-aS'resPri = 0'
-p4294
-aS'dstg = 0'
-p4295
-aS'sqor = -1'
-p4296
-aS'sepI = -1'
-p4297
-aS'sidx = -1'
-p4298
-aS'attm = 0'
-p4299
-aS'srfN = srfAttach, -1'
-p4300
-aS'attN = top, 37'
-p4301
-aS'attN = bottom01, 35'
-p4302
-aS'mass = 0.100000001'
-p4303
-aS'shielded = False'
-p4304
-aS'temp = 322.84574191126444'
-p4305
-aS'tempExt = 322.87988481039628'
-p4306
-aS'tempExtUnexp = 4'
-p4307
-aS'expt = 0.5'
-p4308
-aS'state = 0'
-p4309
-aS'attached = True'
-p4310
-aS'autostrutMode = Off'
-p4311
-aS'rigidAttachment = False'
-p4312
-aS'flag = Squad/Flags/rings'
-p4313
-aS'rTrf = noseConeAdapter'
-p4314
-aS'modCost = 0'
-p4315
-aS'EVENTS'
-p4316
-a(lp4317
-aS'ACTIONS'
-p4318
-a(lp4319
-aS'PARTDATA'
-p4320
-a(lp4321
-aS'MODULE'
-p4322
-a(lp4323
-S'name = ModuleAnimateHeat'
-p4324
-aS'isEnabled = True'
-p4325
-aS'stagingEnabled = True'
-p4326
-aS'EVENTS'
-p4327
-a(lp4328
-aS'ACTIONS'
-p4329
-a(lp4330
-aS'UPGRADESAPPLIED'
-p4331
-a(lp4332
-aaS'RESOURCE'
-p4333
-a(lp4334
-S'name = LiquidFuel'
-p4335
-aS'amount = 57.587053806262155'
-p4336
-aS'maxAmount = 80'
-p4337
-aS'flowState = True'
-p4338
-aS'isTweakable = True'
-p4339
-aS'hideFlow = False'
-p4340
-aS'isVisible = True'
-p4341
-aS'flowMode = Both'
-p4342
-aaaS'PART'
-p4343
-a(lp4344
-S'name = structuralIBeam2'
-p4345
-aS'cid = 4293572454'
-p4346
-aS'uid = 2122223810'
-p4347
-aS'mid = 3392428063'
-p4348
-aS'launchID = 1'
-p4349
-aS'parent = 36'
-p4350
-aS'position = -1.0132789611816406E-06,14.673281669616699,-1.0728836059570313E-06'
-p4351
-aS'rotation = -1.00000012,0,0,0'
-p4352
-aS'mirror = 1,1,1'
-p4353
-aS'symMethod = Radial'
-p4354
-aS'istg = -1'
-p4355
-aS'resPri = 0'
-p4356
-aS'dstg = 0'
-p4357
-aS'sqor = -1'
-p4358
-aS'sepI = -1'
-p4359
-aS'sidx = -1'
-p4360
-aS'attm = 0'
-p4361
-aS'srfN = srfAttach, -1'
-p4362
-aS'attN = top, 36'
-p4363
-aS'attN = bottom, -1'
-p4364
-aS'mass = 0.375'
-p4365
-aS'shielded = False'
-p4366
-aS'temp = 320.39042548753832'
-p4367
-aS'tempExt = 321.3369878455801'
-p4368
-aS'tempExtUnexp = 4'
-p4369
-aS'expt = 0.5'
-p4370
-aS'state = 0'
-p4371
-aS'attached = True'
-p4372
-aS'autostrutMode = Off'
-p4373
-aS'rigidAttachment = False'
-p4374
-aS'flag = Squad/Flags/rings'
-p4375
-aS'rTrf = structuralIBeam2'
-p4376
-aS'modCost = 0'
-p4377
-aS'EVENTS'
-p4378
-a(lp4379
-aS'ACTIONS'
-p4380
-a(lp4381
-aS'PARTDATA'
-p4382
-a(lp4383
-aaS'PART'
-p4384
-a(lp4385
-S'name = vernierEngine'
-p4386
-aS'cid = 4293572370'
-p4387
-aS'uid = 272859747'
-p4388
-aS'mid = 3392428063'
-p4389
-aS'launchID = 1'
-p4390
-aS'parent = 36'
-p4391
-aS'position = 0.2433723509311676,12.901083946228027,-0.24337458610534668'
-p4392
-aS'rotation = 0.108132556,-0.917529345,-0.0447901227,0.380054325'
-p4393
-aS'mirror = 1,1,1'
-p4394
-aS'symMethod = Radial'
-p4395
-aS'istg = -1'
-p4396
-aS'resPri = 0'
-p4397
-aS'dstg = 0'
-p4398
-aS'sqor = -1'
-p4399
-aS'sepI = -1'
-p4400
-aS'sidx = -1'
-p4401
-aS'attm = 1'
-p4402
-aS'sym = 39'
-p4403
-aS'sym = 40'
-p4404
-aS'sym = 41'
-p4405
-aS'srfN = srfAttach, 36'
-p4406
-aS'mass = 0.0799999982'
-p4407
-aS'shielded = False'
-p4408
-aS'temp = 321.60151208546813'
-p4409
-aS'tempExt = 321.74981034026962'
-p4410
-aS'tempExtUnexp = 4'
-p4411
-aS'expt = 0.5'
-p4412
-aS'state = 0'
-p4413
-aS'attached = True'
-p4414
-aS'autostrutMode = Off'
-p4415
-aS'rigidAttachment = False'
-p4416
-aS'flag = Squad/Flags/rings'
-p4417
-aS'rTrf = vernierEngine'
-p4418
-aS'modCost = 0'
-p4419
-aS'EVENTS'
-p4420
-a(lp4421
-aS'ACTIONS'
-p4422
-a(lp4423
-aS'PARTDATA'
-p4424
-a(lp4425
-aS'MODULE'
-p4426
-a(lp4427
-S'name = ModuleRCSFX'
-p4428
-aS'isEnabled = True'
-p4429
-aS'rcsEnabled = True'
-p4430
-aS'thrustPercentage = 100'
-p4431
-aS'currentShowToggles = False'
-p4432
-aS'enableYaw = True'
-p4433
-aS'enablePitch = True'
-p4434
-aS'enableRoll = True'
-p4435
-aS'enableX = True'
-p4436
-aS'enableY = True'
-p4437
-aS'enableZ = True'
-p4438
-aS'useThrottle = False'
-p4439
-aS'fullThrust = False'
-p4440
-aS'stagingEnabled = False'
-p4441
-aS'EVENTS'
-p4442
-a(lp4443
-aS'ACTIONS'
-p4444
-a(lp4445
-S'ToggleAction'
-p4446
-a(lp4447
-S'actionGroup = None'
-p4448
-aaaS'UPGRADESAPPLIED'
-p4449
-a(lp4450
-aaaS'PART'
-p4451
-a(lp4452
-S'name = vernierEngine'
-p4453
-aS'cid = 4293572338'
-p4454
-aS'uid = 77692591'
-p4455
-aS'mid = 3392428063'
-p4456
-aS'launchID = 1'
-p4457
-aS'parent = 36'
-p4458
-aS'position = -0.24337506294250488,12.901083946228027,-0.24337506294250488'
-p4459
-aS'rotation = 0.0447898656,-0.380052239,-0.108132675,0.917530298'
-p4460
-aS'mirror = 1,1,1'
-p4461
-aS'symMethod = Radial'
-p4462
-aS'istg = -1'
-p4463
-aS'resPri = 0'
-p4464
-aS'dstg = 0'
-p4465
-aS'sqor = -1'
-p4466
-aS'sepI = -1'
-p4467
-aS'sidx = -1'
-p4468
-aS'attm = 1'
-p4469
-aS'sym = 38'
-p4470
-aS'sym = 40'
-p4471
-aS'sym = 41'
-p4472
-aS'srfN = srfAttach, 36'
-p4473
-aS'mass = 0.0799999982'
-p4474
-aS'shielded = False'
-p4475
-aS'temp = 321.60151210588236'
-p4476
-aS'tempExt = 321.74981035000923'
-p4477
-aS'tempExtUnexp = 4'
-p4478
-aS'expt = 0.5'
-p4479
-aS'state = 0'
-p4480
-aS'attached = True'
-p4481
-aS'autostrutMode = Off'
-p4482
-aS'rigidAttachment = False'
-p4483
-aS'flag = Squad/Flags/rings'
-p4484
-aS'rTrf = vernierEngine'
-p4485
-aS'modCost = 0'
-p4486
-aS'EVENTS'
-p4487
-a(lp4488
-aS'ACTIONS'
-p4489
-a(lp4490
-aS'PARTDATA'
-p4491
-a(lp4492
-aS'MODULE'
-p4493
-a(lp4494
-S'name = ModuleRCSFX'
-p4495
-aS'isEnabled = True'
-p4496
-aS'rcsEnabled = True'
-p4497
-aS'thrustPercentage = 100'
-p4498
-aS'currentShowToggles = False'
-p4499
-aS'enableYaw = True'
-p4500
-aS'enablePitch = True'
-p4501
-aS'enableRoll = True'
-p4502
-aS'enableX = True'
-p4503
-aS'enableY = True'
-p4504
-aS'enableZ = True'
-p4505
-aS'useThrottle = False'
-p4506
-aS'fullThrust = False'
-p4507
-aS'stagingEnabled = False'
-p4508
-aS'EVENTS'
-p4509
-a(lp4510
-aS'ACTIONS'
-p4511
-a(lp4512
-S'ToggleAction'
-p4513
-a(lp4514
-S'actionGroup = None'
-p4515
-aaaS'UPGRADESAPPLIED'
-p4516
-a(lp4517
-aaaS'PART'
-p4518
-a(lp4519
-S'name = vernierEngine'
-p4520
-aS'cid = 4293572306'
-p4521
-aS'uid = 1127600154'
-p4522
-aS'mid = 3392428063'
-p4523
-aS'launchID = 1'
-p4524
-aS'parent = 36'
-p4525
-aS'position = -0.24337482452392578,12.901083946228027,0.24337238073348999'
-p4526
-aS'rotation = -0.0447901227,0.380054325,-0.108132556,0.917529345'
-p4527
-aS'mirror = 1,1,1'
-p4528
-aS'symMethod = Radial'
-p4529
-aS'istg = -1'
-p4530
-aS'resPri = 0'
-p4531
-aS'dstg = 0'
-p4532
-aS'sqor = -1'
-p4533
-aS'sepI = -1'
-p4534
-aS'sidx = -1'
-p4535
-aS'attm = 1'
-p4536
-aS'sym = 38'
-p4537
-aS'sym = 39'
-p4538
-aS'sym = 41'
-p4539
-aS'srfN = srfAttach, 36'
-p4540
-aS'mass = 0.0799999982'
-p4541
-aS'shielded = False'
-p4542
-aS'temp = 321.60151210183625'
-p4543
-aS'tempExt = 321.74981034807871'
-p4544
-aS'tempExtUnexp = 4'
-p4545
-aS'expt = 0.5'
-p4546
-aS'state = 0'
-p4547
-aS'attached = True'
-p4548
-aS'autostrutMode = Off'
-p4549
-aS'rigidAttachment = False'
-p4550
-aS'flag = Squad/Flags/rings'
-p4551
-aS'rTrf = vernierEngine'
-p4552
-aS'modCost = 0'
-p4553
-aS'EVENTS'
-p4554
-a(lp4555
-aS'ACTIONS'
-p4556
-a(lp4557
-aS'PARTDATA'
-p4558
-a(lp4559
-aS'MODULE'
-p4560
-a(lp4561
-S'name = ModuleRCSFX'
-p4562
-aS'isEnabled = True'
-p4563
-aS'rcsEnabled = True'
-p4564
-aS'thrustPercentage = 100'
-p4565
-aS'currentShowToggles = False'
-p4566
-aS'enableYaw = True'
-p4567
-aS'enablePitch = True'
-p4568
-aS'enableRoll = True'
-p4569
-aS'enableX = True'
-p4570
-aS'enableY = True'
-p4571
-aS'enableZ = True'
-p4572
-aS'useThrottle = False'
-p4573
-aS'fullThrust = False'
-p4574
-aS'stagingEnabled = False'
-p4575
-aS'EVENTS'
-p4576
-a(lp4577
-aS'ACTIONS'
-p4578
-a(lp4579
-S'ToggleAction'
-p4580
-a(lp4581
-S'actionGroup = None'
-p4582
-aaaS'UPGRADESAPPLIED'
-p4583
-a(lp4584
-aaaS'PART'
-p4585
-a(lp4586
-S'name = vernierEngine'
-p4587
-aS'cid = 4293572274'
-p4588
-aS'uid = 416256308'
-p4589
-aS'mid = 3392428063'
-p4590
-aS'launchID = 1'
-p4591
-aS'parent = 36'
-p4592
-aS'position = 0.24337270855903625,12.901083946228027,0.24337264895439148'
-p4593
-aS'rotation = -0.108132675,0.917530298,-0.0447898656,0.380052239'
-p4594
-aS'mirror = 1,1,1'
-p4595
-aS'symMethod = Radial'
-p4596
-aS'istg = -1'
-p4597
-aS'resPri = 0'
-p4598
-aS'dstg = 0'
-p4599
-aS'sqor = -1'
-p4600
-aS'sepI = -1'
-p4601
-aS'sidx = -1'
-p4602
-aS'attm = 1'
-p4603
-aS'sym = 38'
-p4604
-aS'sym = 39'
-p4605
-aS'sym = 40'
-p4606
-aS'srfN = srfAttach, 36'
-p4607
-aS'mass = 0.0799999982'
-p4608
-aS'shielded = False'
-p4609
-aS'temp = 321.60151208240234'
-p4610
-aS'tempExt = 321.74981033880687'
-p4611
-aS'tempExtUnexp = 4'
-p4612
-aS'expt = 0.5'
-p4613
-aS'state = 0'
-p4614
-aS'attached = True'
-p4615
-aS'autostrutMode = Off'
-p4616
-aS'rigidAttachment = False'
-p4617
-aS'flag = Squad/Flags/rings'
-p4618
-aS'rTrf = vernierEngine'
-p4619
-aS'modCost = 0'
-p4620
-aS'EVENTS'
-p4621
-a(lp4622
-aS'ACTIONS'
-p4623
-a(lp4624
-aS'PARTDATA'
-p4625
-a(lp4626
-aS'MODULE'
-p4627
-a(lp4628
-S'name = ModuleRCSFX'
-p4629
-aS'isEnabled = True'
-p4630
-aS'rcsEnabled = True'
-p4631
-aS'thrustPercentage = 100'
-p4632
-aS'currentShowToggles = False'
-p4633
-aS'enableYaw = True'
-p4634
-aS'enablePitch = True'
-p4635
-aS'enableRoll = True'
-p4636
-aS'enableX = True'
-p4637
-aS'enableY = True'
-p4638
-aS'enableZ = True'
-p4639
-aS'useThrottle = False'
-p4640
-aS'fullThrust = False'
-p4641
-aS'stagingEnabled = False'
-p4642
-aS'EVENTS'
-p4643
-a(lp4644
-aS'ACTIONS'
-p4645
-a(lp4646
-S'ToggleAction'
-p4647
-a(lp4648
-S'actionGroup = None'
-p4649
-aaaS'UPGRADESAPPLIED'
-p4650
-a(lp4651
-aaaS'PART'
-p4652
-a(lp4653
-S'name = strutConnector'
-p4654
-aS'cid = 4293572432'
-p4655
-aS'uid = 2758281485'
-p4656
-aS'mid = 3392428063'
-p4657
-aS'launchID = 1'
-p4658
-aS'parent = 33'
-p4659
-aS'position = 1.0763678550720215,7.7431821823120117,1.0763677358627319'
-p4660
-aS'rotation = 0.382683486,-1.97537915E-08,-0.923879623,4.76898663E-08'
-p4661
-aS'mirror = 1,1,1'
-p4662
-aS'symMethod = Radial'
-p4663
-aS'istg = -1'
-p4664
-aS'resPri = 0'
-p4665
-aS'dstg = 0'
-p4666
-aS'sqor = -1'
-p4667
-aS'sepI = -1'
-p4668
-aS'sidx = -1'
-p4669
-aS'attm = 1'
-p4670
-aS'sym = 28'
-p4671
-aS'sym = 30'
-p4672
-aS'sym = 32'
-p4673
-aS'srfN = srfAttach, 33'
-p4674
-aS'mass = 0.0500000007'
-p4675
-aS'shielded = False'
-p4676
-aS'temp = 328.76502291455159'
-p4677
-aS'tempExt = 330.03211084237097'
-p4678
-aS'tempExtUnexp = 4'
-p4679
-aS'expt = 0'
-p4680
-aS'state = 0'
-p4681
-aS'attached = True'
-p4682
-aS'autostrutMode = Off'
-p4683
-aS'rigidAttachment = False'
-p4684
-aS'flag = Squad/Flags/rings'
-p4685
-aS'rTrf = strutConnector'
-p4686
-aS'modCost = 0'
-p4687
-aS'EVENTS'
-p4688
-a(lp4689
-aS'ACTIONS'
-p4690
-a(lp4691
-aS'PARTDATA'
-p4692
-a(lp4693
-S'tgt = 4293708086'
-p4694
-aS'pos = 0.0568448938,-0.219316602,0.00255485624'
-p4695
-aS'rot = -2.70527101E-10,-4.82516612E-07,0.707107246,0.707106948'
-p4696
-aS'dir = -0.011275053,-0.967945457,0.25090766'
-p4697
-aaS'MODULE'
-p4698
-a(lp4699
-S'name = CModuleLinkedMesh'
-p4700
-aS'isEnabled = True'
-p4701
-aS'stagingEnabled = True'
-p4702
-aS'EVENTS'
-p4703
-a(lp4704
-aS'ACTIONS'
-p4705
-a(lp4706
-aS'UPGRADESAPPLIED'
-p4707
-a(lp4708
-aaS'MODULE'
-p4709
-a(lp4710
-S'name = CModuleStrut'
-p4711
-aS'isEnabled = True'
-p4712
-aS'stagingEnabled = True'
-p4713
-aS'EVENTS'
-p4714
-a(lp4715
-aS'ACTIONS'
-p4716
-a(lp4717
-aS'UPGRADESAPPLIED'
-p4718
-a(lp4719
-aaaS'ACTIONGROUPS'
-p4720
-a(lp4721
-S'Stage = True, 15.6799999999998'
-p4722
-aS'Gear = False, 0'
-p4723
-aS'Light = False, 0'
-p4724
-aS'RCS = False, 352.069794921811'
-p4725
-aS'SAS = True, 12.4999999999998'
-p4726
-aS'Brakes = False, 0'
-p4727
-aS'Abort = False, 0'
-p4728
-aS'Custom01 = False, 0'
-p4729
-aS'Custom02 = False, 0'
-p4730
-aS'Custom03 = False, 0'
-p4731
-aS'Custom04 = False, 0'
-p4732
-aS'Custom05 = False, 0'
-p4733
-aS'Custom06 = False, 0'
-p4734
-aS'Custom07 = False, 0'
-p4735
-aS'Custom08 = False, 0'
-p4736
-aS'Custom09 = False, 0'
-p4737
-aS'Custom10 = False, 0'
-p4738
-aaS'DISCOVERY'
-p4739
-a(lp4740
-S'state = -1'
-p4741
-aS'lastObservedTime = 0'
-p4742
-aS'lifetime = Infinity'
-p4743
-aS'refTime = Infinity'
-p4744
-aS'size = 2'
-p4745
-aaS'FLIGHTPLAN'
-p4746
-a(lp4747
-aS'CTRLSTATE'
-p4748
-a(lp4749
-S'pitch = 0.0155190816'
-p4750
-aS'yaw = 0.0416197106'
-p4751
-aS'roll = -0.00769147556'
-p4752
-aS'trimPitch = 0'
-p4753
-aS'trimYaw = 0'
-p4754
-aS'trimRoll = 0'
-p4755
-aS'mainThrottle = 0'
-p4756
-aaS'VESSELMODULES'
-p4757
-a(lp4758
-S'FlightIntegrator'
-p4759
-a(lp4760
-aS'CommNetVessel'
-p4761
-a(lp4762
-S'controlState = KerbalFull'
-p4763
-aS'canComm = True'
-p4764
-aaaa(lp4765
-S'pid = 69ae5d9ac3314f92bb5ce52212bad58f'
-p4766
-aS'name = Ast. TJP-771'
-p4767
-aS'type = SpaceObject'
-p4768
-aS'sit = ORBITING'
-p4769
-aS'landed = False'
-p4770
-aS'landedAt ='
-p4771
-aS'splashed = False'
-p4772
-aS'met = 327.20979492183352'
-p4773
-aS'lct = 327.20979492183352'
-p4774
-aS'lastUT = -1'
-p4775
-aS'root = 0'
-p4776
-aS'lat = -0.37062442854930816'
-p4777
-aS'lon = -178.51254872761754'
-p4778
-aS'alt = 13832382182.987028'
-p4779
-aS'hgt = -1'
-p4780
-aS'nrm = 0,1,0'
-p4781
-aS'rot = -0.158420354,-0.448530614,0.870694399,0.124957949'
-p4782
-aS'CoM = 0,0,0'
-p4783
-aS'stg = 0'
-p4784
-aS'prst = False'
-p4785
-aS'ref = 0'
-p4786
-aS'ctrl = False'
-p4787
-aS'ORBIT'
-p4788
-a(lp4789
-S'SMA = 13917831061.463621'
-p4790
-aS'ECC = 0.02377518893682825'
-p4791
-aS'INC = 0.75564445700557881'
-p4792
-aS'LPE = 332.68228161315886'
-p4793
-aS'LAN = 332.3897642162529'
-p4794
-aS'MNA = 0.2778773244242182'
-p4795
-aS'EPH = 3624538.9895800781'
-p4796
-aS'REF = 0'
-p4797
-aaS'PART'
-p4798
-a(lp4799
-S'name = PotatoRoid'
-p4800
-aS'cid = 0'
-p4801
-aS'uid = 880086271'
-p4802
-aS'mid = 880086271'
-p4803
-aS'launchID = 0'
-p4804
-aS'parent = 0'
-p4805
-aS'position = 0,0,0'
-p4806
-aS'rotation = 0,0,0,1'
-p4807
-aS'mirror = 1,1,1'
-p4808
-aS'symMethod = Radial'
-p4809
-aS'istg = 0'
-p4810
-aS'resPri = 0'
-p4811
-aS'dstg = 0'
-p4812
-aS'sqor = 0'
-p4813
-aS'sepI = 0'
-p4814
-aS'sidx = 0'
-p4815
-aS'attm = 0'
-p4816
-aS'srfN = None, -1'
-p4817
-aS'mass = 150'
-p4818
-aS'shielded = False'
-p4819
-aS'temp = -1'
-p4820
-aS'tempExt = 0'
-p4821
-aS'tempExtUnexp = 0'
-p4822
-aS'expt = 0.100000001'
-p4823
-aS'state = 0'
-p4824
-aS'attached = True'
-p4825
-aS'autostrutMode = Off'
-p4826
-aS'rigidAttachment = False'
-p4827
-aS'flag ='
-p4828
-aS'rTrf ='
-p4829
-aS'modCost = 0'
-p4830
-aaS'ACTIONGROUPS'
-p4831
-a(lp4832
-aS'DISCOVERY'
-p4833
-a(lp4834
-S'state = 1'
-p4835
-aS'lastObservedTime = 327.20979492183352'
-p4836
-aS'lifetime = 193789.80560302734'
-p4837
-aS'refTime = 1728000'
-p4838
-aS'size = 2'
-p4839
-aaS'FLIGHTPLAN'
-p4840
-a(lp4841
-aS'CTRLSTATE'
-p4842
-a(lp4843
-aS'VESSELMODULES'
-p4844
-a(lp4845
-S'FlightIntegrator'
-p4846
-a(lp4847
-aaa(lp4848
-(lp4849
-S'name = Jebediah Kerman'
-p4850
-aS'gender = Male'
-p4851
-aS'type = Crew'
-p4852
-aS'trait = Pilot'
-p4853
-aS'brave = 0.5'
-p4854
-aS'dumb = 0.5'
-p4855
-aS'badS = True'
-p4856
-aS'veteran = True'
-p4857
-aS'tour = False'
-p4858
-aS'state = Missing'
-p4859
-aS'inactive = False'
-p4860
-aS'inactiveTimeEnd = 0'
-p4861
-aS'gExperienced = 0'
-p4862
-aS'outDueToG = False'
-p4863
-aS'ToD = 7671.4497949217021'
-p4864
-aS'idx = 0'
-p4865
-aS'extraXP = 0'
-p4866
-aS'CAREER_LOG'
-p4867
-a(lp4868
-S'flight = 0'
-p4869
-aaS'FLIGHT_LOG'
-p4870
-a(lp4871
-S'flight = 0'
-p4872
-aS'0 = Flight,Kerbin'
-p4873
-aS'0 = Suborbit,Kerbin'
-p4874
-aS'0 = Orbit,Kerbin'
-p4875
-aaa(lp4876
-S'name = Bill Kerman'
-p4877
-aS'gender = Male'
-p4878
-aS'type = Crew'
-p4879
-aS'trait = Engineer'
-p4880
-aS'brave = 0.5'
-p4881
-aS'dumb = 0.800000012'
-p4882
-aS'badS = False'
-p4883
-aS'veteran = True'
-p4884
-aS'tour = False'
-p4885
-aS'state = Available'
-p4886
-aS'inactive = False'
-p4887
-aS'inactiveTimeEnd = 0'
-p4888
-aS'gExperienced = 0'
-p4889
-aS'outDueToG = False'
-p4890
-aS'ToD = 0'
-p4891
-aS'idx = -1'
-p4892
-aS'extraXP = 0'
-p4893
-aS'CAREER_LOG'
-p4894
-a(lp4895
-S'flight = 0'
-p4896
-aaS'FLIGHT_LOG'
-p4897
-a(lp4898
-S'flight = 0'
-p4899
-aaa(lp4900
+aaa(lp2949
 S'name = Bob Kerman'
-p4901
+p2950
 aS'gender = Male'
-p4902
+p2951
 aS'type = Crew'
-p4903
+p2952
 aS'trait = Scientist'
-p4904
+p2953
 aS'brave = 0.300000012'
-p4905
+p2954
 aS'dumb = 0.100000001'
-p4906
+p2955
 aS'badS = False'
-p4907
+p2956
 aS'veteran = True'
-p4908
+p2957
 aS'tour = False'
-p4909
-aS'state = Available'
-p4910
-aS'inactive = False'
-p4911
-aS'inactiveTimeEnd = 0'
-p4912
-aS'gExperienced = 0'
-p4913
-aS'outDueToG = False'
-p4914
-aS'ToD = 0'
-p4915
-aS'idx = -1'
-p4916
-aS'extraXP = 0'
-p4917
-aS'CAREER_LOG'
-p4918
-a(lp4919
-S'flight = 0'
-p4920
-aaS'FLIGHT_LOG'
-p4921
-a(lp4922
-S'flight = 0'
-p4923
-aaa(lp4924
-S'name = Valentina Kerman'
-p4925
-aS'gender = Female'
-p4926
-aS'type = Crew'
-p4927
-aS'trait = Pilot'
-p4928
-aS'brave = 0.550000012'
-p4929
-aS'dumb = 0.400000006'
-p4930
-aS'badS = True'
-p4931
-aS'veteran = True'
-p4932
-aS'tour = False'
-p4933
+p2958
 aS'state = Missing'
-p4934
+p2959
 aS'inactive = False'
-p4935
+p2960
 aS'inactiveTimeEnd = 0'
-p4936
+p2961
 aS'gExperienced = 0'
-p4937
+p2962
 aS'outDueToG = False'
-p4938
-aS'ToD = 7736.311318359335'
-p4939
+p2963
+aS'ToD = 2741.5525585935247'
+p2964
 aS'idx = 0'
-p4940
+p2965
 aS'extraXP = 0'
-p4941
+p2966
 aS'CAREER_LOG'
-p4942
-a(lp4943
+p2967
+a(lp2968
 S'flight = 0'
-p4944
+p2969
 aaS'FLIGHT_LOG'
-p4945
-a(lp4946
+p2970
+a(lp2971
 S'flight = 0'
-p4947
+p2972
+aaa(lp2973
+S'name = Valentina Kerman'
+p2974
+aS'gender = Female'
+p2975
+aS'type = Crew'
+p2976
+aS'trait = Pilot'
+p2977
+aS'brave = 0.550000012'
+p2978
+aS'dumb = 0.400000006'
+p2979
+aS'badS = True'
+p2980
+aS'veteran = True'
+p2981
+aS'tour = False'
+p2982
+aS'state = Missing'
+p2983
+aS'inactive = False'
+p2984
+aS'inactiveTimeEnd = 0'
+p2985
+aS'gExperienced = 0'
+p2986
+aS'outDueToG = False'
+p2987
+aS'ToD = 7736.311318359335'
+p2988
+aS'idx = 0'
+p2989
+aS'extraXP = 0'
+p2990
+aS'CAREER_LOG'
+p2991
+a(lp2992
+S'flight = 0'
+p2993
+aaS'FLIGHT_LOG'
+p2994
+a(lp2995
+S'flight = 0'
+p2996
 aS'0 = Flight,Kerbin'
-p4948
+p2997
 aS'0 = Suborbit,Kerbin'
-p4949
+p2998
 aS'0 = Orbit,Kerbin'
-p4950
-aaa(lp4951
-S'3779b5ac7d274130b817ee2d89d43161'
-p4952
-aS'6f3ecd6435d14682b83c6220fc031960'
-p4953
-aS'3779b5ac7d274130b817ee2d89d43161'
-p4954
-aS'2db1e2d3db0f40efa147b7f0fdb62ec4'
-p4955
-a(dp4956
-S'Bob Kerman'
-p4957
-(lp4958
+p2999
+aaa(lp3000
+S'8d76f097a8f741a59badcf8c42e018f1'
+p3001
+aS'8d76f097a8f741a59badcf8c42e018f1'
+p3002
+a(dp3003
+S'Valentina Kerman'
+p3004
+(lp3005
 S'184.68.166.106'
-p4959
+p3006
 aS'24.87.29.11'
-p4960
-asS'2db1e2d3db0f40efa147b7f0fdb62ec4'
-p4961
-(lp4962
+p3007
+asS'Bob Kerman'
+p3008
+(lp3009
 S'184.68.166.106'
-p4963
-asS'6b06b1a98db44bc59efd70e7ec2ae764'
-p4964
-(lp4965
-g4959
-ag4960
-asS'52b4ca35971241c29bc7a327a10b4e65'
-p4966
-(lp4967
-g4959
-ag4960
-asS'6f3ecd6435d14682b83c6220fc031960'
-p4968
-(lp4969
-g4959
-aS'24.87.29.11'
-p4970
+p3010
+ag3007
 asS'472146fcf45b490e8bafe4b750581fec'
-p4971
-(lp4972
-g4959
-ag4960
-asS'3e84ad55c8004a0c9dd7eb4faa238c5f'
-p4973
-(lp4974
-g4959
-ag4960
-asS'4bef8b23e87c4ea8902c725fc12f4fed'
-p4975
-(lp4976
-g4959
-ag4960
-asS'Jebediah Kerman'
-p4977
-(lp4978
-S'24.87.29.11'
-p4979
-ag4963
-asS'3779b5ac7d274130b817ee2d89d43161'
-p4980
-(lp4981
-S'184.68.166.106'
-p4982
-asS'31c439fdb9cd4adbaeb365c3d1f9fee0'
-p4983
-(lp4984
-g4959
-ag4960
-asS'7667eb97db1842f3858bc1d9d4a6bea0'
-p4985
-(lp4986
-g4959
-ag4960
-asS'1444fe1489ed4c369592a76e36df74ae'
-p4987
-(lp4988
-g4959
-ag4960
-asS'9d539250d7334504be974aa8b35b5b25'
-p4989
-(lp4990
-g4959
-ag4960
+p3011
+(lp3012
+g3006
+ag3010
+ag3007
+aS'24.87.29.11'
+p3013
+aS'184.68.166.106'
+p3014
+aS'24.87.29.11'
+p3015
+aS'24.87.29.11'
+p3016
+aS'184.68.166.106'
+p3017
 asS'69ae5d9ac3314f92bb5ce52212bad58f'
-p4991
-(lp4992
-g4963
-aS'24.87.29.11'
-p4993
+p3018
+(lp3019
+g3015
+asS'31c439fdb9cd4adbaeb365c3d1f9fee0'
+p3020
+(lp3021
+g3006
+ag3010
+ag3007
+ag3013
+ag3014
+ag3015
+ag3016
+ag3017
+asS'3e84ad55c8004a0c9dd7eb4faa238c5f'
+p3022
+(lp3023
+g3006
+ag3010
+ag3007
+ag3013
+ag3014
+ag3015
+ag3016
+ag3017
 asS'dcf5fdadbc964a05b4c59c6db2d8bc0f'
-p4994
-(lp4995
-g4959
-ag4960
+p3024
+(lp3025
+g3006
+ag3010
+ag3007
+ag3013
+ag3014
+ag3015
+ag3016
+ag3017
+asS'6b06b1a98db44bc59efd70e7ec2ae764'
+p3026
+(lp3027
+g3006
+ag3010
+ag3007
+ag3013
+ag3014
+ag3015
+ag3016
+ag3017
 asS'f7afdfa704fe4daab4ae5e0a7a76153b'
-p4996
-(lp4997
-g4959
-ag4960
-asS'Valentina Kerman'
-p4998
-(lp4999
-S'184.68.166.106'
-p5000
-aS'24.87.29.11'
-p5001
-asS'f6c8f15c405e4b76bd01b907fa35d5a6'
-p5002
-(lp5003
-g4959
-ag4960
+p3028
+(lp3029
+g3006
+ag3010
+ag3007
+ag3013
+ag3014
+ag3015
+ag3016
+ag3017
+asS'4bef8b23e87c4ea8902c725fc12f4fed'
+p3030
+(lp3031
+g3006
+ag3010
+ag3007
+ag3013
+ag3014
+ag3015
+ag3016
+ag3017
+asS'52b4ca35971241c29bc7a327a10b4e65'
+p3032
+(lp3033
+g3006
+ag3010
+ag3007
+ag3013
+ag3014
+ag3015
+ag3016
+ag3017
+asS'7667eb97db1842f3858bc1d9d4a6bea0'
+p3034
+(lp3035
+g3006
+ag3010
+ag3007
+ag3013
+ag3014
+ag3015
+ag3016
+ag3017
+asS'Jebediah Kerman'
+p3036
+(lp3037
+g3006
+ag3007
+asS'8d76f097a8f741a59badcf8c42e018f1'
+p3038
+(lp3039
+g3017
 asS'Bill Kerman'
-p5004
-(lp5005
-g4959
-ag4960
-asS'5d2d555fe0bf4fdaa02ee8289462491c'
-p5006
-(lp5007
-g4959
-ag4960
+p3040
+(lp3041
+g3006
+ag3007
+asS'1444fe1489ed4c369592a76e36df74ae'
+p3042
+(lp3043
+g3006
+ag3010
+ag3007
+ag3013
+ag3014
+ag3015
+ag3016
+ag3017
 asS'7827c616f289427fbaba6d8388654544'
-p5008
-(lp5009
-g4959
-ag4960
+p3044
+(lp3045
+g3006
+ag3010
+ag3007
+ag3013
+ag3014
+ag3015
+ag3016
+ag3017
+asS'5d2d555fe0bf4fdaa02ee8289462491c'
+p3046
+(lp3047
+g3006
+ag3010
+ag3007
+ag3013
+ag3014
+ag3015
+ag3016
+ag3017
+asS'9d539250d7334504be974aa8b35b5b25'
+p3048
+(lp3049
+g3006
+ag3010
+ag3007
+ag3013
+ag3014
+ag3015
+ag3016
+ag3017
+asS'f6c8f15c405e4b76bd01b907fa35d5a6'
+p3050
+(lp3051
+g3006
+ag3010
+ag3007
+ag3013
+ag3014
+ag3015
+ag3016
+ag3017
 ast.
