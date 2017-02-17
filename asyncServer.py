@@ -138,7 +138,7 @@ while True:
 	
 	print "Roster handled"
 	
-	print clientGraphDestructablesReduced
+	#print clientGraphDestructablesReduced
 	
 	#Destructables
 	for i in range(0,len(clientGraphDestructablesReduced),2):	

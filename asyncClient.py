@@ -57,7 +57,6 @@ for i in range(len(kerbalList)):
 kerbalStr = unTree(kerbalList, 2)
 
 destructStr = unTree(datafromserver[2])
-for i in range
 
 
 
@@ -78,7 +77,7 @@ for line in dataStream:
 				upData += kerbalStr
 				upData += waste
 				break
-	elif line = '\t\tname = ScenarioDestructibles\n':
+	elif line == '\t\tname = ScenarioDestructibles\n':
 		for waste in dataStream:
 			if waste == '\t}\n':
 				upData += destructStr
