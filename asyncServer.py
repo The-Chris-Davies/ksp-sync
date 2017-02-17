@@ -9,11 +9,12 @@ import sys
 #try to load shipVers and serverGraph from file
 try:
 	saveData = open("serverSave.pkl")
-	serverGraph, kerbalGraph, deletedShips, shipVers = pickle.load(saveData)
+	serverGraph, kerbalGraph, destructGraph, deletedShips, shipVers = pickle.load(saveData)
 	saveData.close()
 except:
 	serverGraph = []
 	kerbalGraph = []
+	destructGraph = []
 	deletedShips = []
 	shipVers = {}
 
@@ -58,7 +59,7 @@ while True:
 	
 	for desctruct in clientGraphDestructables:
 		if get_name(desctruct)=="ScenarioDestructibles":
-			clientGraphDestructablesReduced=destruct
+			clientGraphDestructablesReduced=destruct[2:]
 	
 	
 	#clientGraphKerbal=[]
@@ -137,6 +138,36 @@ while True:
 	
 	print "Roster handled"
 	
+	
+	
+	#Destructables
+	for i in range(0,len(clientGraphDestructablesReduced),4):	
+		pass
+	
+	'''for i in range(len(clientGraphDestructablesReduced)):
+		#name=get_name(clientGraphKerbal[i])
+		serverInd = find_k_ind(name,kerbalGraph)
+		if (serverInd==-1):
+			#print "hi1"
+			#not in server
+			kerbalGraph.append(clientGraphKerbal[i])
+			shipVers[name] = [client_address[0]]
+		else:
+			#if client is up to date:
+			if client_address[0] in shipVers[name]:
+				#check if they are the same
+				if compare_tree(clientGraphKerbal[i], kerbalGraph[serverInd]):
+					#print "yo1"
+					kerbalGraph[serverInd] = clientGraphKerbal[i]
+					shipVers[name] = [client_address[0]]
+			else:
+				#because we're updating the client
+				shipVers[name].append(client_address[0])'''
+	
+	print "Roster handled"
+	
+	
+	
 	#print serverGraph
 	
 	#this is where we send the stuff back
@@ -148,6 +179,6 @@ while True:
 	print "data sent"
 
 	saveData = open("serverSave.pkl", 'w')
-	pickle.dump((serverGraph, kerbalGraph, deletedShips, shipVers), saveData)
+	pickle.dump((serverGraph, kerbalGraph, destructGraph, deletedShips, shipVers), saveData)
 	saveData.close()
 serversocket.close()
