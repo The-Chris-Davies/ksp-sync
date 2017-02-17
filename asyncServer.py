@@ -138,7 +138,7 @@ while True:
 	
 	print "Roster handled"
 	
-	print clientGraphDestructablesReduced
+	#print clientGraphDestructablesReduced
 	
 	#Destructables
 	for i in range(0,len(clientGraphDestructablesReduced),2):	
@@ -164,7 +164,11 @@ while True:
 				#because we're updating the client
 				shipVers[code].append(client_address[0])
 		
-		
+	
+	destructGraphReduced=[]
+	
+	for i in destructGraph:
+		destructGraphReduced.append(destructGraph[i][0])
 	
 	'''for i in range(len(clientGraphDestructablesReduced)):
 		#name=get_name(clientGraphKerbal[i])
@@ -194,13 +198,13 @@ while True:
 	
 	#this is where we send the stuff back
 	print "sending data"
-	returndata=(pickle.dumps((serverGraph,kerbalGraph,destructGraph)))
+	returndata=(pickle.dumps((serverGraph,kerbalGraph,destructGraphReduced)))
 	#print returndata
 	connection.sendall(returndata)
 	connection.sendall('abcdefg')
 	print "data sent"
 
 	saveData = open("serverSave.pkl", 'w')
-	pickle.dump((serverGraph, kerbalGraph, destructGraph, deletedShips, shipVers), saveData)
+	pickle.dump((serverGraph, kerbalGraph, destructGraphReduced, deletedShips, shipVers), saveData)
 	saveData.close()
 serversocket.close()
