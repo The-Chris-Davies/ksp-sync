@@ -56,6 +56,11 @@ for i in range(len(kerbalList)):
 	kerbalList.insert(i*2, "KERBAL")
 kerbalStr = unTree(kerbalList, 2)
 
+destructList = datafromserver[2]
+#for i in range(len(kerbalList)):
+#	kerbalList.insert(i*2, "KERBAL")
+#kerbalStr = unTree(kerbalList, 2)
+
 
 
 print vesselStr

@@ -57,8 +57,8 @@ while True:
 	clientGraphDestructables = getFromTree(clientGraph, ["GAME", "SCENARIO"])
 	clientGraphDestructablesReduced=[]
 	
-	for desctruct in clientGraphDestructables:
-		if get_name(desctruct)=="ScenarioDestructibles":
+	for destruct in clientGraphDestructables:
+		if get_name(destruct)=="ScenarioDestructibles":
 			clientGraphDestructablesReduced=destruct[2:]
 	
 	
@@ -138,11 +138,33 @@ while True:
 	
 	print "Roster handled"
 	
-	
+	print clientGraphDestructablesReduced
 	
 	#Destructables
-	for i in range(0,len(clientGraphDestructablesReduced),4):	
-		pass
+	for i in range(0,len(clientGraphDestructablesReduced),2):	
+		
+		code=clientGraphDestructablesReduced[i]
+		
+		serverInd = find_d_ind(code,destructGraph)
+		
+		
+		if (serverInd==-1):
+			#not in server
+			destructGraph.append([code,clientGraphDestructablesReduced[i+1]])
+			shipVers[code] = [client_address[0]]
+		else:
+			#if client is up to date:
+			if client_address[0] in shipVers[name]:
+				#check if they are the same
+				if compare_tree(code, destructGraph[serverInd]):
+					#print "yo1"
+					destructGraph[serverInd] = [code,clientGraphDestructablesReduced[i+1]]
+					shipVers[code] = [client_address[0]]
+			else:
+				#because we're updating the client
+				shipVers[code].append(client_address[0])
+		
+		
 	
 	'''for i in range(len(clientGraphDestructablesReduced)):
 		#name=get_name(clientGraphKerbal[i])
@@ -172,7 +194,7 @@ while True:
 	
 	#this is where we send the stuff back
 	print "sending data"
-	returndata=(pickle.dumps((serverGraph,kerbalGraph)))
+	returndata=(pickle.dumps((serverGraph,kerbalGraph,destructGraph)))
 	#print returndata
 	connection.sendall(returndata)
 	connection.sendall('abcdefg')

@@ -83,6 +83,14 @@ def find_k_ind(s,L):
 		if s == get_name(L[i]):		#if get_name(s) == get_name(L[i]):
 			return i
 	return -1
+
+def find_d_ind(s,L):
+	#ind=-1
+	#iter through list
+	for i in range(len(L)):
+		if s == L[i][0]:		#if get_name(s) == get_name(L[i]):
+			return i
+	return -1
 	
 def getPID(vessel):
 	'''given a vessel (represented as a list), return its pid.'''
