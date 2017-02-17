@@ -51,22 +51,30 @@ while True:
 	print "data recieved"
 	
 	clientGraph = fillTree(totalData)
-	clientGraphReduced = getFromTree(clientGraph, ["GAME", "FLIGHTSTATE", "VESSEL"])
+	clientGraphVessel = getFromTree(clientGraph, ["GAME", "FLIGHTSTATE", "VESSEL"])
 	clientGraphKerbal = getFromTree(clientGraph, ["GAME", "ROSTER", "KERBAL"])
+	clientGraphDestructables = getFromTree(clientGraph, ["GAME", "SCENARIO"])
+	clientGraphDestructablesReduced=[]
+	
+	for desctruct in clientGraphDestructables:
+		if get_name(desctruct)=="ScenarioDestructibles":
+			clientGraphDestructablesReduced=destruct
+	
+	
 	#clientGraphKerbal=[]
 	
 	print "Data graphed"
 	
-	#print clientGraphReduced
-	#print clientGraphReduced
+	#print clientGraphVessel
+	#print clientGraphVessel
 	#break
 	
 	
 	#FLIGHTSTATE
-	for i in range(len(clientGraphReduced)):
+	for i in range(len(clientGraphVessel)):
 		#print i
-		#print clientGraphReduced[i]
-		pid=getPID(clientGraphReduced[i])
+		#print clientGraphVessel[i]
+		pid=getPID(clientGraphVessel[i])
 		#print pid
 		serverInd = find_ind(pid,serverGraph)
 		
@@ -76,15 +84,15 @@ while True:
 			print pid
 			#print "hi"
 			#not in server
-			serverGraph.append(clientGraphReduced[i])
+			serverGraph.append(clientGraphVessel[i])
 			shipVers[pid] = []#[client_address[0]]
 		else:
 			#if client is up to date:
 			if client_address[0] in shipVers[pid]:
 				#check if they are the same
-				if compare_tree(clientGraphReduced[i], serverGraph[serverInd]):
+				if compare_tree(clientGraphVessel[i], serverGraph[serverInd]):
 					#print "yo"
-					serverGraph[serverInd] = clientGraphReduced[i]
+					serverGraph[serverInd] = clientGraphVessel[i]
 					shipVers[pid] = []#[client_address[0]]
 			else:
 				#because we're updating the client
@@ -92,7 +100,7 @@ while True:
 				#shipVers[pid].append(client_address[0])
 	#remove ships if client was up to date
 	for x in serverGraph:
-		if x not in clientGraphReduced and client_address[0] in shipVers[getPID(x)]:
+		if x not in clientGraphVessel and client_address[0] in shipVers[getPID(x)]:
 			print "removed",getPID(x) 
 			deletedShips.append(getPID(x))
 			serverGraph.remove(x)
