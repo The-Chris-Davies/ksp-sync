@@ -2405,539 +2405,1050 @@ p1272
 aS'0 = Orbit,Kerbin'
 p1273
 aaa(lp1274
-(lp1275
-S'SpaceCenter/VehicleAssemblyBuilding/Facility/ksp_pad_cylTank'
+S'name = Seanford Kerman'
+p1275
+aS'gender = Male'
 p1276
-a(lp1277
-S'intact = True'
+aS'type = Crew'
+p1277
+aS'trait = Pilot'
 p1278
-aaa(lp1279
-S'SpaceCenter/VehicleAssemblyBuilding/Facility/Tank'
+aS'brave = 0.606330395'
+p1279
+aS'dumb = 0.0220803004'
 p1280
-a(lp1281
-S'intact = True'
+aS'badS = True'
+p1281
+aS'veteran = False'
 p1282
-aaa(lp1283
-S'SpaceCenter/VehicleAssemblyBuilding/Facility/mainBuilding'
+aS'tour = False'
+p1283
+aS'state = Missing'
 p1284
-a(lp1285
-S'intact = True'
+aS'inactive = False'
+p1285
+aS'inactiveTimeEnd = 0'
 p1286
-aaa(lp1287
-S'SpaceCenter/VehicleAssemblyBuilding/Facility/PodMemorial'
+aS'gExperienced = 0'
+p1287
+aS'outDueToG = False'
 p1288
-a(lp1289
-S'intact = True'
+aS'ToD = 7864.3497949215271'
+p1289
+aS'idx = 0'
 p1290
-aaa(lp1291
-S'SpaceCenter/TrackingStation/Facility/dish_array/dish_south'
+aS'extraXP = 0'
+p1291
+aS'CAREER_LOG'
 p1292
 a(lp1293
-S'intact = True'
+S'flight = 1'
 p1294
-aaa(lp1295
-S'SpaceCenter/TrackingStation/Facility/dish_array/dish_north'
+aS'0 = Land,Kerbin'
+p1295
+aS'0 = Flight,Kerbin'
 p1296
-a(lp1297
-S'intact = True'
+aS'0 = Die'
+p1297
+aaS'FLIGHT_LOG'
 p1298
-aaa(lp1299
-S'SpaceCenter/TrackingStation/Facility/dish_array/dish_east'
+a(lp1299
+S'flight = 1'
 p1300
-a(lp1301
-S'intact = True'
+aaa(lp1301
+S'name = Dacie Kerman'
 p1302
-aaa(lp1303
-S'SpaceCenter/TrackingStation/Facility/MainBuilding'
+aS'gender = Female'
+p1303
+aS'type = Applicant'
 p1304
-a(lp1305
-S'intact = True'
+aS'trait = Pilot'
+p1305
+aS'brave = 0.957589447'
 p1306
-aaa(lp1307
-S'SpaceCenter/SpaceplaneHangar/Facility/Tank'
+aS'dumb = 0.563663423'
+p1307
+aS'badS = False'
 p1308
-a(lp1309
-S'intact = True'
+aS'veteran = False'
+p1309
+aS'tour = False'
 p1310
-aaa(lp1311
-S'SpaceCenter/SpaceplaneHangar/Facility/ksp_pad_cylTank'
+aS'state = Available'
+p1311
+aS'inactive = False'
 p1312
-a(lp1313
-S'intact = True'
+aS'inactiveTimeEnd = 0'
+p1313
+aS'gExperienced = 0'
 p1314
-aaa(lp1315
-S'SpaceCenter/SpaceplaneHangar/Facility/ksp_pad_waterTower'
+aS'outDueToG = False'
+p1315
+aS'ToD = 134697.61014465301'
 p1316
-a(lp1317
-S'intact = True'
+aS'idx = -1'
+p1317
+aS'extraXP = 0'
 p1318
-aaa(lp1319
-S'SpaceCenter/SpaceplaneHangar/Facility/mainBuilding'
-p1320
-a(lp1321
-S'intact = True'
+aS'CAREER_LOG'
+p1319
+a(lp1320
+S'flight = 0'
+p1321
+aaS'FLIGHT_LOG'
 p1322
-aaa(lp1323
-S'SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_SE'
+a(lp1323
+S'flight = 0'
 p1324
-a(lp1325
-S'intact = True'
+aaa(lp1325
+S'name = Danuki Kerman'
 p1326
-aaa(lp1327
-S'SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_NE'
+aS'gender = Female'
+p1327
+aS'type = Applicant'
 p1328
-a(lp1329
-S'intact = True'
+aS'trait = Scientist'
+p1329
+aS'brave = 0.526064098'
 p1330
-aaa(lp1331
-S'SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_NW'
+aS'dumb = 0.523501217'
+p1331
+aS'badS = False'
 p1332
-a(lp1333
-S'intact = True'
+aS'veteran = False'
+p1333
+aS'tour = False'
 p1334
-aaa(lp1335
-S'SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_SW'
+aS'state = Available'
+p1335
+aS'inactive = False'
 p1336
-a(lp1337
-S'intact = True'
+aS'inactiveTimeEnd = 0'
+p1337
+aS'gExperienced = 0'
 p1338
-aaa(lp1339
-S'SpaceCenter/Runway/Facility/End09'
+aS'outDueToG = False'
+p1339
+aS'ToD = 146608.72960571258'
 p1340
-a(lp1341
-S'intact = True'
+aS'idx = -1'
+p1341
+aS'extraXP = 0'
 p1342
-aaa(lp1343
-S'SpaceCenter/Runway/Facility/End27'
-p1344
-a(lp1345
-S'intact = True'
+aS'CAREER_LOG'
+p1343
+a(lp1344
+S'flight = 0'
+p1345
+aaS'FLIGHT_LOG'
 p1346
-aaa(lp1347
-S'SpaceCenter/Runway/Facility/Section1'
+a(lp1347
+S'flight = 0'
 p1348
-a(lp1349
-S'intact = True'
+aaa(lp1349
+S'name = Erlin Kerman'
 p1350
-aaa(lp1351
-S'SpaceCenter/Runway/Facility/Section2'
+aS'gender = Male'
+p1351
+aS'type = Applicant'
 p1352
-a(lp1353
-S'intact = True'
+aS'trait = Scientist'
+p1353
+aS'brave = 0.324531317'
 p1354
-aaa(lp1355
-S'SpaceCenter/Runway/Facility/Section3'
+aS'dumb = 0.748490155'
+p1355
+aS'badS = False'
 p1356
-a(lp1357
-S'intact = True'
+aS'veteran = False'
+p1357
+aS'tour = False'
 p1358
-aaa(lp1359
-S'SpaceCenter/Runway/Facility/Section4'
+aS'state = Available'
+p1359
+aS'inactive = False'
 p1360
-a(lp1361
-S'intact = True'
+aS'inactiveTimeEnd = 0'
+p1361
+aS'gExperienced = 0'
 p1362
-aaa(lp1363
-S'SpaceCenter/ResearchAndDevelopment/Facility/ksp_pad_cylTank'
+aS'outDueToG = False'
+p1363
+aS'ToD = 128024.25008300749'
 p1364
-a(lp1365
-S'intact = True'
+aS'idx = -1'
+p1365
+aS'extraXP = 0'
 p1366
-aaa(lp1367
-S'SpaceCenter/ResearchAndDevelopment/Facility/SmallLab'
-p1368
-a(lp1369
-S'intact = True'
+aS'CAREER_LOG'
+p1367
+a(lp1368
+S'flight = 0'
+p1369
+aaS'FLIGHT_LOG'
 p1370
-aaa(lp1371
-S'SpaceCenter/ResearchAndDevelopment/Facility/CentralBuilding'
+a(lp1371
+S'flight = 0'
 p1372
-a(lp1373
-S'intact = True'
+aaa(lp1373
+S'name = Dudsen Kerman'
 p1374
-aaa(lp1375
-S'SpaceCenter/ResearchAndDevelopment/Facility/MainBuilding'
+aS'gender = Male'
+p1375
+aS'type = Applicant'
 p1376
-a(lp1377
-S'intact = True'
+aS'trait = Scientist'
+p1377
+aS'brave = 0.944912851'
 p1378
-aaa(lp1379
-S'SpaceCenter/ResearchAndDevelopment/Facility/CornerLab'
+aS'dumb = 0.252550274'
+p1379
+aS'badS = False'
 p1380
-a(lp1381
-S'intact = True'
+aS'veteran = False'
+p1381
+aS'tour = False'
 p1382
-aaa(lp1383
-S'SpaceCenter/ResearchAndDevelopment/Facility/WindTunnel'
+aS'state = Available'
+p1383
+aS'inactive = False'
 p1384
-a(lp1385
-S'intact = True'
+aS'inactiveTimeEnd = 0'
+p1385
+aS'gExperienced = 0'
 p1386
-aaa(lp1387
-S'SpaceCenter/ResearchAndDevelopment/Facility/Observatory'
+aS'outDueToG = False'
+p1387
+aS'ToD = 90568.568472900064'
 p1388
-a(lp1389
-S'intact = True'
+aS'idx = -1'
+p1389
+aS'extraXP = 0'
 p1390
-aaa(lp1391
-S'SpaceCenter/ResearchAndDevelopment/Facility/SideLab'
-p1392
-a(lp1393
-S'intact = True'
+aS'CAREER_LOG'
+p1391
+a(lp1392
+S'flight = 0'
+p1393
+aaS'FLIGHT_LOG'
 p1394
-aaa(lp1395
-S'SpaceCenter/MissionControl/Facility/building'
+a(lp1395
+S'flight = 0'
 p1396
-a(lp1397
-S'intact = True'
+aaa(lp1397
+S'name = Natalinne Kerman'
 p1398
-aaa(lp1399
-S'SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_cylTank'
+aS'gender = Female'
+p1399
+aS'type = Applicant'
 p1400
-a(lp1401
-S'intact = True'
+aS'trait = Pilot'
+p1401
+aS'brave = 0.563665152'
 p1402
-aaa(lp1403
-S'SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_launchPad'
+aS'dumb = 0.489505857'
+p1403
+aS'badS = False'
 p1404
-a(lp1405
-S'intact = True'
+aS'veteran = False'
+p1405
+aS'tour = False'
 p1406
-aaa(lp1407
-S'SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_sphereTank'
+aS'state = Available'
+p1407
+aS'inactive = False'
 p1408
-a(lp1409
-S'intact = True'
+aS'inactiveTimeEnd = 0'
+p1409
+aS'gExperienced = 0'
 p1410
-aaa(lp1411
-S'SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_waterTower'
+aS'outDueToG = False'
+p1411
+aS'ToD = 229850.4349279782'
 p1412
-a(lp1413
-S'intact = True'
+aS'idx = -1'
+p1413
+aS'extraXP = 0'
 p1414
-aaa(lp1415
-S'SpaceCenter/LaunchPad/Facility/LaunchPadMedium/KSCFlagPoleLaunchPad'
-p1416
-a(lp1417
-S'intact = True'
+aS'CAREER_LOG'
+p1415
+a(lp1416
+S'flight = 0'
+p1417
+aaS'FLIGHT_LOG'
 p1418
-aaa(lp1419
-S'SpaceCenter/FlagPole/Facility'
+a(lp1419
+S'flight = 0'
 p1420
-a(lp1421
-S'intact = True'
+aaa(lp1421
+S'name = Oreny Kerman'
 p1422
-aaa(lp1423
-S'SpaceCenter/AstronautComplex/Facility/building'
+aS'gender = Male'
+p1423
+aS'type = Applicant'
 p1424
-a(lp1425
-S'intact = True'
+aS'trait = Pilot'
+p1425
+aS'brave = 0.359156609'
 p1426
-aaa(lp1427
-S'SpaceCenter/Administration/Facility/mainBuilding'
+aS'dumb = 0.157206133'
+p1427
+aS'badS = False'
 p1428
-a(lp1429
-S'intact = True'
+aS'veteran = False'
+p1429
+aS'tour = False'
 p1430
-aaa(lp1431
-S'SpaceCenter/TrackingStation/Facility/building'
+aS'state = Available'
+p1431
+aS'inactive = False'
 p1432
-a(lp1433
-S'intact = True'
+aS'inactiveTimeEnd = 0'
+p1433
+aS'gExperienced = 0'
 p1434
-aaa(lp1435
-S'SpaceCenter/TrackingStation/Facility/OuterDish'
+aS'outDueToG = False'
+p1435
+aS'ToD = 102491.91365722624'
 p1436
-a(lp1437
-S'intact = True'
+aS'idx = -1'
+p1437
+aS'extraXP = 0'
 p1438
-aaa(lp1439
-S'SpaceCenter/LaunchPad/Facility/Flag'
-p1440
-a(lp1441
-S'intact = True'
+aS'CAREER_LOG'
+p1439
+a(lp1440
+S'flight = 0'
+p1441
+aaS'FLIGHT_LOG'
 p1442
-aaa(lp1443
-S'SpaceCenter/Administration/Facility/Building'
+a(lp1443
+S'flight = 0'
 p1444
-a(lp1445
-S'intact = True'
+aaa(lp1445
+S'name = Froemy Kerman'
 p1446
-aaa(lp1447
-S'SpaceCenter/AstronautComplex/Facility/mainBuilding'
+aS'gender = Male'
+p1447
+aS'type = Applicant'
 p1448
-a(lp1449
-S'intact = True'
+aS'trait = Scientist'
+p1449
+aS'brave = 0.068122603'
 p1450
-aaa(lp1451
-S'SpaceCenter/MissionControl/Facility/mainBuilding'
+aS'dumb = 0.314481467'
+p1451
+aS'badS = False'
 p1452
-a(lp1453
-S'intact = True'
+aS'veteran = False'
+p1453
+aS'tour = False'
 p1454
-aaa(lp1455
-S'SpaceCenter/ResearchAndDevelopment/Facility/mainBuilding'
+aS'state = Available'
+p1455
+aS'inactive = False'
 p1456
-a(lp1457
-S'intact = True'
+aS'inactiveTimeEnd = 0'
+p1457
+aS'gExperienced = 0'
 p1458
-aaa(lp1459
-S'SpaceCenter/ResearchAndDevelopment/Facility/ForeverAlone'
+aS'outDueToG = False'
+p1459
+aS'ToD = 246003.11818603484'
 p1460
-a(lp1461
-S'intact = True'
+aS'idx = -1'
+p1461
+aS'extraXP = 0'
 p1462
-aaa(lp1463
-S'SpaceCenter/SpaceplaneHangar/Facility/Building'
-p1464
-a(lp1465
-S'intact = True'
+aS'CAREER_LOG'
+p1463
+a(lp1464
+S'flight = 0'
+p1465
+aaS'FLIGHT_LOG'
 p1466
-aaa(lp1467
-S'SpaceCenter/VehicleAssemblyBuilding/Facility/VAB2'
+a(lp1467
+S'flight = 0'
 p1468
-a(lp1469
-S'intact = True'
+aaa(lp1469
+S'name = Podpont Kerman'
 p1470
-aaa(lp1471
-(dp1472
-S'Bob Kerman'
+aS'gender = Male'
+p1471
+aS'type = Applicant'
+p1472
+aS'trait = Pilot'
 p1473
-(lp1474
-S'184.68.166.106'
+aS'brave = 0.106760286'
+p1474
+aS'dumb = 0.482408226'
 p1475
-aS'24.87.29.11'
+aS'badS = True'
 p1476
-asg1428
-(lp1477
-g1475
-asg1404
-(lp1478
-g1475
-asg1348
-(lp1479
-g1475
-asg1352
-(lp1480
-g1475
-asS'6b06b1a98db44bc59efd70e7ec2ae764'
+aS'veteran = False'
+p1477
+aS'tour = False'
+p1478
+aS'state = Available'
+p1479
+aS'inactive = False'
+p1480
+aS'inactiveTimeEnd = 0'
 p1481
-(lp1482
-g1475
-ag1476
-asg1360
-(lp1483
-g1475
-asg1444
-(lp1484
-g1475
-asg1300
-(lp1485
-g1475
-asg1280
-(lp1486
-g1475
-asS'52b4ca35971241c29bc7a327a10b4e65'
+aS'gExperienced = 0'
+p1482
+aS'outDueToG = False'
+p1483
+aS'ToD = 117761.35793212858'
+p1484
+aS'idx = -1'
+p1485
+aS'extraXP = 0'
+p1486
+aS'CAREER_LOG'
 p1487
-(lp1488
-g1475
-ag1476
-asS'f7afdfa704fe4daab4ae5e0a7a76153b'
+a(lp1488
+S'flight = 0'
 p1489
-(lp1490
-g1475
-ag1476
-asg1436
-(lp1491
-g1475
-asg1412
-(lp1492
-g1475
-asg1380
-(lp1493
-g1475
-asS'472146fcf45b490e8bafe4b750581fec'
+aaS'FLIGHT_LOG'
+p1490
+a(lp1491
+S'flight = 0'
+p1492
+aaa(lp1493
+S'name = Genefal Kerman'
 p1494
-(lp1495
-g1475
-ag1476
-asg1296
-(lp1496
-g1475
-asg1332
-(lp1497
-g1475
-asg1292
-(lp1498
-g1475
-asS'3e84ad55c8004a0c9dd7eb4faa238c5f'
+aS'gender = Male'
+p1495
+aS'type = Applicant'
+p1496
+aS'trait = Engineer'
+p1497
+aS'brave = 0.329600304'
+p1498
+aS'dumb = 0.17325592'
 p1499
-(lp1500
-g1475
-ag1476
-asg1284
-(lp1501
-g1475
-asg1396
-(lp1502
-g1475
-asg1392
-(lp1503
-g1475
-asg1460
-(lp1504
-g1475
-asS'4bef8b23e87c4ea8902c725fc12f4fed'
+aS'badS = False'
+p1500
+aS'veteran = False'
+p1501
+aS'tour = False'
+p1502
+aS'state = Available'
+p1503
+aS'inactive = False'
+p1504
+aS'inactiveTimeEnd = 0'
 p1505
-(lp1506
-g1475
-ag1476
-asg1328
-(lp1507
-g1475
-asg1448
-(lp1508
-g1475
-asS'Jebediah Kerman'
+aS'gExperienced = 0'
+p1506
+aS'outDueToG = False'
+p1507
+aS'ToD = 180898.06218627898'
+p1508
+aS'idx = -1'
 p1509
-(lp1510
-g1475
-ag1476
-asg1452
-(lp1511
-g1475
-asg1304
-(lp1512
-g1475
-asg1400
-(lp1513
-g1475
-asg1456
-(lp1514
-g1475
-asg1356
-(lp1515
-g1475
-asg1364
-(lp1516
-g1475
-asS'31c439fdb9cd4adbaeb365c3d1f9fee0'
-p1517
+aS'extraXP = 0'
+p1510
+aS'CAREER_LOG'
+p1511
+a(lp1512
+S'flight = 0'
+p1513
+aaS'FLIGHT_LOG'
+p1514
+a(lp1515
+S'flight = 0'
+p1516
+aaa(lp1517
 (lp1518
-g1475
-ag1476
-asg1324
-(lp1519
-g1475
-asg1276
-(lp1520
-g1475
-asg1316
-(lp1521
-g1475
-asS'7667eb97db1842f3858bc1d9d4a6bea0'
-p1522
-(lp1523
-g1475
-ag1476
-asg1384
-(lp1524
-g1475
-asg1424
-(lp1525
-g1475
-asg1408
-(lp1526
-g1475
-asg1320
-(lp1527
-g1475
-asg1368
-(lp1528
-g1475
-asS'9d539250d7334504be974aa8b35b5b25'
+S'SpaceCenter/VehicleAssemblyBuilding/Facility/ksp_pad_cylTank'
+p1519
+a(lp1520
+S'intact = True'
+p1521
+aaa(lp1522
+S'SpaceCenter/VehicleAssemblyBuilding/Facility/Tank'
+p1523
+a(lp1524
+S'intact = True'
+p1525
+aaa(lp1526
+S'SpaceCenter/VehicleAssemblyBuilding/Facility/mainBuilding'
+p1527
+a(lp1528
+S'intact = True'
 p1529
-(lp1530
-g1475
-ag1476
-asg1336
-(lp1531
-g1475
-asg1308
-(lp1532
-g1475
-asg1388
-(lp1533
-g1475
-asg1340
-(lp1534
-g1475
-asS'69ae5d9ac3314f92bb5ce52212bad58f'
+aaa(lp1530
+S'SpaceCenter/VehicleAssemblyBuilding/Facility/PodMemorial'
+p1531
+a(lp1532
+S'intact = True'
+p1533
+aaa(lp1534
+S'SpaceCenter/TrackingStation/Facility/dish_array/dish_south'
 p1535
-(lp1536
-g1475
-ag1476
-asg1416
-(lp1537
-g1475
-asg1440
-(lp1538
-g1475
-asS'dcf5fdadbc964a05b4c59c6db2d8bc0f'
+a(lp1536
+S'intact = True'
+p1537
+aaa(lp1538
+S'SpaceCenter/TrackingStation/Facility/dish_array/dish_north'
 p1539
-(lp1540
-g1475
-ag1476
-asg1312
-(lp1541
-g1475
-asg1376
-(lp1542
-g1475
-asg1288
-(lp1543
-g1475
-asg1432
-(lp1544
-g1475
-asg1344
-(lp1545
-g1475
-asg1420
-(lp1546
-g1475
-asg1468
-(lp1547
-g1475
+a(lp1540
+S'intact = True'
+p1541
+aaa(lp1542
+S'SpaceCenter/TrackingStation/Facility/dish_array/dish_east'
+p1543
+a(lp1544
+S'intact = True'
+p1545
+aaa(lp1546
+S'SpaceCenter/TrackingStation/Facility/MainBuilding'
+p1547
+a(lp1548
+S'intact = True'
+p1549
+aaa(lp1550
+S'SpaceCenter/SpaceplaneHangar/Facility/Tank'
+p1551
+a(lp1552
+S'intact = True'
+p1553
+aaa(lp1554
+S'SpaceCenter/SpaceplaneHangar/Facility/ksp_pad_cylTank'
+p1555
+a(lp1556
+S'intact = True'
+p1557
+aaa(lp1558
+S'SpaceCenter/SpaceplaneHangar/Facility/ksp_pad_waterTower'
+p1559
+a(lp1560
+S'intact = True'
+p1561
+aaa(lp1562
+S'SpaceCenter/SpaceplaneHangar/Facility/mainBuilding'
+p1563
+a(lp1564
+S'intact = True'
+p1565
+aaa(lp1566
+S'SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_SE'
+p1567
+a(lp1568
+S'intact = True'
+p1569
+aaa(lp1570
+S'SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_NE'
+p1571
+a(lp1572
+S'intact = True'
+p1573
+aaa(lp1574
+S'SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_NW'
+p1575
+a(lp1576
+S'intact = True'
+p1577
+aaa(lp1578
+S'SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_SW'
+p1579
+a(lp1580
+S'intact = True'
+p1581
+aaa(lp1582
+S'SpaceCenter/Runway/Facility/End09'
+p1583
+a(lp1584
+S'intact = True'
+p1585
+aaa(lp1586
+S'SpaceCenter/Runway/Facility/End27'
+p1587
+a(lp1588
+S'intact = True'
+p1589
+aaa(lp1590
+S'SpaceCenter/Runway/Facility/Section1'
+p1591
+a(lp1592
+S'intact = True'
+p1593
+aaa(lp1594
+S'SpaceCenter/Runway/Facility/Section2'
+p1595
+a(lp1596
+S'intact = True'
+p1597
+aaa(lp1598
+S'SpaceCenter/Runway/Facility/Section3'
+p1599
+a(lp1600
+S'intact = True'
+p1601
+aaa(lp1602
+S'SpaceCenter/Runway/Facility/Section4'
+p1603
+a(lp1604
+S'intact = True'
+p1605
+aaa(lp1606
+S'SpaceCenter/ResearchAndDevelopment/Facility/ksp_pad_cylTank'
+p1607
+a(lp1608
+S'intact = True'
+p1609
+aaa(lp1610
+S'SpaceCenter/ResearchAndDevelopment/Facility/SmallLab'
+p1611
+a(lp1612
+S'intact = True'
+p1613
+aaa(lp1614
+S'SpaceCenter/ResearchAndDevelopment/Facility/CentralBuilding'
+p1615
+a(lp1616
+S'intact = True'
+p1617
+aaa(lp1618
+S'SpaceCenter/ResearchAndDevelopment/Facility/MainBuilding'
+p1619
+a(lp1620
+S'intact = True'
+p1621
+aaa(lp1622
+S'SpaceCenter/ResearchAndDevelopment/Facility/CornerLab'
+p1623
+a(lp1624
+S'intact = True'
+p1625
+aaa(lp1626
+S'SpaceCenter/ResearchAndDevelopment/Facility/WindTunnel'
+p1627
+a(lp1628
+S'intact = True'
+p1629
+aaa(lp1630
+S'SpaceCenter/ResearchAndDevelopment/Facility/Observatory'
+p1631
+a(lp1632
+S'intact = True'
+p1633
+aaa(lp1634
+S'SpaceCenter/ResearchAndDevelopment/Facility/SideLab'
+p1635
+a(lp1636
+S'intact = True'
+p1637
+aaa(lp1638
+S'SpaceCenter/MissionControl/Facility/building'
+p1639
+a(lp1640
+S'intact = True'
+p1641
+aaa(lp1642
+S'SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_cylTank'
+p1643
+a(lp1644
+S'intact = True'
+p1645
+aaa(lp1646
+S'SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_launchPad'
+p1647
+a(lp1648
+S'intact = True'
+p1649
+aaa(lp1650
+S'SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_sphereTank'
+p1651
+a(lp1652
+S'intact = True'
+p1653
+aaa(lp1654
+S'SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_waterTower'
+p1655
+a(lp1656
+S'intact = True'
+p1657
+aaa(lp1658
+S'SpaceCenter/LaunchPad/Facility/LaunchPadMedium/KSCFlagPoleLaunchPad'
+p1659
+a(lp1660
+S'intact = True'
+p1661
+aaa(lp1662
+S'SpaceCenter/FlagPole/Facility'
+p1663
+a(lp1664
+S'intact = True'
+p1665
+aaa(lp1666
+S'SpaceCenter/AstronautComplex/Facility/building'
+p1667
+a(lp1668
+S'intact = True'
+p1669
+aaa(lp1670
+S'SpaceCenter/Administration/Facility/mainBuilding'
+p1671
+a(lp1672
+S'intact = True'
+p1673
+aaa(lp1674
+S'SpaceCenter/TrackingStation/Facility/building'
+p1675
+a(lp1676
+S'intact = True'
+p1677
+aaa(lp1678
+S'SpaceCenter/TrackingStation/Facility/OuterDish'
+p1679
+a(lp1680
+S'intact = True'
+p1681
+aaa(lp1682
+S'SpaceCenter/LaunchPad/Facility/Flag'
+p1683
+a(lp1684
+S'intact = True'
+p1685
+aaa(lp1686
+S'SpaceCenter/Administration/Facility/Building'
+p1687
+a(lp1688
+S'intact = True'
+p1689
+aaa(lp1690
+S'SpaceCenter/AstronautComplex/Facility/mainBuilding'
+p1691
+a(lp1692
+S'intact = True'
+p1693
+aaa(lp1694
+S'SpaceCenter/MissionControl/Facility/mainBuilding'
+p1695
+a(lp1696
+S'intact = True'
+p1697
+aaa(lp1698
+S'SpaceCenter/ResearchAndDevelopment/Facility/mainBuilding'
+p1699
+a(lp1700
+S'intact = True'
+p1701
+aaa(lp1702
+S'SpaceCenter/ResearchAndDevelopment/Facility/ForeverAlone'
+p1703
+a(lp1704
+S'intact = True'
+p1705
+aaa(lp1706
+S'SpaceCenter/SpaceplaneHangar/Facility/Building'
+p1707
+a(lp1708
+S'intact = True'
+p1709
+aaa(lp1710
+S'SpaceCenter/VehicleAssemblyBuilding/Facility/VAB2'
+p1711
+a(lp1712
+S'intact = True'
+p1713
+aaa(lp1714
+(dp1715
+S'Bob Kerman'
+p1716
+(lp1717
+S'184.68.166.106'
+p1718
+aS'24.87.29.11'
+p1719
+asS'Erlin Kerman'
+p1720
+(lp1721
+S'24.87.29.11'
+p1722
+asg1651
+(lp1723
+g1718
+asg1647
+(lp1724
+g1718
+asg1591
+(lp1725
+g1718
+asg1595
+(lp1726
+g1718
+asS'6b06b1a98db44bc59efd70e7ec2ae764'
+p1727
+(lp1728
+g1718
+ag1719
+ag1722
+asg1603
+(lp1729
+g1718
+asg1687
+(lp1730
+g1718
+asS'Dudsen Kerman'
+p1731
+(lp1732
+g1722
+asg1543
+(lp1733
+g1718
+asg1523
+(lp1734
+g1718
+asS'52b4ca35971241c29bc7a327a10b4e65'
+p1735
+(lp1736
+g1718
+ag1719
+ag1722
+asg1555
+(lp1737
+g1718
+asS'Oreny Kerman'
+p1738
+(lp1739
+g1722
+asS'Genefal Kerman'
+p1740
+(lp1741
+g1722
+asS'Natalinne Kerman'
+p1742
+(lp1743
+g1722
+asS'Dacie Kerman'
+p1744
+(lp1745
+g1722
+asg1655
+(lp1746
+g1718
+asS'472146fcf45b490e8bafe4b750581fec'
+p1747
+(lp1748
+g1718
+ag1719
+ag1722
+asg1679
+(lp1749
+g1718
+asg1575
+(lp1750
+g1718
+asg1535
+(lp1751
+g1718
+asS'3e84ad55c8004a0c9dd7eb4faa238c5f'
+p1752
+(lp1753
+g1718
+ag1719
+ag1722
+asg1527
+(lp1754
+g1718
+asg1639
+(lp1755
+g1718
+asg1635
+(lp1756
+g1718
+asS'4bef8b23e87c4ea8902c725fc12f4fed'
+p1757
+(lp1758
+g1718
+ag1719
+ag1722
+asS'Froemy Kerman'
+p1759
+(lp1760
+g1722
+asg1571
+(lp1761
+g1718
+asg1691
+(lp1762
+g1718
+asS'Jebediah Kerman'
+p1763
+(lp1764
+g1718
+ag1719
+asg1695
+(lp1765
+g1718
 asS'Valentina Kerman'
-p1548
-(lp1549
-g1475
-ag1476
-asS'f6c8f15c405e4b76bd01b907fa35d5a6'
-p1550
-(lp1551
-g1475
-ag1476
-asg1372
-(lp1552
-g1475
-asg1464
-(lp1553
-g1475
-asS'Bill Kerman'
-p1554
-(lp1555
-g1475
-ag1476
-asS'5d2d555fe0bf4fdaa02ee8289462491c'
-p1556
-(lp1557
-g1475
-ag1476
+p1766
+(lp1767
+g1718
+ag1719
 asS'7827c616f289427fbaba6d8388654544'
-p1558
-(lp1559
-g1475
-ag1476
+p1768
+(lp1769
+g1718
+ag1719
+ag1722
+asg1643
+(lp1770
+g1718
+asg1699
+(lp1771
+g1718
+asg1623
+(lp1772
+g1718
+asg1607
+(lp1773
+g1718
+asS'31c439fdb9cd4adbaeb365c3d1f9fee0'
+p1774
+(lp1775
+g1718
+ag1719
+ag1722
+asg1631
+(lp1776
+g1718
+asg1567
+(lp1777
+g1718
+asg1519
+(lp1778
+g1718
+asg1559
+(lp1779
+g1718
+asS'7667eb97db1842f3858bc1d9d4a6bea0'
+p1780
+(lp1781
+g1718
+ag1719
+ag1722
+asg1579
+(lp1782
+g1718
+asg1627
+(lp1783
+g1718
+asg1611
+(lp1784
+g1718
+asg1667
+(lp1785
+g1718
+asg1671
+(lp1786
+g1718
+asS'5d2d555fe0bf4fdaa02ee8289462491c'
+p1787
+(lp1788
+g1718
+ag1719
+ag1722
+asS'Podpont Kerman'
+p1789
+(lp1790
+g1722
+asg1563
+(lp1791
+g1718
+asg1599
+(lp1792
+g1718
+asS'9d539250d7334504be974aa8b35b5b25'
+p1793
+(lp1794
+g1718
+ag1719
+ag1722
+asg1539
+(lp1795
+g1718
+asg1551
+(lp1796
+g1718
+asg1703
+(lp1797
+g1718
+asg1583
+(lp1798
+g1718
+asS'69ae5d9ac3314f92bb5ce52212bad58f'
+p1799
+(lp1800
+g1718
+ag1719
+ag1722
+asg1659
+(lp1801
+g1718
+asg1683
+(lp1802
+g1718
+asS'dcf5fdadbc964a05b4c59c6db2d8bc0f'
+p1803
+(lp1804
+g1718
+ag1719
+ag1722
+asg1531
+(lp1805
+g1718
+asS'Danuki Kerman'
+p1806
+(lp1807
+g1722
+asS'f7afdfa704fe4daab4ae5e0a7a76153b'
+p1808
+(lp1809
+g1718
+ag1719
+ag1722
+asg1675
+(lp1810
+g1718
+asg1587
+(lp1811
+g1718
+asg1663
+(lp1812
+g1718
+asS'Seanford Kerman'
+p1813
+(lp1814
+g1722
+asg1547
+(lp1815
+g1718
+asS'f6c8f15c405e4b76bd01b907fa35d5a6'
+p1816
+(lp1817
+g1718
+ag1719
+ag1722
+asg1615
+(lp1818
+g1718
+asg1707
+(lp1819
+g1718
+asS'Bill Kerman'
+p1820
+(lp1821
+g1718
+ag1719
+asg1711
+(lp1822
+g1718
+asg1619
+(lp1823
+g1718
 ast.
