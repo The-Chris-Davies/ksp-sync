@@ -151,7 +151,7 @@ while True:
 		if (serverInd==-1):
 			#not in server
 			destructGraph.append([code,clientGraphDestructablesReduced[i+1]])
-			shipVers[code] = [] #[client_address[0]]
+			shipVers[code] = [client_address[0]]
 		else:
 			#if client is up to date:
 			if client_address[0] in shipVers[name]:
@@ -159,10 +159,10 @@ while True:
 				if compare_tree(code, destructGraph[serverInd]):
 					#print "yo1"
 					destructGraph[serverInd] = [code,clientGraphDestructablesReduced[i+1]]
-					shipVers[code] = []#[client_address[0]]
-		
-		#because we're updating the client
-		shipVers[code].append(client_address[0])
+					shipVers[code] = [client_address[0]]
+			else:
+				#because we're updating the client
+				shipVers[code].append(client_address[0])
 		
 	
 	destructGraphReduced=[]

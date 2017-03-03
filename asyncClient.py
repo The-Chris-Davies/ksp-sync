@@ -59,7 +59,7 @@ kerbalStr = unTree(kerbalList, 2)
 
 destructStr = unTree(datafromserver[2], 2)
 
-print vesselStr
+#print vesselStr
 
 upData = ''
 dataStream = StringIO.StringIO(fullData)
@@ -91,3 +91,5 @@ for line in dataStream:
 writeFile = open(fn,"w")
 writeFile.write(upData);
 writeFile.close()
+
+print "Success"
