@@ -164,7 +164,8 @@ while True:
 				#because we're updating the client
 				shipVers[code].append(client_address[0])
 		
-	
+	for nod in destructGraph:
+		sendDestruct.extend(nod)
 	##destructGraphReduced=[]
 	
 	##for i in range(len(destructGraph)):
@@ -207,6 +208,6 @@ while True:
 	print "data sent"
 
 	saveData = open("serverSave.pkl", 'w')
-	pickle.dump((serverGraph, kerbalGraph, destructGraph, deletedShips, shipVers), saveData)
+	pickle.dump((serverGraph, kerbalGraph, sendDestruct, deletedShips, shipVers), saveData)
 	saveData.close()
 serversocket.close()
