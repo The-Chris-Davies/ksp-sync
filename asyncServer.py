@@ -163,7 +163,8 @@ while True:
 			else:
 				#because we're updating the client
 				shipVers[code].append(client_address[0])
-		
+	
+	sendDestruct = []
 	for nod in destructGraph:
 		sendDestruct.extend(nod)
 	##destructGraphReduced=[]
