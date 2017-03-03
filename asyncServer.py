@@ -154,7 +154,7 @@ while True:
 			shipVers[code] = [client_address[0]]
 		else:
 			#if client is up to date:
-			if client_address[0] in shipVers[name]:
+			if client_address[0] in shipVers[code]:
 				#check if they are the same
 				if compare_tree(code, destructGraph[serverInd]):
 					#print "yo1"
@@ -165,11 +165,13 @@ while True:
 				shipVers[code].append(client_address[0])
 		
 	
-	destructGraphReduced=[]
+	##destructGraphReduced=[]
 	
-	for i in range(len(destructGraph)):
-		destructGraphReduced.append(destructGraph[i][0])
-	
+	##for i in range(len(destructGraph)):
+	##	destructGraphReduced.append(destructGraph[i][0])
+		
+	##	print destructGraph[i]
+		
 	'''for i in range(len(clientGraphDestructablesReduced)):
 		#name=get_name(clientGraphKerbal[i])
 		serverInd = find_k_ind(name,kerbalGraph)
@@ -190,7 +192,7 @@ while True:
 				#because we're updating the client
 				shipVers[name].append(client_address[0])'''
 	
-	print "Roster handled"
+	print "Destructables handled"
 	
 	
 	
@@ -198,13 +200,13 @@ while True:
 	
 	#this is where we send the stuff back
 	print "sending data"
-	returndata=(pickle.dumps((serverGraph,kerbalGraph,destructGraphReduced)))
+	returndata=(pickle.dumps((serverGraph,kerbalGraph,destructGraph)))
 	#print returndata
 	connection.sendall(returndata)
 	connection.sendall('abcdefg')
 	print "data sent"
 
 	saveData = open("serverSave.pkl", 'w')
-	pickle.dump((serverGraph, kerbalGraph, destructGraphReduced, deletedShips, shipVers), saveData)
+	pickle.dump((serverGraph, kerbalGraph, destructGraph, deletedShips, shipVers), saveData)
 	saveData.close()
 serversocket.close()
