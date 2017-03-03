@@ -202,7 +202,7 @@ while True:
 	
 	#this is where we send the stuff back
 	print "sending data"
-	returndata=(pickle.dumps((serverGraph,kerbalGraph,destructGraph)))
+	returndata=(pickle.dumps((serverGraph,kerbalGraph,sendDestruct)))
 	#print returndata
 	connection.sendall(returndata)
 	connection.sendall('abcdefg')
