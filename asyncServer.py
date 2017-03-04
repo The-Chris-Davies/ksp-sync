@@ -6,6 +6,11 @@ import socket
 import sys
 
 
+try:
+	serverSetttings = open(serverSettings.txt)
+	port = int(serverSettings.readline()[:-1])
+
+
 #try to load shipVers and serverGraph from file
 try:
 	saveData = open("serverSave.pkl")
@@ -19,7 +24,7 @@ except:
 	shipVers = {}
 
 serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-serversocket.bind((socket.gethostname(), 8988))
+serversocket.bind((socket.gethostname(), port))
 serversocket.listen(5)
 
 while True:
