@@ -4,10 +4,23 @@ import cPickle as pickle
 #import pickle
 import sys
 from kspLib import *
-if len(sys.argv)>1:
-	arg=sys.argv[1]
-else:
-	arg="0"
+
+if '-h'in sys.argv or '--help' in sys.argv:
+	print """
+	arguments:
+
+	-h or --help:
+		prints this message
+
+	-r or --revert:
+		downloads the current server data, effectively setting the client to the server's current save file.
+
+	-nd or --nodelete:
+		updates, signalling the server not to delete any missing ships. 
+		In a perfect world, this wouldn't be necessary, but...
+	"""
+	sys.exit()
+
 
 cfn = "settings.txt"
 
@@ -33,10 +46,11 @@ s.connect((ip, port))
 
 # Send data
 
-#	1 = download only	2 = delete mode is DISABLED		3 = BOTH
-
-if arg=="1" or arg=="2" or arg=="3":
-	s.sendall(arg)
+#	1 = download only	2 = delete mode is DISABLED
+if '-r'in sys.argv or '--revert' in sys.argv:
+	s.sendall('1')
+elif '-nd' in sys.argv or '--nodelete' in sys.argv:
+	s.sendall('2')
 else:
 	s.sendall("0")
 s.sendall(fullData)
