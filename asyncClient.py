@@ -58,7 +58,6 @@ kerbalStr = unTree(kerbalList, 2)
 
 
 destructStr = unTree(datafromserver[2], 2)
-print datafromserver[2]
 #print vesselStr
 
 upData = ''
