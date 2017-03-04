@@ -9,6 +9,10 @@ import sys
 try:
 	serverSetttings = open(serverSettings.txt)
 	port = int(serverSettings.readline()[:-1])
+	print "using port", port, "found from serverSettings.txt"
+except:
+	print "serverSettings.txt not found! Using default port 8988"
+	port = 8988
 
 
 #try to load shipVers and serverGraph from file
