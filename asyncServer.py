@@ -60,12 +60,12 @@ while True:
 	for destruct in clientGraphDestructables:
 		if get_name(destruct)=="ScenarioDestructibles":
 			clientGraphDestructablesReduced=destruct[2:]
-	
+			
 	
 	#clientGraphKerbal=[]
 	
 	print "Data graphed"
-	
+	#print "\n",clientGraphDestructablesReduced,"\n";
 	#print clientGraphVessel
 	#print clientGraphVessel
 	#break
@@ -80,9 +80,9 @@ while True:
 		serverInd = find_ind(pid,serverGraph)
 		
 		if ((serverInd==-1) and (pid not in deletedShips)):
-			print "created"
-			print deletedShips
-			print pid
+			#print "created"
+			#print deletedShips
+			#print pid
 			#print "hi"
 			#not in server
 			serverGraph.append(clientGraphVessel[i])
@@ -140,6 +140,7 @@ while True:
 	
 	#print clientGraphDestructablesReduced
 	
+	#print "\n\n\n"
 	#Destructables
 	for i in range(0,len(clientGraphDestructablesReduced),2):	
 		
@@ -156,7 +157,7 @@ while True:
 			#if client is up to date:
 			if client_address[0] in shipVers[code]:
 				#check if they are the same
-				if compare_tree(code, destructGraph[serverInd]):
+				if compare_tree([code,clientGraphDestructablesReduced[i+1]], destructGraph[serverInd]):
 					#print "yo1"
 					destructGraph[serverInd] = [code,clientGraphDestructablesReduced[i+1]]
 					shipVers[code] = [client_address[0]]
@@ -168,6 +169,7 @@ while True:
 	for nod in destructGraph:
 		sendDestruct.extend(nod)
 	##destructGraphReduced=[]
+	#print destructGraph
 	
 	##for i in range(len(destructGraph)):
 	##	destructGraphReduced.append(destructGraph[i][0])

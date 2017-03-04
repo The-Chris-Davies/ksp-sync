@@ -1,0 +1,3358 @@
+((lp1
+(lp2
+S'pid = f7afdfa704fe4daab4ae5e0a7a76153b'
+p3
+aS'name = Ast. HSJ-227'
+p4
+aS'type = SpaceObject'
+p5
+aS'sit = ORBITING'
+p6
+aS'landed = False'
+p7
+aS'landedAt ='
+p8
+aS'splashed = False'
+p9
+aS'met = 0.02'
+p10
+aS'lct = 0.02'
+p11
+aS'lastUT = -1'
+p12
+aS'root = 0'
+p13
+aS'lat = -2.8332948794582795'
+p14
+aS'lon = -178.90697653708727'
+p15
+aS'alt = 14604996073.172096'
+p16
+aS'hgt = -1'
+p17
+aS'nrm = 0,1,0'
+p18
+aS'rot = -0.298433661,0.402898014,-0.817398846,0.283672005'
+p19
+aS'CoM = 0,0,0'
+p20
+aS'stg = 0'
+p21
+aS'prst = False'
+p22
+aS'ref = 0'
+p23
+aS'ctrl = False'
+p24
+aS'ORBIT'
+p25
+a(lp26
+S'SMA = 15257875219.036039'
+p27
+aS'ECC = 0.11011022072633558'
+p28
+aS'INC = 2.8710926902589717'
+p29
+aS'LPE = 2.063889164170051'
+p30
+aS'LAN = 261.77805386311434'
+p31
+aS'MNA = -0.054633148297799056'
+p32
+aS'EPH = 2043585.7560839844'
+p33
+aS'REF = 0'
+p34
+aaS'PART'
+p35
+a(lp36
+S'name = PotatoRoid'
+p37
+aS'cid = 0'
+p38
+aS'uid = 559298752'
+p39
+aS'mid = 559298752'
+p40
+aS'launchID = 0'
+p41
+aS'parent = 0'
+p42
+aS'position = 0,0,0'
+p43
+aS'rotation = 0,0,0,1'
+p44
+aS'mirror = 1,1,1'
+p45
+aS'symMethod = Radial'
+p46
+aS'istg = 0'
+p47
+aS'resPri = 0'
+p48
+aS'dstg = 0'
+p49
+aS'sqor = 0'
+p50
+aS'sepI = 0'
+p51
+aS'sidx = 0'
+p52
+aS'attm = 0'
+p53
+aS'srfN = None, -1'
+p54
+aS'mass = 150'
+p55
+aS'shielded = False'
+p56
+aS'temp = -1'
+p57
+aS'tempExt = 0'
+p58
+aS'tempExtUnexp = 0'
+p59
+aS'expt = 0.100000001'
+p60
+aS'state = 0'
+p61
+aS'attached = True'
+p62
+aS'autostrutMode = Off'
+p63
+aS'rigidAttachment = False'
+p64
+aS'flag ='
+p65
+aS'rTrf ='
+p66
+aS'modCost = 0'
+p67
+aaS'ACTIONGROUPS'
+p68
+a(lp69
+aS'DISCOVERY'
+p70
+a(lp71
+S'state = 1'
+p72
+aS'lastObservedTime = 0.02'
+p73
+aS'lifetime = 586354.71038818359'
+p74
+aS'refTime = 1728000'
+p75
+aS'size = 4'
+p76
+aaS'FLIGHTPLAN'
+p77
+a(lp78
+aS'CTRLSTATE'
+p79
+a(lp80
+aS'VESSELMODULES'
+p81
+a(lp82
+S'FlightIntegrator'
+p83
+a(lp84
+aaa(lp85
+S'pid = 6b06b1a98db44bc59efd70e7ec2ae764'
+p86
+aS'name = Ast. HSJ-227'
+p87
+aS'type = SpaceObject'
+p88
+aS'sit = ORBITING'
+p89
+aS'landed = False'
+p90
+aS'landedAt ='
+p91
+aS'splashed = False'
+p92
+aS'met = 0.02'
+p93
+aS'lct = 0.02'
+p94
+aS'lastUT = -1'
+p95
+aS'root = 0'
+p96
+aS'lat = -2.8284861759367206'
+p97
+aS'lon = -178.87259896631022'
+p98
+aS'alt = 14646112047.121075'
+p99
+aS'hgt = -1'
+p100
+aS'nrm = 0,1,0'
+p101
+aS'rot = -0.298433661,0.402898014,-0.817398846,0.283672005'
+p102
+aS'CoM = 0,0,0'
+p103
+aS'stg = 0'
+p104
+aS'prst = False'
+p105
+aS'ref = 0'
+p106
+aS'ctrl = False'
+p107
+aS'ORBIT'
+p108
+a(lp109
+S'SMA = 15331392271.32233'
+p110
+aS'ECC = 0.11409465301482517'
+p111
+aS'INC = 2.8663587290111447'
+p112
+aS'LPE = 1.7493543709802237'
+p113
+aS'LAN = 261.79551802482416'
+p114
+aS'MNA = -0.049866065616564779'
+p115
+aS'EPH = 2043585.7560839844'
+p116
+aS'REF = 0'
+p117
+aaS'PART'
+p118
+a(lp119
+S'name = PotatoRoid'
+p120
+aS'cid = 0'
+p121
+aS'uid = 559298752'
+p122
+aS'mid = 559298752'
+p123
+aS'launchID = 0'
+p124
+aS'parent = 0'
+p125
+aS'position = 0,0,0'
+p126
+aS'rotation = 0,0,0,1'
+p127
+aS'mirror = 1,1,1'
+p128
+aS'symMethod = Radial'
+p129
+aS'istg = 0'
+p130
+aS'resPri = 0'
+p131
+aS'dstg = 0'
+p132
+aS'sqor = 0'
+p133
+aS'sepI = 0'
+p134
+aS'sidx = 0'
+p135
+aS'attm = 0'
+p136
+aS'srfN = None, -1'
+p137
+aS'mass = 150'
+p138
+aS'shielded = False'
+p139
+aS'temp = -1'
+p140
+aS'tempExt = 0'
+p141
+aS'tempExtUnexp = 0'
+p142
+aS'expt = 0.100000001'
+p143
+aS'state = 0'
+p144
+aS'attached = True'
+p145
+aS'autostrutMode = Off'
+p146
+aS'rigidAttachment = False'
+p147
+aS'flag ='
+p148
+aS'rTrf ='
+p149
+aS'modCost = 0'
+p150
+aaS'ACTIONGROUPS'
+p151
+a(lp152
+aS'DISCOVERY'
+p153
+a(lp154
+S'state = 1'
+p155
+aS'lastObservedTime = 0.02'
+p156
+aS'lifetime = 586354.71038818359'
+p157
+aS'refTime = 1728000'
+p158
+aS'size = 4'
+p159
+aaS'FLIGHTPLAN'
+p160
+a(lp161
+aS'CTRLSTATE'
+p162
+a(lp163
+aS'VESSELMODULES'
+p164
+a(lp165
+S'FlightIntegrator'
+p166
+a(lp167
+aaa(lp168
+S'pid = dcf5fdadbc964a05b4c59c6db2d8bc0f'
+p169
+aS'name = Ast. AFV-463'
+p170
+aS'type = SpaceObject'
+p171
+aS'sit = ORBITING'
+p172
+aS'landed = False'
+p173
+aS'landedAt ='
+p174
+aS'splashed = False'
+p175
+aS'met = 36.800844726561827'
+p176
+aS'lct = 36.800844726561827'
+p177
+aS'lastUT = -1'
+p178
+aS'root = 0'
+p179
+aS'lat = -0.019328793232951256'
+p180
+aS'lon = -99.328670395753889'
+p181
+aS'alt = 1359924312148.7866'
+p182
+aS'hgt = -1'
+p183
+aS'nrm = 0,1,0'
+p184
+aS'rot = 0.202546716,-0.530212402,-0.11085251,0.815819442'
+p185
+aS'CoM = 0,0,0'
+p186
+aS'stg = 0'
+p187
+aS'prst = False'
+p188
+aS'ref = 0'
+p189
+aS'ctrl = False'
+p190
+aS'ORBIT'
+p191
+a(lp192
+S'SMA = -9270116438.8941002'
+p193
+aS'ECC = 147.24104995935696'
+p194
+aS'INC = 10.887904389802229'
+p195
+aS'LPE = 4.5828577910267851'
+p196
+aS'LAN = 260.80248427185705'
+p197
+aS'MNA = -11.652969466772799'
+p198
+aS'EPH = 2068018.1179833985'
+p199
+aS'REF = 0'
+p200
+aaS'PART'
+p201
+a(lp202
+S'name = PotatoRoid'
+p203
+aS'cid = 0'
+p204
+aS'uid = 1307544012'
+p205
+aS'mid = 1307544012'
+p206
+aS'launchID = 0'
+p207
+aS'parent = 0'
+p208
+aS'position = 0,0,0'
+p209
+aS'rotation = 0,0,0,1'
+p210
+aS'mirror = 1,1,1'
+p211
+aS'symMethod = Radial'
+p212
+aS'istg = 0'
+p213
+aS'resPri = 0'
+p214
+aS'dstg = 0'
+p215
+aS'sqor = 0'
+p216
+aS'sepI = 0'
+p217
+aS'sidx = 0'
+p218
+aS'attm = 0'
+p219
+aS'srfN = None, -1'
+p220
+aS'mass = 150'
+p221
+aS'shielded = False'
+p222
+aS'temp = -1'
+p223
+aS'tempExt = 0'
+p224
+aS'tempExtUnexp = 0'
+p225
+aS'expt = 0.100000001'
+p226
+aS'state = 0'
+p227
+aS'attached = True'
+p228
+aS'autostrutMode = Off'
+p229
+aS'rigidAttachment = False'
+p230
+aS'flag ='
+p231
+aS'rTrf ='
+p232
+aS'modCost = 0'
+p233
+aaS'ACTIONGROUPS'
+p234
+a(lp235
+aS'DISCOVERY'
+p236
+a(lp237
+S'state = 1'
+p238
+aS'lastObservedTime = 36.800844726561827'
+p239
+aS'lifetime = 1425929.2602539063'
+p240
+aS'refTime = 1728000'
+p241
+aS'size = 3'
+p242
+aaS'FLIGHTPLAN'
+p243
+a(lp244
+aS'CTRLSTATE'
+p245
+a(lp246
+aS'VESSELMODULES'
+p247
+a(lp248
+S'FlightIntegrator'
+p249
+a(lp250
+aaa(lp251
+S'pid = 3e84ad55c8004a0c9dd7eb4faa238c5f'
+p252
+aS'name = Ast. HKE-454'
+p253
+aS'type = SpaceObject'
+p254
+aS'sit = ORBITING'
+p255
+aS'landed = False'
+p256
+aS'landedAt ='
+p257
+aS'splashed = False'
+p258
+aS'met = 44.480844726561664'
+p259
+aS'lct = 44.480844726561664'
+p260
+aS'lastUT = -1'
+p261
+aS'root = 0'
+p262
+aS'lat = -0.02153990477536696'
+p263
+aS'lon = -67.027434702174773'
+p264
+aS'alt = 1358973512636.4836'
+p265
+aS'hgt = -1'
+p266
+aS'nrm = 0,1,0'
+p267
+aS'rot = 0.867473304,-0.483732402,0.0376826935,0.109877639'
+p268
+aS'CoM = 0,0,0'
+p269
+aS'stg = 0'
+p270
+aS'prst = False'
+p271
+aS'ref = 0'
+p272
+aS'ctrl = False'
+p273
+aS'ORBIT'
+p274
+a(lp275
+S'SMA = -9176842520.564085'
+p276
+aS'ECC = 145.38561585599814'
+p277
+aS'INC = 9.5220001474630376'
+p278
+aS'LPE = 346.93942118870143'
+p279
+aS'LAN = 293.13804725388104'
+p280
+aS'MNA = 33.274665108202669'
+p281
+aS'EPH = 2894855.479379883'
+p282
+aS'REF = 0'
+p283
+aaS'PART'
+p284
+a(lp285
+S'name = PotatoRoid'
+p286
+aS'cid = 0'
+p287
+aS'uid = 680087366'
+p288
+aS'mid = 680087366'
+p289
+aS'launchID = 0'
+p290
+aS'parent = 0'
+p291
+aS'position = 0,0,0'
+p292
+aS'rotation = 0,0,0,1'
+p293
+aS'mirror = 1,1,1'
+p294
+aS'symMethod = Radial'
+p295
+aS'istg = 0'
+p296
+aS'resPri = 0'
+p297
+aS'dstg = 0'
+p298
+aS'sqor = 0'
+p299
+aS'sepI = 0'
+p300
+aS'sidx = 0'
+p301
+aS'attm = 0'
+p302
+aS'srfN = None, -1'
+p303
+aS'mass = 150'
+p304
+aS'shielded = False'
+p305
+aS'temp = -1'
+p306
+aS'tempExt = 0'
+p307
+aS'tempExtUnexp = 0'
+p308
+aS'expt = 0.100000001'
+p309
+aS'state = 0'
+p310
+aS'attached = True'
+p311
+aS'autostrutMode = Off'
+p312
+aS'rigidAttachment = False'
+p313
+aS'flag ='
+p314
+aS'rTrf ='
+p315
+aS'modCost = 0'
+p316
+aaS'ACTIONGROUPS'
+p317
+a(lp318
+aS'DISCOVERY'
+p319
+a(lp320
+S'state = 1'
+p321
+aS'lastObservedTime = 44.480844726561664'
+p322
+aS'lifetime = 537952.79388427734'
+p323
+aS'refTime = 1728000'
+p324
+aS'size = 2'
+p325
+aaS'FLIGHTPLAN'
+p326
+a(lp327
+aS'CTRLSTATE'
+p328
+a(lp329
+aS'VESSELMODULES'
+p330
+a(lp331
+S'FlightIntegrator'
+p332
+a(lp333
+aaa(lp334
+S'pid = 31c439fdb9cd4adbaeb365c3d1f9fee0'
+p335
+aS'name = Ast. XIA-532'
+p336
+aS'type = SpaceObject'
+p337
+aS'sit = ORBITING'
+p338
+aS'landed = False'
+p339
+aS'landedAt ='
+p340
+aS'splashed = False'
+p341
+aS'met = 71.139760742186681'
+p342
+aS'lct = 71.139760742186681'
+p343
+aS'lastUT = -1'
+p344
+aS'root = 0'
+p345
+aS'lat = -1.1843306173399788'
+p346
+aS'lon = -169.27650823245412'
+p347
+aS'alt = 15478707745.096365'
+p348
+aS'hgt = -1'
+p349
+aS'nrm = 0,1,0'
+p350
+aS'rot = 0.457695961,0.334746718,0.6373806,0.521732807'
+p351
+aS'CoM = 0,0,0'
+p352
+aS'stg = 0'
+p353
+aS'prst = False'
+p354
+aS'ref = 0'
+p355
+aS'ctrl = False'
+p356
+aS'ORBIT'
+p357
+a(lp358
+S'SMA = 14951363883.023399'
+p359
+aS'ECC = 0.086970804869135554'
+p360
+aS'INC = 1.5765224154219963'
+p361
+aS'LPE = 359.91861229356101'
+p362
+aS'LAN = 322.09292620079395'
+p363
+aS'MNA = 0.0820108428468867'
+p364
+aS'EPH = 3774847.4703271482'
+p365
+aS'REF = 0'
+p366
+aaS'PART'
+p367
+a(lp368
+S'name = PotatoRoid'
+p369
+aS'cid = 0'
+p370
+aS'uid = 309627476'
+p371
+aS'mid = 309627476'
+p372
+aS'launchID = 0'
+p373
+aS'parent = 0'
+p374
+aS'position = 0,0,0'
+p375
+aS'rotation = 0,0,0,1'
+p376
+aS'mirror = 1,1,1'
+p377
+aS'symMethod = Radial'
+p378
+aS'istg = 0'
+p379
+aS'resPri = 0'
+p380
+aS'dstg = 0'
+p381
+aS'sqor = 0'
+p382
+aS'sepI = 0'
+p383
+aS'sidx = 0'
+p384
+aS'attm = 0'
+p385
+aS'srfN = None, -1'
+p386
+aS'mass = 150'
+p387
+aS'shielded = False'
+p388
+aS'temp = -1'
+p389
+aS'tempExt = 0'
+p390
+aS'tempExtUnexp = 0'
+p391
+aS'expt = 0.100000001'
+p392
+aS'state = 0'
+p393
+aS'attached = True'
+p394
+aS'autostrutMode = Off'
+p395
+aS'rigidAttachment = False'
+p396
+aS'flag ='
+p397
+aS'rTrf ='
+p398
+aS'modCost = 0'
+p399
+aaS'ACTIONGROUPS'
+p400
+a(lp401
+aS'DISCOVERY'
+p402
+a(lp403
+S'state = 1'
+p404
+aS'lastObservedTime = 71.139760742186681'
+p405
+aS'lifetime = 972061.63330078125'
+p406
+aS'refTime = 1728000'
+p407
+aS'size = 1'
+p408
+aaS'FLIGHTPLAN'
+p409
+a(lp410
+aS'CTRLSTATE'
+p411
+a(lp412
+aS'VESSELMODULES'
+p413
+a(lp414
+S'FlightIntegrator'
+p415
+a(lp416
+aaa(lp417
+S'pid = 9d539250d7334504be974aa8b35b5b25'
+p418
+aS'name = Ast. WQU-099'
+p419
+aS'type = SpaceObject'
+p420
+aS'sit = ORBITING'
+p421
+aS'landed = False'
+p422
+aS'landedAt ='
+p423
+aS'splashed = False'
+p424
+aS'met = 86.185251464842025'
+p425
+aS'lct = 86.185251464842025'
+p426
+aS'lastUT = -1'
+p427
+aS'root = 0'
+p428
+aS'lat = 0.031955291176193466'
+p429
+aS'lon = -171.4997808685095'
+p430
+aS'alt = 15153122879.966234'
+p431
+aS'hgt = -1'
+p432
+aS'nrm = 0,1,0'
+p433
+aS'rot = 0.583948791,-0.282353312,-0.663531959,0.372834593'
+p434
+aS'CoM = 0,0,0'
+p435
+aS'stg = 0'
+p436
+aS'prst = False'
+p437
+aS'ref = 0'
+p438
+aS'ctrl = False'
+p439
+aS'ORBIT'
+p440
+a(lp441
+S'SMA = 14430640367.168535'
+p442
+aS'ECC = 0.075380522477338896'
+p443
+aS'INC = 0.069612299025264363'
+p444
+aS'LPE = 309.23436952395735'
+p445
+aS'LAN = 35.897633961145459'
+p446
+aS'MNA = 0.54493932826099933'
+p447
+aS'EPH = 5146160.9411108401'
+p448
+aS'REF = 0'
+p449
+aaS'PART'
+p450
+a(lp451
+S'name = PotatoRoid'
+p452
+aS'cid = 0'
+p453
+aS'uid = 178269452'
+p454
+aS'mid = 178269452'
+p455
+aS'launchID = 0'
+p456
+aS'parent = 0'
+p457
+aS'position = 0,0,0'
+p458
+aS'rotation = 0,0,0,1'
+p459
+aS'mirror = 1,1,1'
+p460
+aS'symMethod = Radial'
+p461
+aS'istg = 0'
+p462
+aS'resPri = 0'
+p463
+aS'dstg = 0'
+p464
+aS'sqor = 0'
+p465
+aS'sepI = 0'
+p466
+aS'sidx = 0'
+p467
+aS'attm = 0'
+p468
+aS'srfN = None, -1'
+p469
+aS'mass = 150'
+p470
+aS'shielded = False'
+p471
+aS'temp = -1'
+p472
+aS'tempExt = 0'
+p473
+aS'tempExtUnexp = 0'
+p474
+aS'expt = 0.100000001'
+p475
+aS'state = 0'
+p476
+aS'attached = True'
+p477
+aS'autostrutMode = Off'
+p478
+aS'rigidAttachment = False'
+p479
+aS'flag ='
+p480
+aS'rTrf ='
+p481
+aS'modCost = 0'
+p482
+aaS'ACTIONGROUPS'
+p483
+a(lp484
+aS'DISCOVERY'
+p485
+a(lp486
+S'state = 1'
+p487
+aS'lastObservedTime = 86.185251464842025'
+p488
+aS'lifetime = 397845.59326171875'
+p489
+aS'refTime = 1728000'
+p490
+aS'size = 1'
+p491
+aaS'FLIGHTPLAN'
+p492
+a(lp493
+aS'CTRLSTATE'
+p494
+a(lp495
+aS'VESSELMODULES'
+p496
+a(lp497
+S'FlightIntegrator'
+p498
+a(lp499
+aaa(lp500
+S'pid = 7667eb97db1842f3858bc1d9d4a6bea0'
+p501
+aS'name = Ast. PKQ-992'
+p502
+aS'type = SpaceObject'
+p503
+aS'sit = ORBITING'
+p504
+aS'landed = False'
+p505
+aS'landedAt ='
+p506
+aS'splashed = False'
+p507
+aS'met = 97.581306152341796'
+p508
+aS'lct = 97.581306152341796'
+p509
+aS'lastUT = -1'
+p510
+aS'root = 0'
+p511
+aS'lat = 0.98781119837709797'
+p512
+aS'lon = -176.28967394608603'
+p513
+aS'alt = 14118820071.894085'
+p514
+aS'hgt = -1'
+p515
+aS'nrm = 0,1,0'
+p516
+aS'rot = -0.665973067,-0.123813815,0.475614429,0.56119591'
+p517
+aS'CoM = 0,0,0'
+p518
+aS'stg = 0'
+p519
+aS'prst = False'
+p520
+aS'ref = 0'
+p521
+aS'ctrl = False'
+p522
+aS'ORBIT'
+p523
+a(lp524
+S'SMA = 14087790131.436773'
+p525
+aS'ECC = 0.032341759186026414'
+p526
+aS'INC = 1.7252388665796188'
+p527
+aS'LPE = 166.30006923245384'
+p528
+aS'LAN = 148.8704959598403'
+p529
+aS'MNA = 0.12785424272855533'
+p530
+aS'EPH = 3662167.3689038088'
+p531
+aS'REF = 0'
+p532
+aaS'PART'
+p533
+a(lp534
+S'name = PotatoRoid'
+p535
+aS'cid = 0'
+p536
+aS'uid = 572945027'
+p537
+aS'mid = 572945027'
+p538
+aS'launchID = 0'
+p539
+aS'parent = 0'
+p540
+aS'position = 0,0,0'
+p541
+aS'rotation = 0,0,0,1'
+p542
+aS'mirror = 1,1,1'
+p543
+aS'symMethod = Radial'
+p544
+aS'istg = 0'
+p545
+aS'resPri = 0'
+p546
+aS'dstg = 0'
+p547
+aS'sqor = 0'
+p548
+aS'sepI = 0'
+p549
+aS'sidx = 0'
+p550
+aS'attm = 0'
+p551
+aS'srfN = None, -1'
+p552
+aS'mass = 150'
+p553
+aS'shielded = False'
+p554
+aS'temp = -1'
+p555
+aS'tempExt = 0'
+p556
+aS'tempExtUnexp = 0'
+p557
+aS'expt = 0.100000001'
+p558
+aS'state = 0'
+p559
+aS'attached = True'
+p560
+aS'autostrutMode = Off'
+p561
+aS'rigidAttachment = False'
+p562
+aS'flag ='
+p563
+aS'rTrf ='
+p564
+aS'modCost = 0'
+p565
+aaS'ACTIONGROUPS'
+p566
+a(lp567
+aS'DISCOVERY'
+p568
+a(lp569
+S'state = 1'
+p570
+aS'lastObservedTime = 97.581306152341796'
+p571
+aS'lifetime = 1306165.6219482422'
+p572
+aS'refTime = 1728000'
+p573
+aS'size = 3'
+p574
+aaS'FLIGHTPLAN'
+p575
+a(lp576
+aS'CTRLSTATE'
+p577
+a(lp578
+aS'VESSELMODULES'
+p579
+a(lp580
+S'FlightIntegrator'
+p581
+a(lp582
+aaa(lp583
+S'pid = f6c8f15c405e4b76bd01b907fa35d5a6'
+p584
+aS'name = Ast. KAC-057'
+p585
+aS'type = SpaceObject'
+p586
+aS'sit = ORBITING'
+p587
+aS'landed = False'
+p588
+aS'landedAt ='
+p589
+aS'splashed = False'
+p590
+aS'met = 489.10760253904834'
+p591
+aS'lct = 489.10760253904834'
+p592
+aS'lastUT = -1'
+p593
+aS'root = 0'
+p594
+aS'lat = -1.552595707431091'
+p595
+aS'lon = 178.76030826911051'
+p596
+aS'alt = 13621242247.253592'
+p597
+aS'hgt = -1'
+p598
+aS'nrm = 0,1,0'
+p599
+aS'rot = 0.212658256,0.73727721,-0.212613955,0.604974449'
+p600
+aS'CoM = 0,0,0'
+p601
+aS'stg = 0'
+p602
+aS'prst = False'
+p603
+aS'ref = 0'
+p604
+aS'ctrl = False'
+p605
+aS'ORBIT'
+p606
+a(lp607
+S'SMA = 14327552836.175472'
+p608
+aS'ECC = 0.051224863160978483'
+p609
+aS'INC = 1.7714672435547949'
+p610
+aS'LPE = 353.85640022342233'
+p611
+aS'LAN = 240.37678756920775'
+p612
+aS'MNA = 0.064828067417102869'
+p613
+aS'EPH = 1495605.8678564453'
+p614
+aS'REF = 0'
+p615
+aaS'PART'
+p616
+a(lp617
+S'name = PotatoRoid'
+p618
+aS'cid = 0'
+p619
+aS'uid = 1181685083'
+p620
+aS'mid = 1181685083'
+p621
+aS'launchID = 0'
+p622
+aS'parent = 0'
+p623
+aS'position = 0,0,0'
+p624
+aS'rotation = 0,0,0,1'
+p625
+aS'mirror = 1,1,1'
+p626
+aS'symMethod = Radial'
+p627
+aS'istg = 0'
+p628
+aS'resPri = 0'
+p629
+aS'dstg = 0'
+p630
+aS'sqor = 0'
+p631
+aS'sepI = 0'
+p632
+aS'sidx = 0'
+p633
+aS'attm = 0'
+p634
+aS'srfN = None, -1'
+p635
+aS'mass = 150'
+p636
+aS'shielded = False'
+p637
+aS'temp = -1'
+p638
+aS'tempExt = 0'
+p639
+aS'tempExtUnexp = 0'
+p640
+aS'expt = 0.100000001'
+p641
+aS'state = 0'
+p642
+aS'attached = True'
+p643
+aS'autostrutMode = Off'
+p644
+aS'rigidAttachment = False'
+p645
+aS'flag ='
+p646
+aS'rTrf ='
+p647
+aS'modCost = 0'
+p648
+aaS'ACTIONGROUPS'
+p649
+a(lp650
+aS'DISCOVERY'
+p651
+a(lp652
+S'state = 1'
+p653
+aS'lastObservedTime = 489.10760253904834'
+p654
+aS'lifetime = 802542.78259277344'
+p655
+aS'refTime = 1728000'
+p656
+aS'size = 1'
+p657
+aaS'FLIGHTPLAN'
+p658
+a(lp659
+aS'CTRLSTATE'
+p660
+a(lp661
+aS'VESSELMODULES'
+p662
+a(lp663
+S'FlightIntegrator'
+p664
+a(lp665
+aaa(lp666
+S'pid = 52b4ca35971241c29bc7a327a10b4e65'
+p667
+aS'name = Ast. BFV-598'
+p668
+aS'type = SpaceObject'
+p669
+aS'sit = ORBITING'
+p670
+aS'landed = False'
+p671
+aS'landedAt ='
+p672
+aS'splashed = False'
+p673
+aS'met = 24.79999999999956'
+p674
+aS'lct = 24.79999999999956'
+p675
+aS'lastUT = -1'
+p676
+aS'root = 0'
+p677
+aS'lat = 0.9410920263638175'
+p678
+aS'lon = -165.55550596129612'
+p679
+aS'alt = 16911529763.202074'
+p680
+aS'hgt = -1'
+p681
+aS'nrm = 0,1,0'
+p682
+aS'rot = 0.303116769,0.314429134,-0.578063011,0.689273357'
+p683
+aS'CoM = 0,0,0'
+p684
+aS'stg = 0'
+p685
+aS'prst = False'
+p686
+aS'ref = 0'
+p687
+aS'ctrl = False'
+p688
+aS'ORBIT'
+p689
+a(lp690
+S'SMA = 15979474675.467216'
+p691
+aS'ECC = 0.15228159247069967'
+p692
+aS'INC = 1.4725795455694553'
+p693
+aS'LPE = 166.46259810215815'
+p694
+aS'LAN = 154.74831885737194'
+p695
+aS'MNA = 0.19630996939833287'
+p696
+aS'EPH = 4005665.3029296873'
+p697
+aS'REF = 0'
+p698
+aaS'PART'
+p699
+a(lp700
+S'name = PotatoRoid'
+p701
+aS'cid = 0'
+p702
+aS'uid = 912724354'
+p703
+aS'mid = 912724354'
+p704
+aS'launchID = 0'
+p705
+aS'parent = 0'
+p706
+aS'position = 0,0,0'
+p707
+aS'rotation = 0,0,0,1'
+p708
+aS'mirror = 1,1,1'
+p709
+aS'symMethod = Radial'
+p710
+aS'istg = 0'
+p711
+aS'resPri = 0'
+p712
+aS'dstg = 0'
+p713
+aS'sqor = 0'
+p714
+aS'sepI = 0'
+p715
+aS'sidx = 0'
+p716
+aS'attm = 0'
+p717
+aS'srfN = None, -1'
+p718
+aS'mass = 150'
+p719
+aS'shielded = False'
+p720
+aS'temp = -1'
+p721
+aS'tempExt = 0'
+p722
+aS'tempExtUnexp = 0'
+p723
+aS'expt = 0.100000001'
+p724
+aS'state = 0'
+p725
+aS'attached = True'
+p726
+aS'autostrutMode = Off'
+p727
+aS'rigidAttachment = False'
+p728
+aS'flag ='
+p729
+aS'rTrf ='
+p730
+aS'modCost = 0'
+p731
+aaS'ACTIONGROUPS'
+p732
+a(lp733
+aS'DISCOVERY'
+p734
+a(lp735
+S'state = 1'
+p736
+aS'lastObservedTime = 24.79999999999956'
+p737
+aS'lifetime = 1443357.8063964844'
+p738
+aS'refTime = 1728000'
+p739
+aS'size = 2'
+p740
+aaS'FLIGHTPLAN'
+p741
+a(lp742
+aS'CTRLSTATE'
+p743
+a(lp744
+aS'VESSELMODULES'
+p745
+a(lp746
+S'FlightIntegrator'
+p747
+a(lp748
+aaa(lp749
+S'pid = 5d2d555fe0bf4fdaa02ee8289462491c'
+p750
+aS'name = Ast. VEE-846'
+p751
+aS'type = SpaceObject'
+p752
+aS'sit = ORBITING'
+p753
+aS'landed = False'
+p754
+aS'landedAt ='
+p755
+aS'splashed = False'
+p756
+aS'met = 39.800000000000622'
+p757
+aS'lct = 39.800000000000622'
+p758
+aS'lastUT = -1'
+p759
+aS'root = 0'
+p760
+aS'lat = 0.16529408311317564'
+p761
+aS'lon = -168.68517858173445'
+p762
+aS'alt = 16247994196.070869'
+p763
+aS'hgt = -1'
+p764
+aS'nrm = 0,1,0'
+p765
+aS'rot = -0.0203830432,0.843586206,0.0492590964,0.534340978'
+p766
+aS'CoM = 0,0,0'
+p767
+aS'stg = 0'
+p768
+aS'prst = False'
+p769
+aS'ref = 0'
+p770
+aS'ctrl = False'
+p771
+aS'ORBIT'
+p772
+a(lp773
+S'SMA = 15452145016.716743'
+p774
+aS'ECC = 0.1258700079961434'
+p775
+aS'INC = 0.48519098628110546'
+p776
+aS'LPE = 148.7233643216718'
+p777
+aS'LAN = 171.43021623957111'
+p778
+aS'MNA = 0.27352185146847507'
+p779
+aS'EPH = 4104227.6662109373'
+p780
+aS'REF = 0'
+p781
+aaS'PART'
+p782
+a(lp783
+S'name = PotatoRoid'
+p784
+aS'cid = 0'
+p785
+aS'uid = 1760781180'
+p786
+aS'mid = 1760781180'
+p787
+aS'launchID = 0'
+p788
+aS'parent = 0'
+p789
+aS'position = 0,0,0'
+p790
+aS'rotation = 0,0,0,1'
+p791
+aS'mirror = 1,1,1'
+p792
+aS'symMethod = Radial'
+p793
+aS'istg = 0'
+p794
+aS'resPri = 0'
+p795
+aS'dstg = 0'
+p796
+aS'sqor = 0'
+p797
+aS'sepI = 0'
+p798
+aS'sidx = 0'
+p799
+aS'attm = 0'
+p800
+aS'srfN = None, -1'
+p801
+aS'mass = 150'
+p802
+aS'shielded = False'
+p803
+aS'temp = -1'
+p804
+aS'tempExt = 0'
+p805
+aS'tempExtUnexp = 0'
+p806
+aS'expt = 0.100000001'
+p807
+aS'state = 0'
+p808
+aS'attached = True'
+p809
+aS'autostrutMode = Off'
+p810
+aS'rigidAttachment = False'
+p811
+aS'flag ='
+p812
+aS'rTrf ='
+p813
+aS'modCost = 0'
+p814
+aaS'ACTIONGROUPS'
+p815
+a(lp816
+aS'DISCOVERY'
+p817
+a(lp818
+S'state = 1'
+p819
+aS'lastObservedTime = 39.800000000000622'
+p820
+aS'lifetime = 1108766.6839599609'
+p821
+aS'refTime = 1728000'
+p822
+aS'size = 2'
+p823
+aaS'FLIGHTPLAN'
+p824
+a(lp825
+aS'CTRLSTATE'
+p826
+a(lp827
+aS'VESSELMODULES'
+p828
+a(lp829
+S'FlightIntegrator'
+p830
+a(lp831
+aaa(lp832
+S'pid = 4bef8b23e87c4ea8902c725fc12f4fed'
+p833
+aS'name = Ast. JQN-498'
+p834
+aS'type = SpaceObject'
+p835
+aS'sit = ORBITING'
+p836
+aS'landed = False'
+p837
+aS'landedAt ='
+p838
+aS'splashed = False'
+p839
+aS'met = 69.820000000003247'
+p840
+aS'lct = 69.820000000003247'
+p841
+aS'lastUT = -1'
+p842
+aS'root = 0'
+p843
+aS'lat = -0.10630763741959239'
+p844
+aS'lon = -179.37442956131522'
+p845
+aS'alt = 13991545120.004999'
+p846
+aS'hgt = -1'
+p847
+aS'nrm = 0,1,0'
+p848
+aS'rot = 0.341969758,-0.607593358,0.534953952,0.477191061'
+p849
+aS'CoM = 0,0,0'
+p850
+aS'stg = 0'
+p851
+aS'prst = False'
+p852
+aS'ref = 0'
+p853
+aS'ctrl = False'
+p854
+aS'ORBIT'
+p855
+a(lp856
+S'SMA = 14418576344.601263'
+p857
+aS'ECC = 0.055302823635052782'
+p858
+aS'INC = 0.10780834299418159'
+p859
+aS'LPE = 341.57412476864113'
+p860
+aS'LAN = 280.25491810208825'
+p861
+aS'MNA = 0.014730383434979325'
+p862
+aS'EPH = 2114702.9315722655'
+p863
+aS'REF = 0'
+p864
+aaS'PART'
+p865
+a(lp866
+S'name = PotatoRoid'
+p867
+aS'cid = 0'
+p868
+aS'uid = 2102239721'
+p869
+aS'mid = 2102239721'
+p870
+aS'launchID = 0'
+p871
+aS'parent = 0'
+p872
+aS'position = 0,0,0'
+p873
+aS'rotation = 0,0,0,1'
+p874
+aS'mirror = 1,1,1'
+p875
+aS'symMethod = Radial'
+p876
+aS'istg = 0'
+p877
+aS'resPri = 0'
+p878
+aS'dstg = 0'
+p879
+aS'sqor = 0'
+p880
+aS'sepI = 0'
+p881
+aS'sidx = 0'
+p882
+aS'attm = 0'
+p883
+aS'srfN = None, -1'
+p884
+aS'mass = 150'
+p885
+aS'shielded = False'
+p886
+aS'temp = -1'
+p887
+aS'tempExt = 0'
+p888
+aS'tempExtUnexp = 0'
+p889
+aS'expt = 0.100000001'
+p890
+aS'state = 0'
+p891
+aS'attached = True'
+p892
+aS'autostrutMode = Off'
+p893
+aS'rigidAttachment = False'
+p894
+aS'flag ='
+p895
+aS'rTrf ='
+p896
+aS'modCost = 0'
+p897
+aaS'ACTIONGROUPS'
+p898
+a(lp899
+aS'DISCOVERY'
+p900
+a(lp901
+S'state = 1'
+p902
+aS'lastObservedTime = 69.820000000003247'
+p903
+aS'lifetime = 1237971.1761474609'
+p904
+aS'refTime = 1728000'
+p905
+aS'size = 2'
+p906
+aaS'FLIGHTPLAN'
+p907
+a(lp908
+aS'CTRLSTATE'
+p909
+a(lp910
+aS'VESSELMODULES'
+p911
+a(lp912
+S'FlightIntegrator'
+p913
+a(lp914
+aaa(lp915
+S'pid = 7827c616f289427fbaba6d8388654544'
+p916
+aS'name = Ast. AWQ-364'
+p917
+aS'type = SpaceObject'
+p918
+aS'sit = ORBITING'
+p919
+aS'landed = False'
+p920
+aS'landedAt ='
+p921
+aS'splashed = False'
+p922
+aS'met = 99.819999999997279'
+p923
+aS'lct = 99.819999999997279'
+p924
+aS'lastUT = -1'
+p925
+aS'root = 0'
+p926
+aS'lat = -0.29659283736879727'
+p927
+aS'lon = -170.28698108413116'
+p928
+aS'alt = 14246664183.930298'
+p929
+aS'hgt = -1'
+p930
+aS'nrm = 0,1,0'
+p931
+aS'rot = 0.574753225,-0.0172864143,-0.600132465,0.556058347'
+p932
+aS'CoM = 0,0,0'
+p933
+aS'stg = 0'
+p934
+aS'prst = False'
+p935
+aS'ref = 0'
+p936
+aS'ctrl = False'
+p937
+aS'ORBIT'
+p938
+a(lp939
+S'SMA = 14037411843.196138'
+p940
+aS'ECC = 0.033753887020459478'
+p941
+aS'INC = 0.89164401503226765'
+p942
+aS'LPE = 25.630071651795369'
+p943
+aS'LAN = 350.3688090983527'
+p944
+aS'MNA = -0.37386104795791653'
+p945
+aS'EPH = 4429189.7736132815'
+p946
+aS'REF = 0'
+p947
+aaS'PART'
+p948
+a(lp949
+S'name = PotatoRoid'
+p950
+aS'cid = 0'
+p951
+aS'uid = 532831473'
+p952
+aS'mid = 532831473'
+p953
+aS'launchID = 0'
+p954
+aS'parent = 0'
+p955
+aS'position = 0,0,0'
+p956
+aS'rotation = 0,0,0,1'
+p957
+aS'mirror = 1,1,1'
+p958
+aS'symMethod = Radial'
+p959
+aS'istg = 0'
+p960
+aS'resPri = 0'
+p961
+aS'dstg = 0'
+p962
+aS'sqor = 0'
+p963
+aS'sepI = 0'
+p964
+aS'sidx = 0'
+p965
+aS'attm = 0'
+p966
+aS'srfN = None, -1'
+p967
+aS'mass = 150'
+p968
+aS'shielded = False'
+p969
+aS'temp = -1'
+p970
+aS'tempExt = 0'
+p971
+aS'tempExtUnexp = 0'
+p972
+aS'expt = 0.100000001'
+p973
+aS'state = 0'
+p974
+aS'attached = True'
+p975
+aS'autostrutMode = Off'
+p976
+aS'rigidAttachment = False'
+p977
+aS'flag ='
+p978
+aS'rTrf ='
+p979
+aS'modCost = 0'
+p980
+aaS'ACTIONGROUPS'
+p981
+a(lp982
+aS'DISCOVERY'
+p983
+a(lp984
+S'state = 1'
+p985
+aS'lastObservedTime = 99.819999999997279'
+p986
+aS'lifetime = 91237.554931640625'
+p987
+aS'refTime = 1728000'
+p988
+aS'size = 2'
+p989
+aaS'FLIGHTPLAN'
+p990
+a(lp991
+aS'CTRLSTATE'
+p992
+a(lp993
+aS'VESSELMODULES'
+p994
+a(lp995
+S'FlightIntegrator'
+p996
+a(lp997
+aaa(lp998
+S'pid = 472146fcf45b490e8bafe4b750581fec'
+p999
+aS'name = Ast. FMU-823'
+p1000
+aS'type = SpaceObject'
+p1001
+aS'sit = ORBITING'
+p1002
+aS'landed = False'
+p1003
+aS'landedAt ='
+p1004
+aS'splashed = False'
+p1005
+aS'met = 126.06756835937119'
+p1006
+aS'lct = 126.06756835937119'
+p1007
+aS'lastUT = -1'
+p1008
+aS'root = 0'
+p1009
+aS'lat = 0.33357108673019137'
+p1010
+aS'lon = -174.24055199524338'
+p1011
+aS'alt = 15986162346.29071'
+p1012
+aS'hgt = -1'
+p1013
+aS'nrm = 0,1,0'
+p1014
+aS'rot = -0.440023422,-0.475647897,-0.748399377,0.141551748'
+p1015
+aS'CoM = 0,0,0'
+p1016
+aS'stg = 0'
+p1017
+aS'prst = False'
+p1018
+aS'ref = 0'
+p1019
+aS'ctrl = False'
+p1020
+aS'ORBIT'
+p1021
+a(lp1022
+S'SMA = 16126550062.587275'
+p1023
+aS'ECC = 0.15980704639539298'
+p1024
+aS'INC = 0.35074826538857357'
+p1025
+aS'LPE = 173.84156698338109'
+p1026
+aS'LAN = 113.8701780869655'
+p1027
+aS'MNA = -0.0001600724560215943'
+p1028
+aS'EPH = 2757916.6803613282'
+p1029
+aS'REF = 0'
+p1030
+aaS'PART'
+p1031
+a(lp1032
+S'name = PotatoRoid'
+p1033
+aS'cid = 0'
+p1034
+aS'uid = 1168916015'
+p1035
+aS'mid = 1168916015'
+p1036
+aS'launchID = 0'
+p1037
+aS'parent = 0'
+p1038
+aS'position = 0,0,0'
+p1039
+aS'rotation = 0,0,0,1'
+p1040
+aS'mirror = 1,1,1'
+p1041
+aS'symMethod = Radial'
+p1042
+aS'istg = 0'
+p1043
+aS'resPri = 0'
+p1044
+aS'dstg = 0'
+p1045
+aS'sqor = 0'
+p1046
+aS'sepI = 0'
+p1047
+aS'sidx = 0'
+p1048
+aS'attm = 0'
+p1049
+aS'srfN = None, -1'
+p1050
+aS'mass = 150'
+p1051
+aS'shielded = False'
+p1052
+aS'temp = -1'
+p1053
+aS'tempExt = 0'
+p1054
+aS'tempExtUnexp = 0'
+p1055
+aS'expt = 0.100000001'
+p1056
+aS'state = 0'
+p1057
+aS'attached = True'
+p1058
+aS'autostrutMode = Off'
+p1059
+aS'rigidAttachment = False'
+p1060
+aS'flag ='
+p1061
+aS'rTrf ='
+p1062
+aS'modCost = 0'
+p1063
+aaS'ACTIONGROUPS'
+p1064
+a(lp1065
+aS'DISCOVERY'
+p1066
+a(lp1067
+S'state = 1'
+p1068
+aS'lastObservedTime = 126.06756835937119'
+p1069
+aS'lifetime = 202566.08276367188'
+p1070
+aS'refTime = 1728000'
+p1071
+aS'size = 2'
+p1072
+aaS'FLIGHTPLAN'
+p1073
+a(lp1074
+aS'CTRLSTATE'
+p1075
+a(lp1076
+aS'VESSELMODULES'
+p1077
+a(lp1078
+S'FlightIntegrator'
+p1079
+a(lp1080
+aaa(lp1081
+S'pid = 69ae5d9ac3314f92bb5ce52212bad58f'
+p1082
+aS'name = Ast. TJP-771'
+p1083
+aS'type = SpaceObject'
+p1084
+aS'sit = ORBITING'
+p1085
+aS'landed = False'
+p1086
+aS'landedAt ='
+p1087
+aS'splashed = False'
+p1088
+aS'met = 327.20979492183352'
+p1089
+aS'lct = 327.20979492183352'
+p1090
+aS'lastUT = -1'
+p1091
+aS'root = 0'
+p1092
+aS'lat = -0.37062442854930816'
+p1093
+aS'lon = -178.51254872761754'
+p1094
+aS'alt = 13832382182.987028'
+p1095
+aS'hgt = -1'
+p1096
+aS'nrm = 0,1,0'
+p1097
+aS'rot = -0.158420354,-0.448530614,0.870694399,0.124957949'
+p1098
+aS'CoM = 0,0,0'
+p1099
+aS'stg = 0'
+p1100
+aS'prst = False'
+p1101
+aS'ref = 0'
+p1102
+aS'ctrl = False'
+p1103
+aS'ORBIT'
+p1104
+a(lp1105
+S'SMA = 13917831061.463621'
+p1106
+aS'ECC = 0.02377518893682825'
+p1107
+aS'INC = 0.75564445700557881'
+p1108
+aS'LPE = 332.68228161315886'
+p1109
+aS'LAN = 332.3897642162529'
+p1110
+aS'MNA = 0.2778773244242182'
+p1111
+aS'EPH = 3624538.9895800781'
+p1112
+aS'REF = 0'
+p1113
+aaS'PART'
+p1114
+a(lp1115
+S'name = PotatoRoid'
+p1116
+aS'cid = 0'
+p1117
+aS'uid = 880086271'
+p1118
+aS'mid = 880086271'
+p1119
+aS'launchID = 0'
+p1120
+aS'parent = 0'
+p1121
+aS'position = 0,0,0'
+p1122
+aS'rotation = 0,0,0,1'
+p1123
+aS'mirror = 1,1,1'
+p1124
+aS'symMethod = Radial'
+p1125
+aS'istg = 0'
+p1126
+aS'resPri = 0'
+p1127
+aS'dstg = 0'
+p1128
+aS'sqor = 0'
+p1129
+aS'sepI = 0'
+p1130
+aS'sidx = 0'
+p1131
+aS'attm = 0'
+p1132
+aS'srfN = None, -1'
+p1133
+aS'mass = 150'
+p1134
+aS'shielded = False'
+p1135
+aS'temp = -1'
+p1136
+aS'tempExt = 0'
+p1137
+aS'tempExtUnexp = 0'
+p1138
+aS'expt = 0.100000001'
+p1139
+aS'state = 0'
+p1140
+aS'attached = True'
+p1141
+aS'autostrutMode = Off'
+p1142
+aS'rigidAttachment = False'
+p1143
+aS'flag ='
+p1144
+aS'rTrf ='
+p1145
+aS'modCost = 0'
+p1146
+aaS'ACTIONGROUPS'
+p1147
+a(lp1148
+aS'DISCOVERY'
+p1149
+a(lp1150
+S'state = 1'
+p1151
+aS'lastObservedTime = 327.20979492183352'
+p1152
+aS'lifetime = 193789.80560302734'
+p1153
+aS'refTime = 1728000'
+p1154
+aS'size = 2'
+p1155
+aaS'FLIGHTPLAN'
+p1156
+a(lp1157
+aS'CTRLSTATE'
+p1158
+a(lp1159
+aS'VESSELMODULES'
+p1160
+a(lp1161
+S'FlightIntegrator'
+p1162
+a(lp1163
+aaa(lp1164
+(lp1165
+S'name = Jebediah Kerman'
+p1166
+aS'gender = Male'
+p1167
+aS'type = Crew'
+p1168
+aS'trait = Pilot'
+p1169
+aS'brave = 0.5'
+p1170
+aS'dumb = 0.5'
+p1171
+aS'badS = True'
+p1172
+aS'veteran = True'
+p1173
+aS'tour = False'
+p1174
+aS'state = Missing'
+p1175
+aS'inactive = False'
+p1176
+aS'inactiveTimeEnd = 0'
+p1177
+aS'gExperienced = 0'
+p1178
+aS'outDueToG = False'
+p1179
+aS'ToD = 7818.79131835926'
+p1180
+aS'idx = 0'
+p1181
+aS'extraXP = 0'
+p1182
+aS'CAREER_LOG'
+p1183
+a(lp1184
+S'flight = 0'
+p1185
+aaS'FLIGHT_LOG'
+p1186
+a(lp1187
+S'flight = 0'
+p1188
+aS'0 = Flight,Kerbin'
+p1189
+aS'0 = Suborbit,Kerbin'
+p1190
+aS'0 = Orbit,Kerbin'
+p1191
+aaa(lp1192
+S'name = Bill Kerman'
+p1193
+aS'gender = Male'
+p1194
+aS'type = Crew'
+p1195
+aS'trait = Engineer'
+p1196
+aS'brave = 0.5'
+p1197
+aS'dumb = 0.800000012'
+p1198
+aS'badS = False'
+p1199
+aS'veteran = True'
+p1200
+aS'tour = False'
+p1201
+aS'state = Missing'
+p1202
+aS'inactive = False'
+p1203
+aS'inactiveTimeEnd = 0'
+p1204
+aS'gExperienced = 0'
+p1205
+aS'outDueToG = False'
+p1206
+aS'ToD = 2729.172558593536'
+p1207
+aS'idx = 0'
+p1208
+aS'extraXP = 0'
+p1209
+aS'CAREER_LOG'
+p1210
+a(lp1211
+S'flight = 3'
+p1212
+aS'0 = Flight,Kerbin'
+p1213
+aS'0 = Land,Kerbin'
+p1214
+aS'0 = Recover'
+p1215
+aS'1 = Recover'
+p1216
+aS'2 = Recover'
+p1217
+aaS'FLIGHT_LOG'
+p1218
+a(lp1219
+S'flight = 3'
+p1220
+aS'3 = Land,Kerbin'
+p1221
+aS'3 = Flight,Kerbin'
+p1222
+aaa(lp1223
+S'name = Bob Kerman'
+p1224
+aS'gender = Male'
+p1225
+aS'type = Crew'
+p1226
+aS'trait = Scientist'
+p1227
+aS'brave = 0.300000012'
+p1228
+aS'dumb = 0.100000001'
+p1229
+aS'badS = False'
+p1230
+aS'veteran = True'
+p1231
+aS'tour = False'
+p1232
+aS'state = Missing'
+p1233
+aS'inactive = False'
+p1234
+aS'inactiveTimeEnd = 0'
+p1235
+aS'gExperienced = 0'
+p1236
+aS'outDueToG = False'
+p1237
+aS'ToD = 2741.5525585935247'
+p1238
+aS'idx = 0'
+p1239
+aS'extraXP = 0'
+p1240
+aS'CAREER_LOG'
+p1241
+a(lp1242
+S'flight = 0'
+p1243
+aaS'FLIGHT_LOG'
+p1244
+a(lp1245
+S'flight = 0'
+p1246
+aaa(lp1247
+S'name = Valentina Kerman'
+p1248
+aS'gender = Female'
+p1249
+aS'type = Crew'
+p1250
+aS'trait = Pilot'
+p1251
+aS'brave = 0.550000012'
+p1252
+aS'dumb = 0.400000006'
+p1253
+aS'badS = True'
+p1254
+aS'veteran = True'
+p1255
+aS'tour = False'
+p1256
+aS'state = Missing'
+p1257
+aS'inactive = False'
+p1258
+aS'inactiveTimeEnd = 0'
+p1259
+aS'gExperienced = 0'
+p1260
+aS'outDueToG = False'
+p1261
+aS'ToD = 7736.311318359335'
+p1262
+aS'idx = 0'
+p1263
+aS'extraXP = 0'
+p1264
+aS'CAREER_LOG'
+p1265
+a(lp1266
+S'flight = 0'
+p1267
+aaS'FLIGHT_LOG'
+p1268
+a(lp1269
+S'flight = 0'
+p1270
+aS'0 = Flight,Kerbin'
+p1271
+aS'0 = Suborbit,Kerbin'
+p1272
+aS'0 = Orbit,Kerbin'
+p1273
+aaa(lp1274
+S'name = Tamlee Kerman'
+p1275
+aS'gender = Female'
+p1276
+aS'type = Crew'
+p1277
+aS'trait = Pilot'
+p1278
+aS'brave = 0.999966443'
+p1279
+aS'dumb = 0.62242502'
+p1280
+aS'badS = False'
+p1281
+aS'veteran = False'
+p1282
+aS'tour = False'
+p1283
+aS'state = Missing'
+p1284
+aS'inactive = False'
+p1285
+aS'inactiveTimeEnd = 0'
+p1286
+aS'gExperienced = 0'
+p1287
+aS'outDueToG = False'
+p1288
+aS'ToD = 7892.1297949215013'
+p1289
+aS'idx = 0'
+p1290
+aS'extraXP = 0'
+p1291
+aS'CAREER_LOG'
+p1292
+a(lp1293
+S'flight = 1'
+p1294
+aS'0 = Flight,Kerbin'
+p1295
+aS'0 = Land,Kerbin'
+p1296
+aS'0 = Die'
+p1297
+aaS'FLIGHT_LOG'
+p1298
+a(lp1299
+S'flight = 1'
+p1300
+aaa(lp1301
+S'name = Theofred Kerman'
+p1302
+aS'gender = Male'
+p1303
+aS'type = Crew'
+p1304
+aS'trait = Engineer'
+p1305
+aS'brave = 0.609479427'
+p1306
+aS'dumb = 0.533967972'
+p1307
+aS'badS = True'
+p1308
+aS'veteran = False'
+p1309
+aS'tour = False'
+p1310
+aS'state = Available'
+p1311
+aS'inactive = False'
+p1312
+aS'inactiveTimeEnd = 0'
+p1313
+aS'gExperienced = 0'
+p1314
+aS'outDueToG = False'
+p1315
+aS'ToD = 206169.55777465788'
+p1316
+aS'idx = -1'
+p1317
+aS'extraXP = 0'
+p1318
+aS'CAREER_LOG'
+p1319
+a(lp1320
+S'flight = 0'
+p1321
+aaS'FLIGHT_LOG'
+p1322
+a(lp1323
+S'flight = 0'
+p1324
+aaa(lp1325
+S'name = Dunbur Kerman'
+p1326
+aS'gender = Male'
+p1327
+aS'type = Crew'
+p1328
+aS'trait = Engineer'
+p1329
+aS'brave = 0.552617192'
+p1330
+aS'dumb = 0.567619085'
+p1331
+aS'badS = False'
+p1332
+aS'veteran = False'
+p1333
+aS'tour = False'
+p1334
+aS'state = Available'
+p1335
+aS'inactive = False'
+p1336
+aS'inactiveTimeEnd = 0'
+p1337
+aS'gExperienced = 0'
+p1338
+aS'outDueToG = False'
+p1339
+aS'ToD = 99147.595036620784'
+p1340
+aS'idx = -1'
+p1341
+aS'extraXP = 0'
+p1342
+aS'CAREER_LOG'
+p1343
+a(lp1344
+S'flight = 0'
+p1345
+aaS'FLIGHT_LOG'
+p1346
+a(lp1347
+S'flight = 0'
+p1348
+aaa(lp1349
+S'name = Kathvy Kerman'
+p1350
+aS'gender = Female'
+p1351
+aS'type = Crew'
+p1352
+aS'trait = Engineer'
+p1353
+aS'brave = 0.994899511'
+p1354
+aS'dumb = 0.6183182'
+p1355
+aS'badS = False'
+p1356
+aS'veteran = False'
+p1357
+aS'tour = False'
+p1358
+aS'state = Available'
+p1359
+aS'inactive = False'
+p1360
+aS'inactiveTimeEnd = 0'
+p1361
+aS'gExperienced = 0'
+p1362
+aS'outDueToG = False'
+p1363
+aS'ToD = 256146.11035644499'
+p1364
+aS'idx = -1'
+p1365
+aS'extraXP = 0'
+p1366
+aS'CAREER_LOG'
+p1367
+a(lp1368
+S'flight = 0'
+p1369
+aaS'FLIGHT_LOG'
+p1370
+a(lp1371
+S'flight = 0'
+p1372
+aaa(lp1373
+S'name = Madcine Kerman'
+p1374
+aS'gender = Female'
+p1375
+aS'type = Crew'
+p1376
+aS'trait = Engineer'
+p1377
+aS'brave = 0.323472649'
+p1378
+aS'dumb = 0.791571498'
+p1379
+aS'badS = False'
+p1380
+aS'veteran = False'
+p1381
+aS'tour = False'
+p1382
+aS'state = Available'
+p1383
+aS'inactive = False'
+p1384
+aS'inactiveTimeEnd = 0'
+p1385
+aS'gExperienced = 0'
+p1386
+aS'outDueToG = False'
+p1387
+aS'ToD = 258773.02380859343'
+p1388
+aS'idx = -1'
+p1389
+aS'extraXP = 0'
+p1390
+aS'CAREER_LOG'
+p1391
+a(lp1392
+S'flight = 0'
+p1393
+aaS'FLIGHT_LOG'
+p1394
+a(lp1395
+S'flight = 0'
+p1396
+aaa(lp1397
+S'name = Dilin Kerman'
+p1398
+aS'gender = Female'
+p1399
+aS'type = Crew'
+p1400
+aS'trait = Scientist'
+p1401
+aS'brave = 0.815798879'
+p1402
+aS'dumb = 0.865727603'
+p1403
+aS'badS = False'
+p1404
+aS'veteran = False'
+p1405
+aS'tour = False'
+p1406
+aS'state = Available'
+p1407
+aS'inactive = False'
+p1408
+aS'inactiveTimeEnd = 0'
+p1409
+aS'gExperienced = 0'
+p1410
+aS'outDueToG = False'
+p1411
+aS'ToD = 198382.54453002897'
+p1412
+aS'idx = -1'
+p1413
+aS'extraXP = 0'
+p1414
+aS'CAREER_LOG'
+p1415
+a(lp1416
+S'flight = 0'
+p1417
+aaS'FLIGHT_LOG'
+p1418
+a(lp1419
+S'flight = 0'
+p1420
+aaa(lp1421
+S'name = Aldrie Kerman'
+p1422
+aS'gender = Male'
+p1423
+aS'type = Crew'
+p1424
+aS'trait = Pilot'
+p1425
+aS'brave = 0.169364333'
+p1426
+aS'dumb = 0.174514055'
+p1427
+aS'badS = False'
+p1428
+aS'veteran = False'
+p1429
+aS'tour = False'
+p1430
+aS'state = Missing'
+p1431
+aS'inactive = False'
+p1432
+aS'inactiveTimeEnd = 0'
+p1433
+aS'gExperienced = 0'
+p1434
+aS'outDueToG = False'
+p1435
+aS'ToD = 8114.9897949212991'
+p1436
+aS'idx = 0'
+p1437
+aS'extraXP = 0'
+p1438
+aS'CAREER_LOG'
+p1439
+a(lp1440
+S'flight = 1'
+p1441
+aS'0 = Flight,Kerbin'
+p1442
+aS'0 = Land,Kerbin'
+p1443
+aS'0 = Die'
+p1444
+aaS'FLIGHT_LOG'
+p1445
+a(lp1446
+S'flight = 1'
+p1447
+aaa(lp1448
+S'SpaceCenter/VehicleAssemblyBuilding/Facility/ksp_pad_cylTank'
+p1449
+a(lp1450
+S'intact = True'
+p1451
+aaS'SpaceCenter/VehicleAssemblyBuilding/Facility/Tank'
+p1452
+a(lp1453
+S'intact = True'
+p1454
+aaS'SpaceCenter/VehicleAssemblyBuilding/Facility/mainBuilding'
+p1455
+a(lp1456
+S'intact = True'
+p1457
+aaS'SpaceCenter/VehicleAssemblyBuilding/Facility/PodMemorial'
+p1458
+a(lp1459
+S'intact = True'
+p1460
+aaS'SpaceCenter/TrackingStation/Facility/dish_array/dish_south'
+p1461
+a(lp1462
+S'intact = True'
+p1463
+aaS'SpaceCenter/TrackingStation/Facility/dish_array/dish_north'
+p1464
+a(lp1465
+S'intact = True'
+p1466
+aaS'SpaceCenter/TrackingStation/Facility/dish_array/dish_east'
+p1467
+a(lp1468
+S'intact = True'
+p1469
+aaS'SpaceCenter/TrackingStation/Facility/MainBuilding'
+p1470
+a(lp1471
+S'intact = True'
+p1472
+aaS'SpaceCenter/SpaceplaneHangar/Facility/Tank'
+p1473
+a(lp1474
+S'intact = True'
+p1475
+aaS'SpaceCenter/SpaceplaneHangar/Facility/ksp_pad_cylTank'
+p1476
+a(lp1477
+S'intact = True'
+p1478
+aaS'SpaceCenter/SpaceplaneHangar/Facility/ksp_pad_waterTower'
+p1479
+a(lp1480
+S'intact = True'
+p1481
+aaS'SpaceCenter/SpaceplaneHangar/Facility/mainBuilding'
+p1482
+a(lp1483
+S'intact = True'
+p1484
+aaS'SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_SE'
+p1485
+a(lp1486
+S'intact = True'
+p1487
+aaS'SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_NE'
+p1488
+a(lp1489
+S'intact = True'
+p1490
+aaS'SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_NW'
+p1491
+a(lp1492
+S'intact = True'
+p1493
+aaS'SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_SW'
+p1494
+a(lp1495
+S'intact = True'
+p1496
+aaS'SpaceCenter/Runway/Facility/End09'
+p1497
+a(lp1498
+S'intact = True'
+p1499
+aaS'SpaceCenter/Runway/Facility/End27'
+p1500
+a(lp1501
+S'intact = True'
+p1502
+aaS'SpaceCenter/Runway/Facility/Section1'
+p1503
+a(lp1504
+S'intact = True'
+p1505
+aaS'SpaceCenter/Runway/Facility/Section2'
+p1506
+a(lp1507
+S'intact = True'
+p1508
+aaS'SpaceCenter/Runway/Facility/Section3'
+p1509
+a(lp1510
+S'intact = True'
+p1511
+aaS'SpaceCenter/Runway/Facility/Section4'
+p1512
+a(lp1513
+S'intact = True'
+p1514
+aaS'SpaceCenter/ResearchAndDevelopment/Facility/ksp_pad_cylTank'
+p1515
+a(lp1516
+S'intact = True'
+p1517
+aaS'SpaceCenter/ResearchAndDevelopment/Facility/SmallLab'
+p1518
+a(lp1519
+S'intact = True'
+p1520
+aaS'SpaceCenter/ResearchAndDevelopment/Facility/CentralBuilding'
+p1521
+a(lp1522
+S'intact = True'
+p1523
+aaS'SpaceCenter/ResearchAndDevelopment/Facility/MainBuilding'
+p1524
+a(lp1525
+S'intact = True'
+p1526
+aaS'SpaceCenter/ResearchAndDevelopment/Facility/CornerLab'
+p1527
+a(lp1528
+S'intact = True'
+p1529
+aaS'SpaceCenter/ResearchAndDevelopment/Facility/WindTunnel'
+p1530
+a(lp1531
+S'intact = True'
+p1532
+aaS'SpaceCenter/ResearchAndDevelopment/Facility/Observatory'
+p1533
+a(lp1534
+S'intact = True'
+p1535
+aaS'SpaceCenter/ResearchAndDevelopment/Facility/SideLab'
+p1536
+a(lp1537
+S'intact = True'
+p1538
+aaS'SpaceCenter/MissionControl/Facility/building'
+p1539
+a(lp1540
+S'intact = True'
+p1541
+aaS'SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_cylTank'
+p1542
+a(lp1543
+S'intact = True'
+p1544
+aaS'SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_launchPad'
+p1545
+a(lp1546
+S'intact = True'
+p1547
+aaS'SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_sphereTank'
+p1548
+a(lp1549
+S'intact = True'
+p1550
+aaS'SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_waterTower'
+p1551
+a(lp1552
+S'intact = True'
+p1553
+aaS'SpaceCenter/LaunchPad/Facility/LaunchPadMedium/KSCFlagPoleLaunchPad'
+p1554
+a(lp1555
+S'intact = True'
+p1556
+aaS'SpaceCenter/FlagPole/Facility'
+p1557
+a(lp1558
+S'intact = True'
+p1559
+aaS'SpaceCenter/AstronautComplex/Facility/building'
+p1560
+a(lp1561
+S'intact = True'
+p1562
+aaS'SpaceCenter/Administration/Facility/mainBuilding'
+p1563
+a(lp1564
+S'intact = True'
+p1565
+aaS'SpaceCenter/Administration/Facility/Building'
+p1566
+a(lp1567
+S'intact = True'
+p1568
+aaS'SpaceCenter/AstronautComplex/Facility/mainBuilding'
+p1569
+a(lp1570
+S'intact = True'
+p1571
+aaS'SpaceCenter/LaunchPad/Facility/Flag'
+p1572
+a(lp1573
+S'intact = True'
+p1574
+aaS'SpaceCenter/MissionControl/Facility/mainBuilding'
+p1575
+a(lp1576
+S'intact = True'
+p1577
+aaS'SpaceCenter/ResearchAndDevelopment/Facility/mainBuilding'
+p1578
+a(lp1579
+S'intact = True'
+p1580
+aaS'SpaceCenter/ResearchAndDevelopment/Facility/ForeverAlone'
+p1581
+a(lp1582
+S'intact = True'
+p1583
+aaS'SpaceCenter/SpaceplaneHangar/Facility/Building'
+p1584
+a(lp1585
+S'intact = True'
+p1586
+aaS'SpaceCenter/TrackingStation/Facility/building'
+p1587
+a(lp1588
+S'intact = True'
+p1589
+aaS'SpaceCenter/TrackingStation/Facility/OuterDish'
+p1590
+a(lp1591
+S'intact = True'
+p1592
+aaS'SpaceCenter/VehicleAssemblyBuilding/Facility/VAB2'
+p1593
+a(lp1594
+S'intact = True'
+p1595
+aa(lp1596
+(dp1597
+S'Bob Kerman'
+p1598
+(lp1599
+S'174.7.112.5'
+p1600
+aS'184.68.166.106'
+p1601
+asS'SpaceCenter/Administration/Facility/mainBuilding'
+p1602
+(lp1603
+S'174.7.112.5'
+p1604
+aS'184.68.166.106'
+p1605
+asS'SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_launchPad'
+p1606
+(lp1607
+g1604
+ag1605
+asg1503
+(lp1608
+g1600
+ag1601
+asg1506
+(lp1609
+g1600
+ag1601
+asS'6b06b1a98db44bc59efd70e7ec2ae764'
+p1610
+(lp1611
+g1600
+ag1601
+ag1604
+ag1605
+asg1512
+(lp1612
+g1600
+ag1601
+asg1566
+(lp1613
+g1600
+ag1601
+asS'SpaceCenter/TrackingStation/Facility/dish_array/dish_east'
+p1614
+(lp1615
+g1604
+ag1605
+asS'SpaceCenter/VehicleAssemblyBuilding/Facility/Tank'
+p1616
+(lp1617
+g1604
+ag1605
+asg1485
+(lp1618
+g1600
+ag1601
+asS'52b4ca35971241c29bc7a327a10b4e65'
+p1619
+(lp1620
+g1600
+ag1601
+ag1604
+ag1605
+asS'7827c616f289427fbaba6d8388654544'
+p1621
+(lp1622
+g1600
+ag1601
+ag1604
+ag1605
+asg1590
+(lp1623
+g1600
+ag1601
+asS'Dilin Kerman'
+p1624
+(lp1625
+g1600
+ag1601
+asg1458
+(lp1626
+g1600
+ag1601
+asS'SpaceCenter/ResearchAndDevelopment/Facility/CornerLab'
+p1627
+(lp1628
+g1604
+ag1605
+asS'472146fcf45b490e8bafe4b750581fec'
+p1629
+(lp1630
+g1600
+ag1601
+ag1604
+ag1605
+asS'SpaceCenter/TrackingStation/Facility/dish_array/dish_north'
+p1631
+(lp1632
+g1604
+ag1605
+asg1491
+(lp1633
+g1600
+ag1601
+asS'SpaceCenter/TrackingStation/Facility/dish_array/dish_south'
+p1634
+(lp1635
+g1604
+ag1605
+asS'3e84ad55c8004a0c9dd7eb4faa238c5f'
+p1636
+(lp1637
+g1600
+ag1601
+ag1604
+ag1605
+asg1455
+(lp1638
+g1600
+ag1601
+asS'SpaceCenter/MissionControl/Facility/building'
+p1639
+(lp1640
+g1604
+ag1605
+asS'SpaceCenter/ResearchAndDevelopment/Facility/SideLab'
+p1641
+(lp1642
+g1604
+ag1605
+asg1581
+(lp1643
+g1600
+ag1601
+asS'4bef8b23e87c4ea8902c725fc12f4fed'
+p1644
+(lp1645
+g1600
+ag1601
+ag1604
+ag1605
+asg1488
+(lp1646
+g1600
+ag1601
+asg1569
+(lp1647
+g1600
+ag1601
+asS'Jebediah Kerman'
+p1648
+(lp1649
+g1600
+ag1601
+asg1575
+(lp1650
+g1600
+ag1601
+asS'SpaceCenter/TrackingStation/Facility/MainBuilding'
+p1651
+(lp1652
+g1604
+ag1605
+asS'Kathvy Kerman'
+p1653
+(lp1654
+g1600
+ag1601
+asS'Madcine Kerman'
+p1655
+(lp1656
+g1600
+ag1601
+asg1542
+(lp1657
+g1600
+ag1601
+asg1578
+(lp1658
+g1600
+ag1601
+asg1509
+(lp1659
+g1600
+ag1601
+asS'SpaceCenter/ResearchAndDevelopment/Facility/ksp_pad_cylTank'
+p1660
+(lp1661
+g1604
+ag1605
+asS'31c439fdb9cd4adbaeb365c3d1f9fee0'
+p1662
+(lp1663
+g1600
+ag1601
+ag1604
+ag1605
+asg1551
+(lp1664
+g1600
+ag1601
+asS'Dunbur Kerman'
+p1665
+(lp1666
+g1600
+ag1601
+asS'SpaceCenter/VehicleAssemblyBuilding/Facility/ksp_pad_cylTank'
+p1667
+(lp1668
+g1604
+ag1605
+asS'SpaceCenter/SpaceplaneHangar/Facility/ksp_pad_waterTower'
+p1669
+(lp1670
+g1604
+ag1605
+asS'7667eb97db1842f3858bc1d9d4a6bea0'
+p1671
+(lp1672
+g1600
+ag1601
+ag1604
+ag1605
+asS'SpaceCenter/ResearchAndDevelopment/Facility/WindTunnel'
+p1673
+(lp1674
+g1604
+ag1605
+asg1584
+(lp1675
+g1600
+ag1601
+asg1593
+(lp1676
+g1600
+ag1601
+asS'SpaceCenter/AstronautComplex/Facility/building'
+p1677
+(lp1678
+g1604
+ag1605
+asg1548
+(lp1679
+g1600
+ag1601
+asS'SpaceCenter/SpaceplaneHangar/Facility/mainBuilding'
+p1680
+(lp1681
+g1604
+ag1605
+asS'SpaceCenter/ResearchAndDevelopment/Facility/SmallLab'
+p1682
+(lp1683
+g1604
+ag1605
+asS'9d539250d7334504be974aa8b35b5b25'
+p1684
+(lp1685
+g1600
+ag1601
+ag1604
+ag1605
+asg1494
+(lp1686
+g1600
+ag1601
+asS'SpaceCenter/SpaceplaneHangar/Facility/Tank'
+p1687
+(lp1688
+g1604
+ag1605
+asS'SpaceCenter/ResearchAndDevelopment/Facility/Observatory'
+p1689
+(lp1690
+g1604
+ag1605
+asS'Tamlee Kerman'
+p1691
+(lp1692
+g1600
+ag1601
+asg1497
+(lp1693
+g1600
+ag1601
+asS'69ae5d9ac3314f92bb5ce52212bad58f'
+p1694
+(lp1695
+g1600
+ag1601
+ag1604
+ag1605
+asg1554
+(lp1696
+g1600
+ag1601
+asg1572
+(lp1697
+g1600
+ag1601
+asS'dcf5fdadbc964a05b4c59c6db2d8bc0f'
+p1698
+(lp1699
+g1600
+ag1601
+ag1604
+ag1605
+asS'SpaceCenter/SpaceplaneHangar/Facility/ksp_pad_cylTank'
+p1700
+(lp1701
+g1604
+ag1605
+asS'f7afdfa704fe4daab4ae5e0a7a76153b'
+p1702
+(lp1703
+g1600
+ag1601
+ag1604
+ag1605
+asg1587
+(lp1704
+g1600
+ag1601
+asg1500
+(lp1705
+g1600
+ag1601
+asS'SpaceCenter/FlagPole/Facility'
+p1706
+(lp1707
+g1604
+ag1605
+asS'Aldrie Kerman'
+p1708
+(lp1709
+g1600
+ag1601
+asS'Valentina Kerman'
+p1710
+(lp1711
+g1600
+ag1601
+asS'f6c8f15c405e4b76bd01b907fa35d5a6'
+p1712
+(lp1713
+g1600
+ag1601
+ag1604
+ag1605
+asS'SpaceCenter/ResearchAndDevelopment/Facility/CentralBuilding'
+p1714
+(lp1715
+g1604
+ag1605
+asS'Theofred Kerman'
+p1716
+(lp1717
+g1600
+ag1601
+asS'Bill Kerman'
+p1718
+(lp1719
+g1600
+ag1601
+asS'5d2d555fe0bf4fdaa02ee8289462491c'
+p1720
+(lp1721
+g1600
+ag1601
+ag1604
+ag1605
+asS'SpaceCenter/ResearchAndDevelopment/Facility/MainBuilding'
+p1722
+(lp1723
+g1604
+ag1605
+ast.
