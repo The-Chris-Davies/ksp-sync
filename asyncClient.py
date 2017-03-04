@@ -4,7 +4,10 @@ import cPickle as pickle
 #import pickle
 import sys
 from kspLib import *
-
+if len(sys.argv)>1:
+	arg=sys.argv[1]
+else:
+	arg="0"
 
 cfn = "settings.txt"
 
@@ -29,6 +32,13 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((ip, port))
 
 # Send data
+
+#	1 = download only	2 = delete mode is DISABLED		3 = BOTH
+
+if arg=="1" or arg=="2" or arg=="3":
+	s.sendall(arg)
+else:
+	s.sendall("0")
 s.sendall(fullData)
 s.sendall('abcdefg')
 
