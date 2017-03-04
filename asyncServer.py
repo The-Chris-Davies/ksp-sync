@@ -70,8 +70,10 @@ while True:
 	
 	if mode=="1" or mode=="3":
 		downloadOnly=True
+		print "downloadOnly mode"
 	if mode =="2" or mode=="3":
-		delete=False	
+		delete=False
+		print "no delete Mode"	
 	
 	if downloadOnly==False:
 	
@@ -191,9 +193,7 @@ while True:
 					#because we're updating the client
 					shipVers[code].append(client_address[0])
 	
-		sendDestruct = []
-		for nod in destructGraph:
-			sendDestruct.extend(nod)
+		
 		##destructGraphReduced=[]
 		#print destructGraph
 	
@@ -224,7 +224,9 @@ while True:
 	
 		print "Destructables handled"
 	
-	
+	sendDestruct = []
+	for nod in destructGraph:
+		sendDestruct.extend(nod)
 	
 	#print serverGraph
 	

@@ -4148,11 +4148,11 @@ aS'landedAt = KSC'
 p2271
 aS'splashed = False'
 p2272
-aS'met = 5545.8788896786282'
+aS'met = 331612.95954594866'
 p2273
 aS'lct = 998507.60521873075'
 p2274
-aS'lastUT = 1004053.4841084094'
+aS'lastUT = 1330120.5647646794'
 p2275
 aS'root = 0'
 p2276
@@ -4168,7 +4168,7 @@ aS'nrm = 0.00029361248,0.996864676,-0.079125762'
 p2281
 aS'rot = 0.673376262,0.281892061,-0.117164798,-0.673330307'
 p2282
-aS'CoM = 0.00729497522,0.18992883,0.0114268735'
+aS'CoM = 0.00711229444,0.189994842,0.0113207102'
 p2283
 aS'stg = 0'
 p2284
@@ -4187,19 +4187,19 @@ p2290
 aS'ORBIT'
 p2291
 a(lp2292
-S'SMA = NaN'
+S'SMA = 0'
 p2293
 aS'ECC = 1'
 p2294
-aS'INC = 0.042191346094660971'
+aS'INC = 0.096909833196566597'
 p2295
 aS'LPE = 90'
 p2296
-aS'LAN = 175.62255038946375'
+aS'LAN = 44.475039213619766'
 p2297
 aS'MNA = 0'
 p2298
-aS'EPH = 1006258.3859738403'
+aS'EPH = 1623334.6860543182'
 p2299
 aS'REF = 1'
 p2300
@@ -4246,11 +4246,11 @@ aS'mass = 0.00999999978'
 p2321
 aS'shielded = False'
 p2322
-aS'temp = 303.55662882111488'
+aS'temp = 302.65585063984054'
 p2323
-aS'tempExt = 303.6451142034087'
+aS'tempExt = 302.67124492888479'
 p2324
-aS'tempExtUnexp = 303.6450974005723'
+aS'tempExtUnexp = 302.67122674173083'
 p2325
 aS'expt = 0.5'
 p2326
@@ -6564,3856 +6564,10924 @@ S'FlightIntegrator'
 p3597
 a(lp3598
 aaa(lp3599
-(lp3600
-S'name = Jebediah Kerman'
+S'pid = b582e8f25e7843a28482146056ed8c9e'
+p3600
+aS'name = Adnan mk1'
 p3601
-aS'gender = Male'
+aS'type = Probe'
 p3602
-aS'type = Crew'
+aS'sit = ORBITING'
 p3603
-aS'trait = Pilot'
+aS'landed = False'
 p3604
-aS'brave = 0.5'
+aS'landedAt ='
 p3605
-aS'dumb = 0.5'
+aS'splashed = False'
 p3606
-aS'badS = True'
+aS'met = 290528.18960969173'
 p3607
-aS'veteran = True'
+aS'lct = 1006547.8859741099'
 p3608
-aS'tour = False'
+aS'lastUT = 1297076.0755838016'
 p3609
-aS'state = Available'
+aS'root = 0'
 p3610
-aS'inactive = False'
+aS'lat = 24.426894939712653'
 p3611
-aS'inactiveTimeEnd = 0'
+aS'lon = 113.50557971910085'
 p3612
-aS'gExperienced = 0'
+aS'alt = 32422.063471028407'
 p3613
-aS'outDueToG = False'
+aS'hgt = -1'
 p3614
-aS'ToD = 0'
+aS'nrm = -0.0574192405,0.998297274,0.0102751404'
 p3615
-aS'idx = 0'
+aS'rot = -0.13882792,-0.639085591,-0.504639328,-0.563591778'
 p3616
-aS'extraXP = 0'
+aS'CoM = 1.63912773E-07,-0.340411782,-0.106829315'
 p3617
-aS'CAREER_LOG'
+aS'stg = 0'
 p3618
-a(lp3619
-S'flight = 17'
+aS'prst = False'
+p3619
+aS'ref = 0'
 p3620
-aS'0 = Flight,Kerbin'
+aS'ctrl = True'
 p3621
-aS'0 = Land,Kerbin'
+aS'cPch ='
 p3622
-aS'0 = ExitVessel,Kerbin'
+aS'cHdg ='
 p3623
-aS'0 = BoardVessel,Kerbin'
+aS'cMod = 0'
 p3624
-aS'0 = PlantFlag,Kerbin'
+aS'ORBIT'
 p3625
-aS'0 = Recover'
-p3626
-aS'1 = Flight,Kerbin'
+a(lp3626
+S'SMA = 269096.07026473776'
 p3627
-aS'1 = Suborbit,Kerbin'
+aS'ECC = 0.15524830377116405'
 p3628
-aS'1 = Land,Kerbin'
+aS'INC = 31.698563741853921'
 p3629
-aS'1 = ExitVessel,Kerbin'
+aS'LPE = 161.30647603974185'
 p3630
-aS'1 = BoardVessel,Kerbin'
+aS'LAN = 330.56058097593404'
 p3631
-aS'1 = Recover'
+aS'MNA = -0.42505926099912938'
 p3632
-aS'2 = Flight,Kerbin'
+aS'EPH = 1297076.0755838016'
 p3633
-aS'2 = Suborbit,Kerbin'
+aS'REF = 2'
 p3634
-aS'2 = ExitVessel,Kerbin'
+aaS'PART'
 p3635
-aS'2 = BoardVessel,Kerbin'
-p3636
-aS'2 = Land,Kerbin'
+a(lp3636
+S'name = probeCoreSphere'
 p3637
-aS'2 = Recover'
+aS'cid = 4294437612'
 p3638
-aS'3 = Flight,Kerbin'
+aS'uid = 1827169141'
 p3639
-aS'3 = Suborbit,Kerbin'
+aS'mid = 2644963496'
 p3640
-aS'3 = Orbit,Kerbin'
+aS'launchID = 29'
 p3641
-aS'3 = Land,Kerbin'
+aS'parent = 0'
 p3642
-aS'3 = ExitVessel,Kerbin'
+aS'position = 0,0,0'
 p3643
-aS'3 = PlantFlag,Kerbin'
+aS'rotation = 0,0,0,1'
 p3644
-aS'3 = BoardVessel,Kerbin'
+aS'mirror = 1,1,1'
 p3645
-aS'3 = Recover'
+aS'symMethod = Radial'
 p3646
-aS'4 = ExitVessel,Kerbin'
+aS'istg = -1'
 p3647
-aS'4 = BoardVessel,Kerbin'
+aS'resPri = 0'
 p3648
-aS'4 = Recover'
+aS'dstg = 0'
 p3649
-aS'5 = Flight,Kerbin'
+aS'sqor = -1'
 p3650
-aS'5 = Land,Kerbin'
+aS'sepI = -1'
 p3651
-aS'5 = ExitVessel,Kerbin'
+aS'sidx = -1'
 p3652
-aS'5 = BoardVessel,Kerbin'
+aS'attm = 0'
 p3653
-aS'5 = Recover'
+aS'srfN = , -1'
 p3654
-aS'6 = Flight,Kerbin'
+aS'attN = bottom, 1'
 p3655
-aS'6 = Land,Kerbin'
+aS'mass = 0.0500000007'
 p3656
-aS'6 = ExitVessel,Kerbin'
+aS'shielded = False'
 p3657
-aS'6 = BoardVessel,Kerbin'
+aS'temp = 259.07151408994804'
 p3658
-aS'6 = Recover'
+aS'tempExt = 259.06024833866911'
 p3659
-aS'7 = Flight,Kerbin'
+aS'tempExtUnexp = 4'
 p3660
-aS'7 = Land,Kerbin'
+aS'expt = 0'
 p3661
-aS'7 = Recover'
+aS'state = 0'
 p3662
-aS'8 = Land,Kerbin'
+aS'attached = True'
 p3663
-aS'8 = Flight,Kerbin'
+aS'autostrutMode = Off'
 p3664
-aS'8 = Recover'
+aS'rigidAttachment = False'
 p3665
-aS'9 = Land,Kerbin'
+aS'flag = Squad/Flags/rings'
 p3666
-aS'9 = Flight,Kerbin'
+aS'rTrf = probeCoreSphere (Adnan mk1)'
 p3667
-aS'9 = ExitVessel,Kerbin'
+aS'modCost = 0'
 p3668
-aS'9 = BoardVessel,Kerbin'
+aS'EVENTS'
 p3669
-aS'9 = Recover'
-p3670
-aS'10 = Land,Kerbin'
+a(lp3670
+aS'ACTIONS'
 p3671
-aS'10 = Flight,Kerbin'
-p3672
-aS'10 = ExitVessel,Kerbin'
+a(lp3672
+aS'PARTDATA'
 p3673
-aS'10 = BoardVessel,Kerbin'
-p3674
-aS'10 = Recover'
+a(lp3674
+aS'MODULE'
 p3675
-aS'11 = Land,Kerbin'
-p3676
-aS'11 = Flight,Kerbin'
+a(lp3676
+S'name = ModuleCommand'
 p3677
-aS'11 = ExitVessel,Kerbin'
+aS'isEnabled = True'
 p3678
-aS'11 = BoardVessel,Kerbin'
+aS'hibernation = False'
 p3679
-aS'11 = Recover'
+aS'hibernateOnWarp = False'
 p3680
-aS'12 = Land,Kerbin'
+aS'stagingEnabled = True'
 p3681
-aS'12 = Flight,Kerbin'
+aS'EVENTS'
 p3682
-aS'12 = ExitVessel,Kerbin'
-p3683
-aS'12 = PlantFlag,Kerbin'
+a(lp3683
+aS'ACTIONS'
 p3684
-aS'12 = BoardVessel,Kerbin'
-p3685
-aS'12 = Recover'
+a(lp3685
+S'HibernateToggle'
 p3686
-aS'13 = Land,Kerbin'
-p3687
-aS'13 = Flight,Kerbin'
+a(lp3687
+S'actionGroup = None'
 p3688
-aS'13 = ExitVessel,Kerbin'
+aaaS'UPGRADESAPPLIED'
 p3689
-aS'13 = BoardVessel,Kerbin'
-p3690
-aS'13 = PlantFlag,Kerbin'
+a(lp3690
+aaS'MODULE'
 p3691
-aS'13 = Recover'
-p3692
-aS'14 = ExitVessel,Kerbin'
+a(lp3692
+S'name = ModuleKerbNetAccess'
 p3693
-aS'14 = Flight,Kerbin'
+aS'isEnabled = True'
 p3694
-aS'14 = Land,Kerbin'
+aS'stagingEnabled = True'
 p3695
-aS'14 = PlantFlag,Kerbin'
+aS'EVENTS'
 p3696
-aS'14 = BoardVessel,Kerbin'
-p3697
-aS'14 = Recover'
+a(lp3697
+aS'ACTIONS'
 p3698
-aS'15 = Land,Kerbin'
-p3699
-aS'15 = Flight,Kerbin'
+a(lp3699
+S'OpenKerbNetAction'
 p3700
-aS'15 = ExitVessel,Kerbin'
-p3701
-aS'15 = PlantFlag,Kerbin'
+a(lp3701
+S'actionGroup = None'
 p3702
-aS'15 = BoardVessel,Kerbin'
+aaaS'UPGRADESAPPLIED'
 p3703
-aS'15 = Recover'
-p3704
-aS'16 = Land,Kerbin'
+a(lp3704
+aaS'MODULE'
 p3705
-aS'16 = ExitVessel,Kerbin'
-p3706
-aS'16 = BoardVessel,Kerbin'
+a(lp3706
+S'name = ModuleDataTransmitter'
 p3707
-aS'16 = Recover'
+aS'isEnabled = True'
 p3708
-aaS'FLIGHT_LOG'
+aS'xmitIncomplete = False'
 p3709
-a(lp3710
-S'flight = 17'
+aS'stagingEnabled = True'
+p3710
+aS'canComm = True'
 p3711
-aaa(lp3712
-S'name = Bill Kerman'
-p3713
-aS'gender = Male'
+aS'EVENTS'
+p3712
+a(lp3713
+aS'ACTIONS'
 p3714
-aS'type = Crew'
-p3715
-aS'trait = Engineer'
+a(lp3715
+S'StartTransmissionAction'
 p3716
-aS'brave = 0.5'
-p3717
-aS'dumb = 0.800000012'
+a(lp3717
+S'actionGroup = None'
 p3718
-aS'badS = False'
+aS'active = False'
 p3719
-aS'veteran = True'
+aaaS'UPGRADESAPPLIED'
 p3720
-aS'tour = False'
-p3721
-aS'state = Available'
+a(lp3721
+aaS'MODULE'
 p3722
-aS'inactive = False'
-p3723
-aS'inactiveTimeEnd = 0'
+a(lp3723
+S'name = ModuleTripLogger'
 p3724
-aS'gExperienced = 0'
+aS'isEnabled = True'
 p3725
-aS'outDueToG = False'
+aS'stagingEnabled = True'
 p3726
-aS'ToD = 0'
+aS'EVENTS'
 p3727
-aS'idx = -1'
-p3728
-aS'extraXP = 0'
+a(lp3728
+aS'ACTIONS'
 p3729
-aS'CAREER_LOG'
-p3730
-a(lp3731
+a(lp3730
+aS'Log'
+p3731
+a(lp3732
 S'flight = 0'
-p3732
-aaS'FLIGHT_LOG'
 p3733
-a(lp3734
-S'flight = 0'
-p3735
-aaa(lp3736
-S'name = Bob Kerman'
-p3737
-aS'gender = Male'
-p3738
-aS'type = Crew'
-p3739
-aS'trait = Scientist'
-p3740
-aS'brave = 0.300000012'
-p3741
-aS'dumb = 0.100000001'
-p3742
-aS'badS = False'
-p3743
-aS'veteran = True'
-p3744
-aS'tour = False'
-p3745
-aS'state = Available'
-p3746
-aS'inactive = False'
-p3747
-aS'inactiveTimeEnd = 0'
-p3748
-aS'gExperienced = 0'
-p3749
-aS'outDueToG = False'
-p3750
-aS'ToD = 0'
-p3751
-aS'idx = 0'
-p3752
-aS'extraXP = 0'
-p3753
-aS'CAREER_LOG'
-p3754
-a(lp3755
-S'flight = 1'
-p3756
-aS'0 = ExitVessel,Kerbin'
-p3757
-aS'0 = BoardVessel,Kerbin'
-p3758
 aS'0 = Flight,Kerbin'
+p3734
+aS'0 = Suborbit,Kerbin'
+p3735
+aS'0 = Orbit,Kerbin'
+p3736
+aS'0 = Flyby,Mun'
+p3737
+aS'0 = Escape,Mun'
+p3738
+aS'0 = Orbit,Mun'
+p3739
+aaS'UPGRADESAPPLIED'
+p3740
+a(lp3741
+aaS'RESOURCE'
+p3742
+a(lp3743
+S'name = ElectricCharge'
+p3744
+aS'amount = 10'
+p3745
+aS'maxAmount = 10'
+p3746
+aS'flowState = True'
+p3747
+aS'isTweakable = True'
+p3748
+aS'hideFlow = False'
+p3749
+aS'isVisible = True'
+p3750
+aS'flowMode = Both'
+p3751
+aaaS'PART'
+p3752
+a(lp3753
+S'name = sasModule'
+p3754
+aS'cid = 4294435100'
+p3755
+aS'uid = 2788817589'
+p3756
+aS'mid = 2644963496'
+p3757
+aS'launchID = 29'
+p3758
+aS'parent = 0'
 p3759
-aS'0 = Land,Kerbin'
+aS'position = 0,-0.42945766448974609,0'
 p3760
-aS'0 = Recover'
+aS'rotation = 0,0,0,1'
 p3761
-aaS'FLIGHT_LOG'
+aS'mirror = 1,1,1'
 p3762
-a(lp3763
-S'flight = 1'
+aS'symMethod = Radial'
+p3763
+aS'istg = -1'
 p3764
-aaa(lp3765
-S'name = Valentina Kerman'
+aS'resPri = 0'
+p3765
+aS'dstg = 0'
 p3766
-aS'gender = Female'
+aS'sqor = -1'
 p3767
-aS'type = Crew'
+aS'sepI = -1'
 p3768
-aS'trait = Pilot'
+aS'sidx = -1'
 p3769
-aS'brave = 0.550000012'
+aS'attm = 0'
 p3770
-aS'dumb = 0.400000006'
+aS'srfN = , -1'
 p3771
-aS'badS = True'
+aS'attN = bottom, 2'
 p3772
-aS'veteran = True'
+aS'attN = top, 0'
 p3773
-aS'tour = False'
+aS'mass = 0.0500000007'
 p3774
-aS'state = Available'
+aS'shielded = False'
 p3775
-aS'inactive = False'
+aS'temp = 259.05592417474207'
 p3776
-aS'inactiveTimeEnd = 0'
+aS'tempExt = 258.69185557181117'
 p3777
-aS'gExperienced = 0'
+aS'tempExtUnexp = 4'
 p3778
-aS'outDueToG = False'
+aS'expt = 0.5'
 p3779
-aS'ToD = 0'
+aS'state = 0'
 p3780
-aS'idx = -1'
+aS'attached = True'
 p3781
-aS'extraXP = 0'
+aS'autostrutMode = Off'
 p3782
-aS'CAREER_LOG'
+aS'rigidAttachment = False'
 p3783
-a(lp3784
-S'flight = 0'
+aS'flag = Squad/Flags/rings'
+p3784
+aS'rTrf = sasModule'
 p3785
-aaS'FLIGHT_LOG'
+aS'modCost = 0'
 p3786
-a(lp3787
-S'flight = 0'
-p3788
-aaa(lp3789
-S'name = Donlie Kerman'
-p3790
-aS'gender = Male'
+aS'EVENTS'
+p3787
+a(lp3788
+aS'ACTIONS'
+p3789
+a(lp3790
+aS'PARTDATA'
 p3791
-aS'type = Crew'
-p3792
-aS'trait = Pilot'
+a(lp3792
+aS'MODULE'
 p3793
-aS'brave = 0.409941405'
-p3794
-aS'dumb = 0.198947087'
+a(lp3794
+S'name = ModuleReactionWheel'
 p3795
-aS'badS = False'
+aS'isEnabled = True'
 p3796
-aS'veteran = False'
+aS'actuatorModeCycle = 0'
 p3797
-aS'tour = False'
+aS'authorityLimiter = 100'
 p3798
-aS'state = Available'
+aS'stateString = Idle'
 p3799
-aS'inactive = False'
+aS'stagingEnabled = True'
 p3800
-aS'inactiveTimeEnd = 0'
+aS'WheelState = Active'
 p3801
-aS'gExperienced = 0'
+aS'EVENTS'
 p3802
-aS'outDueToG = False'
-p3803
-aS'ToD = 88456.875773925785'
+a(lp3803
+aS'ACTIONS'
 p3804
-aS'idx = -1'
-p3805
-aS'extraXP = 0'
+a(lp3805
+S'CycleAction'
 p3806
-aS'CAREER_LOG'
-p3807
-a(lp3808
-S'flight = 0'
+a(lp3807
+S'actionGroup = None'
+p3808
+aaS'Activate'
 p3809
-aaS'FLIGHT_LOG'
-p3810
-a(lp3811
-S'flight = 0'
+a(lp3810
+S'actionGroup = None'
+p3811
+aaS'Deactivate'
 p3812
-aaa(lp3813
-S'name = Kirus Kerman'
+a(lp3813
+S'actionGroup = None'
 p3814
-aS'gender = Male'
+aaS'Toggle'
 p3815
-aS'type = Crew'
-p3816
-aS'trait = Pilot'
+a(lp3816
+S'actionGroup = None'
 p3817
-aS'brave = 0.716973066'
+aaaS'UPGRADESAPPLIED'
 p3818
-aS'dumb = 0.278038353'
-p3819
-aS'badS = False'
+a(lp3819
+aaaS'PART'
 p3820
-aS'veteran = False'
-p3821
-aS'tour = False'
+a(lp3821
+S'name = batteryBankMini'
 p3822
-aS'state = Available'
+aS'cid = 4294429360'
 p3823
-aS'inactive = False'
+aS'uid = 3498652900'
 p3824
-aS'inactiveTimeEnd = 0'
+aS'mid = 2644963496'
 p3825
-aS'gExperienced = 0'
+aS'launchID = 29'
 p3826
-aS'outDueToG = False'
+aS'parent = 1'
 p3827
-aS'ToD = 226748.40714599608'
+aS'position = 0,-0.62056922912597656,0'
 p3828
-aS'idx = -1'
+aS'rotation = 0,0,0,1'
 p3829
-aS'extraXP = 0'
+aS'mirror = 1,1,1'
 p3830
-aS'CAREER_LOG'
+aS'symMethod = Radial'
 p3831
-a(lp3832
-S'flight = 0'
+aS'istg = -1'
+p3832
+aS'resPri = 0'
 p3833
-aaS'FLIGHT_LOG'
+aS'dstg = 0'
 p3834
-a(lp3835
-S'flight = 0'
+aS'sqor = -1'
+p3835
+aS'sepI = -1'
 p3836
-aaa(lp3837
-S'name = Jerney Kerman'
+aS'sidx = -1'
+p3837
+aS'attm = 0'
 p3838
-aS'gender = Male'
+aS'srfN = srfAttach, -1'
 p3839
-aS'type = Crew'
+aS'attN = top, 1'
 p3840
-aS'trait = Engineer'
+aS'attN = bottom, -1'
 p3841
-aS'brave = 0.231238753'
+aS'mass = 0.00999999978'
 p3842
-aS'dumb = 0.723889112'
+aS'shielded = False'
 p3843
-aS'badS = True'
+aS'temp = 259.04588374226194'
 p3844
-aS'veteran = False'
+aS'tempExt = 258.64465413157251'
 p3845
-aS'tour = False'
+aS'tempExtUnexp = 4'
 p3846
-aS'state = Available'
+aS'expt = 0.5'
 p3847
-aS'inactive = False'
+aS'state = 0'
 p3848
-aS'inactiveTimeEnd = 0'
+aS'attached = True'
 p3849
-aS'gExperienced = 0'
+aS'autostrutMode = Off'
 p3850
-aS'outDueToG = False'
+aS'rigidAttachment = False'
 p3851
-aS'ToD = 141292.13616516112'
+aS'flag = Squad/Flags/rings'
 p3852
-aS'idx = -1'
+aS'rTrf = batteryBankMini'
 p3853
-aS'extraXP = 0'
+aS'modCost = 0'
 p3854
-aS'CAREER_LOG'
+aS'EVENTS'
 p3855
 a(lp3856
-S'flight = 0'
+aS'ACTIONS'
 p3857
-aaS'FLIGHT_LOG'
-p3858
-a(lp3859
-S'flight = 0'
-p3860
-aaa(lp3861
-S'name = Dunke Kerman'
-p3862
-aS'gender = Male'
+a(lp3858
+aS'PARTDATA'
+p3859
+a(lp3860
+aS'RESOURCE'
+p3861
+a(lp3862
+S'name = ElectricCharge'
 p3863
-aS'type = Crew'
+aS'amount = 200'
 p3864
-aS'trait = Engineer'
+aS'maxAmount = 200'
 p3865
-aS'brave = 0.111380585'
+aS'flowState = True'
 p3866
-aS'dumb = 0.664711535'
+aS'isTweakable = True'
 p3867
-aS'badS = False'
+aS'hideFlow = False'
 p3868
-aS'veteran = False'
+aS'isVisible = True'
 p3869
-aS'tour = False'
+aS'flowMode = Both'
 p3870
-aS'state = Available'
+aaaS'PART'
 p3871
-aS'inactive = False'
-p3872
-aS'inactiveTimeEnd = 0'
+a(lp3872
+S'name = HighGainAntenna5'
 p3873
-aS'gExperienced = 0'
+aS'cid = 4294078362'
 p3874
-aS'outDueToG = False'
+aS'uid = 4019982683'
 p3875
-aS'ToD = 158452.30347778319'
+aS'mid = 2644963496'
 p3876
-aS'idx = -1'
+aS'launchID = 29'
 p3877
-aS'extraXP = 0'
+aS'parent = 1'
 p3878
-aS'CAREER_LOG'
+aS'position = -2.6016675036544257E-08,-0.49153041839599609,-0.29759606719017029'
 p3879
-a(lp3880
-S'flight = 0'
+aS'rotation = 0.500000119,-0.49999994,0.500000119,-0.49999994'
+p3880
+aS'mirror = 1,1,1'
 p3881
-aaS'FLIGHT_LOG'
+aS'symMethod = Radial'
 p3882
-a(lp3883
-S'flight = 0'
+aS'istg = -1'
+p3883
+aS'resPri = 0'
 p3884
-aaa(lp3885
-S'name = Sisa Kerman'
+aS'dstg = 0'
+p3885
+aS'sqor = -1'
 p3886
-aS'gender = Female'
+aS'sepI = -1'
 p3887
-aS'type = Crew'
+aS'sidx = -1'
 p3888
-aS'trait = Pilot'
+aS'attm = 1'
 p3889
-aS'brave = 0.775170743'
+aS'srfN = srfAttach, 1'
 p3890
-aS'dumb = 0.216188729'
+aS'attN = bottom, -1'
 p3891
-aS'badS = False'
+aS'mass = 0.0700000003'
 p3892
-aS'veteran = False'
+aS'shielded = False'
 p3893
-aS'tour = False'
+aS'temp = 258.84098312148495'
 p3894
-aS'state = Available'
+aS'tempExt = 258.62152828596442'
 p3895
-aS'inactive = False'
+aS'tempExtUnexp = 4'
 p3896
-aS'inactiveTimeEnd = 0'
+aS'expt = 0.5'
 p3897
-aS'gExperienced = 0'
+aS'state = 0'
 p3898
-aS'outDueToG = False'
+aS'attached = True'
 p3899
-aS'ToD = 214290.75562622069'
+aS'autostrutMode = Off'
 p3900
-aS'idx = -1'
+aS'rigidAttachment = False'
 p3901
-aS'extraXP = 0'
+aS'flag = Squad/Flags/rings'
 p3902
-aS'CAREER_LOG'
+aS'rTrf = HighGainAntenna5'
 p3903
-a(lp3904
-S'flight = 0'
+aS'modCost = 0'
+p3904
+aS'EVENTS'
 p3905
-aaS'FLIGHT_LOG'
-p3906
-a(lp3907
-S'flight = 0'
-p3908
-aaa(lp3909
-S'name = Hennard Kerman'
-p3910
-aS'gender = Male'
+a(lp3906
+aS'ACTIONS'
+p3907
+a(lp3908
+aS'PARTDATA'
+p3909
+a(lp3910
+aS'MODULE'
 p3911
-aS'type = Crew'
-p3912
-aS'trait = Pilot'
+a(lp3912
+S'name = ModuleDeployableAntenna'
 p3913
-aS'brave = 0.0101158768'
+aS'isEnabled = True'
 p3914
-aS'dumb = 0.273345739'
+aS'currentRotation = (0, 0, 0, 1)'
 p3915
-aS'badS = False'
+aS'storedAnimationTime = 0'
 p3916
-aS'veteran = False'
+aS'storedAnimationSpeed = 0'
 p3917
-aS'tour = False'
+aS'deployState = EXTENDED'
 p3918
-aS'state = Available'
+aS'stagingEnabled = True'
 p3919
-aS'inactive = False'
+aS'EVENTS'
 p3920
-aS'inactiveTimeEnd = 0'
-p3921
-aS'gExperienced = 0'
+a(lp3921
+aS'ACTIONS'
 p3922
-aS'outDueToG = False'
-p3923
-aS'ToD = 196564.23966552733'
+a(lp3923
+S'ExtendPanelsAction'
 p3924
-aS'idx = 0'
-p3925
-aS'extraXP = 0'
+a(lp3925
+S'actionGroup = None'
 p3926
-aS'CAREER_LOG'
+aaS'ExtendAction'
 p3927
 a(lp3928
-S'flight = 3'
+S'actionGroup = None'
 p3929
-aS'0 = Flight,Kerbin'
+aaS'RetractAction'
 p3930
-aS'0 = Land,Kerbin'
-p3931
-aS'0 = Recover'
+a(lp3931
+S'actionGroup = None'
 p3932
-aS'1 = Flight,Kerbin'
+aaaS'UPGRADESAPPLIED'
 p3933
-aS'1 = Land,Kerbin'
-p3934
-aS'1 = Recover'
+a(lp3934
+aaS'MODULE'
 p3935
-aS'2 = Flight,Kerbin'
-p3936
-aS'2 = Land,Kerbin'
+a(lp3936
+S'name = ModuleDataTransmitter'
 p3937
-aS'2 = Recover'
+aS'isEnabled = True'
 p3938
-aaS'FLIGHT_LOG'
+aS'xmitIncomplete = False'
 p3939
-a(lp3940
-S'flight = 3'
+aS'stagingEnabled = True'
+p3940
+aS'canComm = True'
 p3941
-aaa(lp3942
-S'name = Lecine Kerman'
-p3943
-aS'gender = Female'
+aS'EVENTS'
+p3942
+a(lp3943
+aS'ACTIONS'
 p3944
-aS'type = Crew'
-p3945
-aS'trait = Scientist'
+a(lp3945
+S'StartTransmissionAction'
 p3946
-aS'brave = 0.893837273'
-p3947
-aS'dumb = 0.870412946'
+a(lp3947
+S'actionGroup = None'
 p3948
-aS'badS = False'
+aaaS'UPGRADESAPPLIED'
 p3949
-aS'veteran = False'
-p3950
-aS'tour = False'
+a(lp3950
+aaS'MODULE'
 p3951
-aS'state = Available'
-p3952
-aS'inactive = False'
+a(lp3952
+S'name = ModuleTripLogger'
 p3953
-aS'inactiveTimeEnd = 0'
+aS'isEnabled = True'
 p3954
-aS'gExperienced = 0'
+aS'stagingEnabled = True'
 p3955
-aS'outDueToG = False'
+aS'EVENTS'
 p3956
-aS'ToD = 118775.24811889649'
-p3957
-aS'idx = 0'
+a(lp3957
+aS'ACTIONS'
 p3958
-aS'extraXP = 0'
-p3959
-aS'CAREER_LOG'
+a(lp3959
+aS'Log'
 p3960
 a(lp3961
-S'flight = 5'
+S'flight = 0'
 p3962
-aS'0 = ExitVessel,Kerbin'
-p3963
-aS'0 = BoardVessel,Kerbin'
-p3964
 aS'0 = Flight,Kerbin'
+p3963
+aS'0 = Suborbit,Kerbin'
+p3964
+aS'0 = Orbit,Kerbin'
 p3965
-aS'0 = Land,Kerbin'
+aS'0 = Flyby,Mun'
 p3966
-aS'0 = Recover'
+aS'0 = Escape,Mun'
 p3967
-aS'1 = Flight,Kerbin'
+aS'0 = Orbit,Mun'
 p3968
-aS'1 = Land,Kerbin'
+aaS'UPGRADESAPPLIED'
 p3969
-aS'1 = ExitVessel,Kerbin'
-p3970
-aS'1 = BoardVessel,Kerbin'
+a(lp3970
+aaaS'PART'
 p3971
-aS'1 = Recover'
-p3972
-aS'2 = ExitVessel,Kerbin'
+a(lp3972
+S'name = solarPanels5'
 p3973
-aS'2 = BoardVessel,Kerbin'
+aS'cid = 4294427548'
 p3974
-aS'2 = Flight,Kerbin'
+aS'uid = 750436662'
 p3975
-aS'2 = Land,Kerbin'
+aS'mid = 2644963496'
 p3976
-aS'2 = Recover'
+aS'launchID = 29'
 p3977
-aS'3 = Flight,Kerbin'
+aS'parent = 1'
 p3978
-aS'3 = Suborbit,Kerbin'
+aS'position = -0.2978629469871521,-0.46847820281982422,1.775401692327705E-08'
 p3979
-aS'3 = ExitVessel,Kerbin'
+aS'rotation = 0,-0.707106829,0,0.707106829'
 p3980
-aS'3 = BoardVessel,Kerbin'
+aS'mirror = 1,1,1'
 p3981
-aS'3 = Land,Kerbin'
+aS'symMethod = Radial'
 p3982
-aS'3 = Recover'
+aS'istg = -1'
 p3983
-aS'4 = Land,Kerbin'
+aS'resPri = 0'
 p3984
-aS'4 = ExitVessel,Kerbin'
+aS'dstg = 0'
 p3985
-aS'4 = Flight,Kerbin'
+aS'sqor = -1'
 p3986
-aS'4 = BoardVessel,Kerbin'
+aS'sepI = -1'
 p3987
-aS'4 = Recover'
+aS'sidx = -1'
 p3988
-aaS'FLIGHT_LOG'
+aS'attm = 1'
 p3989
-a(lp3990
-S'flight = 5'
+aS'sym = 5'
+p3990
+aS'srfN = srfAttach, 1'
 p3991
-aaa(lp3992
-S'name = Melden Kerman'
+aS'mass = 0.00499999989'
+p3992
+aS'shielded = False'
 p3993
-aS'gender = Male'
+aS'temp = 259.04710464763667'
 p3994
-aS'type = Applicant'
+aS'tempExt = 258.70489645248341'
 p3995
-aS'trait = Engineer'
+aS'tempExtUnexp = 4'
 p3996
-aS'brave = 0.414111584'
+aS'expt = 0.5'
 p3997
-aS'dumb = 0.366341531'
+aS'state = 0'
 p3998
-aS'badS = False'
+aS'attached = True'
 p3999
-aS'veteran = False'
+aS'autostrutMode = Off'
 p4000
-aS'tour = False'
+aS'rigidAttachment = False'
 p4001
-aS'state = Available'
+aS'flag = Squad/Flags/rings'
 p4002
-aS'inactive = False'
+aS'rTrf = solarPanels5'
 p4003
-aS'inactiveTimeEnd = 0'
+aS'modCost = 0'
 p4004
-aS'gExperienced = 0'
+aS'EVENTS'
 p4005
-aS'outDueToG = False'
-p4006
-aS'ToD = 195703.75970458984'
+a(lp4006
+aS'ACTIONS'
 p4007
-aS'idx = -1'
-p4008
-aS'extraXP = 0'
+a(lp4008
+aS'PARTDATA'
 p4009
-aS'CAREER_LOG'
-p4010
-a(lp4011
-S'flight = 0'
-p4012
-aaS'FLIGHT_LOG'
+a(lp4010
+aS'MODULE'
+p4011
+a(lp4012
+S'name = ModuleDeployableSolarPanel'
 p4013
-a(lp4014
-S'flight = 0'
+aS'isEnabled = True'
+p4014
+aS'efficiencyMult = 1'
 p4015
-aaa(lp4016
-S'name = Nelgun Kerman'
+aS'launchUT = 1006547.8859741099'
+p4016
+aS'currentRotation = (0, -6.057208E-07, 0, 1)'
 p4017
-aS'gender = Male'
+aS'storedAnimationTime = 0'
 p4018
-aS'type = Applicant'
+aS'storedAnimationSpeed = 0'
 p4019
-aS'trait = Engineer'
+aS'deployState = EXTENDED'
 p4020
-aS'brave = 0.532403409'
+aS'stagingEnabled = True'
 p4021
-aS'dumb = 0.728447795'
+aS'EVENTS'
 p4022
-aS'badS = False'
-p4023
-aS'veteran = False'
+a(lp4023
+aS'ACTIONS'
 p4024
-aS'tour = False'
-p4025
-aS'state = Available'
+a(lp4025
+S'ExtendPanelsAction'
 p4026
-aS'inactive = False'
-p4027
-aS'inactiveTimeEnd = 0'
+a(lp4027
+S'actionGroup = None'
 p4028
-aS'gExperienced = 0'
+aS'active = False'
 p4029
-aS'outDueToG = False'
+aaS'ExtendAction'
 p4030
-aS'ToD = 154129.0290222168'
-p4031
-aS'idx = -1'
+a(lp4031
+S'actionGroup = None'
 p4032
-aS'extraXP = 0'
+aS'active = False'
 p4033
-aS'CAREER_LOG'
+aaS'RetractAction'
 p4034
 a(lp4035
-S'flight = 0'
+S'actionGroup = None'
 p4036
-aaS'FLIGHT_LOG'
+aS'active = False'
 p4037
-a(lp4038
-S'flight = 0'
-p4039
-aaa(lp4040
-S'name = Gilly Kerman'
-p4041
-aS'gender = Male'
+aaaS'UPGRADESAPPLIED'
+p4038
+a(lp4039
+aaaS'PART'
+p4040
+a(lp4041
+S'name = solarPanels5'
 p4042
-aS'type = Applicant'
+aS'cid = 4294074498'
 p4043
-aS'trait = Pilot'
+aS'uid = 1332784991'
 p4044
-aS'brave = 0.437077761'
+aS'mid = 2644963496'
 p4045
-aS'dumb = 0.48740679'
+aS'launchID = 29'
 p4046
-aS'badS = False'
+aS'parent = 1'
 p4047
-aS'veteran = False'
+aS'position = 0.2978629469871521,-0.46847820281982422,-4.3794024406906829E-08'
 p4048
-aS'tour = False'
+aS'rotation = 0,0.707106888,0,0.707106769'
 p4049
-aS'state = Available'
+aS'mirror = 1,1,1'
 p4050
-aS'inactive = False'
+aS'symMethod = Radial'
 p4051
-aS'inactiveTimeEnd = 0'
+aS'istg = -1'
 p4052
-aS'gExperienced = 0'
+aS'resPri = 0'
 p4053
-aS'outDueToG = False'
+aS'dstg = 0'
 p4054
-aS'ToD = 99635.262237548828'
+aS'sqor = -1'
 p4055
-aS'idx = -1'
+aS'sepI = -1'
 p4056
-aS'extraXP = 0'
+aS'sidx = -1'
 p4057
-aS'CAREER_LOG'
+aS'attm = 1'
 p4058
-a(lp4059
-S'flight = 0'
+aS'sym = 4'
+p4059
+aS'srfN = srfAttach, 1'
 p4060
-aaS'FLIGHT_LOG'
+aS'mass = 0.00499999989'
 p4061
-a(lp4062
-S'flight = 0'
+aS'shielded = False'
+p4062
+aS'temp = 259.04069483859018'
 p4063
-aaa(lp4064
-S'name = Geneming Kerman'
+aS'tempExt = 258.53387594621512'
+p4064
+aS'tempExtUnexp = 4'
 p4065
-aS'gender = Male'
+aS'expt = 0.5'
 p4066
-aS'type = Applicant'
+aS'state = 0'
 p4067
-aS'trait = Pilot'
+aS'attached = True'
 p4068
-aS'brave = 0.68685925'
+aS'autostrutMode = Off'
 p4069
-aS'dumb = 0.0778262988'
+aS'rigidAttachment = False'
 p4070
-aS'badS = True'
+aS'flag = Squad/Flags/rings'
 p4071
-aS'veteran = False'
+aS'rTrf = solarPanels5'
 p4072
-aS'tour = False'
+aS'modCost = 0'
 p4073
-aS'state = Available'
+aS'EVENTS'
 p4074
-aS'inactive = False'
-p4075
-aS'inactiveTimeEnd = 0'
+a(lp4075
+aS'ACTIONS'
 p4076
-aS'gExperienced = 0'
-p4077
-aS'outDueToG = False'
+a(lp4077
+aS'PARTDATA'
 p4078
-aS'ToD = 229460.59869384766'
-p4079
-aS'idx = -1'
+a(lp4079
+aS'MODULE'
 p4080
-aS'extraXP = 0'
-p4081
-aS'CAREER_LOG'
+a(lp4081
+S'name = ModuleDeployableSolarPanel'
 p4082
-a(lp4083
-S'flight = 0'
+aS'isEnabled = True'
+p4083
+aS'efficiencyMult = 1'
 p4084
-aaS'FLIGHT_LOG'
+aS'launchUT = 1006547.8859741099'
 p4085
-a(lp4086
-S'flight = 0'
+aS'currentRotation = (0, -6.057208E-07, 0, 1)'
+p4086
+aS'storedAnimationTime = 0'
 p4087
-aaa(lp4088
-S'name = Anpond Kerman'
+aS'storedAnimationSpeed = 0'
+p4088
+aS'deployState = EXTENDED'
 p4089
-aS'gender = Male'
+aS'stagingEnabled = True'
 p4090
-aS'type = Applicant'
+aS'EVENTS'
 p4091
-aS'trait = Engineer'
-p4092
-aS'brave = 0.775723755'
+a(lp4092
+aS'ACTIONS'
 p4093
-aS'dumb = 0.175492659'
-p4094
-aS'badS = False'
+a(lp4094
+S'ExtendPanelsAction'
 p4095
-aS'veteran = False'
-p4096
-aS'tour = False'
+a(lp4096
+S'actionGroup = None'
 p4097
-aS'state = Available'
+aS'active = False'
 p4098
-aS'inactive = False'
+aaS'ExtendAction'
 p4099
-aS'inactiveTimeEnd = 0'
-p4100
-aS'gExperienced = 0'
+a(lp4100
+S'actionGroup = None'
 p4101
-aS'outDueToG = False'
+aS'active = False'
 p4102
-aS'ToD = 104366.38024902344'
+aaS'RetractAction'
 p4103
-aS'idx = -1'
-p4104
-aS'extraXP = 0'
+a(lp4104
+S'actionGroup = None'
 p4105
-aS'CAREER_LOG'
+aS'active = False'
 p4106
-a(lp4107
-S'flight = 0'
-p4108
-aaS'FLIGHT_LOG'
+aaaS'UPGRADESAPPLIED'
+p4107
+a(lp4108
+aaaS'PART'
 p4109
 a(lp4110
-S'flight = 0'
+S'name = longAntenna'
 p4111
-aaa(lp4112
-S'name = Samdie Kerman'
+aS'cid = 4294230076'
+p4112
+aS'uid = 1916976678'
 p4113
-aS'gender = Female'
+aS'mid = 2644963496'
 p4114
-aS'type = Applicant'
+aS'launchID = 29'
 p4115
-aS'trait = Pilot'
+aS'parent = 0'
 p4116
-aS'brave = 0.705352426'
+aS'position = -0.004030933603644371,0.64611625671386719,0.0040309326723217964'
 p4117
-aS'dumb = 0.0984207317'
+aS'rotation = 0.00585187972,-0.382675797,0.00242390763,0.923861027'
 p4118
-aS'badS = True'
+aS'mirror = 1,1,1'
 p4119
-aS'veteran = False'
+aS'symMethod = Radial'
 p4120
-aS'tour = False'
+aS'istg = -1'
 p4121
-aS'state = Available'
+aS'resPri = 0'
 p4122
-aS'inactive = False'
+aS'dstg = 0'
 p4123
-aS'inactiveTimeEnd = 0'
+aS'sqor = -1'
 p4124
-aS'gExperienced = 0'
+aS'sepI = -1'
 p4125
-aS'outDueToG = False'
+aS'sidx = -1'
 p4126
-aS'ToD = 205877.86859130859'
+aS'attm = 1'
 p4127
-aS'idx = -1'
+aS'srfN = srfAttach, 0'
 p4128
-aS'extraXP = 0'
+aS'attN = bottom, -1'
 p4129
-aS'CAREER_LOG'
+aS'mass = 0.00499999989'
 p4130
-a(lp4131
-S'flight = 0'
+aS'shielded = False'
+p4131
+aS'temp = 259.06232084597264'
 p4132
-aaS'FLIGHT_LOG'
+aS'tempExt = 258.89201208681646'
 p4133
-a(lp4134
-S'flight = 0'
+aS'tempExtUnexp = 4'
+p4134
+aS'expt = 0.5'
 p4135
-aaa(lp4136
-S'name = Stephanie Kerman'
+aS'state = 0'
+p4136
+aS'attached = True'
 p4137
-aS'gender = Female'
+aS'autostrutMode = Off'
 p4138
-aS'type = Applicant'
+aS'rigidAttachment = False'
 p4139
-aS'trait = Scientist'
+aS'flag = Squad/Flags/rings'
 p4140
-aS'brave = 0.283075303'
+aS'rTrf = longAntenna'
 p4141
-aS'dumb = 0.304693907'
+aS'modCost = 0'
 p4142
-aS'badS = False'
+aS'EVENTS'
 p4143
-aS'veteran = False'
-p4144
-aS'tour = False'
+a(lp4144
+aS'ACTIONS'
 p4145
-aS'state = Available'
-p4146
-aS'inactive = False'
+a(lp4146
+aS'PARTDATA'
 p4147
-aS'inactiveTimeEnd = 0'
-p4148
-aS'gExperienced = 0'
+a(lp4148
+aS'MODULE'
 p4149
-aS'outDueToG = False'
-p4150
-aS'ToD = 174175.83688354492'
+a(lp4150
+S'name = ModuleDeployableAntenna'
 p4151
-aS'idx = -1'
+aS'isEnabled = True'
 p4152
-aS'extraXP = 0'
+aS'currentRotation = (-0.707106829, 0, 0, 0.707106829)'
 p4153
-aS'CAREER_LOG'
+aS'storedAnimationTime = 0'
 p4154
-a(lp4155
-S'flight = 0'
+aS'storedAnimationSpeed = 1'
+p4155
+aS'deployState = RETRACTED'
 p4156
-aaS'FLIGHT_LOG'
+aS'stagingEnabled = True'
 p4157
-a(lp4158
-S'flight = 0'
-p4159
-aaa(lp4160
-S'name = Sherzer Kerman'
-p4161
-aS'gender = Male'
+aS'EVENTS'
+p4158
+a(lp4159
+aS'ACTIONS'
+p4160
+a(lp4161
+S'ExtendPanelsAction'
 p4162
-aS'type = Applicant'
-p4163
-aS'trait = Pilot'
+a(lp4163
+S'actionGroup = None'
 p4164
-aS'brave = 0.32549122'
+aaS'ExtendAction'
 p4165
-aS'dumb = 0.338303'
-p4166
-aS'badS = False'
+a(lp4166
+S'actionGroup = None'
 p4167
-aS'veteran = False'
+aaS'RetractAction'
 p4168
-aS'tour = False'
-p4169
-aS'state = Available'
+a(lp4169
+S'actionGroup = None'
 p4170
-aS'inactive = False'
+aaaS'UPGRADESAPPLIED'
 p4171
-aS'inactiveTimeEnd = 0'
-p4172
-aS'gExperienced = 0'
+a(lp4172
+aaS'MODULE'
 p4173
-aS'outDueToG = False'
-p4174
-aS'ToD = 190687.58767700195'
+a(lp4174
+S'name = ModuleDataTransmitter'
 p4175
-aS'idx = -1'
+aS'isEnabled = True'
 p4176
-aS'extraXP = 0'
+aS'xmitIncomplete = False'
 p4177
-aS'CAREER_LOG'
+aS'stagingEnabled = True'
 p4178
-a(lp4179
-S'flight = 0'
+aS'canComm = False'
+p4179
+aS'EVENTS'
 p4180
-aaS'FLIGHT_LOG'
-p4181
-a(lp4182
-S'flight = 0'
-p4183
-aaa(lp4184
-S'name = Wilina Kerman'
-p4185
-aS'gender = Female'
+a(lp4181
+aS'ACTIONS'
+p4182
+a(lp4183
+S'StartTransmissionAction'
+p4184
+a(lp4185
+S'actionGroup = None'
 p4186
-aS'type = Applicant'
+aaaS'UPGRADESAPPLIED'
 p4187
-aS'trait = Scientist'
-p4188
-aS'brave = 0.563965857'
+a(lp4188
+aaaS'ACTIONGROUPS'
 p4189
-aS'dumb = 0.748770356'
-p4190
-aS'badS = False'
+a(lp4190
+S'Stage = False, 1297051.31941191'
 p4191
-aS'veteran = False'
+aS'Gear = False, 0'
 p4192
-aS'tour = False'
+aS'Light = False, 0'
 p4193
-aS'state = Available'
+aS'RCS = False, 0'
 p4194
-aS'inactive = False'
+aS'SAS = False, 1296664.07824002'
 p4195
-aS'inactiveTimeEnd = 0'
+aS'Brakes = False, 0'
 p4196
-aS'gExperienced = 0'
+aS'Abort = False, 0'
 p4197
-aS'outDueToG = False'
+aS'Custom01 = False, 0'
 p4198
-aS'ToD = 114634.56643676758'
+aS'Custom02 = False, 0'
 p4199
-aS'idx = -1'
+aS'Custom03 = False, 0'
 p4200
-aS'extraXP = 0'
+aS'Custom04 = False, 0'
 p4201
-aS'CAREER_LOG'
+aS'Custom05 = False, 0'
 p4202
-a(lp4203
-S'flight = 0'
+aS'Custom06 = False, 0'
+p4203
+aS'Custom07 = False, 0'
 p4204
-aaS'FLIGHT_LOG'
+aS'Custom08 = False, 0'
 p4205
-a(lp4206
-S'flight = 0'
+aS'Custom09 = False, 0'
+p4206
+aS'Custom10 = False, 0'
 p4207
-aaa(lp4208
-S'name = Eldorf Kerman'
-p4209
-aS'gender = Male'
+aaS'DISCOVERY'
+p4208
+a(lp4209
+S'state = -1'
 p4210
-aS'type = Applicant'
+aS'lastObservedTime = 0'
 p4211
-aS'trait = Engineer'
+aS'lifetime = Infinity'
 p4212
-aS'brave = 0.458299905'
+aS'refTime = Infinity'
 p4213
-aS'dumb = 0.230808169'
+aS'size = 2'
 p4214
-aS'badS = False'
+aaS'FLIGHTPLAN'
 p4215
-aS'veteran = False'
-p4216
-aS'tour = False'
+a(lp4216
+aS'CTRLSTATE'
 p4217
-aS'state = Available'
-p4218
-aS'inactive = False'
+a(lp4218
+S'pitch = 0'
 p4219
-aS'inactiveTimeEnd = 0'
+aS'yaw = 0'
 p4220
-aS'gExperienced = 0'
+aS'roll = 0'
 p4221
-aS'outDueToG = False'
+aS'trimPitch = 0'
 p4222
-aS'ToD = 114240.52117919922'
+aS'trimYaw = 0'
 p4223
-aS'idx = -1'
+aS'trimRoll = 0'
 p4224
-aS'extraXP = 0'
+aS'mainThrottle = 0'
 p4225
-aS'CAREER_LOG'
+aaS'VESSELMODULES'
 p4226
 a(lp4227
-S'flight = 0'
+S'FlightIntegrator'
 p4228
-aaS'FLIGHT_LOG'
-p4229
-a(lp4230
-S'flight = 0'
-p4231
-aaa(lp4232
-S'name = Lennard Kerman'
+a(lp4229
+aS'CommNetVessel'
+p4230
+a(lp4231
+S'controlState = ProbeFull'
+p4232
+aS'canComm = True'
 p4233
-aS'gender = Male'
-p4234
-aS'type = Unowned'
+aaaa(lp4234
+S'pid = bc4d0281a5524c979211d6aee96f07a3'
 p4235
-aS'trait = Scientist'
+aS'name = Adnan mk1 Debris'
 p4236
-aS'brave = 0.717869163'
+aS'type = Debris'
 p4237
-aS'dumb = 0.260171622'
+aS'sit = ORBITING'
 p4238
-aS'badS = False'
+aS'landed = False'
 p4239
-aS'veteran = False'
+aS'landedAt ='
 p4240
-aS'tour = False'
+aS'splashed = False'
 p4241
-aS'state = Assigned'
+aS'met = 24.756171892629936'
 p4242
-aS'inactive = False'
+aS'lct = 1297051.319411909'
 p4243
-aS'inactiveTimeEnd = 0'
+aS'lastUT = 1297076.0755838016'
 p4244
-aS'gExperienced = 0'
+aS'root = 0'
 p4245
-aS'outDueToG = False'
+aS'lat = 24.477318593146968'
 p4246
-aS'ToD = 0'
+aS'lon = 113.56321080705193'
 p4247
-aS'idx = -1'
+aS'alt = 32223.653144240845'
 p4248
-aS'extraXP = 0'
+aS'hgt = -1'
 p4249
-aS'CAREER_LOG'
+aS'nrm = 0.298728645,-0.428110212,-0.852926016'
 p4250
-a(lp4251
-S'flight = 0'
+aS'rot = 0.583753943,-0.615694463,0.529039741,-0.0163888875'
+p4251
+aS'CoM = -4.0531072E-06,-3.75272298,9.53672782E-07'
 p4252
-aaS'FLIGHT_LOG'
+aS'stg = 1'
 p4253
-a(lp4254
-S'flight = 0'
+aS'prst = False'
+p4254
+aS'ref = 0'
 p4255
-aaa(lp4256
-S'name = Linbie Kerman'
+aS'ctrl = False'
+p4256
+aS'cPch = 0'
 p4257
-aS'gender = Female'
+aS'cHdg = 0'
 p4258
-aS'type = Applicant'
+aS'cMod = -1'
 p4259
-aS'trait = Engineer'
+aS'ORBIT'
 p4260
-aS'brave = 0.107311308'
-p4261
-aS'dumb = 0.197134972'
+a(lp4261
+S'SMA = 275829.313487434'
 p4262
-aS'badS = False'
+aS'ECC = 0.18021243551026256'
 p4263
-aS'veteran = False'
+aS'INC = 31.094714414345248'
 p4264
-aS'tour = False'
+aS'LPE = 160.77252432990198'
 p4265
-aS'state = Available'
+aS'LAN = 332.28447499421645'
 p4266
-aS'inactive = False'
+aS'MNA = -0.4342653558215066'
 p4267
-aS'inactiveTimeEnd = 0'
+aS'EPH = 1297064.7198806715'
 p4268
-aS'gExperienced = 0'
+aS'REF = 2'
 p4269
-aS'outDueToG = False'
+aaS'PART'
 p4270
-aS'ToD = 259283.05810791015'
-p4271
-aS'idx = -1'
+a(lp4271
+S'name = stackDecoupler'
 p4272
-aS'extraXP = 0'
+aS'cid = 4294418496'
 p4273
-aS'CAREER_LOG'
+aS'uid = 3089723239'
 p4274
-a(lp4275
-S'flight = 0'
+aS'mid = 2644963496'
+p4275
+aS'launchID = 29'
 p4276
-aaS'FLIGHT_LOG'
+aS'parent = 0'
 p4277
-a(lp4278
-S'flight = 0'
+aS'position = 0,0,0'
+p4278
+aS'rotation = 0,0,0,1'
 p4279
-aaa(lp4280
-S'name = Kerrigh Kerman'
+aS'mirror = 1,1,1'
+p4280
+aS'symMethod = Radial'
 p4281
-aS'gender = Male'
+aS'istg = 0'
 p4282
-aS'type = Applicant'
+aS'resPri = 0'
 p4283
-aS'trait = Engineer'
+aS'dstg = 1'
 p4284
-aS'brave = 0.657788515'
+aS'sqor = 0'
 p4285
-aS'dumb = 0.263270855'
+aS'sepI = 0'
 p4286
-aS'badS = False'
+aS'sidx = 0'
 p4287
-aS'veteran = False'
+aS'attm = 0'
 p4288
-aS'tour = False'
+aS'srfN = , -1'
 p4289
-aS'state = Available'
+aS'attN = bottom, 1'
 p4290
-aS'inactive = False'
+aS'attN = top, -1'
 p4291
-aS'inactiveTimeEnd = 0'
+aS'mass = 0.0500000007'
 p4292
-aS'gExperienced = 0'
+aS'shielded = False'
 p4293
-aS'outDueToG = False'
+aS'temp = 265.49994894014384'
 p4294
-aS'ToD = 184876.68832641601'
+aS'tempExt = 265.11646916524694'
 p4295
-aS'idx = -1'
+aS'tempExtUnexp = 4'
 p4296
-aS'extraXP = 0'
+aS'expt = 0.5'
 p4297
-aS'CAREER_LOG'
+aS'state = 1'
 p4298
-a(lp4299
-S'flight = 0'
+aS'attached = False'
+p4299
+aS'autostrutMode = Off'
 p4300
-aaS'FLIGHT_LOG'
+aS'rigidAttachment = False'
 p4301
-a(lp4302
-S'flight = 0'
+aS'flag = Squad/Flags/rings'
+p4302
+aS'rTrf = stackDecoupler'
 p4303
-aaa(lp4304
-S'name = Lodzon Kerman'
+aS'modCost = 0'
+p4304
+aS'EVENTS'
 p4305
-aS'gender = Male'
-p4306
-aS'type = Applicant'
+a(lp4306
+aS'ACTIONS'
 p4307
-aS'trait = Pilot'
-p4308
-aS'brave = 0.510472119'
+a(lp4308
+aS'PARTDATA'
 p4309
-aS'dumb = 0.201688051'
-p4310
-aS'badS = False'
+a(lp4310
+aS'MODULE'
 p4311
-aS'veteran = False'
-p4312
-aS'tour = False'
+a(lp4312
+S'name = ModuleDecouple'
 p4313
-aS'state = Available'
+aS'isEnabled = True'
 p4314
-aS'inactive = False'
+aS'ejectionForcePercent = 100'
 p4315
-aS'inactiveTimeEnd = 0'
+aS'isDecoupled = True'
 p4316
-aS'gExperienced = 0'
+aS'stagingEnabled = True'
 p4317
-aS'outDueToG = False'
+aS'EVENTS'
 p4318
-aS'ToD = 218576.65246826172'
-p4319
-aS'idx = -1'
+a(lp4319
+aS'ACTIONS'
 p4320
-aS'extraXP = 0'
-p4321
-aS'CAREER_LOG'
+a(lp4321
+S'DecoupleAction'
 p4322
 a(lp4323
-S'flight = 0'
+S'actionGroup = None'
 p4324
-aaS'FLIGHT_LOG'
+aaaS'UPGRADESAPPLIED'
 p4325
 a(lp4326
-S'flight = 0'
+aaS'MODULE'
 p4327
-aaa(lp4328
-S'name = Melrick Kerman'
+a(lp4328
+S'name = ModuleToggleCrossfeed'
 p4329
-aS'gender = Male'
+aS'isEnabled = True'
 p4330
-aS'type = Applicant'
+aS'crossfeedStatus = False'
 p4331
-aS'trait = Pilot'
+aS'stagingEnabled = True'
 p4332
-aS'brave = 0.98681885'
+aS'EVENTS'
 p4333
-aS'dumb = 0.134864002'
-p4334
-aS'badS = False'
+a(lp4334
+aS'ACTIONS'
 p4335
-aS'veteran = False'
-p4336
-aS'tour = False'
+a(lp4336
+S'ToggleAction'
 p4337
-aS'state = Available'
-p4338
-aS'inactive = False'
+a(lp4338
+S'actionGroup = None'
 p4339
-aS'inactiveTimeEnd = 0'
+aaS'EnableAction'
 p4340
-aS'gExperienced = 0'
-p4341
-aS'outDueToG = False'
+a(lp4341
+S'actionGroup = None'
 p4342
-aS'ToD = 165682.57058959961'
+aaS'DisableAction'
 p4343
-aS'idx = -1'
-p4344
-aS'extraXP = 0'
+a(lp4344
+S'actionGroup = None'
 p4345
-aS'CAREER_LOG'
+aaaS'UPGRADESAPPLIED'
 p4346
 a(lp4347
-S'flight = 0'
+aaS'MODULE'
 p4348
-aaS'FLIGHT_LOG'
-p4349
-a(lp4350
-S'flight = 0'
+a(lp4349
+S'name = ModuleTestSubject'
+p4350
+aS'isEnabled = True'
 p4351
-aaa(lp4352
-S'name = Maulina Kerman'
+aS'stagingEnabled = True'
+p4352
+aS'EVENTS'
 p4353
-aS'gender = Female'
-p4354
-aS'type = Applicant'
+a(lp4354
+aS'ACTIONS'
 p4355
-aS'trait = Pilot'
-p4356
-aS'brave = 0.65296489'
+a(lp4356
+aS'UPGRADESAPPLIED'
 p4357
-aS'dumb = 0.380639941'
-p4358
-aS'badS = False'
+a(lp4358
+aaaS'PART'
 p4359
-aS'veteran = False'
-p4360
-aS'tour = False'
+a(lp4360
+S'name = fuelTankSmall'
 p4361
-aS'state = Available'
+aS'cid = 4294412040'
 p4362
-aS'inactive = False'
+aS'uid = 3730543917'
 p4363
-aS'inactiveTimeEnd = 0'
+aS'mid = 2644963496'
 p4364
-aS'gExperienced = 0'
+aS'launchID = 29'
 p4365
-aS'outDueToG = False'
+aS'parent = 0'
 p4366
-aS'ToD = 87007.188356933591'
+aS'position = 0,-0.68824481964111328,0'
 p4367
-aS'idx = -1'
+aS'rotation = 0,0,0,1'
 p4368
-aS'extraXP = 0'
+aS'mirror = 1,1,1'
 p4369
-aS'CAREER_LOG'
+aS'symMethod = Radial'
 p4370
-a(lp4371
-S'flight = 0'
+aS'istg = 0'
+p4371
+aS'resPri = 0'
 p4372
-aaS'FLIGHT_LOG'
+aS'dstg = 2'
 p4373
-a(lp4374
-S'flight = 0'
+aS'sqor = -1'
+p4374
+aS'sepI = 0'
 p4375
-aaa(lp4376
-S'name = Asdia Kerman'
+aS'sidx = -1'
+p4376
+aS'attm = 0'
 p4377
-aS'gender = Female'
+aS'srfN = srfAttach, -1'
 p4378
-aS'type = Applicant'
+aS'attN = top, 0'
 p4379
-aS'trait = Pilot'
+aS'attN = bottom, 2'
 p4380
-aS'brave = 0.332696497'
+aS'mass = 0.125'
 p4381
-aS'dumb = 0.719084978'
+aS'shielded = False'
 p4382
-aS'badS = False'
+aS'temp = 265.66577743548731'
 p4383
-aS'veteran = False'
+aS'tempExt = 265.36693001686058'
 p4384
-aS'tour = False'
+aS'tempExtUnexp = 4'
 p4385
-aS'state = Available'
+aS'expt = 0.5'
 p4386
-aS'inactive = False'
+aS'state = 1'
 p4387
-aS'inactiveTimeEnd = 0'
+aS'attached = True'
 p4388
-aS'gExperienced = 0'
+aS'autostrutMode = Off'
 p4389
-aS'outDueToG = False'
+aS'rigidAttachment = False'
 p4390
-aS'ToD = 209632.92306762695'
+aS'flag = Squad/Flags/rings'
 p4391
-aS'idx = -1'
+aS'rTrf = fuelTankSmall'
 p4392
-aS'extraXP = 0'
+aS'modCost = 0'
 p4393
-aS'CAREER_LOG'
+aS'EVENTS'
 p4394
 a(lp4395
-S'flight = 0'
+aS'ACTIONS'
 p4396
-aaS'FLIGHT_LOG'
-p4397
-a(lp4398
-S'flight = 0'
-p4399
-aaa(lp4400
-S'name = Melie Kerman'
-p4401
-aS'gender = Female'
+a(lp4397
+aS'PARTDATA'
+p4398
+a(lp4399
+aS'RESOURCE'
+p4400
+a(lp4401
+S'name = LiquidFuel'
 p4402
-aS'type = Applicant'
+aS'amount = 0'
 p4403
-aS'trait = Engineer'
+aS'maxAmount = 90'
 p4404
-aS'brave = 0.549360514'
+aS'flowState = True'
 p4405
-aS'dumb = 0.804684937'
+aS'isTweakable = True'
 p4406
-aS'badS = False'
+aS'hideFlow = False'
 p4407
-aS'veteran = False'
+aS'isVisible = True'
 p4408
-aS'tour = False'
+aS'flowMode = Both'
 p4409
-aS'state = Available'
+aaS'RESOURCE'
 p4410
-aS'inactive = False'
-p4411
-aS'inactiveTimeEnd = 0'
+a(lp4411
+S'name = Oxidizer'
 p4412
-aS'gExperienced = 0'
+aS'amount = 0'
 p4413
-aS'outDueToG = False'
+aS'maxAmount = 110'
 p4414
-aS'ToD = 104527.7724633789'
+aS'flowState = True'
 p4415
-aS'idx = -1'
+aS'isTweakable = True'
 p4416
-aS'extraXP = 0'
+aS'hideFlow = False'
 p4417
-aS'CAREER_LOG'
+aS'isVisible = True'
 p4418
-a(lp4419
-S'flight = 0'
+aS'flowMode = Both'
+p4419
+aaaS'PART'
 p4420
-aaS'FLIGHT_LOG'
-p4421
-a(lp4422
-S'flight = 0'
+a(lp4421
+S'name = fuelTankSmall'
+p4422
+aS'cid = 4294075336'
 p4423
-aaa(lp4424
-S'name = Tedbus Kerman'
+aS'uid = 1726422717'
+p4424
+aS'mid = 2644963496'
 p4425
-aS'gender = Male'
+aS'launchID = 29'
 p4426
-aS'type = Applicant'
+aS'parent = 1'
 p4427
-aS'trait = Pilot'
+aS'position = 0,-1.7987451553344727,0'
 p4428
-aS'brave = 0.544576406'
+aS'rotation = 0,0,0,1'
 p4429
-aS'dumb = 0.463964611'
+aS'mirror = 1,1,1'
 p4430
-aS'badS = False'
+aS'symMethod = Radial'
 p4431
-aS'veteran = False'
+aS'istg = 0'
 p4432
-aS'tour = False'
+aS'resPri = 0'
 p4433
-aS'state = Available'
+aS'dstg = 2'
 p4434
-aS'inactive = False'
+aS'sqor = -1'
 p4435
-aS'inactiveTimeEnd = 0'
+aS'sepI = 0'
 p4436
-aS'gExperienced = 0'
+aS'sidx = -1'
 p4437
-aS'outDueToG = False'
+aS'attm = 0'
 p4438
-aS'ToD = 139487.27449279785'
+aS'srfN = srfAttach, -1'
 p4439
-aS'idx = -1'
+aS'attN = top, 1'
 p4440
-aS'extraXP = 0'
+aS'attN = bottom, 3'
 p4441
-aS'CAREER_LOG'
+aS'mass = 0.125'
 p4442
-a(lp4443
-S'flight = 0'
+aS'shielded = False'
+p4443
+aS'temp = 266.24470262902702'
 p4444
-aaS'FLIGHT_LOG'
+aS'tempExt = 265.95515959163976'
 p4445
-a(lp4446
-S'flight = 0'
+aS'tempExtUnexp = 4'
+p4446
+aS'expt = 0.5'
 p4447
-aaa(lp4448
-S'name = Nancy Kerman'
+aS'state = 1'
+p4448
+aS'attached = True'
 p4449
-aS'gender = Female'
+aS'autostrutMode = Off'
 p4450
-aS'type = Applicant'
+aS'rigidAttachment = False'
 p4451
-aS'trait = Pilot'
+aS'flag = Squad/Flags/rings'
 p4452
-aS'brave = 0.291846871'
+aS'rTrf = fuelTankSmall'
 p4453
-aS'dumb = 0.786935151'
+aS'modCost = 0'
 p4454
-aS'badS = True'
+aS'EVENTS'
 p4455
-aS'veteran = False'
-p4456
-aS'tour = False'
+a(lp4456
+aS'ACTIONS'
 p4457
-aS'state = Available'
-p4458
-aS'inactive = False'
+a(lp4458
+aS'PARTDATA'
 p4459
-aS'inactiveTimeEnd = 0'
-p4460
-aS'gExperienced = 0'
+a(lp4460
+aS'RESOURCE'
 p4461
-aS'outDueToG = False'
-p4462
-aS'ToD = 92549.900759277341'
+a(lp4462
+S'name = LiquidFuel'
 p4463
-aS'idx = -1'
+aS'amount = 0'
 p4464
-aS'extraXP = 0'
+aS'maxAmount = 90'
 p4465
-aS'CAREER_LOG'
+aS'flowState = True'
 p4466
-a(lp4467
-S'flight = 0'
+aS'isTweakable = True'
+p4467
+aS'hideFlow = False'
 p4468
-aaS'FLIGHT_LOG'
+aS'isVisible = True'
 p4469
-a(lp4470
-S'flight = 0'
+aS'flowMode = Both'
+p4470
+aaS'RESOURCE'
 p4471
-aaa(lp4472
-S'name = Ribming Kerman'
+a(lp4472
+S'name = Oxidizer'
 p4473
-aS'gender = Male'
+aS'amount = 0'
 p4474
-aS'type = Applicant'
+aS'maxAmount = 110'
 p4475
-aS'trait = Scientist'
+aS'flowState = True'
 p4476
-aS'brave = 0.592381537'
+aS'isTweakable = True'
 p4477
-aS'dumb = 0.796283901'
+aS'hideFlow = False'
 p4478
-aS'badS = False'
+aS'isVisible = True'
 p4479
-aS'veteran = False'
+aS'flowMode = Both'
 p4480
-aS'tour = False'
+aaaS'PART'
 p4481
-aS'state = Available'
-p4482
-aS'inactive = False'
+a(lp4482
+S'name = fuelTankSmall'
 p4483
-aS'inactiveTimeEnd = 0'
+aS'cid = 4294075232'
 p4484
-aS'gExperienced = 0'
+aS'uid = 3037943394'
 p4485
-aS'outDueToG = False'
+aS'mid = 2644963496'
 p4486
-aS'ToD = 233308.78290039062'
+aS'launchID = 29'
 p4487
-aS'idx = -1'
+aS'parent = 2'
 p4488
-aS'extraXP = 0'
+aS'position = 0,-2.909245491027832,0'
 p4489
-aS'CAREER_LOG'
+aS'rotation = 0,0,0,1'
 p4490
-a(lp4491
-S'flight = 0'
+aS'mirror = 1,1,1'
+p4491
+aS'symMethod = Radial'
 p4492
-aaS'FLIGHT_LOG'
+aS'istg = 0'
 p4493
-a(lp4494
-S'flight = 0'
+aS'resPri = 0'
+p4494
+aS'dstg = 2'
 p4495
-aaa(lp4496
-S'name = Lemuki Kerman'
+aS'sqor = -1'
+p4496
+aS'sepI = 0'
 p4497
-aS'gender = Male'
+aS'sidx = -1'
 p4498
-aS'type = Applicant'
+aS'attm = 0'
 p4499
-aS'trait = Pilot'
+aS'srfN = srfAttach, -1'
 p4500
-aS'brave = 0.869743049'
+aS'attN = top, 2'
 p4501
-aS'dumb = 0.657572508'
+aS'attN = bottom, 4'
 p4502
-aS'badS = False'
+aS'mass = 0.125'
 p4503
-aS'veteran = False'
+aS'shielded = False'
 p4504
-aS'tour = False'
+aS'temp = 267.14976139845407'
 p4505
-aS'state = Available'
+aS'tempExt = 267.00264856777665'
 p4506
-aS'inactive = False'
+aS'tempExtUnexp = 4'
 p4507
-aS'inactiveTimeEnd = 0'
+aS'expt = 0.5'
 p4508
-aS'gExperienced = 0'
+aS'state = 1'
 p4509
-aS'outDueToG = False'
+aS'attached = True'
 p4510
-aS'ToD = 172002.08505493164'
+aS'autostrutMode = Off'
 p4511
-aS'idx = -1'
+aS'rigidAttachment = False'
 p4512
-aS'extraXP = 0'
+aS'flag = Squad/Flags/rings'
 p4513
-aS'CAREER_LOG'
+aS'rTrf = fuelTankSmall'
 p4514
-a(lp4515
-S'flight = 0'
+aS'modCost = 0'
+p4515
+aS'EVENTS'
 p4516
-aaS'FLIGHT_LOG'
-p4517
-a(lp4518
-S'flight = 0'
-p4519
-aaa(lp4520
-S'name = Bartdous Kerman'
-p4521
-aS'gender = Male'
+a(lp4517
+aS'ACTIONS'
+p4518
+a(lp4519
+aS'PARTDATA'
+p4520
+a(lp4521
+aS'RESOURCE'
 p4522
-aS'type = Applicant'
-p4523
-aS'trait = Scientist'
+a(lp4523
+S'name = LiquidFuel'
 p4524
-aS'brave = 0.575524032'
+aS'amount = 0'
 p4525
-aS'dumb = 0.674983978'
+aS'maxAmount = 90'
 p4526
-aS'badS = False'
+aS'flowState = True'
 p4527
-aS'veteran = False'
+aS'isTweakable = True'
 p4528
-aS'tour = False'
+aS'hideFlow = False'
 p4529
-aS'state = Available'
+aS'isVisible = True'
 p4530
-aS'inactive = False'
+aS'flowMode = Both'
 p4531
-aS'inactiveTimeEnd = 0'
+aaS'RESOURCE'
 p4532
-aS'gExperienced = 0'
-p4533
-aS'outDueToG = False'
+a(lp4533
+S'name = Oxidizer'
 p4534
-aS'ToD = 156896.11734252929'
+aS'amount = 0'
 p4535
-aS'idx = -1'
+aS'maxAmount = 110'
 p4536
-aS'extraXP = 0'
+aS'flowState = True'
 p4537
-aS'CAREER_LOG'
+aS'isTweakable = True'
 p4538
-a(lp4539
-S'flight = 0'
+aS'hideFlow = False'
+p4539
+aS'isVisible = True'
 p4540
-aaS'FLIGHT_LOG'
+aS'flowMode = Both'
 p4541
-a(lp4542
-S'flight = 0'
-p4543
-aaa(lp4544
-S'name = Dogard Kerman'
+aaaS'PART'
+p4542
+a(lp4543
+S'name = liquidEngine2'
+p4544
+aS'cid = 4294413798'
 p4545
-aS'gender = Male'
+aS'uid = 4140186867'
 p4546
-aS'type = Unowned'
+aS'mid = 2644963496'
 p4547
-aS'trait = Engineer'
+aS'launchID = 29'
 p4548
-aS'brave = 0.940008223'
+aS'parent = 3'
 p4549
-aS'dumb = 0.765069008'
+aS'position = 0,-4.3663215637207031,0'
 p4550
-aS'badS = False'
+aS'rotation = 0,0,0,1'
 p4551
-aS'veteran = False'
+aS'mirror = 1,1,1'
 p4552
-aS'tour = False'
+aS'symMethod = Radial'
 p4553
-aS'state = Assigned'
+aS'istg = 1'
 p4554
-aS'inactive = False'
+aS'resPri = 0'
 p4555
-aS'inactiveTimeEnd = 0'
+aS'dstg = 2'
 p4556
-aS'gExperienced = 0'
+aS'sqor = 1'
 p4557
-aS'outDueToG = False'
+aS'sepI = 0'
 p4558
-aS'ToD = 0'
+aS'sidx = 0'
 p4559
-aS'idx = -1'
+aS'attm = 0'
 p4560
-aS'extraXP = 0'
+aS'srfN = , -1'
 p4561
-aS'CAREER_LOG'
+aS'attN = top, 3'
 p4562
-a(lp4563
-S'flight = 0'
+aS'attN = bottom, -1'
+p4563
+aS'mass = 1.5'
 p4564
-aaS'FLIGHT_LOG'
+aS'shielded = False'
 p4565
-a(lp4566
-S'flight = 0'
+aS'temp = 269.35255553893325'
+p4566
+aS'tempExt = 268.58293971236645'
 p4567
-aaa(lp4568
-S'name = Geoflong Kerman'
+aS'tempExtUnexp = 4'
+p4568
+aS'expt = 0.5'
 p4569
-aS'gender = Male'
+aS'state = 1'
 p4570
-aS'type = Unowned'
+aS'attached = True'
 p4571
-aS'trait = Pilot'
+aS'autostrutMode = Off'
 p4572
-aS'brave = 0.31639272'
+aS'rigidAttachment = False'
 p4573
-aS'dumb = 0.0897890553'
+aS'flag = Squad/Flags/rings'
 p4574
-aS'badS = False'
+aS'rTrf = liquidEngine2'
 p4575
-aS'veteran = False'
+aS'modCost = 0'
 p4576
-aS'tour = False'
+aS'EVENTS'
 p4577
-aS'state = Assigned'
-p4578
-aS'inactive = False'
+a(lp4578
+aS'ACTIONS'
 p4579
-aS'inactiveTimeEnd = 0'
-p4580
-aS'gExperienced = 0'
+a(lp4580
+aS'PARTDATA'
 p4581
-aS'outDueToG = False'
-p4582
-aS'ToD = 0'
+a(lp4582
+aS'MODULE'
 p4583
-aS'idx = -1'
-p4584
-aS'extraXP = 0'
+a(lp4584
+S'name = ModuleEngines'
 p4585
-aS'CAREER_LOG'
+aS'isEnabled = True'
 p4586
-a(lp4587
-S'flight = 0'
+aS'staged = True'
+p4587
+aS'flameout = True'
 p4588
-aaS'FLIGHT_LOG'
+aS'EngineIgnited = True'
 p4589
-a(lp4590
-S'flight = 0'
+aS'engineShutdown = False'
+p4590
+aS'currentThrottle = 0'
 p4591
-aaa(lp4592
-S'name = Johnsby Kerman'
+aS'thrustPercentage = 100'
+p4592
+aS'manuallyOverridden = False'
 p4593
-aS'gender = Male'
+aS'stagingEnabled = True'
 p4594
-aS'type = Unowned'
+aS'EVENTS'
 p4595
-aS'trait = Engineer'
-p4596
-aS'brave = 0.48747474'
+a(lp4596
+aS'ACTIONS'
 p4597
-aS'dumb = 0.0963192731'
-p4598
-aS'badS = True'
+a(lp4598
+S'OnAction'
 p4599
-aS'veteran = False'
-p4600
-aS'tour = False'
+a(lp4600
+S'actionGroup = None'
 p4601
-aS'state = Assigned'
+aaS'ShutdownAction'
 p4602
-aS'inactive = False'
-p4603
-aS'inactiveTimeEnd = 0'
+a(lp4603
+S'actionGroup = None'
 p4604
-aS'gExperienced = 0'
+aaS'ActivateAction'
 p4605
-aS'outDueToG = False'
-p4606
-aS'ToD = 0'
+a(lp4606
+S'actionGroup = None'
 p4607
-aS'idx = -1'
+aaaS'UPGRADESAPPLIED'
 p4608
-aS'extraXP = 0'
-p4609
-aS'CAREER_LOG'
+a(lp4609
+aaS'MODULE'
 p4610
 a(lp4611
-S'flight = 0'
+S'name = ModuleJettison'
 p4612
-aaS'FLIGHT_LOG'
+aS'isEnabled = True'
 p4613
-a(lp4614
-S'flight = 0'
+aS'isJettisoned = True'
+p4614
+aS'shroudHideOverride = False'
 p4615
-aaa(lp4616
-S'name = Jenrys Kerman'
+aS'stagingEnabled = True'
+p4616
+aS'EVENTS'
 p4617
-aS'gender = Female'
-p4618
-aS'type = Unowned'
+a(lp4618
+aS'ACTIONS'
 p4619
-aS'trait = Scientist'
-p4620
-aS'brave = 0.639935315'
+a(lp4620
+S'JettisonAction'
 p4621
-aS'dumb = 0.753726065'
-p4622
-aS'badS = False'
+a(lp4622
+S'actionGroup = None'
 p4623
-aS'veteran = False'
+aaaS'UPGRADESAPPLIED'
 p4624
-aS'tour = False'
-p4625
-aS'state = Assigned'
+a(lp4625
+aaS'MODULE'
 p4626
-aS'inactive = False'
-p4627
-aS'inactiveTimeEnd = 0'
+a(lp4627
+S'name = ModuleGimbal'
 p4628
-aS'gExperienced = 0'
+aS'isEnabled = True'
 p4629
-aS'outDueToG = False'
+aS'gimbalLock = False'
 p4630
-aS'ToD = 0'
+aS'gimbalLimiter = 100'
 p4631
-aS'idx = -1'
+aS'currentShowToggles = False'
 p4632
-aS'extraXP = 0'
+aS'enableYaw = True'
 p4633
-aS'CAREER_LOG'
+aS'enablePitch = True'
 p4634
-a(lp4635
-S'flight = 0'
+aS'enableRoll = True'
+p4635
+aS'gimbalActive = True'
 p4636
-aaS'FLIGHT_LOG'
+aS'stagingEnabled = True'
 p4637
-a(lp4638
-S'flight = 0'
-p4639
-aaa(lp4640
-S'name = Megicca Kerman'
-p4641
-aS'gender = Female'
+aS'EVENTS'
+p4638
+a(lp4639
+aS'ACTIONS'
+p4640
+a(lp4641
+S'ToggleAction'
 p4642
-aS'type = Unowned'
-p4643
-aS'trait = Engineer'
+a(lp4643
+S'actionGroup = None'
 p4644
-aS'brave = 0.132682905'
+aaS'LockAction'
 p4645
-aS'dumb = 0.939594388'
-p4646
-aS'badS = False'
+a(lp4646
+S'actionGroup = None'
 p4647
-aS'veteran = False'
+aaS'FreeAction'
 p4648
-aS'tour = False'
-p4649
-aS'state = Assigned'
+a(lp4649
+S'actionGroup = None'
 p4650
-aS'inactive = False'
+aaS'TogglePitchAction'
 p4651
-aS'inactiveTimeEnd = 0'
-p4652
-aS'gExperienced = 0'
+a(lp4652
+S'actionGroup = None'
 p4653
-aS'outDueToG = False'
+aaS'ToggleYawAction'
 p4654
-aS'ToD = 0'
-p4655
-aS'idx = -1'
+a(lp4655
+S'actionGroup = None'
 p4656
-aS'extraXP = 0'
+aaS'ToggleRollAction'
 p4657
-aS'CAREER_LOG'
-p4658
-a(lp4659
-S'flight = 0'
+a(lp4658
+S'actionGroup = None'
+p4659
+aaaS'UPGRADESAPPLIED'
 p4660
-aaS'FLIGHT_LOG'
-p4661
-a(lp4662
-S'flight = 0'
-p4663
-aaa(lp4664
-S'name = Bilgard Kerman'
+a(lp4661
+aaS'MODULE'
+p4662
+a(lp4663
+S'name = FXModuleAnimateThrottle'
+p4664
+aS'isEnabled = True'
 p4665
-aS'gender = Male'
+aS'animState = 0.0250588115'
 p4666
-aS'type = Unowned'
+aS'stagingEnabled = True'
 p4667
-aS'trait = Engineer'
+aS'EVENTS'
 p4668
-aS'brave = 0.16623579'
-p4669
-aS'dumb = 0.491034478'
+a(lp4669
+aS'ACTIONS'
 p4670
-aS'badS = True'
-p4671
-aS'veteran = False'
+a(lp4671
+aS'UPGRADESAPPLIED'
 p4672
-aS'tour = False'
-p4673
-aS'state = Assigned'
+a(lp4673
+aaS'MODULE'
 p4674
-aS'inactive = False'
-p4675
-aS'inactiveTimeEnd = 0'
+a(lp4675
+S'name = ModuleAlternator'
 p4676
-aS'gExperienced = 0'
+aS'isEnabled = True'
 p4677
-aS'outDueToG = False'
+aS'stagingEnabled = True'
 p4678
-aS'ToD = 0'
+aS'EVENTS'
 p4679
-aS'idx = -1'
-p4680
-aS'extraXP = 0'
+a(lp4680
+aS'ACTIONS'
 p4681
-aS'CAREER_LOG'
-p4682
-a(lp4683
-S'flight = 0'
-p4684
-aaS'FLIGHT_LOG'
+a(lp4682
+aS'UPGRADESAPPLIED'
+p4683
+a(lp4684
+aaS'MODULE'
 p4685
 a(lp4686
-S'flight = 0'
+S'name = ModuleSurfaceFX'
 p4687
-aaa(lp4688
-S'name = Dusen Kerman'
+aS'isEnabled = True'
+p4688
+aS'stagingEnabled = True'
 p4689
-aS'gender = Male'
+aS'EVENTS'
 p4690
-aS'type = Unowned'
-p4691
-aS'trait = Pilot'
+a(lp4691
+aS'ACTIONS'
 p4692
-aS'brave = 0.651257873'
-p4693
-aS'dumb = 0.759452522'
+a(lp4693
+aS'UPGRADESAPPLIED'
 p4694
-aS'badS = False'
-p4695
-aS'veteran = False'
+a(lp4695
+aaS'MODULE'
 p4696
-aS'tour = False'
-p4697
-aS'state = Assigned'
+a(lp4697
+S'name = ModuleTestSubject'
 p4698
-aS'inactive = False'
+aS'isEnabled = True'
 p4699
-aS'inactiveTimeEnd = 0'
+aS'stagingEnabled = True'
 p4700
-aS'gExperienced = 0'
+aS'EVENTS'
 p4701
-aS'outDueToG = False'
-p4702
-aS'ToD = 0'
+a(lp4702
+aS'ACTIONS'
 p4703
-aS'idx = -1'
-p4704
-aS'extraXP = 0'
+a(lp4704
+aS'UPGRADESAPPLIED'
 p4705
-aS'CAREER_LOG'
-p4706
-a(lp4707
-S'flight = 0'
-p4708
-aaS'FLIGHT_LOG'
+a(lp4706
+aaaS'ACTIONGROUPS'
+p4707
+a(lp4708
+S'Stage = True, 1006644.14087652'
 p4709
-a(lp4710
-S'flight = 0'
+aS'Gear = False, 0'
+p4710
+aS'Light = False, 0'
 p4711
-aaa(lp4712
-S'name = Tedmy Kerman'
+aS'RCS = False, 0'
+p4712
+aS'SAS = False, 1296664.07824002'
 p4713
-aS'gender = Male'
+aS'Brakes = False, 0'
 p4714
-aS'type = Unowned'
+aS'Abort = False, 0'
 p4715
-aS'trait = Pilot'
+aS'Custom01 = False, 0'
 p4716
-aS'brave = 0.227718994'
+aS'Custom02 = False, 0'
 p4717
-aS'dumb = 0.187529042'
+aS'Custom03 = False, 0'
 p4718
-aS'badS = False'
+aS'Custom04 = False, 0'
 p4719
-aS'veteran = False'
+aS'Custom05 = False, 0'
 p4720
-aS'tour = False'
+aS'Custom06 = False, 0'
 p4721
-aS'state = Assigned'
+aS'Custom07 = False, 0'
 p4722
-aS'inactive = False'
+aS'Custom08 = False, 0'
 p4723
-aS'inactiveTimeEnd = 0'
+aS'Custom09 = False, 0'
 p4724
-aS'gExperienced = 0'
+aS'Custom10 = False, 0'
 p4725
-aS'outDueToG = False'
+aaS'DISCOVERY'
 p4726
-aS'ToD = 0'
-p4727
-aS'idx = -1'
+a(lp4727
+S'state = -1'
 p4728
-aS'extraXP = 0'
+aS'lastObservedTime = 0'
 p4729
-aS'CAREER_LOG'
+aS'lifetime = Infinity'
 p4730
-a(lp4731
-S'flight = 0'
+aS'refTime = Infinity'
+p4731
+aS'size = 2'
 p4732
-aaS'FLIGHT_LOG'
+aaS'FLIGHTPLAN'
 p4733
 a(lp4734
-S'flight = 0'
+aS'CTRLSTATE'
 p4735
-aaa(lp4736
-S'name = Miemma Kerman'
+a(lp4736
+S'pitch = 0'
 p4737
-aS'gender = Female'
+aS'yaw = 0'
 p4738
-aS'type = Unowned'
+aS'roll = 0'
 p4739
-aS'trait = Engineer'
+aS'trimPitch = 0'
 p4740
-aS'brave = 0.146106035'
+aS'trimYaw = 0'
 p4741
-aS'dumb = 0.29276967'
+aS'trimRoll = 0'
 p4742
-aS'badS = False'
+aS'mainThrottle = 0'
 p4743
-aS'veteran = False'
+aaS'VESSELMODULES'
 p4744
-aS'tour = False'
-p4745
-aS'state = Assigned'
+a(lp4745
+S'FlightIntegrator'
 p4746
-aS'inactive = False'
-p4747
-aS'inactiveTimeEnd = 0'
-p4748
-aS'gExperienced = 0'
+a(lp4747
+aaa(lp4748
+S'pid = 21158475e76e41af9f8db1e94bd8a6f2'
 p4749
-aS'outDueToG = False'
+aS'name = Adnan mk1'
 p4750
-aS'ToD = 0'
+aS'type = Relay'
 p4751
-aS'idx = -1'
+aS'sit = ORBITING'
 p4752
-aS'extraXP = 0'
+aS'landed = False'
 p4753
-aS'CAREER_LOG'
+aS'landedAt ='
 p4754
-a(lp4755
-S'flight = 0'
+aS'splashed = False'
+p4755
+aS'met = 32168.989180062432'
 p4756
-aaS'FLIGHT_LOG'
+aS'lct = 1297757.8155844365'
 p4757
-a(lp4758
-S'flight = 0'
+aS'lastUT = 1329926.804764499'
+p4758
+aS'root = 0'
 p4759
-aaa(lp4760
-S'name = Camfal Kerman'
+aS'lat = -28.735096835610069'
+p4760
+aS'lon = 10.938356227864102'
 p4761
-aS'gender = Male'
+aS'alt = 9574.342186227208'
 p4762
-aS'type = Unowned'
+aS'hgt = 7025.88232'
 p4763
-aS'trait = Pilot'
+aS'nrm = 0.222423196,0.944033206,0.243575811'
 p4764
-aS'brave = 0.6506809'
+aS'rot = 0.926970184,0.333203018,-0.0334627554,0.16906333'
 p4765
-aS'dumb = 0.735927224'
+aS'CoM = -2.38418579E-07,-3.97739172,-0.0087993145'
 p4766
-aS'badS = False'
+aS'stg = 1'
 p4767
-aS'veteran = False'
+aS'prst = False'
 p4768
-aS'tour = False'
+aS'ref = 463295264'
 p4769
-aS'state = Assigned'
+aS'ctrl = True'
 p4770
-aS'inactive = False'
+aS'cPch ='
 p4771
-aS'inactiveTimeEnd = 0'
+aS'cHdg ='
 p4772
-aS'gExperienced = 0'
+aS'cMod = 0'
 p4773
-aS'outDueToG = False'
+aS'ORBIT'
 p4774
-aS'ToD = 0'
-p4775
-aS'idx = -1'
+a(lp4775
+S'SMA = 273530.74929626554'
 p4776
-aS'extraXP = 0'
+aS'ECC = 0.23467669016232648'
 p4777
-aS'CAREER_LOG'
+aS'INC = 30.555179385001249'
 p4778
-a(lp4779
-S'flight = 0'
+aS'LPE = 257.20478403237439'
+p4779
+aS'LAN = 197.5014517458427'
 p4780
-aaS'FLIGHT_LOG'
+aS'MNA = -0.064993064978838944'
 p4781
-a(lp4782
-S'flight = 0'
+aS'EPH = 1329926.804764499'
+p4782
+aS'REF = 2'
 p4783
-aaa(lp4784
-S'name = Philman Kerman'
-p4785
-aS'gender = Male'
+aaS'PART'
+p4784
+a(lp4785
+S'name = probeCoreSphere'
 p4786
-aS'type = Applicant'
+aS'cid = 4294437612'
 p4787
-aS'trait = Engineer'
+aS'uid = 463295264'
 p4788
-aS'brave = 0.900501013'
+aS'mid = 1805814277'
 p4789
-aS'dumb = 0.251500666'
+aS'launchID = 30'
 p4790
-aS'badS = True'
+aS'parent = 0'
 p4791
-aS'veteran = False'
+aS'position = 0,0,0'
 p4792
-aS'tour = False'
+aS'rotation = 0,0,0,1'
 p4793
-aS'state = Available'
+aS'mirror = 1,1,1'
 p4794
-aS'inactive = False'
+aS'symMethod = Radial'
 p4795
-aS'inactiveTimeEnd = 0'
+aS'istg = -1'
 p4796
-aS'gExperienced = 0'
+aS'resPri = 0'
 p4797
-aS'outDueToG = False'
+aS'dstg = 0'
 p4798
-aS'ToD = 1212682.8109920297'
+aS'sqor = -1'
 p4799
-aS'idx = -1'
+aS'sepI = -1'
 p4800
-aS'extraXP = 0'
+aS'sidx = -1'
 p4801
-aS'CAREER_LOG'
+aS'attm = 0'
 p4802
-a(lp4803
-S'flight = 0'
+aS'srfN = , -1'
+p4803
+aS'attN = bottom, 1'
 p4804
-aaS'FLIGHT_LOG'
+aS'mass = 0.0500000007'
 p4805
-a(lp4806
-S'flight = 0'
+aS'shielded = False'
+p4806
+aS'temp = 247.14551882552888'
 p4807
-aaa(lp4808
-S'name = Kathie Kerman'
+aS'tempExt = 247.41500520485536'
+p4808
+aS'tempExtUnexp = 4'
 p4809
-aS'gender = Female'
+aS'expt = 0'
 p4810
-aS'type = Applicant'
+aS'state = 0'
 p4811
-aS'trait = Scientist'
+aS'attached = True'
 p4812
-aS'brave = 0.40624851'
+aS'autostrutMode = Off'
 p4813
-aS'dumb = 0.492105275'
+aS'rigidAttachment = False'
 p4814
-aS'badS = False'
+aS'flag = Squad/Flags/rings'
 p4815
-aS'veteran = False'
+aS'rTrf = probeCoreSphere'
 p4816
-aS'tour = False'
+aS'modCost = 0'
 p4817
-aS'state = Available'
+aS'EVENTS'
 p4818
-aS'inactive = False'
-p4819
-aS'inactiveTimeEnd = 0'
+a(lp4819
+aS'ACTIONS'
 p4820
-aS'gExperienced = 0'
-p4821
-aS'outDueToG = False'
+a(lp4821
+aS'PARTDATA'
 p4822
-aS'ToD = 1230625.6820857797'
-p4823
-aS'idx = -1'
+a(lp4823
+aS'MODULE'
 p4824
-aS'extraXP = 0'
-p4825
-aS'CAREER_LOG'
+a(lp4825
+S'name = ModuleCommand'
 p4826
-a(lp4827
-S'flight = 0'
+aS'isEnabled = True'
+p4827
+aS'hibernation = False'
 p4828
-aaS'FLIGHT_LOG'
+aS'hibernateOnWarp = False'
 p4829
-a(lp4830
-S'flight = 0'
+aS'stagingEnabled = True'
+p4830
+aS'EVENTS'
 p4831
-aaa(lp4832
-S'name = Netrice Kerman'
+a(lp4832
+aS'ACTIONS'
 p4833
-aS'gender = Female'
-p4834
-aS'type = Applicant'
+a(lp4834
+S'HibernateToggle'
 p4835
-aS'trait = Engineer'
-p4836
-aS'brave = 0.812876165'
+a(lp4836
+S'actionGroup = None'
 p4837
-aS'dumb = 0.540073812'
+aaaS'UPGRADESAPPLIED'
 p4838
-aS'badS = True'
-p4839
-aS'veteran = False'
+a(lp4839
+aaS'MODULE'
 p4840
-aS'tour = False'
-p4841
-aS'state = Available'
+a(lp4841
+S'name = ModuleKerbNetAccess'
 p4842
-aS'inactive = False'
+aS'isEnabled = True'
 p4843
-aS'inactiveTimeEnd = 0'
+aS'stagingEnabled = True'
 p4844
-aS'gExperienced = 0'
+aS'EVENTS'
 p4845
-aS'outDueToG = False'
-p4846
-aS'ToD = 1162267.6979244028'
+a(lp4846
+aS'ACTIONS'
 p4847
-aS'idx = -1'
-p4848
-aS'extraXP = 0'
+a(lp4848
+S'OpenKerbNetAction'
 p4849
-aS'CAREER_LOG'
-p4850
-a(lp4851
-S'flight = 0'
+a(lp4850
+S'actionGroup = None'
+p4851
+aaaS'UPGRADESAPPLIED'
 p4852
-aaS'FLIGHT_LOG'
-p4853
-a(lp4854
-S'flight = 0'
-p4855
-aaa(lp4856
-S'name = Elielyn Kerman'
+a(lp4853
+aaS'MODULE'
+p4854
+a(lp4855
+S'name = ModuleDataTransmitter'
+p4856
+aS'isEnabled = True'
 p4857
-aS'gender = Female'
+aS'xmitIncomplete = False'
 p4858
-aS'type = Applicant'
+aS'stagingEnabled = True'
 p4859
-aS'trait = Engineer'
+aS'canComm = True'
 p4860
-aS'brave = 0.0712071434'
+aS'EVENTS'
 p4861
-aS'dumb = 0.263740242'
-p4862
-aS'badS = False'
+a(lp4862
+aS'ACTIONS'
 p4863
-aS'veteran = False'
-p4864
-aS'tour = False'
+a(lp4864
+S'StartTransmissionAction'
 p4865
-aS'state = Available'
-p4866
-aS'inactive = False'
+a(lp4866
+S'actionGroup = None'
 p4867
-aS'inactiveTimeEnd = 0'
+aS'active = False'
 p4868
-aS'gExperienced = 0'
+aaaS'UPGRADESAPPLIED'
 p4869
-aS'outDueToG = False'
-p4870
-aS'ToD = 1160181.1470210825'
+a(lp4870
+aaS'MODULE'
 p4871
-aS'idx = -1'
-p4872
-aS'extraXP = 0'
+a(lp4872
+S'name = ModuleTripLogger'
 p4873
-aS'CAREER_LOG'
+aS'isEnabled = True'
 p4874
-a(lp4875
-S'flight = 0'
+aS'stagingEnabled = True'
+p4875
+aS'EVENTS'
 p4876
-aaS'FLIGHT_LOG'
-p4877
-a(lp4878
+a(lp4877
+aS'ACTIONS'
+p4878
+a(lp4879
+aS'Log'
+p4880
+a(lp4881
 S'flight = 0'
-p4879
-aaa(lp4880
-S'name = Generod Kerman'
-p4881
-aS'gender = Male'
 p4882
-aS'type = Applicant'
+aS'0 = Flight,Kerbin'
 p4883
-aS'trait = Engineer'
+aS'0 = Suborbit,Kerbin'
 p4884
-aS'brave = 0.681955755'
+aS'0 = Orbit,Kerbin'
 p4885
-aS'dumb = 0.442393243'
+aS'0 = Flyby,Mun'
 p4886
-aS'badS = True'
+aS'0 = Escape,Mun'
 p4887
-aS'veteran = False'
+aS'0 = Orbit,Mun'
 p4888
-aS'tour = False'
+aaS'UPGRADESAPPLIED'
 p4889
-aS'state = Available'
-p4890
-aS'inactive = False'
+a(lp4890
+aaS'RESOURCE'
 p4891
-aS'inactiveTimeEnd = 0'
-p4892
-aS'gExperienced = 0'
+a(lp4892
+S'name = ElectricCharge'
 p4893
-aS'outDueToG = False'
+aS'amount = 10'
 p4894
-aS'ToD = 1253173.4794795786'
+aS'maxAmount = 10'
 p4895
-aS'idx = -1'
+aS'flowState = True'
 p4896
-aS'extraXP = 0'
+aS'isTweakable = True'
 p4897
-aS'CAREER_LOG'
+aS'hideFlow = False'
 p4898
-a(lp4899
-S'flight = 0'
+aS'isVisible = True'
+p4899
+aS'flowMode = Both'
 p4900
-aaS'FLIGHT_LOG'
+aaaS'PART'
 p4901
 a(lp4902
-S'flight = 0'
+S'name = sasModule'
 p4903
-aaa(lp4904
-S'name = Mobie Kerman'
+aS'cid = 4294435100'
+p4904
+aS'uid = 2797284691'
 p4905
-aS'gender = Female'
+aS'mid = 1805814277'
 p4906
-aS'type = Applicant'
+aS'launchID = 30'
 p4907
-aS'trait = Pilot'
+aS'parent = 0'
 p4908
-aS'brave = 0.0831862092'
+aS'position = 0,-0.42945766448974609,0'
 p4909
-aS'dumb = 0.502218366'
+aS'rotation = 0,0,0,1'
 p4910
-aS'badS = False'
+aS'mirror = 1,1,1'
 p4911
-aS'veteran = False'
+aS'symMethod = Radial'
 p4912
-aS'tour = False'
+aS'istg = -1'
 p4913
-aS'state = Available'
+aS'resPri = 0'
 p4914
-aS'inactive = False'
+aS'dstg = 0'
 p4915
-aS'inactiveTimeEnd = 0'
+aS'sqor = -1'
 p4916
-aS'gExperienced = 0'
+aS'sepI = -1'
 p4917
-aS'outDueToG = False'
+aS'sidx = -1'
 p4918
-aS'ToD = 1105947.4884212289'
+aS'attm = 0'
 p4919
-aS'idx = -1'
+aS'srfN = , -1'
 p4920
-aS'extraXP = 0'
+aS'attN = bottom, 2'
 p4921
-aS'CAREER_LOG'
+aS'attN = top, 0'
 p4922
-a(lp4923
-S'flight = 0'
+aS'mass = 0.0500000007'
+p4923
+aS'shielded = False'
 p4924
-aaS'FLIGHT_LOG'
+aS'temp = 247.19758848513592'
 p4925
-a(lp4926
-S'flight = 0'
+aS'tempExt = 247.01669850370726'
+p4926
+aS'tempExtUnexp = 4'
 p4927
-aaa(lp4928
-S'name = Dovis Kerman'
+aS'expt = 0.5'
+p4928
+aS'state = 0'
 p4929
-aS'gender = Male'
+aS'attached = True'
 p4930
-aS'type = Applicant'
+aS'autostrutMode = Off'
 p4931
-aS'trait = Engineer'
+aS'rigidAttachment = False'
 p4932
-aS'brave = 0.550025582'
+aS'flag = Squad/Flags/rings'
 p4933
-aS'dumb = 0.761609137'
+aS'rTrf = sasModule'
 p4934
-aS'badS = False'
+aS'modCost = 0'
 p4935
-aS'veteran = False'
+aS'EVENTS'
 p4936
-aS'tour = False'
-p4937
-aS'state = Available'
+a(lp4937
+aS'ACTIONS'
 p4938
-aS'inactive = False'
-p4939
-aS'inactiveTimeEnd = 0'
+a(lp4939
+aS'PARTDATA'
 p4940
-aS'gExperienced = 0'
-p4941
-aS'outDueToG = False'
+a(lp4941
+aS'MODULE'
 p4942
-aS'ToD = 1236768.7423885141'
-p4943
-aS'idx = -1'
+a(lp4943
+S'name = ModuleReactionWheel'
 p4944
-aS'extraXP = 0'
+aS'isEnabled = True'
 p4945
-aS'CAREER_LOG'
+aS'actuatorModeCycle = 0'
 p4946
-a(lp4947
-S'flight = 0'
+aS'authorityLimiter = 100'
+p4947
+aS'stateString = Idle'
 p4948
-aaS'FLIGHT_LOG'
+aS'stagingEnabled = True'
 p4949
-a(lp4950
-S'flight = 0'
+aS'WheelState = Active'
+p4950
+aS'EVENTS'
 p4951
-aaa(lp4952
-S'name = Hudden Kerman'
+a(lp4952
+aS'ACTIONS'
 p4953
-aS'gender = Male'
-p4954
-aS'type = Applicant'
+a(lp4954
+S'CycleAction'
 p4955
-aS'trait = Engineer'
-p4956
-aS'brave = 0.471255332'
+a(lp4956
+S'actionGroup = None'
 p4957
-aS'dumb = 0.80138135'
+aaS'Activate'
 p4958
-aS'badS = False'
-p4959
-aS'veteran = False'
+a(lp4959
+S'actionGroup = None'
 p4960
-aS'tour = False'
+aaS'Deactivate'
 p4961
-aS'state = Available'
-p4962
-aS'inactive = False'
+a(lp4962
+S'actionGroup = None'
 p4963
-aS'inactiveTimeEnd = 0'
+aaS'Toggle'
 p4964
-aS'gExperienced = 0'
-p4965
-aS'outDueToG = False'
+a(lp4965
+S'actionGroup = None'
 p4966
-aS'ToD = 1161130.8189571176'
+aaaS'UPGRADESAPPLIED'
 p4967
-aS'idx = -1'
-p4968
-aS'extraXP = 0'
+a(lp4968
+aaaS'PART'
 p4969
-aS'CAREER_LOG'
-p4970
-a(lp4971
-S'flight = 0'
+a(lp4970
+S'name = batteryBankMini'
+p4971
+aS'cid = 4294429360'
 p4972
-aaS'FLIGHT_LOG'
+aS'uid = 959307656'
 p4973
-a(lp4974
-S'flight = 0'
+aS'mid = 1805814277'
+p4974
+aS'launchID = 30'
 p4975
-aaa(lp4976
-S'name = Janlenna Kerman'
+aS'parent = 1'
+p4976
+aS'position = 0,-0.62056922912597656,0'
 p4977
-aS'gender = Female'
+aS'rotation = 0,0,0,1'
 p4978
-aS'type = Applicant'
+aS'mirror = 1,1,1'
 p4979
-aS'trait = Engineer'
+aS'symMethod = Radial'
 p4980
-aS'brave = 0.855737269'
+aS'istg = -1'
 p4981
-aS'dumb = 0.449677199'
+aS'resPri = 0'
 p4982
-aS'badS = False'
+aS'dstg = 0'
 p4983
-aS'veteran = False'
+aS'sqor = -1'
 p4984
-aS'tour = False'
+aS'sepI = -1'
 p4985
-aS'state = Available'
+aS'sidx = -1'
 p4986
-aS'inactive = False'
+aS'attm = 0'
 p4987
-aS'inactiveTimeEnd = 0'
+aS'srfN = srfAttach, -1'
 p4988
-aS'gExperienced = 0'
+aS'attN = top, 1'
 p4989
-aS'outDueToG = False'
+aS'attN = bottom, 3'
 p4990
-aS'ToD = 1238029.7325313364'
+aS'mass = 0.00999999978'
 p4991
-aS'idx = -1'
+aS'shielded = False'
 p4992
-aS'extraXP = 0'
+aS'temp = 247.66522846062009'
 p4993
-aS'CAREER_LOG'
+aS'tempExt = 247.74688544068775'
 p4994
-a(lp4995
-S'flight = 0'
+aS'tempExtUnexp = 4'
+p4995
+aS'expt = 0.5'
 p4996
-aaS'FLIGHT_LOG'
+aS'state = 0'
 p4997
-a(lp4998
-S'flight = 0'
+aS'attached = True'
+p4998
+aS'autostrutMode = Off'
 p4999
-aaa(lp5000
-S'name = Newlan Kerman'
+aS'rigidAttachment = False'
+p5000
+aS'flag = Squad/Flags/rings'
 p5001
-aS'gender = Male'
+aS'rTrf = batteryBankMini'
 p5002
-aS'type = Applicant'
+aS'modCost = 0'
 p5003
-aS'trait = Pilot'
+aS'EVENTS'
 p5004
-aS'brave = 0.757716954'
-p5005
-aS'dumb = 0.720900357'
+a(lp5005
+aS'ACTIONS'
 p5006
-aS'badS = False'
-p5007
-aS'veteran = False'
+a(lp5007
+aS'PARTDATA'
 p5008
-aS'tour = False'
-p5009
-aS'state = Available'
+a(lp5009
+aS'RESOURCE'
 p5010
-aS'inactive = False'
-p5011
-aS'inactiveTimeEnd = 0'
+a(lp5011
+S'name = ElectricCharge'
 p5012
-aS'gExperienced = 0'
+aS'amount = 200'
 p5013
-aS'outDueToG = False'
+aS'maxAmount = 200'
 p5014
-aS'ToD = 1186502.851122645'
+aS'flowState = True'
 p5015
-aS'idx = -1'
+aS'isTweakable = True'
 p5016
-aS'extraXP = 0'
+aS'hideFlow = False'
 p5017
-aS'CAREER_LOG'
+aS'isVisible = True'
 p5018
-a(lp5019
-S'flight = 0'
+aS'flowMode = Both'
+p5019
+aaaS'PART'
 p5020
-aaS'FLIGHT_LOG'
-p5021
-a(lp5022
-S'flight = 0'
+a(lp5021
+S'name = stackDecoupler'
+p5022
+aS'cid = 4294418496'
 p5023
-aaa(lp5024
-S'name = Arselle Kerman'
+aS'uid = 1025729325'
+p5024
+aS'mid = 1805814277'
 p5025
-aS'gender = Female'
+aS'launchID = 30'
 p5026
-aS'type = Applicant'
+aS'parent = 2'
 p5027
-aS'trait = Engineer'
+aS'position = 0,-0.78562164306640625,0'
 p5028
-aS'brave = 0.896895707'
+aS'rotation = 0,0,0,1'
 p5029
-aS'dumb = 0.289364368'
+aS'mirror = 1,1,1'
 p5030
-aS'badS = True'
+aS'symMethod = Radial'
 p5031
-aS'veteran = False'
+aS'istg = 0'
 p5032
-aS'tour = False'
+aS'resPri = 0'
 p5033
-aS'state = Available'
+aS'dstg = 1'
 p5034
-aS'inactive = False'
+aS'sqor = 0'
 p5035
-aS'inactiveTimeEnd = 0'
+aS'sepI = 0'
 p5036
-aS'gExperienced = 0'
+aS'sidx = 0'
 p5037
-aS'outDueToG = False'
+aS'attm = 0'
 p5038
-aS'ToD = 1113846.31502035'
+aS'srfN = , -1'
 p5039
-aS'idx = -1'
+aS'attN = bottom, 4'
 p5040
-aS'extraXP = 0'
+aS'attN = top, 2'
 p5041
-aS'CAREER_LOG'
+aS'mass = 0.0500000007'
 p5042
-a(lp5043
-S'flight = 0'
+aS'shielded = False'
+p5043
+aS'temp = 248.15429195339357'
 p5044
-aaS'FLIGHT_LOG'
+aS'tempExt = 248.27990439814153'
 p5045
-a(lp5046
-S'flight = 0'
+aS'tempExtUnexp = 4'
+p5046
+aS'expt = 0.5'
 p5047
-aaa(lp5048
-S'name = Sidton Kerman'
+aS'state = 0'
+p5048
+aS'attached = True'
 p5049
-aS'gender = Male'
+aS'autostrutMode = Off'
 p5050
-aS'type = Applicant'
+aS'rigidAttachment = False'
 p5051
-aS'trait = Pilot'
+aS'flag = Squad/Flags/rings'
 p5052
-aS'brave = 0.401890725'
+aS'rTrf = stackDecoupler'
 p5053
-aS'dumb = 0.609737575'
+aS'modCost = 0'
 p5054
-aS'badS = False'
+aS'EVENTS'
 p5055
-aS'veteran = False'
-p5056
-aS'tour = False'
+a(lp5056
+aS'ACTIONS'
 p5057
-aS'state = Available'
-p5058
-aS'inactive = False'
+a(lp5058
+aS'PARTDATA'
 p5059
-aS'inactiveTimeEnd = 0'
-p5060
-aS'gExperienced = 0'
+a(lp5060
+aS'MODULE'
 p5061
-aS'outDueToG = False'
-p5062
-aS'ToD = 1192633.9431941782'
+a(lp5062
+S'name = ModuleDecouple'
 p5063
-aS'idx = -1'
+aS'isEnabled = True'
 p5064
-aS'extraXP = 0'
+aS'ejectionForcePercent = 100'
 p5065
-aS'CAREER_LOG'
+aS'isDecoupled = False'
 p5066
-a(lp5067
-S'flight = 0'
+aS'stagingEnabled = True'
+p5067
+aS'EVENTS'
 p5068
-aaS'FLIGHT_LOG'
-p5069
-a(lp5070
-S'flight = 0'
-p5071
-aaa(lp5072
-S'name = Narigh Kerman'
-p5073
-aS'gender = Female'
+a(lp5069
+aS'ACTIONS'
+p5070
+a(lp5071
+S'DecoupleAction'
+p5072
+a(lp5073
+S'actionGroup = None'
 p5074
-aS'type = Unowned'
+aaaS'UPGRADESAPPLIED'
 p5075
-aS'trait = Scientist'
-p5076
-aS'brave = 0.312196791'
+a(lp5076
+aaS'MODULE'
 p5077
-aS'dumb = 0.586218417'
-p5078
-aS'badS = True'
+a(lp5078
+S'name = ModuleToggleCrossfeed'
 p5079
-aS'veteran = False'
+aS'isEnabled = True'
 p5080
-aS'tour = False'
+aS'crossfeedStatus = False'
 p5081
-aS'state = Assigned'
+aS'stagingEnabled = True'
 p5082
-aS'inactive = False'
+aS'EVENTS'
 p5083
-aS'inactiveTimeEnd = 0'
-p5084
-aS'gExperienced = 0'
+a(lp5084
+aS'ACTIONS'
 p5085
-aS'outDueToG = False'
-p5086
-aS'ToD = 0'
+a(lp5086
+S'ToggleAction'
 p5087
-aS'idx = -1'
-p5088
-aS'extraXP = 0'
+a(lp5088
+S'actionGroup = None'
 p5089
-aS'CAREER_LOG'
+aaS'EnableAction'
 p5090
 a(lp5091
-S'flight = 0'
+S'actionGroup = None'
 p5092
-aaS'FLIGHT_LOG'
+aaS'DisableAction'
 p5093
 a(lp5094
-S'flight = 0'
+S'actionGroup = None'
 p5095
-aaa(lp5096
-S'name = Hayie Kerman'
-p5097
-aS'gender = Female'
+aaaS'UPGRADESAPPLIED'
+p5096
+a(lp5097
+aaS'MODULE'
 p5098
-aS'type = Unowned'
-p5099
-aS'trait = Engineer'
+a(lp5099
+S'name = ModuleTestSubject'
 p5100
-aS'brave = 0.11238268'
+aS'isEnabled = True'
 p5101
-aS'dumb = 0.155541465'
+aS'stagingEnabled = True'
 p5102
-aS'badS = False'
+aS'EVENTS'
 p5103
-aS'veteran = False'
-p5104
-aS'tour = False'
+a(lp5104
+aS'ACTIONS'
 p5105
-aS'state = Assigned'
-p5106
-aS'inactive = False'
+a(lp5106
+aS'UPGRADESAPPLIED'
 p5107
-aS'inactiveTimeEnd = 0'
-p5108
-aS'gExperienced = 0'
+a(lp5108
+aaaS'PART'
 p5109
-aS'outDueToG = False'
-p5110
-aS'ToD = 0'
+a(lp5110
+S'name = fuelTankSmall'
 p5111
-aS'idx = -1'
+aS'cid = 4294412040'
 p5112
-aS'extraXP = 0'
+aS'uid = 409728823'
 p5113
-aS'CAREER_LOG'
+aS'mid = 1805814277'
 p5114
-a(lp5115
-S'flight = 0'
+aS'launchID = 30'
+p5115
+aS'parent = 3'
 p5116
-aaS'FLIGHT_LOG'
+aS'position = 0,-1.4738664627075195,0'
 p5117
-a(lp5118
-S'flight = 0'
+aS'rotation = 0,0,0,1'
+p5118
+aS'mirror = 1,1,1'
 p5119
-aaa(lp5120
-S'name = Donberry Kerman'
+aS'symMethod = Radial'
+p5120
+aS'istg = 0'
 p5121
-aS'gender = Male'
+aS'resPri = 0'
 p5122
-aS'type = Unowned'
+aS'dstg = 2'
 p5123
-aS'trait = Pilot'
+aS'sqor = -1'
 p5124
-aS'brave = 0.366416991'
+aS'sepI = 0'
 p5125
-aS'dumb = 0.894609153'
+aS'sidx = -1'
 p5126
-aS'badS = True'
+aS'attm = 0'
 p5127
-aS'veteran = False'
+aS'srfN = srfAttach, -1'
 p5128
-aS'tour = False'
+aS'attN = top, 3'
 p5129
-aS'state = Assigned'
+aS'attN = bottom, 5'
 p5130
-aS'inactive = False'
+aS'mass = 0.125'
 p5131
-aS'inactiveTimeEnd = 0'
+aS'shielded = False'
 p5132
-aS'gExperienced = 0'
+aS'temp = 248.2836400486193'
 p5133
-aS'outDueToG = False'
+aS'tempExt = 248.39618552873173'
 p5134
-aS'ToD = 0'
+aS'tempExtUnexp = 4'
 p5135
-aS'idx = -1'
+aS'expt = 0.5'
 p5136
-aS'extraXP = 0'
+aS'state = 0'
 p5137
-aS'CAREER_LOG'
+aS'attached = True'
 p5138
-a(lp5139
-S'flight = 0'
+aS'autostrutMode = Off'
+p5139
+aS'rigidAttachment = False'
 p5140
-aaS'FLIGHT_LOG'
+aS'flag = Squad/Flags/rings'
 p5141
-a(lp5142
-S'flight = 0'
+aS'rTrf = fuelTankSmall'
+p5142
+aS'modCost = 0'
 p5143
-aaa(lp5144
-S'name = Boblan Kerman'
-p5145
-aS'gender = Male'
+aS'EVENTS'
+p5144
+a(lp5145
+aS'ACTIONS'
 p5146
-aS'type = Unowned'
-p5147
-aS'trait = Engineer'
+a(lp5147
+aS'PARTDATA'
 p5148
-aS'brave = 0.325902671'
-p5149
-aS'dumb = 0.447278619'
+a(lp5149
+aS'RESOURCE'
 p5150
-aS'badS = True'
-p5151
-aS'veteran = False'
+a(lp5151
+S'name = LiquidFuel'
 p5152
-aS'tour = False'
+aS'amount = 7.1256165776420568'
 p5153
-aS'state = Assigned'
+aS'maxAmount = 90'
 p5154
-aS'inactive = False'
+aS'flowState = True'
 p5155
-aS'inactiveTimeEnd = 0'
+aS'isTweakable = True'
 p5156
-aS'gExperienced = 0'
+aS'hideFlow = False'
 p5157
-aS'outDueToG = False'
+aS'isVisible = True'
 p5158
-aS'ToD = 0'
+aS'flowMode = Both'
 p5159
-aS'idx = -1'
+aaS'RESOURCE'
 p5160
-aS'extraXP = 0'
-p5161
-aS'CAREER_LOG'
+a(lp5161
+S'name = Oxidizer'
 p5162
-a(lp5163
-S'flight = 0'
+aS'amount = 8.7090820495197399'
+p5163
+aS'maxAmount = 110'
 p5164
-aaS'FLIGHT_LOG'
+aS'flowState = True'
 p5165
-a(lp5166
-S'flight = 0'
+aS'isTweakable = True'
+p5166
+aS'hideFlow = False'
 p5167
-aaa(lp5168
-S'name = Desfurt Kerman'
+aS'isVisible = True'
+p5168
+aS'flowMode = Both'
 p5169
-aS'gender = Male'
+aaaS'PART'
 p5170
-aS'type = Unowned'
-p5171
-aS'trait = Pilot'
+a(lp5171
+S'name = fuelTankSmall'
 p5172
-aS'brave = 0.978430152'
+aS'cid = 4294075336'
 p5173
-aS'dumb = 0.31656155'
+aS'uid = 2017809192'
 p5174
-aS'badS = False'
+aS'mid = 1805814277'
 p5175
-aS'veteran = False'
+aS'launchID = 30'
 p5176
-aS'tour = False'
+aS'parent = 4'
 p5177
-aS'state = Assigned'
+aS'position = 0,-2.5843667984008789,0'
 p5178
-aS'inactive = False'
+aS'rotation = 0,0,0,1'
 p5179
-aS'inactiveTimeEnd = 0'
+aS'mirror = 1,1,1'
 p5180
-aS'gExperienced = 0'
+aS'symMethod = Radial'
 p5181
-aS'outDueToG = False'
+aS'istg = 0'
 p5182
-aS'ToD = 0'
+aS'resPri = 0'
 p5183
-aS'idx = -1'
+aS'dstg = 2'
 p5184
-aS'extraXP = 0'
+aS'sqor = -1'
 p5185
-aS'CAREER_LOG'
+aS'sepI = 0'
 p5186
-a(lp5187
-S'flight = 0'
+aS'sidx = -1'
+p5187
+aS'attm = 0'
 p5188
-aaS'FLIGHT_LOG'
+aS'srfN = srfAttach, -1'
 p5189
-a(lp5190
-S'flight = 0'
+aS'attN = top, 4'
+p5190
+aS'attN = bottom, 6'
 p5191
-aaa(lp5192
-S'name = Frosy Kerman'
+aS'mass = 0.125'
+p5192
+aS'shielded = False'
 p5193
-aS'gender = Male'
+aS'temp = 248.50134488926332'
 p5194
-aS'type = Unowned'
+aS'tempExt = 248.61883399611384'
 p5195
-aS'trait = Engineer'
+aS'tempExtUnexp = 4'
 p5196
-aS'brave = 0.659520507'
+aS'expt = 0.5'
 p5197
-aS'dumb = 0.980888128'
+aS'state = 0'
 p5198
-aS'badS = False'
+aS'attached = True'
 p5199
-aS'veteran = False'
+aS'autostrutMode = Off'
 p5200
-aS'tour = False'
+aS'rigidAttachment = False'
 p5201
-aS'state = Assigned'
+aS'flag = Squad/Flags/rings'
 p5202
-aS'inactive = False'
+aS'rTrf = fuelTankSmall'
 p5203
-aS'inactiveTimeEnd = 0'
+aS'modCost = 0'
 p5204
-aS'gExperienced = 0'
+aS'EVENTS'
 p5205
-aS'outDueToG = False'
-p5206
-aS'ToD = 0'
+a(lp5206
+aS'ACTIONS'
 p5207
-aS'idx = -1'
-p5208
-aS'extraXP = 0'
+a(lp5208
+aS'PARTDATA'
 p5209
-aS'CAREER_LOG'
-p5210
-a(lp5211
-S'flight = 0'
-p5212
-aaS'FLIGHT_LOG'
+a(lp5210
+aS'RESOURCE'
+p5211
+a(lp5212
+S'name = LiquidFuel'
 p5213
-a(lp5214
-S'flight = 0'
+aS'amount = 7.1256165776420568'
+p5214
+aS'maxAmount = 90'
 p5215
-aaa(lp5216
-S'name = Gijorie Kerman'
+aS'flowState = True'
+p5216
+aS'isTweakable = True'
 p5217
-aS'gender = Female'
+aS'hideFlow = False'
 p5218
-aS'type = Unowned'
+aS'isVisible = True'
 p5219
-aS'trait = Pilot'
+aS'flowMode = Both'
 p5220
-aS'brave = 0.917277277'
+aaS'RESOURCE'
 p5221
-aS'dumb = 0.905402422'
-p5222
-aS'badS = False'
+a(lp5222
+S'name = Oxidizer'
 p5223
-aS'veteran = False'
+aS'amount = 8.7090820495197399'
 p5224
-aS'tour = False'
+aS'maxAmount = 110'
 p5225
-aS'state = Assigned'
+aS'flowState = True'
 p5226
-aS'inactive = False'
+aS'isTweakable = True'
 p5227
-aS'inactiveTimeEnd = 0'
+aS'hideFlow = False'
 p5228
-aS'gExperienced = 0'
+aS'isVisible = True'
 p5229
-aS'outDueToG = False'
+aS'flowMode = Both'
 p5230
-aS'ToD = 0'
+aaaS'PART'
 p5231
-aS'idx = -1'
-p5232
-aS'extraXP = 0'
+a(lp5232
+S'name = fuelTankSmall'
 p5233
-aS'CAREER_LOG'
+aS'cid = 4294075232'
 p5234
-a(lp5235
-S'flight = 0'
+aS'uid = 3227040625'
+p5235
+aS'mid = 1805814277'
 p5236
-aaS'FLIGHT_LOG'
+aS'launchID = 30'
 p5237
-a(lp5238
-S'flight = 0'
+aS'parent = 5'
+p5238
+aS'position = 0,-3.6948671340942383,0'
 p5239
-aaa(lp5240
-S'name = Danny Kerman'
+aS'rotation = 0,0,0,1'
+p5240
+aS'mirror = 1,1,1'
 p5241
-aS'gender = Male'
+aS'symMethod = Radial'
 p5242
-aS'type = Unowned'
+aS'istg = 0'
 p5243
-aS'trait = Scientist'
+aS'resPri = 0'
 p5244
-aS'brave = 0.602813244'
+aS'dstg = 2'
 p5245
-aS'dumb = 0.588954926'
+aS'sqor = -1'
 p5246
-aS'badS = False'
+aS'sepI = 0'
 p5247
-aS'veteran = False'
+aS'sidx = -1'
 p5248
-aS'tour = False'
+aS'attm = 0'
 p5249
-aS'state = Assigned'
+aS'srfN = srfAttach, -1'
 p5250
-aS'inactive = False'
+aS'attN = top, 5'
 p5251
-aS'inactiveTimeEnd = 0'
+aS'attN = bottom, 7'
 p5252
-aS'gExperienced = 0'
+aS'mass = 0.125'
 p5253
-aS'outDueToG = False'
+aS'shielded = False'
 p5254
-aS'ToD = 0'
+aS'temp = 248.77091281764703'
 p5255
-aS'idx = -1'
+aS'tempExt = 248.92245244079649'
 p5256
-aS'extraXP = 0'
+aS'tempExtUnexp = 4'
 p5257
-aS'CAREER_LOG'
+aS'expt = 0.5'
 p5258
-a(lp5259
-S'flight = 0'
+aS'state = 0'
+p5259
+aS'attached = True'
 p5260
-aaS'FLIGHT_LOG'
+aS'autostrutMode = Off'
 p5261
-a(lp5262
-S'flight = 0'
+aS'rigidAttachment = False'
+p5262
+aS'flag = Squad/Flags/rings'
 p5263
-aaa(lp5264
-S'SpaceCenter/VehicleAssemblyBuilding/Facility/ksp_pad_cylTank'
+aS'rTrf = fuelTankSmall'
+p5264
+aS'modCost = 0'
 p5265
-a(lp5266
-S'intact = True'
-p5267
-aaS'SpaceCenter/VehicleAssemblyBuilding/Facility/Tank'
+aS'EVENTS'
+p5266
+a(lp5267
+aS'ACTIONS'
 p5268
 a(lp5269
-S'intact = True'
+aS'PARTDATA'
 p5270
-aaS'SpaceCenter/VehicleAssemblyBuilding/Facility/mainBuilding'
-p5271
-a(lp5272
-S'intact = True'
-p5273
-aaS'SpaceCenter/VehicleAssemblyBuilding/Facility/PodMemorial'
+a(lp5271
+aS'RESOURCE'
+p5272
+a(lp5273
+S'name = LiquidFuel'
 p5274
-a(lp5275
-S'intact = True'
+aS'amount = 7.1256165776420568'
+p5275
+aS'maxAmount = 90'
 p5276
-aaS'SpaceCenter/TrackingStation/Facility/dish_array/dish_south'
+aS'flowState = True'
 p5277
-a(lp5278
-S'intact = True'
+aS'isTweakable = True'
+p5278
+aS'hideFlow = False'
 p5279
-aaS'SpaceCenter/TrackingStation/Facility/dish_array/dish_north'
+aS'isVisible = True'
 p5280
-a(lp5281
-S'intact = True'
+aS'flowMode = Both'
+p5281
+aaS'RESOURCE'
 p5282
-aaS'SpaceCenter/TrackingStation/Facility/dish_array/dish_east'
-p5283
-a(lp5284
-S'intact = True'
+a(lp5283
+S'name = Oxidizer'
+p5284
+aS'amount = 8.7090820495197399'
 p5285
-aaS'SpaceCenter/TrackingStation/Facility/MainBuilding'
+aS'maxAmount = 110'
 p5286
-a(lp5287
-S'intact = True'
+aS'flowState = True'
+p5287
+aS'isTweakable = True'
 p5288
-aaS'SpaceCenter/SpaceplaneHangar/Facility/Tank'
+aS'hideFlow = False'
 p5289
-a(lp5290
-S'intact = True'
+aS'isVisible = True'
+p5290
+aS'flowMode = Both'
 p5291
-aaS'SpaceCenter/SpaceplaneHangar/Facility/ksp_pad_cylTank'
+aaaS'PART'
 p5292
 a(lp5293
-S'intact = True'
+S'name = liquidEngine2'
 p5294
-aaS'SpaceCenter/SpaceplaneHangar/Facility/ksp_pad_waterTower'
+aS'cid = 4294413798'
 p5295
-a(lp5296
-S'intact = True'
+aS'uid = 608097280'
+p5296
+aS'mid = 1805814277'
 p5297
-aaS'SpaceCenter/SpaceplaneHangar/Facility/mainBuilding'
+aS'launchID = 30'
 p5298
-a(lp5299
-S'intact = True'
+aS'parent = 6'
+p5299
+aS'position = 0,-5.1519432067871094,0'
 p5300
-aaS'SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_SE'
+aS'rotation = 0,0,0,1'
 p5301
-a(lp5302
-S'intact = True'
+aS'mirror = 1,1,1'
+p5302
+aS'symMethod = Radial'
 p5303
-aaS'SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_NE'
+aS'istg = 1'
 p5304
-a(lp5305
-S'intact = True'
+aS'resPri = 0'
+p5305
+aS'dstg = 2'
 p5306
-aaS'SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_NW'
+aS'sqor = 1'
 p5307
-a(lp5308
-S'intact = True'
+aS'sepI = 0'
+p5308
+aS'sidx = 0'
 p5309
-aaS'SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_SW'
+aS'attm = 0'
 p5310
-a(lp5311
-S'intact = True'
+aS'srfN = , -1'
+p5311
+aS'attN = top, 6'
 p5312
-aaS'SpaceCenter/Runway/Facility/End09'
+aS'attN = bottom, -1'
 p5313
-a(lp5314
-S'intact = True'
+aS'mass = 1.5'
+p5314
+aS'shielded = False'
 p5315
-aaS'SpaceCenter/Runway/Facility/End27'
+aS'temp = 249.33317061974151'
 p5316
-a(lp5317
-S'intact = True'
+aS'tempExt = 249.30941642045786'
+p5317
+aS'tempExtUnexp = 4'
 p5318
-aaS'SpaceCenter/Runway/Facility/Section1'
+aS'expt = 0.5'
 p5319
-a(lp5320
-S'intact = True'
+aS'state = 1'
+p5320
+aS'attached = True'
 p5321
-aaS'SpaceCenter/Runway/Facility/Section2'
+aS'autostrutMode = Off'
 p5322
-a(lp5323
-S'intact = True'
+aS'rigidAttachment = False'
+p5323
+aS'flag = Squad/Flags/rings'
 p5324
-aaS'SpaceCenter/Runway/Facility/Section3'
+aS'rTrf = liquidEngine2'
 p5325
-a(lp5326
-S'intact = True'
+aS'modCost = 0'
+p5326
+aS'EVENTS'
 p5327
-aaS'SpaceCenter/Runway/Facility/Section4'
-p5328
-a(lp5329
-S'intact = True'
-p5330
-aaS'SpaceCenter/ResearchAndDevelopment/Facility/ksp_pad_cylTank'
+a(lp5328
+aS'ACTIONS'
+p5329
+a(lp5330
+aS'PARTDATA'
 p5331
 a(lp5332
-S'intact = True'
+aS'MODULE'
 p5333
-aaS'SpaceCenter/ResearchAndDevelopment/Facility/SmallLab'
-p5334
-a(lp5335
-S'intact = True'
+a(lp5334
+S'name = ModuleEngines'
+p5335
+aS'isEnabled = True'
 p5336
-aaS'SpaceCenter/ResearchAndDevelopment/Facility/CentralBuilding'
+aS'staged = True'
 p5337
-a(lp5338
-S'intact = True'
+aS'flameout = False'
+p5338
+aS'EngineIgnited = True'
 p5339
-aaS'SpaceCenter/ResearchAndDevelopment/Facility/MainBuilding'
+aS'engineShutdown = False'
 p5340
-a(lp5341
-S'intact = True'
+aS'currentThrottle = 0'
+p5341
+aS'thrustPercentage = 100'
 p5342
-aaS'SpaceCenter/ResearchAndDevelopment/Facility/CornerLab'
+aS'manuallyOverridden = False'
 p5343
-a(lp5344
-S'intact = True'
+aS'stagingEnabled = True'
+p5344
+aS'EVENTS'
 p5345
-aaS'SpaceCenter/ResearchAndDevelopment/Facility/WindTunnel'
-p5346
-a(lp5347
-S'intact = True'
-p5348
-aaS'SpaceCenter/ResearchAndDevelopment/Facility/Observatory'
+a(lp5346
+aS'ACTIONS'
+p5347
+a(lp5348
+S'OnAction'
 p5349
 a(lp5350
-S'intact = True'
+S'actionGroup = None'
 p5351
-aaS'SpaceCenter/ResearchAndDevelopment/Facility/SideLab'
+aaS'ShutdownAction'
 p5352
 a(lp5353
-S'intact = True'
+S'actionGroup = None'
 p5354
-aaS'SpaceCenter/MissionControl/Facility/building'
+aaS'ActivateAction'
 p5355
 a(lp5356
-S'intact = True'
+S'actionGroup = None'
 p5357
-aaS'SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_cylTank'
+aaaS'UPGRADESAPPLIED'
 p5358
 a(lp5359
-S'intact = True'
+aaS'MODULE'
 p5360
-aaS'SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_launchPad'
-p5361
-a(lp5362
-S'intact = True'
+a(lp5361
+S'name = ModuleJettison'
+p5362
+aS'isEnabled = True'
 p5363
-aaS'SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_sphereTank'
+aS'isJettisoned = True'
 p5364
-a(lp5365
-S'intact = True'
+aS'shroudHideOverride = False'
+p5365
+aS'stagingEnabled = True'
 p5366
-aaS'SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_waterTower'
+aS'EVENTS'
 p5367
 a(lp5368
-S'intact = True'
+aS'ACTIONS'
 p5369
-aaS'SpaceCenter/LaunchPad/Facility/LaunchPadMedium/KSCFlagPoleLaunchPad'
-p5370
-a(lp5371
-S'intact = True'
-p5372
-aaS'SpaceCenter/AstronautComplex/Facility/building'
+a(lp5370
+S'JettisonAction'
+p5371
+a(lp5372
+S'actionGroup = None'
 p5373
-a(lp5374
-S'intact = True'
-p5375
-aaS'SpaceCenter/FlagPole/Facility'
+aaaS'UPGRADESAPPLIED'
+p5374
+a(lp5375
+aaS'MODULE'
 p5376
 a(lp5377
-S'intact = True'
+S'name = ModuleGimbal'
 p5378
-aaS'SpaceCenter/Administration/Facility/mainBuilding'
+aS'isEnabled = True'
 p5379
-a(lp5380
-S'intact = True'
+aS'gimbalLock = False'
+p5380
+aS'gimbalLimiter = 100'
 p5381
-aaS'SpaceCenter/VehicleAssemblyBuilding/Facility/VAB2'
+aS'currentShowToggles = False'
 p5382
-a(lp5383
-S'intact = True'
+aS'enableYaw = True'
+p5383
+aS'enablePitch = True'
 p5384
-aaS'SpaceCenter/TrackingStation/Facility/building'
+aS'enableRoll = True'
 p5385
-a(lp5386
-S'intact = True'
+aS'gimbalActive = True'
+p5386
+aS'stagingEnabled = True'
 p5387
-aaS'SpaceCenter/TrackingStation/Facility/OuterDish'
+aS'EVENTS'
 p5388
 a(lp5389
-S'intact = True'
+aS'ACTIONS'
 p5390
-aaS'SpaceCenter/SpaceplaneHangar/Facility/Building'
-p5391
-a(lp5392
-S'intact = True'
-p5393
-aaS'SpaceCenter/ResearchAndDevelopment/Facility/mainBuilding'
+a(lp5391
+S'ToggleAction'
+p5392
+a(lp5393
+S'actionGroup = None'
 p5394
-a(lp5395
-S'intact = True'
-p5396
-aaS'SpaceCenter/ResearchAndDevelopment/Facility/ForeverAlone'
+aaS'LockAction'
+p5395
+a(lp5396
+S'actionGroup = None'
 p5397
-a(lp5398
-S'intact = True'
-p5399
-aaS'SpaceCenter/MissionControl/Facility/mainBuilding'
+aaS'FreeAction'
+p5398
+a(lp5399
+S'actionGroup = None'
 p5400
-a(lp5401
-S'intact = True'
-p5402
-aaS'SpaceCenter/LaunchPad/Facility/Flag'
+aaS'TogglePitchAction'
+p5401
+a(lp5402
+S'actionGroup = None'
 p5403
-a(lp5404
-S'intact = True'
-p5405
-aaS'SpaceCenter/AstronautComplex/Facility/mainBuilding'
+aaS'ToggleYawAction'
+p5404
+a(lp5405
+S'actionGroup = None'
 p5406
-a(lp5407
-S'intact = True'
-p5408
-aaS'SpaceCenter/Administration/Facility/Building'
+aaS'ToggleRollAction'
+p5407
+a(lp5408
+S'actionGroup = None'
 p5409
-a(lp5410
-S'intact = True'
-p5411
-aaS'SpaceCenter/VehicleAssemblyBuilding/Facility/VAB3'
+aaaS'UPGRADESAPPLIED'
+p5410
+a(lp5411
+aaS'MODULE'
 p5412
 a(lp5413
-S'intact = True'
+S'name = FXModuleAnimateThrottle'
 p5414
-aaS'SpaceCenter/VehicleAssemblyBuilding/Facility/SouthComplex'
+aS'isEnabled = True'
 p5415
-a(lp5416
-S'intact = True'
+aS'animState = 0'
+p5416
+aS'stagingEnabled = True'
 p5417
-aaS'SpaceCenter/LaunchPad/Facility/building'
+aS'EVENTS'
 p5418
 a(lp5419
-S'intact = True'
+aS'ACTIONS'
 p5420
-aaS'SpaceCenter/LaunchPad/Facility/SmallTanks'
-p5421
-a(lp5422
-S'intact = True'
-p5423
-aaS'SpaceCenter/LaunchPad/Facility/BigTanks'
+a(lp5421
+aS'UPGRADESAPPLIED'
+p5422
+a(lp5423
+aaS'MODULE'
 p5424
 a(lp5425
-S'intact = True'
+S'name = ModuleAlternator'
 p5426
-aa(lp5427
-(dp5428
-g5361
-(lp5429
-S'184.68.166.106'
-p5430
-asg5406
-(lp5431
-g5430
-asS'Philman Kerman'
-p5432
-(lp5433
-g5430
-asS'Dusen Kerman'
-p5434
-(lp5435
-g5430
-asS'Desfurt Kerman'
-p5436
-(lp5437
-g5430
-asS'Anpond Kerman'
+aS'isEnabled = True'
+p5427
+aS'stagingEnabled = True'
+p5428
+aS'EVENTS'
+p5429
+a(lp5430
+aS'ACTIONS'
+p5431
+a(lp5432
+aS'UPGRADESAPPLIED'
+p5433
+a(lp5434
+aaS'MODULE'
+p5435
+a(lp5436
+S'name = ModuleSurfaceFX'
+p5437
+aS'isEnabled = True'
 p5438
-(lp5439
-g5430
-asS'Bilgard Kerman'
+aS'stagingEnabled = True'
+p5439
+aS'EVENTS'
 p5440
-(lp5441
-g5430
-asS'Newlan Kerman'
+a(lp5441
+aS'ACTIONS'
 p5442
-(lp5443
-g5430
-asg5271
-(lp5444
-g5430
-asS'Bartdous Kerman'
-p5445
-(lp5446
-g5430
-asg5292
-(lp5447
-g5430
-asg5421
-(lp5448
-g5430
-asS'Eldorf Kerman'
+a(lp5443
+aS'UPGRADESAPPLIED'
+p5444
+a(lp5445
+aaS'MODULE'
+p5446
+a(lp5447
+S'name = ModuleTestSubject'
+p5448
+aS'isEnabled = True'
 p5449
-(lp5450
-g5430
-asg5304
-(lp5451
-g5430
-asg5415
-(lp5452
-g5430
-asS'Wilina Kerman'
+aS'stagingEnabled = True'
+p5450
+aS'EVENTS'
+p5451
+a(lp5452
+aS'ACTIONS'
 p5453
-(lp5454
-g5430
-asS'Nelgun Kerman'
+a(lp5454
+aS'UPGRADESAPPLIED'
 p5455
-(lp5456
-g5430
-asg5424
-(lp5457
-g5430
-asS'Nancy Kerman'
-p5458
-(lp5459
-g5430
-asg5346
-(lp5460
-g5430
-asS'Megicca Kerman'
+a(lp5456
+aaaS'PART'
+p5457
+a(lp5458
+S'name = HighGainAntenna5'
+p5459
+aS'cid = 4294078362'
+p5460
+aS'uid = 60117732'
 p5461
-(lp5462
-g5430
-asS'Lemuki Kerman'
+aS'mid = 1805814277'
+p5462
+aS'launchID = 30'
 p5463
-(lp5464
-g5430
-asS'Boblan Kerman'
+aS'parent = 1'
+p5464
+aS'position = -2.6016675036544257E-08,-0.49153041839599609,-0.29759606719017029'
 p5465
-(lp5466
-g5430
-asS'Mobie Kerman'
+aS'rotation = 0.500000119,-0.49999994,0.500000119,-0.49999994'
+p5466
+aS'mirror = 1,1,1'
 p5467
-(lp5468
-g5430
-asg5337
-(lp5469
-g5430
-asS'Geoflong Kerman'
+aS'symMethod = Radial'
+p5468
+aS'istg = -1'
+p5469
+aS'resPri = 0'
 p5470
-(lp5471
-g5430
-asg5340
-(lp5472
-g5430
-asS'Hennard Kerman'
+aS'dstg = 0'
+p5471
+aS'sqor = -1'
+p5472
+aS'sepI = -1'
 p5473
-(lp5474
-g5430
-asS'Sisa Kerman'
+aS'sidx = -1'
+p5474
+aS'attm = 1'
 p5475
-(lp5476
-g5430
-asS'Netrice Kerman'
+aS'srfN = srfAttach, 1'
+p5476
+aS'attN = bottom, -1'
 p5477
-(lp5478
-g5430
-asS'Danny Kerman'
+aS'mass = 0.0700000003'
+p5478
+aS'shielded = False'
 p5479
-(lp5480
-g5430
-asS'Tedmy Kerman'
+aS'temp = 246.96676451455431'
+p5480
+aS'tempExt = 246.92551139992665'
 p5481
-(lp5482
-g5430
-asS'Hudden Kerman'
+aS'tempExtUnexp = 4'
+p5482
+aS'expt = 0.5'
 p5483
-(lp5484
-g5430
-asg5400
-(lp5485
-g5430
-asg5409
-(lp5486
-g5430
-asS'Dogard Kerman'
+aS'state = 0'
+p5484
+aS'attached = True'
+p5485
+aS'autostrutMode = Off'
+p5486
+aS'rigidAttachment = False'
 p5487
-(lp5488
-g5430
-asS'Melrick Kerman'
+aS'flag = Squad/Flags/rings'
+p5488
+aS'rTrf = HighGainAntenna5'
 p5489
-(lp5490
-g5430
-asS'Ribming Kerman'
+aS'modCost = 0'
+p5490
+aS'EVENTS'
 p5491
-(lp5492
-g5430
-asg5307
-(lp5493
-g5430
-asg5277
-(lp5494
-g5430
-asg5355
-(lp5495
-g5430
-asg5418
-(lp5496
-g5430
-asS'Kathie Kerman'
+a(lp5492
+aS'ACTIONS'
+p5493
+a(lp5494
+aS'PARTDATA'
+p5495
+a(lp5496
+aS'MODULE'
 p5497
-(lp5498
-g5430
-asS'Melden Kerman'
+a(lp5498
+S'name = ModuleDeployableAntenna'
 p5499
-(lp5500
-g5430
-asS'Jerney Kerman'
+aS'isEnabled = True'
+p5500
+aS'currentRotation = (0, 0, 0, 1)'
 p5501
-(lp5502
-g5430
-asg5394
-(lp5503
-g5430
-asS'50c568fbdda040fda26475e30663d2fb'
+aS'storedAnimationTime = 0'
+p5502
+aS'storedAnimationSpeed = 1'
+p5503
+aS'deployState = EXTENDED'
 p5504
-(lp5505
-g5430
-asS'Gilly Kerman'
+aS'stagingEnabled = True'
+p5505
+aS'EVENTS'
 p5506
-(lp5507
-g5430
-asS'8088257d2c2e49419f3e890385f6ed8c'
+a(lp5507
+aS'ACTIONS'
 p5508
-(lp5509
-g5430
-asS'Geneming Kerman'
+a(lp5509
+S'ExtendPanelsAction'
 p5510
-(lp5511
-g5430
-asS'Tedbus Kerman'
+a(lp5511
+S'actionGroup = None'
 p5512
-(lp5513
-g5430
-asg5379
-(lp5514
-g5430
-asS'Generod Kerman'
+aaS'ExtendAction'
+p5513
+a(lp5514
+S'actionGroup = None'
 p5515
-(lp5516
-g5430
-asg5265
-(lp5517
-g5430
-asg5373
-(lp5518
-g5430
-asS'Kerrigh Kerman'
+aaS'RetractAction'
+p5516
+a(lp5517
+S'actionGroup = None'
+p5518
+aaaS'UPGRADESAPPLIED'
 p5519
-(lp5520
-g5430
-asS'Camfal Kerman'
+a(lp5520
+aaS'MODULE'
 p5521
-(lp5522
-g5430
-asg5334
-(lp5523
-g5430
-asS'Sherzer Kerman'
+a(lp5522
+S'name = ModuleDataTransmitter'
+p5523
+aS'isEnabled = True'
 p5524
-(lp5525
-g5430
-asg5280
-(lp5526
-g5430
-asg5349
-(lp5527
-g5430
-asg5370
-(lp5528
-g5430
-asg5274
-(lp5529
-g5430
-asg5376
-(lp5530
-g5430
-asS'Janlenna Kerman'
-p5531
-(lp5532
-g5430
-asS'Donberry Kerman'
-p5533
-(lp5534
-g5430
-asg5412
-(lp5535
-g5430
-asg5382
-(lp5536
-g5430
-asS'Bob Kerman'
+aS'xmitIncomplete = False'
+p5525
+aS'stagingEnabled = True'
+p5526
+aS'canComm = True'
+p5527
+aS'EVENTS'
+p5528
+a(lp5529
+aS'ACTIONS'
+p5530
+a(lp5531
+S'StartTransmissionAction'
+p5532
+a(lp5533
+S'actionGroup = None'
+p5534
+aaaS'UPGRADESAPPLIED'
+p5535
+a(lp5536
+aaS'MODULE'
 p5537
-(lp5538
-g5430
-asg5364
-(lp5539
-g5430
-asg5343
-(lp5540
-g5430
-asg5397
-(lp5541
-g5430
-asS'Kirus Kerman'
+a(lp5538
+S'name = ModuleTripLogger'
+p5539
+aS'isEnabled = True'
+p5540
+aS'stagingEnabled = True'
+p5541
+aS'EVENTS'
 p5542
-(lp5543
-g5430
-asS'Bill Kerman'
+a(lp5543
+aS'ACTIONS'
 p5544
-(lp5545
-g5430
-asS'Frosy Kerman'
+a(lp5545
+aS'Log'
 p5546
-(lp5547
-g5430
-asS'Narigh Kerman'
+a(lp5547
+S'flight = 0'
 p5548
-(lp5549
-g5430
-asg5367
-(lp5550
-g5430
-asS'Arselle Kerman'
+aS'0 = Flight,Kerbin'
+p5549
+aS'0 = Suborbit,Kerbin'
+p5550
+aS'0 = Orbit,Kerbin'
 p5551
-(lp5552
-g5430
-asg5310
-(lp5553
-g5430
-asg5316
-(lp5554
-g5430
-asS'Samdie Kerman'
+aS'0 = Flyby,Mun'
+p5552
+aS'0 = Escape,Mun'
+p5553
+aS'0 = Orbit,Mun'
+p5554
+aaS'UPGRADESAPPLIED'
 p5555
-(lp5556
-g5430
-asS'Lecine Kerman'
+a(lp5556
+aaaS'PART'
 p5557
-(lp5558
-g5430
-asS'Jenrys Kerman'
+a(lp5558
+S'name = solarPanels5'
 p5559
-(lp5560
-g5430
-asS'f075585e09694cd684c6ac668b0a0bb6'
+aS'cid = 4294427548'
+p5560
+aS'uid = 2290388844'
 p5561
-(lp5562
-g5430
-asg5301
-(lp5563
-g5430
-asS'Johnsby Kerman'
+aS'mid = 1805814277'
+p5562
+aS'launchID = 30'
+p5563
+aS'parent = 1'
 p5564
-(lp5565
-g5430
-asg5352
-(lp5566
-g5430
-asS'Lodzon Kerman'
+aS'position = -0.2978629469871521,-0.46847820281982422,1.775401692327705E-08'
+p5565
+aS'rotation = 0,-0.707106829,0,0.707106829'
+p5566
+aS'mirror = 1,1,1'
 p5567
-(lp5568
-g5430
-asS'Elielyn Kerman'
+aS'symMethod = Radial'
+p5568
+aS'istg = -1'
 p5569
-(lp5570
-g5430
-asS'Melie Kerman'
+aS'resPri = 0'
+p5570
+aS'dstg = 0'
 p5571
-(lp5572
-g5430
-asg5298
-(lp5573
-g5430
-asS'Linbie Kerman'
+aS'sqor = -1'
+p5572
+aS'sepI = -1'
+p5573
+aS'sidx = -1'
 p5574
-(lp5575
-g5430
-asS'Stephanie Kerman'
+aS'attm = 1'
+p5575
+aS'sym = 10'
 p5576
-(lp5577
-g5430
-asg5283
-(lp5578
-g5430
-asS'Gijorie Kerman'
+aS'srfN = srfAttach, 1'
+p5577
+aS'mass = 0.00499999989'
+p5578
+aS'shielded = False'
 p5579
-(lp5580
-g5430
-asS'Dovis Kerman'
+aS'temp = 247.16130338821657'
+p5580
+aS'tempExt = 246.89691840230503'
 p5581
-(lp5582
-g5430
-asg5319
-(lp5583
-g5430
-asg5322
-(lp5584
-g5430
-asg5325
-(lp5585
-g5430
-asg5328
-(lp5586
-g5430
-asS'183fa0078d3847a8a4db98bc258ed23a'
+aS'tempExtUnexp = 4'
+p5582
+aS'expt = 0.5'
+p5583
+aS'state = 0'
+p5584
+aS'attached = True'
+p5585
+aS'autostrutMode = Off'
+p5586
+aS'rigidAttachment = False'
 p5587
-(lp5588
-g5430
-asg5268
-(lp5589
-g5430
-asS'01e35b64d66b41989401953bcf515807'
+aS'flag = Squad/Flags/rings'
+p5588
+aS'rTrf = solarPanels5'
+p5589
+aS'modCost = 0'
 p5590
-(lp5591
-g5430
-asS'2ae2346e1f6e4a55946b63725bd58b2e'
-p5592
-(lp5593
-g5430
-asS'Donlie Kerman'
-p5594
-(lp5595
-g5430
-asg5313
-(lp5596
-g5430
-asS'Dunke Kerman'
+aS'EVENTS'
+p5591
+a(lp5592
+aS'ACTIONS'
+p5593
+a(lp5594
+aS'PARTDATA'
+p5595
+a(lp5596
+aS'MODULE'
 p5597
-(lp5598
-g5430
-asS'Sidton Kerman'
+a(lp5598
+S'name = ModuleDeployableSolarPanel'
 p5599
-(lp5600
-g5430
-asS'Jebediah Kerman'
+aS'isEnabled = True'
+p5600
+aS'efficiencyMult = 1'
 p5601
-(lp5602
-g5430
-asS'Valentina Kerman'
+aS'launchUT = 1297757.8155844365'
+p5602
+aS'currentRotation = (0, -6.057208E-07, 0, 1)'
 p5603
-(lp5604
-g5430
-asS'Lennard Kerman'
+aS'storedAnimationTime = 0'
+p5604
+aS'storedAnimationSpeed = 0'
 p5605
-(lp5606
-g5430
-asg5358
-(lp5607
-g5430
-asg5331
-(lp5608
-g5430
-asS'Asdia Kerman'
-p5609
-(lp5610
-g5430
-asg5295
-(lp5611
-g5430
-asg5403
-(lp5612
-g5430
-asS'Hayie Kerman'
-p5613
-(lp5614
-g5430
-asg5289
-(lp5615
-g5430
-asS'Miemma Kerman'
+aS'deployState = EXTENDED'
+p5606
+aS'stagingEnabled = True'
+p5607
+aS'EVENTS'
+p5608
+a(lp5609
+aS'ACTIONS'
+p5610
+a(lp5611
+S'ExtendPanelsAction'
+p5612
+a(lp5613
+S'actionGroup = None'
+p5614
+aS'active = False'
+p5615
+aaS'ExtendAction'
 p5616
-(lp5617
-g5430
-asS'Maulina Kerman'
+a(lp5617
+S'actionGroup = None'
 p5618
-(lp5619
-g5430
-asg5385
-(lp5620
-g5430
-asg5286
-(lp5621
-g5430
-asg5388
-(lp5622
-g5430
-asg5391
-(lp5623
-g5430
+aS'active = False'
+p5619
+aaS'RetractAction'
+p5620
+a(lp5621
+S'actionGroup = None'
+p5622
+aS'active = False'
+p5623
+aaaS'UPGRADESAPPLIED'
+p5624
+a(lp5625
+aaaS'PART'
+p5626
+a(lp5627
+S'name = solarPanels5'
+p5628
+aS'cid = 4294074498'
+p5629
+aS'uid = 1865034319'
+p5630
+aS'mid = 1805814277'
+p5631
+aS'launchID = 30'
+p5632
+aS'parent = 1'
+p5633
+aS'position = 0.2978629469871521,-0.46847820281982422,-4.3794024406906829E-08'
+p5634
+aS'rotation = 0,0.707106888,0,0.707106769'
+p5635
+aS'mirror = 1,1,1'
+p5636
+aS'symMethod = Radial'
+p5637
+aS'istg = -1'
+p5638
+aS'resPri = 0'
+p5639
+aS'dstg = 0'
+p5640
+aS'sqor = -1'
+p5641
+aS'sepI = -1'
+p5642
+aS'sidx = -1'
+p5643
+aS'attm = 1'
+p5644
+aS'sym = 9'
+p5645
+aS'srfN = srfAttach, 1'
+p5646
+aS'mass = 0.00499999989'
+p5647
+aS'shielded = False'
+p5648
+aS'temp = 247.16130338821657'
+p5649
+aS'tempExt = 246.89691840230503'
+p5650
+aS'tempExtUnexp = 4'
+p5651
+aS'expt = 0.5'
+p5652
+aS'state = 0'
+p5653
+aS'attached = True'
+p5654
+aS'autostrutMode = Off'
+p5655
+aS'rigidAttachment = False'
+p5656
+aS'flag = Squad/Flags/rings'
+p5657
+aS'rTrf = solarPanels5'
+p5658
+aS'modCost = 0'
+p5659
+aS'EVENTS'
+p5660
+a(lp5661
+aS'ACTIONS'
+p5662
+a(lp5663
+aS'PARTDATA'
+p5664
+a(lp5665
+aS'MODULE'
+p5666
+a(lp5667
+S'name = ModuleDeployableSolarPanel'
+p5668
+aS'isEnabled = True'
+p5669
+aS'efficiencyMult = 1'
+p5670
+aS'launchUT = 1297757.8155844365'
+p5671
+aS'currentRotation = (0, -6.057208E-07, 0, 1)'
+p5672
+aS'storedAnimationTime = 0'
+p5673
+aS'storedAnimationSpeed = 0'
+p5674
+aS'deployState = EXTENDED'
+p5675
+aS'stagingEnabled = True'
+p5676
+aS'EVENTS'
+p5677
+a(lp5678
+aS'ACTIONS'
+p5679
+a(lp5680
+S'ExtendPanelsAction'
+p5681
+a(lp5682
+S'actionGroup = None'
+p5683
+aS'active = False'
+p5684
+aaS'ExtendAction'
+p5685
+a(lp5686
+S'actionGroup = None'
+p5687
+aS'active = False'
+p5688
+aaS'RetractAction'
+p5689
+a(lp5690
+S'actionGroup = None'
+p5691
+aS'active = False'
+p5692
+aaaS'UPGRADESAPPLIED'
+p5693
+a(lp5694
+aaaS'PART'
+p5695
+a(lp5696
+S'name = longAntenna'
+p5697
+aS'cid = 4294230076'
+p5698
+aS'uid = 3969631015'
+p5699
+aS'mid = 1805814277'
+p5700
+aS'launchID = 30'
+p5701
+aS'parent = 0'
+p5702
+aS'position = -0.004030933603644371,0.64611625671386719,0.0040309326723217964'
+p5703
+aS'rotation = 0.00585187972,-0.382675797,0.00242390763,0.923861027'
+p5704
+aS'mirror = 1,1,1'
+p5705
+aS'symMethod = Radial'
+p5706
+aS'istg = -1'
+p5707
+aS'resPri = 0'
+p5708
+aS'dstg = 0'
+p5709
+aS'sqor = -1'
+p5710
+aS'sepI = -1'
+p5711
+aS'sidx = -1'
+p5712
+aS'attm = 1'
+p5713
+aS'srfN = srfAttach, 0'
+p5714
+aS'attN = bottom, -1'
+p5715
+aS'mass = 0.00499999989'
+p5716
+aS'shielded = False'
+p5717
+aS'temp = 246.78391165609094'
+p5718
+aS'tempExt = 247.17201091451037'
+p5719
+aS'tempExtUnexp = 4'
+p5720
+aS'expt = 0.5'
+p5721
+aS'state = 0'
+p5722
+aS'attached = True'
+p5723
+aS'autostrutMode = Off'
+p5724
+aS'rigidAttachment = False'
+p5725
+aS'flag = Squad/Flags/rings'
+p5726
+aS'rTrf = longAntenna'
+p5727
+aS'modCost = 0'
+p5728
+aS'EVENTS'
+p5729
+a(lp5730
+aS'ACTIONS'
+p5731
+a(lp5732
+aS'PARTDATA'
+p5733
+a(lp5734
+aS'MODULE'
+p5735
+a(lp5736
+S'name = ModuleDeployableAntenna'
+p5737
+aS'isEnabled = True'
+p5738
+aS'currentRotation = (-0.707106829, 0, 0, 0.707106829)'
+p5739
+aS'storedAnimationTime = 0'
+p5740
+aS'storedAnimationSpeed = 1'
+p5741
+aS'deployState = RETRACTED'
+p5742
+aS'stagingEnabled = True'
+p5743
+aS'EVENTS'
+p5744
+a(lp5745
+aS'ACTIONS'
+p5746
+a(lp5747
+S'ExtendPanelsAction'
+p5748
+a(lp5749
+S'actionGroup = None'
+p5750
+aaS'ExtendAction'
+p5751
+a(lp5752
+S'actionGroup = None'
+p5753
+aaS'RetractAction'
+p5754
+a(lp5755
+S'actionGroup = None'
+p5756
+aaaS'UPGRADESAPPLIED'
+p5757
+a(lp5758
+aaS'MODULE'
+p5759
+a(lp5760
+S'name = ModuleDataTransmitter'
+p5761
+aS'isEnabled = True'
+p5762
+aS'xmitIncomplete = False'
+p5763
+aS'stagingEnabled = True'
+p5764
+aS'canComm = False'
+p5765
+aS'EVENTS'
+p5766
+a(lp5767
+aS'ACTIONS'
+p5768
+a(lp5769
+S'StartTransmissionAction'
+p5770
+a(lp5771
+S'actionGroup = None'
+p5772
+aaaS'UPGRADESAPPLIED'
+p5773
+a(lp5774
+aaaS'PART'
+p5775
+a(lp5776
+S'name = sensorThermometer'
+p5777
+aS'cid = 4293807206'
+p5778
+aS'uid = 4097055486'
+p5779
+aS'mid = 1805814277'
+p5780
+aS'launchID = 30'
+p5781
+aS'parent = 0'
+p5782
+aS'position = -0.42129752039909363,0.30696010589599609,-0.11288630217313766'
+p5783
+aS'rotation = 0.0984483212,0.60405618,-0.0755420551,0.787221313'
+p5784
+aS'mirror = 1,1,1'
+p5785
+aS'symMethod = Radial'
+p5786
+aS'istg = -1'
+p5787
+aS'resPri = 0'
+p5788
+aS'dstg = 0'
+p5789
+aS'sqor = -1'
+p5790
+aS'sepI = -1'
+p5791
+aS'sidx = -1'
+p5792
+aS'attm = 1'
+p5793
+aS'srfN = srfAttach, 0'
+p5794
+aS'mass = 0.00499999989'
+p5795
+aS'shielded = False'
+p5796
+aS'temp = 246.95382740122062'
+p5797
+aS'tempExt = 247.22489590492992'
+p5798
+aS'tempExtUnexp = 4'
+p5799
+aS'expt = 0.5'
+p5800
+aS'state = 0'
+p5801
+aS'attached = True'
+p5802
+aS'autostrutMode = Off'
+p5803
+aS'rigidAttachment = False'
+p5804
+aS'flag = Squad/Flags/rings'
+p5805
+aS'rTrf = sensorThermometer'
+p5806
+aS'modCost = 0'
+p5807
+aS'EVENTS'
+p5808
+a(lp5809
+aS'ACTIONS'
+p5810
+a(lp5811
+aS'PARTDATA'
+p5812
+a(lp5813
+aS'MODULE'
+p5814
+a(lp5815
+S'name = ModuleEnviroSensor'
+p5816
+aS'isEnabled = True'
+p5817
+aS'sensorActive = False'
+p5818
+aS'stagingEnabled = True'
+p5819
+aS'EVENTS'
+p5820
+a(lp5821
+aS'ACTIONS'
+p5822
+a(lp5823
+S'ToggleAction'
+p5824
+a(lp5825
+S'actionGroup = None'
+p5826
+aaaS'UPGRADESAPPLIED'
+p5827
+a(lp5828
+aaS'MODULE'
+p5829
+a(lp5830
+S'name = ModuleScienceExperiment'
+p5831
+aS'isEnabled = True'
+p5832
+aS'Deployed = False'
+p5833
+aS'Inoperable = False'
+p5834
+aS'cooldownToGo = 0'
+p5835
+aS'stagingEnabled = True'
+p5836
+aS'EVENTS'
+p5837
+a(lp5838
+aS'ACTIONS'
+p5839
+a(lp5840
+S'DeployAction'
+p5841
+a(lp5842
+S'actionGroup = None'
+p5843
+aaS'ResetAction'
+p5844
+a(lp5845
+S'actionGroup = None'
+p5846
+aaaS'UPGRADESAPPLIED'
+p5847
+a(lp5848
+aaaS'PART'
+p5849
+a(lp5850
+S'name = sensorBarometer'
+p5851
+aS'cid = 4293805932'
+p5852
+aS'uid = 337888328'
+p5853
+aS'mid = 1805814277'
+p5854
+aS'launchID = 30'
+p5855
+aS'parent = 0'
+p5856
+aS'position = -0.42154222726821899,0.30590724945068359,0.11295189708471298'
+p5857
+aS'rotation = 0.0748090446,0.787340224,-0.0974930525,0.604147375'
+p5858
+aS'mirror = 1,1,1'
+p5859
+aS'symMethod = Radial'
+p5860
+aS'istg = -1'
+p5861
+aS'resPri = 0'
+p5862
+aS'dstg = 0'
+p5863
+aS'sqor = -1'
+p5864
+aS'sepI = -1'
+p5865
+aS'sidx = -1'
+p5866
+aS'attm = 1'
+p5867
+aS'srfN = srfAttach, 0'
+p5868
+aS'mass = 0.00499999989'
+p5869
+aS'shielded = False'
+p5870
+aS'temp = 247.04317714548586'
+p5871
+aS'tempExt = 247.16148849414901'
+p5872
+aS'tempExtUnexp = 4'
+p5873
+aS'expt = 0.5'
+p5874
+aS'state = 0'
+p5875
+aS'attached = True'
+p5876
+aS'autostrutMode = Off'
+p5877
+aS'rigidAttachment = False'
+p5878
+aS'flag = Squad/Flags/rings'
+p5879
+aS'rTrf = sensorBarometer'
+p5880
+aS'modCost = 0'
+p5881
+aS'EVENTS'
+p5882
+a(lp5883
+aS'ACTIONS'
+p5884
+a(lp5885
+aS'PARTDATA'
+p5886
+a(lp5887
+aS'MODULE'
+p5888
+a(lp5889
+S'name = ModuleEnviroSensor'
+p5890
+aS'isEnabled = True'
+p5891
+aS'sensorActive = False'
+p5892
+aS'stagingEnabled = True'
+p5893
+aS'EVENTS'
+p5894
+a(lp5895
+aS'ACTIONS'
+p5896
+a(lp5897
+S'ToggleAction'
+p5898
+a(lp5899
+S'actionGroup = None'
+p5900
+aaaS'UPGRADESAPPLIED'
+p5901
+a(lp5902
+aaS'MODULE'
+p5903
+a(lp5904
+S'name = ModuleScienceExperiment'
+p5905
+aS'isEnabled = True'
+p5906
+aS'Deployed = False'
+p5907
+aS'Inoperable = False'
+p5908
+aS'cooldownToGo = 0'
+p5909
+aS'stagingEnabled = True'
+p5910
+aS'EVENTS'
+p5911
+a(lp5912
+aS'ACTIONS'
+p5913
+a(lp5914
+S'DeployAction'
+p5915
+a(lp5916
+S'actionGroup = None'
+p5917
+aaS'ResetAction'
+p5918
+a(lp5919
+S'actionGroup = None'
+p5920
+aaaS'UPGRADESAPPLIED'
+p5921
+a(lp5922
+aaaS'ACTIONGROUPS'
+p5923
+a(lp5924
+S'Stage = False, 1297896.67427597'
+p5925
+aS'Gear = False, 0'
+p5926
+aS'Light = False, 0'
+p5927
+aS'RCS = False, 0'
+p5928
+aS'SAS = False, 1326891.37406132'
+p5929
+aS'Brakes = False, 0'
+p5930
+aS'Abort = False, 0'
+p5931
+aS'Custom01 = False, 0'
+p5932
+aS'Custom02 = False, 0'
+p5933
+aS'Custom03 = False, 0'
+p5934
+aS'Custom04 = False, 0'
+p5935
+aS'Custom05 = False, 0'
+p5936
+aS'Custom06 = False, 0'
+p5937
+aS'Custom07 = False, 0'
+p5938
+aS'Custom08 = False, 0'
+p5939
+aS'Custom09 = False, 0'
+p5940
+aS'Custom10 = False, 0'
+p5941
+aaS'DISCOVERY'
+p5942
+a(lp5943
+S'state = -1'
+p5944
+aS'lastObservedTime = 0'
+p5945
+aS'lifetime = Infinity'
+p5946
+aS'refTime = Infinity'
+p5947
+aS'size = 2'
+p5948
+aaS'FLIGHTPLAN'
+p5949
+a(lp5950
+aS'CTRLSTATE'
+p5951
+a(lp5952
+S'pitch = 0'
+p5953
+aS'yaw = 0'
+p5954
+aS'roll = 0'
+p5955
+aS'trimPitch = 0'
+p5956
+aS'trimYaw = 0'
+p5957
+aS'trimRoll = 0'
+p5958
+aS'mainThrottle = 0'
+p5959
+aaS'VESSELMODULES'
+p5960
+a(lp5961
+S'FlightIntegrator'
+p5962
+a(lp5963
+aS'CommNetVessel'
+p5964
+a(lp5965
+S'controlState = ProbeFull'
+p5966
+aS'canComm = True'
+p5967
+aaaa(lp5968
+S'pid = 234f7cc3b79849fb9e9014dbb11383e7'
+p5969
+aS'name = Adnan mk2'
+p5970
+aS'type = Relay'
+p5971
+aS'sit = LANDED'
+p5972
+aS'landed = True'
+p5973
+aS'landedAt ='
+p5974
+aS'splashed = False'
+p5975
+aS'met = 293227.18128965097'
+p5976
+aS'lct = 1330107.5047646672'
+p5977
+aS'lastUT = 1623334.6860543182'
+p5978
+aS'root = 0'
+p5979
+aS'lat = 0.76853995591288615'
+p5980
+aS'lon = -24.792942334815834'
+p5981
+aS'alt = 3327.6891970252618'
+p5982
+aS'hgt = 0.607349932'
+p5983
+aS'nrm = 0.866074085,0.000828623772,0.499914944'
+p5984
+aS'rot = 0.897839367,0.182729721,0.0457069501,0.398001671'
+p5985
+aS'CoM = 0.0129643679,-4.11397076,-0.000111460686'
+p5986
+aS'stg = 1'
+p5987
+aS'prst = False'
+p5988
+aS'ref = 2398354147'
+p5989
+aS'ctrl = True'
+p5990
+aS'cPch ='
+p5991
+aS'cHdg ='
+p5992
+aS'cMod = 0'
+p5993
+aS'ORBIT'
+p5994
+a(lp5995
+S'SMA = NaN'
+p5996
+aS'ECC = 1'
+p5997
+aS'INC = 0.0046392808496394568'
+p5998
+aS'LPE = 90'
+p5999
+aS'LAN = 70.919518528944479'
+p6000
+aS'MNA = 0'
+p6001
+aS'EPH = 1623334.6860543182'
+p6002
+aS'REF = 2'
+p6003
+aaS'PART'
+p6004
+a(lp6005
+S'name = probeCoreSphere'
+p6006
+aS'cid = 4294437612'
+p6007
+aS'uid = 2398354147'
+p6008
+aS'mid = 1617117623'
+p6009
+aS'launchID = 31'
+p6010
+aS'parent = 0'
+p6011
+aS'position = 0,0,0'
+p6012
+aS'rotation = 0,0,0,1'
+p6013
+aS'mirror = 1,1,1'
+p6014
+aS'symMethod = Radial'
+p6015
+aS'istg = -1'
+p6016
+aS'resPri = 0'
+p6017
+aS'dstg = 0'
+p6018
+aS'sqor = -1'
+p6019
+aS'sepI = -1'
+p6020
+aS'sidx = -1'
+p6021
+aS'attm = 0'
+p6022
+aS'srfN = , -1'
+p6023
+aS'attN = bottom, 3'
+p6024
+aS'mass = 0.0500000007'
+p6025
+aS'shielded = False'
+p6026
+aS'temp = 280.29017744348857'
+p6027
+aS'tempExt = 280.09239676819004'
+p6028
+aS'tempExtUnexp = 4'
+p6029
+aS'expt = 0'
+p6030
+aS'state = 0'
+p6031
+aS'attached = True'
+p6032
+aS'autostrutMode = Off'
+p6033
+aS'rigidAttachment = False'
+p6034
+aS'flag = Squad/Flags/rings'
+p6035
+aS'rTrf = probeCoreSphere'
+p6036
+aS'modCost = 0'
+p6037
+aS'EVENTS'
+p6038
+a(lp6039
+aS'ACTIONS'
+p6040
+a(lp6041
+aS'PARTDATA'
+p6042
+a(lp6043
+aS'MODULE'
+p6044
+a(lp6045
+S'name = ModuleCommand'
+p6046
+aS'isEnabled = True'
+p6047
+aS'hibernation = False'
+p6048
+aS'hibernateOnWarp = False'
+p6049
+aS'stagingEnabled = True'
+p6050
+aS'EVENTS'
+p6051
+a(lp6052
+aS'ACTIONS'
+p6053
+a(lp6054
+S'HibernateToggle'
+p6055
+a(lp6056
+S'actionGroup = None'
+p6057
+aaaS'UPGRADESAPPLIED'
+p6058
+a(lp6059
+aaS'MODULE'
+p6060
+a(lp6061
+S'name = ModuleKerbNetAccess'
+p6062
+aS'isEnabled = True'
+p6063
+aS'stagingEnabled = True'
+p6064
+aS'EVENTS'
+p6065
+a(lp6066
+aS'ACTIONS'
+p6067
+a(lp6068
+S'OpenKerbNetAction'
+p6069
+a(lp6070
+S'actionGroup = None'
+p6071
+aaaS'UPGRADESAPPLIED'
+p6072
+a(lp6073
+aaS'MODULE'
+p6074
+a(lp6075
+S'name = ModuleDataTransmitter'
+p6076
+aS'isEnabled = True'
+p6077
+aS'xmitIncomplete = False'
+p6078
+aS'stagingEnabled = True'
+p6079
+aS'canComm = True'
+p6080
+aS'EVENTS'
+p6081
+a(lp6082
+aS'ACTIONS'
+p6083
+a(lp6084
+S'StartTransmissionAction'
+p6085
+a(lp6086
+S'actionGroup = None'
+p6087
+aS'active = False'
+p6088
+aaaS'UPGRADESAPPLIED'
+p6089
+a(lp6090
+aaS'MODULE'
+p6091
+a(lp6092
+S'name = ModuleTripLogger'
+p6093
+aS'isEnabled = True'
+p6094
+aS'stagingEnabled = True'
+p6095
+aS'EVENTS'
+p6096
+a(lp6097
+aS'ACTIONS'
+p6098
+a(lp6099
+aS'Log'
+p6100
+a(lp6101
+S'flight = 0'
+p6102
+aS'0 = Flight,Kerbin'
+p6103
+aS'0 = Suborbit,Kerbin'
+p6104
+aS'0 = Orbit,Kerbin'
+p6105
+aS'0 = Flyby,Mun'
+p6106
+aS'0 = Escape,Mun'
+p6107
+aS'0 = Orbit,Mun'
+p6108
+aS'0 = Suborbit,Mun'
+p6109
+aS'0 = Land,Mun'
+p6110
+aaS'UPGRADESAPPLIED'
+p6111
+a(lp6112
+aaS'RESOURCE'
+p6113
+a(lp6114
+S'name = ElectricCharge'
+p6115
+aS'amount = 10'
+p6116
+aS'maxAmount = 10'
+p6117
+aS'flowState = True'
+p6118
+aS'isTweakable = True'
+p6119
+aS'hideFlow = False'
+p6120
+aS'isVisible = True'
+p6121
+aS'flowMode = Both'
+p6122
+aaaS'PART'
+p6123
+a(lp6124
+S'name = sensorThermometer'
+p6125
+aS'cid = 4293807206'
+p6126
+aS'uid = 3680994653'
+p6127
+aS'mid = 1617117623'
+p6128
+aS'launchID = 31'
+p6129
+aS'parent = 0'
+p6130
+aS'position = -0.42129752039909363,0.30696010589599609,-0.11288630217313766'
+p6131
+aS'rotation = 0.0984483212,0.60405618,-0.0755420551,0.787221313'
+p6132
+aS'mirror = 1,1,1'
+p6133
+aS'symMethod = Radial'
+p6134
+aS'istg = -1'
+p6135
+aS'resPri = 0'
+p6136
+aS'dstg = 0'
+p6137
+aS'sqor = -1'
+p6138
+aS'sepI = -1'
+p6139
+aS'sidx = -1'
+p6140
+aS'attm = 1'
+p6141
+aS'srfN = srfAttach, 0'
+p6142
+aS'mass = 0.00499999989'
+p6143
+aS'shielded = False'
+p6144
+aS'temp = 279.95450962053934'
+p6145
+aS'tempExt = 279.909189460248'
+p6146
+aS'tempExtUnexp = 4'
+p6147
+aS'expt = 0.5'
+p6148
+aS'state = 0'
+p6149
+aS'attached = True'
+p6150
+aS'autostrutMode = Off'
+p6151
+aS'rigidAttachment = False'
+p6152
+aS'flag = Squad/Flags/rings'
+p6153
+aS'rTrf = sensorThermometer'
+p6154
+aS'modCost = 0'
+p6155
+aS'EVENTS'
+p6156
+a(lp6157
+aS'ACTIONS'
+p6158
+a(lp6159
+aS'PARTDATA'
+p6160
+a(lp6161
+aS'MODULE'
+p6162
+a(lp6163
+S'name = ModuleEnviroSensor'
+p6164
+aS'isEnabled = True'
+p6165
+aS'sensorActive = False'
+p6166
+aS'stagingEnabled = True'
+p6167
+aS'EVENTS'
+p6168
+a(lp6169
+aS'ACTIONS'
+p6170
+a(lp6171
+S'ToggleAction'
+p6172
+a(lp6173
+S'actionGroup = None'
+p6174
+aaaS'UPGRADESAPPLIED'
+p6175
+a(lp6176
+aaS'MODULE'
+p6177
+a(lp6178
+S'name = ModuleScienceExperiment'
+p6179
+aS'isEnabled = True'
+p6180
+aS'Deployed = False'
+p6181
+aS'Inoperable = False'
+p6182
+aS'cooldownToGo = 0'
+p6183
+aS'stagingEnabled = True'
+p6184
+aS'EVENTS'
+p6185
+a(lp6186
+aS'ACTIONS'
+p6187
+a(lp6188
+S'DeployAction'
+p6189
+a(lp6190
+S'actionGroup = None'
+p6191
+aaS'ResetAction'
+p6192
+a(lp6193
+S'actionGroup = None'
+p6194
+aaaS'UPGRADESAPPLIED'
+p6195
+a(lp6196
+aaaS'PART'
+p6197
+a(lp6198
+S'name = sensorBarometer'
+p6199
+aS'cid = 4293805932'
+p6200
+aS'uid = 1699185828'
+p6201
+aS'mid = 1617117623'
+p6202
+aS'launchID = 31'
+p6203
+aS'parent = 0'
+p6204
+aS'position = -0.42154222726821899,0.30590724945068359,0.11295189708471298'
+p6205
+aS'rotation = 0.0748090446,0.787340224,-0.0974930525,0.604147375'
+p6206
+aS'mirror = 1,1,1'
+p6207
+aS'symMethod = Radial'
+p6208
+aS'istg = -1'
+p6209
+aS'resPri = 0'
+p6210
+aS'dstg = 0'
+p6211
+aS'sqor = -1'
+p6212
+aS'sepI = -1'
+p6213
+aS'sidx = -1'
+p6214
+aS'attm = 1'
+p6215
+aS'srfN = srfAttach, 0'
+p6216
+aS'mass = 0.00499999989'
+p6217
+aS'shielded = False'
+p6218
+aS'temp = 280.09665677547656'
+p6219
+aS'tempExt = 279.87362811115872'
+p6220
+aS'tempExtUnexp = 4'
+p6221
+aS'expt = 0.5'
+p6222
+aS'state = 0'
+p6223
+aS'attached = True'
+p6224
+aS'autostrutMode = Off'
+p6225
+aS'rigidAttachment = False'
+p6226
+aS'flag = Squad/Flags/rings'
+p6227
+aS'rTrf = sensorBarometer'
+p6228
+aS'modCost = 0'
+p6229
+aS'EVENTS'
+p6230
+a(lp6231
+aS'ACTIONS'
+p6232
+a(lp6233
+aS'PARTDATA'
+p6234
+a(lp6235
+aS'MODULE'
+p6236
+a(lp6237
+S'name = ModuleEnviroSensor'
+p6238
+aS'isEnabled = True'
+p6239
+aS'sensorActive = False'
+p6240
+aS'stagingEnabled = True'
+p6241
+aS'EVENTS'
+p6242
+a(lp6243
+aS'ACTIONS'
+p6244
+a(lp6245
+S'ToggleAction'
+p6246
+a(lp6247
+S'actionGroup = None'
+p6248
+aaaS'UPGRADESAPPLIED'
+p6249
+a(lp6250
+aaS'MODULE'
+p6251
+a(lp6252
+S'name = ModuleScienceExperiment'
+p6253
+aS'isEnabled = True'
+p6254
+aS'Deployed = False'
+p6255
+aS'Inoperable = False'
+p6256
+aS'cooldownToGo = 0'
+p6257
+aS'stagingEnabled = True'
+p6258
+aS'EVENTS'
+p6259
+a(lp6260
+aS'ACTIONS'
+p6261
+a(lp6262
+S'DeployAction'
+p6263
+a(lp6264
+S'actionGroup = None'
+p6265
+aaS'ResetAction'
+p6266
+a(lp6267
+S'actionGroup = None'
+p6268
+aaaS'UPGRADESAPPLIED'
+p6269
+a(lp6270
+aaaS'PART'
+p6271
+a(lp6272
+S'name = batteryBankMini'
+p6273
+aS'cid = 4294429360'
+p6274
+aS'uid = 3207622404'
+p6275
+aS'mid = 1617117623'
+p6276
+aS'launchID = 31'
+p6277
+aS'parent = 0'
+p6278
+aS'position = 0,-0.43834686279296875,0'
+p6279
+aS'rotation = 0,0,0,1'
+p6280
+aS'mirror = 1,1,1'
+p6281
+aS'symMethod = Radial'
+p6282
+aS'istg = -1'
+p6283
+aS'resPri = 0'
+p6284
+aS'dstg = 0'
+p6285
+aS'sqor = -1'
+p6286
+aS'sepI = -1'
+p6287
+aS'sidx = -1'
+p6288
+aS'attm = 0'
+p6289
+aS'srfN = srfAttach, -1'
+p6290
+aS'attN = top, 0'
+p6291
+aS'attN = bottom, 4'
+p6292
+aS'mass = 0.00999999978'
+p6293
+aS'shielded = False'
+p6294
+aS'temp = 280.9410073547125'
+p6295
+aS'tempExt = 280.66930345397191'
+p6296
+aS'tempExtUnexp = 4'
+p6297
+aS'expt = 0.5'
+p6298
+aS'state = 0'
+p6299
+aS'attached = True'
+p6300
+aS'autostrutMode = Off'
+p6301
+aS'rigidAttachment = False'
+p6302
+aS'flag = Squad/Flags/rings'
+p6303
+aS'rTrf = batteryBankMini'
+p6304
+aS'modCost = 0'
+p6305
+aS'EVENTS'
+p6306
+a(lp6307
+aS'ACTIONS'
+p6308
+a(lp6309
+aS'PARTDATA'
+p6310
+a(lp6311
+aS'RESOURCE'
+p6312
+a(lp6313
+S'name = ElectricCharge'
+p6314
+aS'amount = 200'
+p6315
+aS'maxAmount = 200'
+p6316
+aS'flowState = True'
+p6317
+aS'isTweakable = True'
+p6318
+aS'hideFlow = False'
+p6319
+aS'isVisible = True'
+p6320
+aS'flowMode = Both'
+p6321
+aaaS'PART'
+p6322
+a(lp6323
+S'name = stackDecoupler'
+p6324
+aS'cid = 4294418496'
+p6325
+aS'uid = 1948908779'
+p6326
+aS'mid = 1617117623'
+p6327
+aS'launchID = 31'
+p6328
+aS'parent = 3'
+p6329
+aS'position = 0,-0.60339927673339844,0'
+p6330
+aS'rotation = 0,0,0,1'
+p6331
+aS'mirror = 1,1,1'
+p6332
+aS'symMethod = Radial'
+p6333
+aS'istg = 0'
+p6334
+aS'resPri = 0'
+p6335
+aS'dstg = 1'
+p6336
+aS'sqor = 0'
+p6337
+aS'sepI = 0'
+p6338
+aS'sidx = 0'
+p6339
+aS'attm = 0'
+p6340
+aS'srfN = , -1'
+p6341
+aS'attN = bottom, 5'
+p6342
+aS'attN = top, 3'
+p6343
+aS'mass = 0.0500000007'
+p6344
+aS'shielded = False'
+p6345
+aS'temp = 281.76985457717518'
+p6346
+aS'tempExt = 281.50708945054237'
+p6347
+aS'tempExtUnexp = 4'
+p6348
+aS'expt = 0.5'
+p6349
+aS'state = 0'
+p6350
+aS'attached = True'
+p6351
+aS'autostrutMode = Off'
+p6352
+aS'rigidAttachment = False'
+p6353
+aS'flag = Squad/Flags/rings'
+p6354
+aS'rTrf = stackDecoupler'
+p6355
+aS'modCost = 0'
+p6356
+aS'EVENTS'
+p6357
+a(lp6358
+aS'ACTIONS'
+p6359
+a(lp6360
+aS'PARTDATA'
+p6361
+a(lp6362
+aS'MODULE'
+p6363
+a(lp6364
+S'name = ModuleDecouple'
+p6365
+aS'isEnabled = True'
+p6366
+aS'ejectionForcePercent = 100'
+p6367
+aS'isDecoupled = False'
+p6368
+aS'stagingEnabled = True'
+p6369
+aS'EVENTS'
+p6370
+a(lp6371
+aS'ACTIONS'
+p6372
+a(lp6373
+S'DecoupleAction'
+p6374
+a(lp6375
+S'actionGroup = None'
+p6376
+aaaS'UPGRADESAPPLIED'
+p6377
+a(lp6378
+aaS'MODULE'
+p6379
+a(lp6380
+S'name = ModuleToggleCrossfeed'
+p6381
+aS'isEnabled = True'
+p6382
+aS'crossfeedStatus = False'
+p6383
+aS'stagingEnabled = True'
+p6384
+aS'EVENTS'
+p6385
+a(lp6386
+aS'ACTIONS'
+p6387
+a(lp6388
+S'ToggleAction'
+p6389
+a(lp6390
+S'actionGroup = None'
+p6391
+aaS'EnableAction'
+p6392
+a(lp6393
+S'actionGroup = None'
+p6394
+aaS'DisableAction'
+p6395
+a(lp6396
+S'actionGroup = None'
+p6397
+aaaS'UPGRADESAPPLIED'
+p6398
+a(lp6399
+aaS'MODULE'
+p6400
+a(lp6401
+S'name = ModuleTestSubject'
+p6402
+aS'isEnabled = True'
+p6403
+aS'stagingEnabled = True'
+p6404
+aS'EVENTS'
+p6405
+a(lp6406
+aS'ACTIONS'
+p6407
+a(lp6408
+aS'UPGRADESAPPLIED'
+p6409
+a(lp6410
+aaaS'PART'
+p6411
+a(lp6412
+S'name = advSasModule'
+p6413
+aS'cid = 4293682002'
+p6414
+aS'uid = 274404768'
+p6415
+aS'mid = 1617117623'
+p6416
+aS'launchID = 31'
+p6417
+aS'parent = 4'
+p6418
+aS'position = 0,-0.93542098999023438,0'
+p6419
+aS'rotation = 0,0,0,1'
+p6420
+aS'mirror = 1,1,1'
+p6421
+aS'symMethod = Radial'
+p6422
+aS'istg = 0'
+p6423
+aS'resPri = 0'
+p6424
+aS'dstg = 2'
+p6425
+aS'sqor = -1'
+p6426
+aS'sepI = 0'
+p6427
+aS'sidx = -1'
+p6428
+aS'attm = 0'
+p6429
+aS'srfN = , -1'
+p6430
+aS'attN = top, 4'
+p6431
+aS'attN = bottom, 6'
+p6432
+aS'mass = 0.100000001'
+p6433
+aS'shielded = False'
+p6434
+aS'temp = 282.0167558652459'
+p6435
+aS'tempExt = 282.0189310662567'
+p6436
+aS'tempExtUnexp = 4'
+p6437
+aS'expt = 0.5'
+p6438
+aS'state = 0'
+p6439
+aS'attached = True'
+p6440
+aS'autostrutMode = Off'
+p6441
+aS'rigidAttachment = False'
+p6442
+aS'flag = Squad/Flags/rings'
+p6443
+aS'rTrf = advSasModule'
+p6444
+aS'modCost = 0'
+p6445
+aS'EVENTS'
+p6446
+a(lp6447
+aS'ACTIONS'
+p6448
+a(lp6449
+aS'PARTDATA'
+p6450
+a(lp6451
+aS'MODULE'
+p6452
+a(lp6453
+S'name = ModuleReactionWheel'
+p6454
+aS'isEnabled = True'
+p6455
+aS'actuatorModeCycle = 0'
+p6456
+aS'authorityLimiter = 100'
+p6457
+aS'stateString = Idle'
+p6458
+aS'stagingEnabled = True'
+p6459
+aS'WheelState = Active'
+p6460
+aS'EVENTS'
+p6461
+a(lp6462
+aS'ACTIONS'
+p6463
+a(lp6464
+S'CycleAction'
+p6465
+a(lp6466
+S'actionGroup = None'
+p6467
+aaS'Activate'
+p6468
+a(lp6469
+S'actionGroup = None'
+p6470
+aaS'Deactivate'
+p6471
+a(lp6472
+S'actionGroup = None'
+p6473
+aaS'Toggle'
+p6474
+a(lp6475
+S'actionGroup = None'
+p6476
+aaaS'UPGRADESAPPLIED'
+p6477
+a(lp6478
+aaaS'PART'
+p6479
+a(lp6480
+S'name = fuelTankSmall'
+p6481
+aS'cid = 4294412040'
+p6482
+aS'uid = 372209805'
+p6483
+aS'mid = 1617117623'
+p6484
+aS'launchID = 31'
+p6485
+aS'parent = 5'
+p6486
+aS'position = 0,-1.6896982192993164,0'
+p6487
+aS'rotation = 0,0,0,1'
+p6488
+aS'mirror = 1,1,1'
+p6489
+aS'symMethod = Radial'
+p6490
+aS'istg = 0'
+p6491
+aS'resPri = 0'
+p6492
+aS'dstg = 2'
+p6493
+aS'sqor = -1'
+p6494
+aS'sepI = 0'
+p6495
+aS'sidx = -1'
+p6496
+aS'attm = 0'
+p6497
+aS'srfN = srfAttach, -1'
+p6498
+aS'attN = top, 5'
+p6499
+aS'attN = bottom, 7'
+p6500
+aS'mass = 0.125'
+p6501
+aS'shielded = False'
+p6502
+aS'temp = 282.32037588360924'
+p6503
+aS'tempExt = 282.54620632937582'
+p6504
+aS'tempExtUnexp = 4'
+p6505
+aS'expt = 0.5'
+p6506
+aS'state = 0'
+p6507
+aS'attached = True'
+p6508
+aS'autostrutMode = Off'
+p6509
+aS'rigidAttachment = False'
+p6510
+aS'flag = Squad/Flags/rings'
+p6511
+aS'rTrf = fuelTankSmall'
+p6512
+aS'modCost = 0'
+p6513
+aS'EVENTS'
+p6514
+a(lp6515
+aS'ACTIONS'
+p6516
+a(lp6517
+aS'PARTDATA'
+p6518
+a(lp6519
+aS'RESOURCE'
+p6520
+a(lp6521
+S'name = LiquidFuel'
+p6522
+aS'amount = 6.2019380298794822'
+p6523
+aS'maxAmount = 90'
+p6524
+aS'flowState = True'
+p6525
+aS'isTweakable = True'
+p6526
+aS'hideFlow = False'
+p6527
+aS'isVisible = True'
+p6528
+aS'flowMode = Both'
+p6529
+aaS'RESOURCE'
+p6530
+a(lp6531
+S'name = Oxidizer'
+p6532
+aS'amount = 7.5801415478789762'
+p6533
+aS'maxAmount = 110'
+p6534
+aS'flowState = True'
+p6535
+aS'isTweakable = True'
+p6536
+aS'hideFlow = False'
+p6537
+aS'isVisible = True'
+p6538
+aS'flowMode = Both'
+p6539
+aaaS'PART'
+p6540
+a(lp6541
+S'name = fuelTankSmall'
+p6542
+aS'cid = 4294075336'
+p6543
+aS'uid = 2426785903'
+p6544
+aS'mid = 1617117623'
+p6545
+aS'launchID = 31'
+p6546
+aS'parent = 6'
+p6547
+aS'position = 0,-2.8001985549926758,0'
+p6548
+aS'rotation = 0,0,0,1'
+p6549
+aS'mirror = 1,1,1'
+p6550
+aS'symMethod = Radial'
+p6551
+aS'istg = 0'
+p6552
+aS'resPri = 0'
+p6553
+aS'dstg = 2'
+p6554
+aS'sqor = -1'
+p6555
+aS'sepI = 0'
+p6556
+aS'sidx = -1'
+p6557
+aS'attm = 0'
+p6558
+aS'srfN = srfAttach, -1'
+p6559
+aS'attN = top, 6'
+p6560
+aS'attN = bottom, 8'
+p6561
+aS'mass = 0.125'
+p6562
+aS'shielded = False'
+p6563
+aS'temp = 282.78794796362632'
+p6564
+aS'tempExt = 283.01232981839757'
+p6565
+aS'tempExtUnexp = 4'
+p6566
+aS'expt = 0.5'
+p6567
+aS'state = 0'
+p6568
+aS'attached = True'
+p6569
+aS'autostrutMode = Off'
+p6570
+aS'rigidAttachment = False'
+p6571
+aS'flag = Squad/Flags/rings'
+p6572
+aS'rTrf = fuelTankSmall'
+p6573
+aS'modCost = 0'
+p6574
+aS'EVENTS'
+p6575
+a(lp6576
+aS'ACTIONS'
+p6577
+a(lp6578
+aS'PARTDATA'
+p6579
+a(lp6580
+aS'RESOURCE'
+p6581
+a(lp6582
+S'name = LiquidFuel'
+p6583
+aS'amount = 6.2019380298794822'
+p6584
+aS'maxAmount = 90'
+p6585
+aS'flowState = True'
+p6586
+aS'isTweakable = True'
+p6587
+aS'hideFlow = False'
+p6588
+aS'isVisible = True'
+p6589
+aS'flowMode = Both'
+p6590
+aaS'RESOURCE'
+p6591
+a(lp6592
+S'name = Oxidizer'
+p6593
+aS'amount = 7.5801415478789762'
+p6594
+aS'maxAmount = 110'
+p6595
+aS'flowState = True'
+p6596
+aS'isTweakable = True'
+p6597
+aS'hideFlow = False'
+p6598
+aS'isVisible = True'
+p6599
+aS'flowMode = Both'
+p6600
+aaaS'PART'
+p6601
+a(lp6602
+S'name = fuelTankSmall'
+p6603
+aS'cid = 4294075232'
+p6604
+aS'uid = 248486014'
+p6605
+aS'mid = 1617117623'
+p6606
+aS'launchID = 31'
+p6607
+aS'parent = 7'
+p6608
+aS'position = 0,-3.9106988906860352,0'
+p6609
+aS'rotation = 0,0,0,1'
+p6610
+aS'mirror = 1,1,1'
+p6611
+aS'symMethod = Radial'
+p6612
+aS'istg = 0'
+p6613
+aS'resPri = 0'
+p6614
+aS'dstg = 2'
+p6615
+aS'sqor = -1'
+p6616
+aS'sepI = 0'
+p6617
+aS'sidx = -1'
+p6618
+aS'attm = 0'
+p6619
+aS'srfN = srfAttach, -1'
+p6620
+aS'attN = top, 7'
+p6621
+aS'attN = bottom, 9'
+p6622
+aS'mass = 0.125'
+p6623
+aS'shielded = False'
+p6624
+aS'temp = 283.34058225045027'
+p6625
+aS'tempExt = 283.62000959402644'
+p6626
+aS'tempExtUnexp = 4'
+p6627
+aS'expt = 0.5'
+p6628
+aS'state = 0'
+p6629
+aS'attached = True'
+p6630
+aS'autostrutMode = Off'
+p6631
+aS'rigidAttachment = False'
+p6632
+aS'flag = Squad/Flags/rings'
+p6633
+aS'rTrf = fuelTankSmall'
+p6634
+aS'modCost = 0'
+p6635
+aS'EVENTS'
+p6636
+a(lp6637
+aS'ACTIONS'
+p6638
+a(lp6639
+aS'PARTDATA'
+p6640
+a(lp6641
+aS'RESOURCE'
+p6642
+a(lp6643
+S'name = LiquidFuel'
+p6644
+aS'amount = 6.2019380298794822'
+p6645
+aS'maxAmount = 90'
+p6646
+aS'flowState = True'
+p6647
+aS'isTweakable = True'
+p6648
+aS'hideFlow = False'
+p6649
+aS'isVisible = True'
+p6650
+aS'flowMode = Both'
+p6651
+aaS'RESOURCE'
+p6652
+a(lp6653
+S'name = Oxidizer'
+p6654
+aS'amount = 7.5801415478789762'
+p6655
+aS'maxAmount = 110'
+p6656
+aS'flowState = True'
+p6657
+aS'isTweakable = True'
+p6658
+aS'hideFlow = False'
+p6659
+aS'isVisible = True'
+p6660
+aS'flowMode = Both'
+p6661
+aaaS'PART'
+p6662
+a(lp6663
+S'name = liquidEngine2'
+p6664
+aS'cid = 4294413798'
+p6665
+aS'uid = 2545636825'
+p6666
+aS'mid = 1617117623'
+p6667
+aS'launchID = 31'
+p6668
+aS'parent = 8'
+p6669
+aS'position = 0,-5.3677749633789063,0'
+p6670
+aS'rotation = 0,0,0,1'
+p6671
+aS'mirror = 1,1,1'
+p6672
+aS'symMethod = Radial'
+p6673
+aS'istg = 1'
+p6674
+aS'resPri = 0'
+p6675
+aS'dstg = 2'
+p6676
+aS'sqor = 1'
+p6677
+aS'sepI = 0'
+p6678
+aS'sidx = 0'
+p6679
+aS'attm = 0'
+p6680
+aS'srfN = , -1'
+p6681
+aS'attN = top, 8'
+p6682
+aS'attN = bottom, -1'
+p6683
+aS'mass = 1.5'
+p6684
+aS'shielded = False'
+p6685
+aS'temp = 284.47133418975238'
+p6686
+aS'tempExt = 284.40905140075631'
+p6687
+aS'tempExtUnexp = 4'
+p6688
+aS'expt = 0.5'
+p6689
+aS'state = 1'
+p6690
+aS'attached = True'
+p6691
+aS'autostrutMode = Off'
+p6692
+aS'rigidAttachment = False'
+p6693
+aS'flag = Squad/Flags/rings'
+p6694
+aS'rTrf = liquidEngine2'
+p6695
+aS'modCost = 0'
+p6696
+aS'EVENTS'
+p6697
+a(lp6698
+aS'ACTIONS'
+p6699
+a(lp6700
+aS'PARTDATA'
+p6701
+a(lp6702
+aS'MODULE'
+p6703
+a(lp6704
+S'name = ModuleEngines'
+p6705
+aS'isEnabled = True'
+p6706
+aS'staged = True'
+p6707
+aS'flameout = False'
+p6708
+aS'EngineIgnited = True'
+p6709
+aS'engineShutdown = False'
+p6710
+aS'currentThrottle = 0'
+p6711
+aS'thrustPercentage = 100'
+p6712
+aS'manuallyOverridden = False'
+p6713
+aS'stagingEnabled = True'
+p6714
+aS'EVENTS'
+p6715
+a(lp6716
+aS'ACTIONS'
+p6717
+a(lp6718
+S'OnAction'
+p6719
+a(lp6720
+S'actionGroup = None'
+p6721
+aaS'ShutdownAction'
+p6722
+a(lp6723
+S'actionGroup = None'
+p6724
+aaS'ActivateAction'
+p6725
+a(lp6726
+S'actionGroup = None'
+p6727
+aaaS'UPGRADESAPPLIED'
+p6728
+a(lp6729
+aaS'MODULE'
+p6730
+a(lp6731
+S'name = ModuleJettison'
+p6732
+aS'isEnabled = True'
+p6733
+aS'isJettisoned = True'
+p6734
+aS'shroudHideOverride = False'
+p6735
+aS'stagingEnabled = True'
+p6736
+aS'EVENTS'
+p6737
+a(lp6738
+aS'ACTIONS'
+p6739
+a(lp6740
+S'JettisonAction'
+p6741
+a(lp6742
+S'actionGroup = None'
+p6743
+aaaS'UPGRADESAPPLIED'
+p6744
+a(lp6745
+aaS'MODULE'
+p6746
+a(lp6747
+S'name = ModuleGimbal'
+p6748
+aS'isEnabled = True'
+p6749
+aS'gimbalLock = False'
+p6750
+aS'gimbalLimiter = 100'
+p6751
+aS'currentShowToggles = False'
+p6752
+aS'enableYaw = True'
+p6753
+aS'enablePitch = True'
+p6754
+aS'enableRoll = True'
+p6755
+aS'gimbalActive = True'
+p6756
+aS'stagingEnabled = True'
+p6757
+aS'EVENTS'
+p6758
+a(lp6759
+aS'ACTIONS'
+p6760
+a(lp6761
+S'ToggleAction'
+p6762
+a(lp6763
+S'actionGroup = None'
+p6764
+aaS'LockAction'
+p6765
+a(lp6766
+S'actionGroup = None'
+p6767
+aaS'FreeAction'
+p6768
+a(lp6769
+S'actionGroup = None'
+p6770
+aaS'TogglePitchAction'
+p6771
+a(lp6772
+S'actionGroup = None'
+p6773
+aaS'ToggleYawAction'
+p6774
+a(lp6775
+S'actionGroup = None'
+p6776
+aaS'ToggleRollAction'
+p6777
+a(lp6778
+S'actionGroup = None'
+p6779
+aaaS'UPGRADESAPPLIED'
+p6780
+a(lp6781
+aaS'MODULE'
+p6782
+a(lp6783
+S'name = FXModuleAnimateThrottle'
+p6784
+aS'isEnabled = True'
+p6785
+aS'animState = 0.00304878573'
+p6786
+aS'stagingEnabled = True'
+p6787
+aS'EVENTS'
+p6788
+a(lp6789
+aS'ACTIONS'
+p6790
+a(lp6791
+aS'UPGRADESAPPLIED'
+p6792
+a(lp6793
+aaS'MODULE'
+p6794
+a(lp6795
+S'name = ModuleAlternator'
+p6796
+aS'isEnabled = True'
+p6797
+aS'stagingEnabled = True'
+p6798
+aS'EVENTS'
+p6799
+a(lp6800
+aS'ACTIONS'
+p6801
+a(lp6802
+aS'UPGRADESAPPLIED'
+p6803
+a(lp6804
+aaS'MODULE'
+p6805
+a(lp6806
+S'name = ModuleSurfaceFX'
+p6807
+aS'isEnabled = True'
+p6808
+aS'stagingEnabled = True'
+p6809
+aS'EVENTS'
+p6810
+a(lp6811
+aS'ACTIONS'
+p6812
+a(lp6813
+aS'UPGRADESAPPLIED'
+p6814
+a(lp6815
+aaS'MODULE'
+p6816
+a(lp6817
+S'name = ModuleTestSubject'
+p6818
+aS'isEnabled = True'
+p6819
+aS'stagingEnabled = True'
+p6820
+aS'EVENTS'
+p6821
+a(lp6822
+aS'ACTIONS'
+p6823
+a(lp6824
+aS'UPGRADESAPPLIED'
+p6825
+a(lp6826
+aaaS'PART'
+p6827
+a(lp6828
+S'name = solarPanels5'
+p6829
+aS'cid = 4294074498'
+p6830
+aS'uid = 935118257'
+p6831
+aS'mid = 1617117623'
+p6832
+aS'launchID = 31'
+p6833
+aS'parent = 0'
+p6834
+aS'position = 3.929485004050548E-08,0.21809673309326172,-0.44948068261146545'
+p6835
+aS'rotation = -1.21071597E-09,0.999702454,0.0243939459,4.96170536E-08'
+p6836
+aS'mirror = 1,1,1'
+p6837
+aS'symMethod = Radial'
+p6838
+aS'istg = -1'
+p6839
+aS'resPri = 0'
+p6840
+aS'dstg = 0'
+p6841
+aS'sqor = -1'
+p6842
+aS'sepI = -1'
+p6843
+aS'sidx = -1'
+p6844
+aS'attm = 1'
+p6845
+aS'sym = 11'
+p6846
+aS'srfN = srfAttach, 0'
+p6847
+aS'mass = 0.00499999989'
+p6848
+aS'shielded = False'
+p6849
+aS'temp = 280.23225990929535'
+p6850
+aS'tempExt = 279.91197899037979'
+p6851
+aS'tempExtUnexp = 4'
+p6852
+aS'expt = 0.5'
+p6853
+aS'state = 0'
+p6854
+aS'attached = True'
+p6855
+aS'autostrutMode = Off'
+p6856
+aS'rigidAttachment = False'
+p6857
+aS'flag = Squad/Flags/rings'
+p6858
+aS'rTrf = solarPanels5'
+p6859
+aS'modCost = 0'
+p6860
+aS'EVENTS'
+p6861
+a(lp6862
+aS'ACTIONS'
+p6863
+a(lp6864
+aS'PARTDATA'
+p6865
+a(lp6866
+aS'MODULE'
+p6867
+a(lp6868
+S'name = ModuleDeployableSolarPanel'
+p6869
+aS'isEnabled = True'
+p6870
+aS'efficiencyMult = 1'
+p6871
+aS'launchUT = 1330107.5047646672'
+p6872
+aS'currentRotation = (0, -6.057208E-07, 0, 1)'
+p6873
+aS'storedAnimationTime = 0'
+p6874
+aS'storedAnimationSpeed = 0'
+p6875
+aS'deployState = EXTENDED'
+p6876
+aS'stagingEnabled = True'
+p6877
+aS'EVENTS'
+p6878
+a(lp6879
+aS'ACTIONS'
+p6880
+a(lp6881
+S'ExtendPanelsAction'
+p6882
+a(lp6883
+S'actionGroup = None'
+p6884
+aS'active = False'
+p6885
+aaS'ExtendAction'
+p6886
+a(lp6887
+S'actionGroup = None'
+p6888
+aS'active = False'
+p6889
+aaS'RetractAction'
+p6890
+a(lp6891
+S'actionGroup = None'
+p6892
+aS'active = False'
+p6893
+aaaS'UPGRADESAPPLIED'
+p6894
+a(lp6895
+aaaS'PART'
+p6896
+a(lp6897
+S'name = solarPanels5'
+p6898
+aS'cid = 4293684866'
+p6899
+aS'uid = 3815639395'
+p6900
+aS'mid = 1617117623'
+p6901
+aS'launchID = 31'
+p6902
+aS'parent = 0'
+p6903
+aS'position = -7.5046992071788922E-16,0.21809673309326172,0.44948068261146545'
+p6904
+aS'rotation = 0.0243939459,5.91867133E-09,1.44422724E-10,-0.999702454'
+p6905
+aS'mirror = 1,1,1'
+p6906
+aS'symMethod = Radial'
+p6907
+aS'istg = -1'
+p6908
+aS'resPri = 0'
+p6909
+aS'dstg = 0'
+p6910
+aS'sqor = -1'
+p6911
+aS'sepI = -1'
+p6912
+aS'sidx = -1'
+p6913
+aS'attm = 1'
+p6914
+aS'sym = 10'
+p6915
+aS'srfN = srfAttach, 0'
+p6916
+aS'mass = 0.00499999989'
+p6917
+aS'shielded = False'
+p6918
+aS'temp = 280.23225990929535'
+p6919
+aS'tempExt = 279.91197899037979'
+p6920
+aS'tempExtUnexp = 4'
+p6921
+aS'expt = 0.5'
+p6922
+aS'state = 0'
+p6923
+aS'attached = True'
+p6924
+aS'autostrutMode = Off'
+p6925
+aS'rigidAttachment = False'
+p6926
+aS'flag = Squad/Flags/rings'
+p6927
+aS'rTrf = solarPanels5'
+p6928
+aS'modCost = 0'
+p6929
+aS'EVENTS'
+p6930
+a(lp6931
+aS'ACTIONS'
+p6932
+a(lp6933
+aS'PARTDATA'
+p6934
+a(lp6935
+aS'MODULE'
+p6936
+a(lp6937
+S'name = ModuleDeployableSolarPanel'
+p6938
+aS'isEnabled = True'
+p6939
+aS'efficiencyMult = 1'
+p6940
+aS'launchUT = 1330107.5047646672'
+p6941
+aS'currentRotation = (0, -6.057208E-07, 0, 1)'
+p6942
+aS'storedAnimationTime = 0'
+p6943
+aS'storedAnimationSpeed = 0'
+p6944
+aS'deployState = EXTENDED'
+p6945
+aS'stagingEnabled = True'
+p6946
+aS'EVENTS'
+p6947
+a(lp6948
+aS'ACTIONS'
+p6949
+a(lp6950
+S'ExtendPanelsAction'
+p6951
+a(lp6952
+S'actionGroup = None'
+p6953
+aS'active = False'
+p6954
+aaS'ExtendAction'
+p6955
+a(lp6956
+S'actionGroup = None'
+p6957
+aS'active = False'
+p6958
+aaS'RetractAction'
+p6959
+a(lp6960
+S'actionGroup = None'
+p6961
+aS'active = False'
+p6962
+aaaS'UPGRADESAPPLIED'
+p6963
+a(lp6964
+aaaS'PART'
+p6965
+a(lp6966
+S'name = HighGainAntenna5'
+p6967
+aS'cid = 4294078362'
+p6968
+aS'uid = 3954996606'
+p6969
+aS'mid = 1617117623'
+p6970
+aS'launchID = 31'
+p6971
+aS'parent = 0'
+p6972
+aS'position = 0.44749963283538818,0.14861106872558594,2.6673058428627883E-08'
+p6973
+aS'rotation = 0,0,0.743515015,-0.668719232'
+p6974
+aS'mirror = 1,1,1'
+p6975
+aS'symMethod = Radial'
+p6976
+aS'istg = -1'
+p6977
+aS'resPri = 0'
+p6978
+aS'dstg = 0'
+p6979
+aS'sqor = -1'
+p6980
+aS'sepI = -1'
+p6981
+aS'sidx = -1'
+p6982
+aS'attm = 1'
+p6983
+aS'srfN = srfAttach, 0'
+p6984
+aS'attN = bottom, -1'
+p6985
+aS'mass = 0.0700000003'
+p6986
+aS'shielded = False'
+p6987
+aS'temp = 279.80372772663691'
+p6988
+aS'tempExt = 279.96401931011815'
+p6989
+aS'tempExtUnexp = 4'
+p6990
+aS'expt = 0.5'
+p6991
+aS'state = 0'
+p6992
+aS'attached = True'
+p6993
+aS'autostrutMode = Off'
+p6994
+aS'rigidAttachment = False'
+p6995
+aS'flag = Squad/Flags/rings'
+p6996
+aS'rTrf = HighGainAntenna5'
+p6997
+aS'modCost = 0'
+p6998
+aS'EVENTS'
+p6999
+a(lp7000
+aS'ACTIONS'
+p7001
+a(lp7002
+aS'PARTDATA'
+p7003
+a(lp7004
+aS'MODULE'
+p7005
+a(lp7006
+S'name = ModuleDeployableAntenna'
+p7007
+aS'isEnabled = True'
+p7008
+aS'currentRotation = (0, 0, 0, 1)'
+p7009
+aS'storedAnimationTime = 0'
+p7010
+aS'storedAnimationSpeed = 1'
+p7011
+aS'deployState = EXTENDED'
+p7012
+aS'stagingEnabled = True'
+p7013
+aS'EVENTS'
+p7014
+a(lp7015
+aS'ACTIONS'
+p7016
+a(lp7017
+S'ExtendPanelsAction'
+p7018
+a(lp7019
+S'actionGroup = None'
+p7020
+aaS'ExtendAction'
+p7021
+a(lp7022
+S'actionGroup = None'
+p7023
+aaS'RetractAction'
+p7024
+a(lp7025
+S'actionGroup = None'
+p7026
+aaaS'UPGRADESAPPLIED'
+p7027
+a(lp7028
+aaS'MODULE'
+p7029
+a(lp7030
+S'name = ModuleDataTransmitter'
+p7031
+aS'isEnabled = True'
+p7032
+aS'xmitIncomplete = False'
+p7033
+aS'stagingEnabled = True'
+p7034
+aS'canComm = True'
+p7035
+aS'EVENTS'
+p7036
+a(lp7037
+aS'ACTIONS'
+p7038
+a(lp7039
+S'StartTransmissionAction'
+p7040
+a(lp7041
+S'actionGroup = None'
+p7042
+aaaS'UPGRADESAPPLIED'
+p7043
+a(lp7044
+aaS'MODULE'
+p7045
+a(lp7046
+S'name = ModuleTripLogger'
+p7047
+aS'isEnabled = True'
+p7048
+aS'stagingEnabled = True'
+p7049
+aS'EVENTS'
+p7050
+a(lp7051
+aS'ACTIONS'
+p7052
+a(lp7053
+aS'Log'
+p7054
+a(lp7055
+S'flight = 0'
+p7056
+aS'0 = Flight,Kerbin'
+p7057
+aS'0 = Suborbit,Kerbin'
+p7058
+aS'0 = Orbit,Kerbin'
+p7059
+aS'0 = Flyby,Mun'
+p7060
+aS'0 = Escape,Mun'
+p7061
+aS'0 = Orbit,Mun'
+p7062
+aS'0 = Suborbit,Mun'
+p7063
+aS'0 = Land,Mun'
+p7064
+aaS'UPGRADESAPPLIED'
+p7065
+a(lp7066
+aaaS'ACTIONGROUPS'
+p7067
+a(lp7068
+S'Stage = True, 1330317.61478438'
+p7069
+aS'Gear = False, 0'
+p7070
+aS'Light = False, 0'
+p7071
+aS'RCS = False, 0'
+p7072
+aS'SAS = False, 1623259.04605425'
+p7073
+aS'Brakes = False, 0'
+p7074
+aS'Abort = False, 0'
+p7075
+aS'Custom01 = False, 0'
+p7076
+aS'Custom02 = False, 0'
+p7077
+aS'Custom03 = False, 0'
+p7078
+aS'Custom04 = False, 0'
+p7079
+aS'Custom05 = False, 0'
+p7080
+aS'Custom06 = False, 0'
+p7081
+aS'Custom07 = False, 0'
+p7082
+aS'Custom08 = False, 0'
+p7083
+aS'Custom09 = False, 0'
+p7084
+aS'Custom10 = False, 0'
+p7085
+aaS'DISCOVERY'
+p7086
+a(lp7087
+S'state = -1'
+p7088
+aS'lastObservedTime = 0'
+p7089
+aS'lifetime = Infinity'
+p7090
+aS'refTime = Infinity'
+p7091
+aS'size = 2'
+p7092
+aaS'FLIGHTPLAN'
+p7093
+a(lp7094
+aS'CTRLSTATE'
+p7095
+a(lp7096
+S'pitch = 0'
+p7097
+aS'yaw = 0'
+p7098
+aS'roll = 0'
+p7099
+aS'trimPitch = 0'
+p7100
+aS'trimYaw = 0'
+p7101
+aS'trimRoll = 0'
+p7102
+aS'mainThrottle = 0'
+p7103
+aaS'VESSELMODULES'
+p7104
+a(lp7105
+S'FlightIntegrator'
+p7106
+a(lp7107
+aS'CommNetVessel'
+p7108
+a(lp7109
+S'controlState = ProbeFull'
+p7110
+aS'canComm = True'
+p7111
+aaaa(lp7112
+(lp7113
+S'name = Jebediah Kerman'
+p7114
+aS'gender = Male'
+p7115
+aS'type = Crew'
+p7116
+aS'trait = Pilot'
+p7117
+aS'brave = 0.5'
+p7118
+aS'dumb = 0.5'
+p7119
+aS'badS = True'
+p7120
+aS'veteran = True'
+p7121
+aS'tour = False'
+p7122
+aS'state = Available'
+p7123
+aS'inactive = False'
+p7124
+aS'inactiveTimeEnd = 0'
+p7125
+aS'gExperienced = 0'
+p7126
+aS'outDueToG = False'
+p7127
+aS'ToD = 0'
+p7128
+aS'idx = 0'
+p7129
+aS'extraXP = 0'
+p7130
+aS'CAREER_LOG'
+p7131
+a(lp7132
+S'flight = 17'
+p7133
+aS'0 = Flight,Kerbin'
+p7134
+aS'0 = Land,Kerbin'
+p7135
+aS'0 = ExitVessel,Kerbin'
+p7136
+aS'0 = BoardVessel,Kerbin'
+p7137
+aS'0 = PlantFlag,Kerbin'
+p7138
+aS'0 = Recover'
+p7139
+aS'1 = Flight,Kerbin'
+p7140
+aS'1 = Suborbit,Kerbin'
+p7141
+aS'1 = Land,Kerbin'
+p7142
+aS'1 = ExitVessel,Kerbin'
+p7143
+aS'1 = BoardVessel,Kerbin'
+p7144
+aS'1 = Recover'
+p7145
+aS'2 = Flight,Kerbin'
+p7146
+aS'2 = Suborbit,Kerbin'
+p7147
+aS'2 = ExitVessel,Kerbin'
+p7148
+aS'2 = BoardVessel,Kerbin'
+p7149
+aS'2 = Land,Kerbin'
+p7150
+aS'2 = Recover'
+p7151
+aS'3 = Flight,Kerbin'
+p7152
+aS'3 = Suborbit,Kerbin'
+p7153
+aS'3 = Orbit,Kerbin'
+p7154
+aS'3 = Land,Kerbin'
+p7155
+aS'3 = ExitVessel,Kerbin'
+p7156
+aS'3 = PlantFlag,Kerbin'
+p7157
+aS'3 = BoardVessel,Kerbin'
+p7158
+aS'3 = Recover'
+p7159
+aS'4 = ExitVessel,Kerbin'
+p7160
+aS'4 = BoardVessel,Kerbin'
+p7161
+aS'4 = Recover'
+p7162
+aS'5 = Flight,Kerbin'
+p7163
+aS'5 = Land,Kerbin'
+p7164
+aS'5 = ExitVessel,Kerbin'
+p7165
+aS'5 = BoardVessel,Kerbin'
+p7166
+aS'5 = Recover'
+p7167
+aS'6 = Flight,Kerbin'
+p7168
+aS'6 = Land,Kerbin'
+p7169
+aS'6 = ExitVessel,Kerbin'
+p7170
+aS'6 = BoardVessel,Kerbin'
+p7171
+aS'6 = Recover'
+p7172
+aS'7 = Flight,Kerbin'
+p7173
+aS'7 = Land,Kerbin'
+p7174
+aS'7 = Recover'
+p7175
+aS'8 = Land,Kerbin'
+p7176
+aS'8 = Flight,Kerbin'
+p7177
+aS'8 = Recover'
+p7178
+aS'9 = Land,Kerbin'
+p7179
+aS'9 = Flight,Kerbin'
+p7180
+aS'9 = ExitVessel,Kerbin'
+p7181
+aS'9 = BoardVessel,Kerbin'
+p7182
+aS'9 = Recover'
+p7183
+aS'10 = Land,Kerbin'
+p7184
+aS'10 = Flight,Kerbin'
+p7185
+aS'10 = ExitVessel,Kerbin'
+p7186
+aS'10 = BoardVessel,Kerbin'
+p7187
+aS'10 = Recover'
+p7188
+aS'11 = Land,Kerbin'
+p7189
+aS'11 = Flight,Kerbin'
+p7190
+aS'11 = ExitVessel,Kerbin'
+p7191
+aS'11 = BoardVessel,Kerbin'
+p7192
+aS'11 = Recover'
+p7193
+aS'12 = Land,Kerbin'
+p7194
+aS'12 = Flight,Kerbin'
+p7195
+aS'12 = ExitVessel,Kerbin'
+p7196
+aS'12 = PlantFlag,Kerbin'
+p7197
+aS'12 = BoardVessel,Kerbin'
+p7198
+aS'12 = Recover'
+p7199
+aS'13 = Land,Kerbin'
+p7200
+aS'13 = Flight,Kerbin'
+p7201
+aS'13 = ExitVessel,Kerbin'
+p7202
+aS'13 = BoardVessel,Kerbin'
+p7203
+aS'13 = PlantFlag,Kerbin'
+p7204
+aS'13 = Recover'
+p7205
+aS'14 = ExitVessel,Kerbin'
+p7206
+aS'14 = Flight,Kerbin'
+p7207
+aS'14 = Land,Kerbin'
+p7208
+aS'14 = PlantFlag,Kerbin'
+p7209
+aS'14 = BoardVessel,Kerbin'
+p7210
+aS'14 = Recover'
+p7211
+aS'15 = Land,Kerbin'
+p7212
+aS'15 = Flight,Kerbin'
+p7213
+aS'15 = ExitVessel,Kerbin'
+p7214
+aS'15 = PlantFlag,Kerbin'
+p7215
+aS'15 = BoardVessel,Kerbin'
+p7216
+aS'15 = Recover'
+p7217
+aS'16 = Land,Kerbin'
+p7218
+aS'16 = ExitVessel,Kerbin'
+p7219
+aS'16 = BoardVessel,Kerbin'
+p7220
+aS'16 = Recover'
+p7221
+aaS'FLIGHT_LOG'
+p7222
+a(lp7223
+S'flight = 17'
+p7224
+aaa(lp7225
+S'name = Bill Kerman'
+p7226
+aS'gender = Male'
+p7227
+aS'type = Crew'
+p7228
+aS'trait = Engineer'
+p7229
+aS'brave = 0.5'
+p7230
+aS'dumb = 0.800000012'
+p7231
+aS'badS = False'
+p7232
+aS'veteran = True'
+p7233
+aS'tour = False'
+p7234
+aS'state = Available'
+p7235
+aS'inactive = False'
+p7236
+aS'inactiveTimeEnd = 0'
+p7237
+aS'gExperienced = 0'
+p7238
+aS'outDueToG = False'
+p7239
+aS'ToD = 0'
+p7240
+aS'idx = -1'
+p7241
+aS'extraXP = 0'
+p7242
+aS'CAREER_LOG'
+p7243
+a(lp7244
+S'flight = 0'
+p7245
+aaS'FLIGHT_LOG'
+p7246
+a(lp7247
+S'flight = 0'
+p7248
+aaa(lp7249
+S'name = Bob Kerman'
+p7250
+aS'gender = Male'
+p7251
+aS'type = Crew'
+p7252
+aS'trait = Scientist'
+p7253
+aS'brave = 0.300000012'
+p7254
+aS'dumb = 0.100000001'
+p7255
+aS'badS = False'
+p7256
+aS'veteran = True'
+p7257
+aS'tour = False'
+p7258
+aS'state = Available'
+p7259
+aS'inactive = False'
+p7260
+aS'inactiveTimeEnd = 0'
+p7261
+aS'gExperienced = 0'
+p7262
+aS'outDueToG = False'
+p7263
+aS'ToD = 0'
+p7264
+aS'idx = 0'
+p7265
+aS'extraXP = 0'
+p7266
+aS'CAREER_LOG'
+p7267
+a(lp7268
+S'flight = 1'
+p7269
+aS'0 = ExitVessel,Kerbin'
+p7270
+aS'0 = BoardVessel,Kerbin'
+p7271
+aS'0 = Flight,Kerbin'
+p7272
+aS'0 = Land,Kerbin'
+p7273
+aS'0 = Recover'
+p7274
+aaS'FLIGHT_LOG'
+p7275
+a(lp7276
+S'flight = 1'
+p7277
+aaa(lp7278
+S'name = Valentina Kerman'
+p7279
+aS'gender = Female'
+p7280
+aS'type = Crew'
+p7281
+aS'trait = Pilot'
+p7282
+aS'brave = 0.550000012'
+p7283
+aS'dumb = 0.400000006'
+p7284
+aS'badS = True'
+p7285
+aS'veteran = True'
+p7286
+aS'tour = False'
+p7287
+aS'state = Available'
+p7288
+aS'inactive = False'
+p7289
+aS'inactiveTimeEnd = 0'
+p7290
+aS'gExperienced = 0'
+p7291
+aS'outDueToG = False'
+p7292
+aS'ToD = 0'
+p7293
+aS'idx = -1'
+p7294
+aS'extraXP = 0'
+p7295
+aS'CAREER_LOG'
+p7296
+a(lp7297
+S'flight = 0'
+p7298
+aaS'FLIGHT_LOG'
+p7299
+a(lp7300
+S'flight = 0'
+p7301
+aaa(lp7302
+S'name = Donlie Kerman'
+p7303
+aS'gender = Male'
+p7304
+aS'type = Crew'
+p7305
+aS'trait = Pilot'
+p7306
+aS'brave = 0.409941405'
+p7307
+aS'dumb = 0.198947087'
+p7308
+aS'badS = False'
+p7309
+aS'veteran = False'
+p7310
+aS'tour = False'
+p7311
+aS'state = Available'
+p7312
+aS'inactive = False'
+p7313
+aS'inactiveTimeEnd = 0'
+p7314
+aS'gExperienced = 0'
+p7315
+aS'outDueToG = False'
+p7316
+aS'ToD = 88456.875773925785'
+p7317
+aS'idx = -1'
+p7318
+aS'extraXP = 0'
+p7319
+aS'CAREER_LOG'
+p7320
+a(lp7321
+S'flight = 0'
+p7322
+aaS'FLIGHT_LOG'
+p7323
+a(lp7324
+S'flight = 0'
+p7325
+aaa(lp7326
+S'name = Kirus Kerman'
+p7327
+aS'gender = Male'
+p7328
+aS'type = Crew'
+p7329
+aS'trait = Pilot'
+p7330
+aS'brave = 0.716973066'
+p7331
+aS'dumb = 0.278038353'
+p7332
+aS'badS = False'
+p7333
+aS'veteran = False'
+p7334
+aS'tour = False'
+p7335
+aS'state = Available'
+p7336
+aS'inactive = False'
+p7337
+aS'inactiveTimeEnd = 0'
+p7338
+aS'gExperienced = 0'
+p7339
+aS'outDueToG = False'
+p7340
+aS'ToD = 226748.40714599608'
+p7341
+aS'idx = -1'
+p7342
+aS'extraXP = 0'
+p7343
+aS'CAREER_LOG'
+p7344
+a(lp7345
+S'flight = 0'
+p7346
+aaS'FLIGHT_LOG'
+p7347
+a(lp7348
+S'flight = 0'
+p7349
+aaa(lp7350
+S'name = Jerney Kerman'
+p7351
+aS'gender = Male'
+p7352
+aS'type = Crew'
+p7353
+aS'trait = Engineer'
+p7354
+aS'brave = 0.231238753'
+p7355
+aS'dumb = 0.723889112'
+p7356
+aS'badS = True'
+p7357
+aS'veteran = False'
+p7358
+aS'tour = False'
+p7359
+aS'state = Available'
+p7360
+aS'inactive = False'
+p7361
+aS'inactiveTimeEnd = 0'
+p7362
+aS'gExperienced = 0'
+p7363
+aS'outDueToG = False'
+p7364
+aS'ToD = 141292.13616516112'
+p7365
+aS'idx = -1'
+p7366
+aS'extraXP = 0'
+p7367
+aS'CAREER_LOG'
+p7368
+a(lp7369
+S'flight = 0'
+p7370
+aaS'FLIGHT_LOG'
+p7371
+a(lp7372
+S'flight = 0'
+p7373
+aaa(lp7374
+S'name = Dunke Kerman'
+p7375
+aS'gender = Male'
+p7376
+aS'type = Crew'
+p7377
+aS'trait = Engineer'
+p7378
+aS'brave = 0.111380585'
+p7379
+aS'dumb = 0.664711535'
+p7380
+aS'badS = False'
+p7381
+aS'veteran = False'
+p7382
+aS'tour = False'
+p7383
+aS'state = Available'
+p7384
+aS'inactive = False'
+p7385
+aS'inactiveTimeEnd = 0'
+p7386
+aS'gExperienced = 0'
+p7387
+aS'outDueToG = False'
+p7388
+aS'ToD = 158452.30347778319'
+p7389
+aS'idx = -1'
+p7390
+aS'extraXP = 0'
+p7391
+aS'CAREER_LOG'
+p7392
+a(lp7393
+S'flight = 0'
+p7394
+aaS'FLIGHT_LOG'
+p7395
+a(lp7396
+S'flight = 0'
+p7397
+aaa(lp7398
+S'name = Sisa Kerman'
+p7399
+aS'gender = Female'
+p7400
+aS'type = Crew'
+p7401
+aS'trait = Pilot'
+p7402
+aS'brave = 0.775170743'
+p7403
+aS'dumb = 0.216188729'
+p7404
+aS'badS = False'
+p7405
+aS'veteran = False'
+p7406
+aS'tour = False'
+p7407
+aS'state = Available'
+p7408
+aS'inactive = False'
+p7409
+aS'inactiveTimeEnd = 0'
+p7410
+aS'gExperienced = 0'
+p7411
+aS'outDueToG = False'
+p7412
+aS'ToD = 214290.75562622069'
+p7413
+aS'idx = -1'
+p7414
+aS'extraXP = 0'
+p7415
+aS'CAREER_LOG'
+p7416
+a(lp7417
+S'flight = 0'
+p7418
+aaS'FLIGHT_LOG'
+p7419
+a(lp7420
+S'flight = 0'
+p7421
+aaa(lp7422
+S'name = Hennard Kerman'
+p7423
+aS'gender = Male'
+p7424
+aS'type = Crew'
+p7425
+aS'trait = Pilot'
+p7426
+aS'brave = 0.0101158768'
+p7427
+aS'dumb = 0.273345739'
+p7428
+aS'badS = False'
+p7429
+aS'veteran = False'
+p7430
+aS'tour = False'
+p7431
+aS'state = Available'
+p7432
+aS'inactive = False'
+p7433
+aS'inactiveTimeEnd = 0'
+p7434
+aS'gExperienced = 0'
+p7435
+aS'outDueToG = False'
+p7436
+aS'ToD = 196564.23966552733'
+p7437
+aS'idx = 0'
+p7438
+aS'extraXP = 0'
+p7439
+aS'CAREER_LOG'
+p7440
+a(lp7441
+S'flight = 3'
+p7442
+aS'0 = Flight,Kerbin'
+p7443
+aS'0 = Land,Kerbin'
+p7444
+aS'0 = Recover'
+p7445
+aS'1 = Flight,Kerbin'
+p7446
+aS'1 = Land,Kerbin'
+p7447
+aS'1 = Recover'
+p7448
+aS'2 = Flight,Kerbin'
+p7449
+aS'2 = Land,Kerbin'
+p7450
+aS'2 = Recover'
+p7451
+aaS'FLIGHT_LOG'
+p7452
+a(lp7453
+S'flight = 3'
+p7454
+aaa(lp7455
+S'name = Lecine Kerman'
+p7456
+aS'gender = Female'
+p7457
+aS'type = Crew'
+p7458
+aS'trait = Scientist'
+p7459
+aS'brave = 0.893837273'
+p7460
+aS'dumb = 0.870412946'
+p7461
+aS'badS = False'
+p7462
+aS'veteran = False'
+p7463
+aS'tour = False'
+p7464
+aS'state = Available'
+p7465
+aS'inactive = False'
+p7466
+aS'inactiveTimeEnd = 0'
+p7467
+aS'gExperienced = 0'
+p7468
+aS'outDueToG = False'
+p7469
+aS'ToD = 118775.24811889649'
+p7470
+aS'idx = 0'
+p7471
+aS'extraXP = 0'
+p7472
+aS'CAREER_LOG'
+p7473
+a(lp7474
+S'flight = 5'
+p7475
+aS'0 = ExitVessel,Kerbin'
+p7476
+aS'0 = BoardVessel,Kerbin'
+p7477
+aS'0 = Flight,Kerbin'
+p7478
+aS'0 = Land,Kerbin'
+p7479
+aS'0 = Recover'
+p7480
+aS'1 = Flight,Kerbin'
+p7481
+aS'1 = Land,Kerbin'
+p7482
+aS'1 = ExitVessel,Kerbin'
+p7483
+aS'1 = BoardVessel,Kerbin'
+p7484
+aS'1 = Recover'
+p7485
+aS'2 = ExitVessel,Kerbin'
+p7486
+aS'2 = BoardVessel,Kerbin'
+p7487
+aS'2 = Flight,Kerbin'
+p7488
+aS'2 = Land,Kerbin'
+p7489
+aS'2 = Recover'
+p7490
+aS'3 = Flight,Kerbin'
+p7491
+aS'3 = Suborbit,Kerbin'
+p7492
+aS'3 = ExitVessel,Kerbin'
+p7493
+aS'3 = BoardVessel,Kerbin'
+p7494
+aS'3 = Land,Kerbin'
+p7495
+aS'3 = Recover'
+p7496
+aS'4 = Land,Kerbin'
+p7497
+aS'4 = ExitVessel,Kerbin'
+p7498
+aS'4 = Flight,Kerbin'
+p7499
+aS'4 = BoardVessel,Kerbin'
+p7500
+aS'4 = Recover'
+p7501
+aaS'FLIGHT_LOG'
+p7502
+a(lp7503
+S'flight = 5'
+p7504
+aaa(lp7505
+S'name = Melden Kerman'
+p7506
+aS'gender = Male'
+p7507
+aS'type = Applicant'
+p7508
+aS'trait = Engineer'
+p7509
+aS'brave = 0.414111584'
+p7510
+aS'dumb = 0.366341531'
+p7511
+aS'badS = False'
+p7512
+aS'veteran = False'
+p7513
+aS'tour = False'
+p7514
+aS'state = Available'
+p7515
+aS'inactive = False'
+p7516
+aS'inactiveTimeEnd = 0'
+p7517
+aS'gExperienced = 0'
+p7518
+aS'outDueToG = False'
+p7519
+aS'ToD = 195703.75970458984'
+p7520
+aS'idx = -1'
+p7521
+aS'extraXP = 0'
+p7522
+aS'CAREER_LOG'
+p7523
+a(lp7524
+S'flight = 0'
+p7525
+aaS'FLIGHT_LOG'
+p7526
+a(lp7527
+S'flight = 0'
+p7528
+aaa(lp7529
+S'name = Nelgun Kerman'
+p7530
+aS'gender = Male'
+p7531
+aS'type = Applicant'
+p7532
+aS'trait = Engineer'
+p7533
+aS'brave = 0.532403409'
+p7534
+aS'dumb = 0.728447795'
+p7535
+aS'badS = False'
+p7536
+aS'veteran = False'
+p7537
+aS'tour = False'
+p7538
+aS'state = Available'
+p7539
+aS'inactive = False'
+p7540
+aS'inactiveTimeEnd = 0'
+p7541
+aS'gExperienced = 0'
+p7542
+aS'outDueToG = False'
+p7543
+aS'ToD = 154129.0290222168'
+p7544
+aS'idx = -1'
+p7545
+aS'extraXP = 0'
+p7546
+aS'CAREER_LOG'
+p7547
+a(lp7548
+S'flight = 0'
+p7549
+aaS'FLIGHT_LOG'
+p7550
+a(lp7551
+S'flight = 0'
+p7552
+aaa(lp7553
+S'name = Gilly Kerman'
+p7554
+aS'gender = Male'
+p7555
+aS'type = Applicant'
+p7556
+aS'trait = Pilot'
+p7557
+aS'brave = 0.437077761'
+p7558
+aS'dumb = 0.48740679'
+p7559
+aS'badS = False'
+p7560
+aS'veteran = False'
+p7561
+aS'tour = False'
+p7562
+aS'state = Available'
+p7563
+aS'inactive = False'
+p7564
+aS'inactiveTimeEnd = 0'
+p7565
+aS'gExperienced = 0'
+p7566
+aS'outDueToG = False'
+p7567
+aS'ToD = 99635.262237548828'
+p7568
+aS'idx = -1'
+p7569
+aS'extraXP = 0'
+p7570
+aS'CAREER_LOG'
+p7571
+a(lp7572
+S'flight = 0'
+p7573
+aaS'FLIGHT_LOG'
+p7574
+a(lp7575
+S'flight = 0'
+p7576
+aaa(lp7577
+S'name = Geneming Kerman'
+p7578
+aS'gender = Male'
+p7579
+aS'type = Applicant'
+p7580
+aS'trait = Pilot'
+p7581
+aS'brave = 0.68685925'
+p7582
+aS'dumb = 0.0778262988'
+p7583
+aS'badS = True'
+p7584
+aS'veteran = False'
+p7585
+aS'tour = False'
+p7586
+aS'state = Available'
+p7587
+aS'inactive = False'
+p7588
+aS'inactiveTimeEnd = 0'
+p7589
+aS'gExperienced = 0'
+p7590
+aS'outDueToG = False'
+p7591
+aS'ToD = 229460.59869384766'
+p7592
+aS'idx = -1'
+p7593
+aS'extraXP = 0'
+p7594
+aS'CAREER_LOG'
+p7595
+a(lp7596
+S'flight = 0'
+p7597
+aaS'FLIGHT_LOG'
+p7598
+a(lp7599
+S'flight = 0'
+p7600
+aaa(lp7601
+S'name = Anpond Kerman'
+p7602
+aS'gender = Male'
+p7603
+aS'type = Applicant'
+p7604
+aS'trait = Engineer'
+p7605
+aS'brave = 0.775723755'
+p7606
+aS'dumb = 0.175492659'
+p7607
+aS'badS = False'
+p7608
+aS'veteran = False'
+p7609
+aS'tour = False'
+p7610
+aS'state = Available'
+p7611
+aS'inactive = False'
+p7612
+aS'inactiveTimeEnd = 0'
+p7613
+aS'gExperienced = 0'
+p7614
+aS'outDueToG = False'
+p7615
+aS'ToD = 104366.38024902344'
+p7616
+aS'idx = -1'
+p7617
+aS'extraXP = 0'
+p7618
+aS'CAREER_LOG'
+p7619
+a(lp7620
+S'flight = 0'
+p7621
+aaS'FLIGHT_LOG'
+p7622
+a(lp7623
+S'flight = 0'
+p7624
+aaa(lp7625
+S'name = Samdie Kerman'
+p7626
+aS'gender = Female'
+p7627
+aS'type = Applicant'
+p7628
+aS'trait = Pilot'
+p7629
+aS'brave = 0.705352426'
+p7630
+aS'dumb = 0.0984207317'
+p7631
+aS'badS = True'
+p7632
+aS'veteran = False'
+p7633
+aS'tour = False'
+p7634
+aS'state = Available'
+p7635
+aS'inactive = False'
+p7636
+aS'inactiveTimeEnd = 0'
+p7637
+aS'gExperienced = 0'
+p7638
+aS'outDueToG = False'
+p7639
+aS'ToD = 205877.86859130859'
+p7640
+aS'idx = -1'
+p7641
+aS'extraXP = 0'
+p7642
+aS'CAREER_LOG'
+p7643
+a(lp7644
+S'flight = 0'
+p7645
+aaS'FLIGHT_LOG'
+p7646
+a(lp7647
+S'flight = 0'
+p7648
+aaa(lp7649
+S'name = Stephanie Kerman'
+p7650
+aS'gender = Female'
+p7651
+aS'type = Applicant'
+p7652
+aS'trait = Scientist'
+p7653
+aS'brave = 0.283075303'
+p7654
+aS'dumb = 0.304693907'
+p7655
+aS'badS = False'
+p7656
+aS'veteran = False'
+p7657
+aS'tour = False'
+p7658
+aS'state = Available'
+p7659
+aS'inactive = False'
+p7660
+aS'inactiveTimeEnd = 0'
+p7661
+aS'gExperienced = 0'
+p7662
+aS'outDueToG = False'
+p7663
+aS'ToD = 174175.83688354492'
+p7664
+aS'idx = -1'
+p7665
+aS'extraXP = 0'
+p7666
+aS'CAREER_LOG'
+p7667
+a(lp7668
+S'flight = 0'
+p7669
+aaS'FLIGHT_LOG'
+p7670
+a(lp7671
+S'flight = 0'
+p7672
+aaa(lp7673
+S'name = Sherzer Kerman'
+p7674
+aS'gender = Male'
+p7675
+aS'type = Applicant'
+p7676
+aS'trait = Pilot'
+p7677
+aS'brave = 0.32549122'
+p7678
+aS'dumb = 0.338303'
+p7679
+aS'badS = False'
+p7680
+aS'veteran = False'
+p7681
+aS'tour = False'
+p7682
+aS'state = Available'
+p7683
+aS'inactive = False'
+p7684
+aS'inactiveTimeEnd = 0'
+p7685
+aS'gExperienced = 0'
+p7686
+aS'outDueToG = False'
+p7687
+aS'ToD = 190687.58767700195'
+p7688
+aS'idx = -1'
+p7689
+aS'extraXP = 0'
+p7690
+aS'CAREER_LOG'
+p7691
+a(lp7692
+S'flight = 0'
+p7693
+aaS'FLIGHT_LOG'
+p7694
+a(lp7695
+S'flight = 0'
+p7696
+aaa(lp7697
+S'name = Wilina Kerman'
+p7698
+aS'gender = Female'
+p7699
+aS'type = Applicant'
+p7700
+aS'trait = Scientist'
+p7701
+aS'brave = 0.563965857'
+p7702
+aS'dumb = 0.748770356'
+p7703
+aS'badS = False'
+p7704
+aS'veteran = False'
+p7705
+aS'tour = False'
+p7706
+aS'state = Available'
+p7707
+aS'inactive = False'
+p7708
+aS'inactiveTimeEnd = 0'
+p7709
+aS'gExperienced = 0'
+p7710
+aS'outDueToG = False'
+p7711
+aS'ToD = 114634.56643676758'
+p7712
+aS'idx = -1'
+p7713
+aS'extraXP = 0'
+p7714
+aS'CAREER_LOG'
+p7715
+a(lp7716
+S'flight = 0'
+p7717
+aaS'FLIGHT_LOG'
+p7718
+a(lp7719
+S'flight = 0'
+p7720
+aaa(lp7721
+S'name = Eldorf Kerman'
+p7722
+aS'gender = Male'
+p7723
+aS'type = Applicant'
+p7724
+aS'trait = Engineer'
+p7725
+aS'brave = 0.458299905'
+p7726
+aS'dumb = 0.230808169'
+p7727
+aS'badS = False'
+p7728
+aS'veteran = False'
+p7729
+aS'tour = False'
+p7730
+aS'state = Available'
+p7731
+aS'inactive = False'
+p7732
+aS'inactiveTimeEnd = 0'
+p7733
+aS'gExperienced = 0'
+p7734
+aS'outDueToG = False'
+p7735
+aS'ToD = 114240.52117919922'
+p7736
+aS'idx = -1'
+p7737
+aS'extraXP = 0'
+p7738
+aS'CAREER_LOG'
+p7739
+a(lp7740
+S'flight = 0'
+p7741
+aaS'FLIGHT_LOG'
+p7742
+a(lp7743
+S'flight = 0'
+p7744
+aaa(lp7745
+S'name = Lennard Kerman'
+p7746
+aS'gender = Male'
+p7747
+aS'type = Unowned'
+p7748
+aS'trait = Scientist'
+p7749
+aS'brave = 0.717869163'
+p7750
+aS'dumb = 0.260171622'
+p7751
+aS'badS = False'
+p7752
+aS'veteran = False'
+p7753
+aS'tour = False'
+p7754
+aS'state = Assigned'
+p7755
+aS'inactive = False'
+p7756
+aS'inactiveTimeEnd = 0'
+p7757
+aS'gExperienced = 0'
+p7758
+aS'outDueToG = False'
+p7759
+aS'ToD = 0'
+p7760
+aS'idx = -1'
+p7761
+aS'extraXP = 0'
+p7762
+aS'CAREER_LOG'
+p7763
+a(lp7764
+S'flight = 0'
+p7765
+aaS'FLIGHT_LOG'
+p7766
+a(lp7767
+S'flight = 0'
+p7768
+aaa(lp7769
+S'name = Linbie Kerman'
+p7770
+aS'gender = Female'
+p7771
+aS'type = Applicant'
+p7772
+aS'trait = Engineer'
+p7773
+aS'brave = 0.107311308'
+p7774
+aS'dumb = 0.197134972'
+p7775
+aS'badS = False'
+p7776
+aS'veteran = False'
+p7777
+aS'tour = False'
+p7778
+aS'state = Available'
+p7779
+aS'inactive = False'
+p7780
+aS'inactiveTimeEnd = 0'
+p7781
+aS'gExperienced = 0'
+p7782
+aS'outDueToG = False'
+p7783
+aS'ToD = 259283.05810791015'
+p7784
+aS'idx = -1'
+p7785
+aS'extraXP = 0'
+p7786
+aS'CAREER_LOG'
+p7787
+a(lp7788
+S'flight = 0'
+p7789
+aaS'FLIGHT_LOG'
+p7790
+a(lp7791
+S'flight = 0'
+p7792
+aaa(lp7793
+S'name = Kerrigh Kerman'
+p7794
+aS'gender = Male'
+p7795
+aS'type = Applicant'
+p7796
+aS'trait = Engineer'
+p7797
+aS'brave = 0.657788515'
+p7798
+aS'dumb = 0.263270855'
+p7799
+aS'badS = False'
+p7800
+aS'veteran = False'
+p7801
+aS'tour = False'
+p7802
+aS'state = Available'
+p7803
+aS'inactive = False'
+p7804
+aS'inactiveTimeEnd = 0'
+p7805
+aS'gExperienced = 0'
+p7806
+aS'outDueToG = False'
+p7807
+aS'ToD = 184876.68832641601'
+p7808
+aS'idx = -1'
+p7809
+aS'extraXP = 0'
+p7810
+aS'CAREER_LOG'
+p7811
+a(lp7812
+S'flight = 0'
+p7813
+aaS'FLIGHT_LOG'
+p7814
+a(lp7815
+S'flight = 0'
+p7816
+aaa(lp7817
+S'name = Lodzon Kerman'
+p7818
+aS'gender = Male'
+p7819
+aS'type = Applicant'
+p7820
+aS'trait = Pilot'
+p7821
+aS'brave = 0.510472119'
+p7822
+aS'dumb = 0.201688051'
+p7823
+aS'badS = False'
+p7824
+aS'veteran = False'
+p7825
+aS'tour = False'
+p7826
+aS'state = Available'
+p7827
+aS'inactive = False'
+p7828
+aS'inactiveTimeEnd = 0'
+p7829
+aS'gExperienced = 0'
+p7830
+aS'outDueToG = False'
+p7831
+aS'ToD = 218576.65246826172'
+p7832
+aS'idx = -1'
+p7833
+aS'extraXP = 0'
+p7834
+aS'CAREER_LOG'
+p7835
+a(lp7836
+S'flight = 0'
+p7837
+aaS'FLIGHT_LOG'
+p7838
+a(lp7839
+S'flight = 0'
+p7840
+aaa(lp7841
+S'name = Melrick Kerman'
+p7842
+aS'gender = Male'
+p7843
+aS'type = Applicant'
+p7844
+aS'trait = Pilot'
+p7845
+aS'brave = 0.98681885'
+p7846
+aS'dumb = 0.134864002'
+p7847
+aS'badS = False'
+p7848
+aS'veteran = False'
+p7849
+aS'tour = False'
+p7850
+aS'state = Available'
+p7851
+aS'inactive = False'
+p7852
+aS'inactiveTimeEnd = 0'
+p7853
+aS'gExperienced = 0'
+p7854
+aS'outDueToG = False'
+p7855
+aS'ToD = 165682.57058959961'
+p7856
+aS'idx = -1'
+p7857
+aS'extraXP = 0'
+p7858
+aS'CAREER_LOG'
+p7859
+a(lp7860
+S'flight = 0'
+p7861
+aaS'FLIGHT_LOG'
+p7862
+a(lp7863
+S'flight = 0'
+p7864
+aaa(lp7865
+S'name = Maulina Kerman'
+p7866
+aS'gender = Female'
+p7867
+aS'type = Applicant'
+p7868
+aS'trait = Pilot'
+p7869
+aS'brave = 0.65296489'
+p7870
+aS'dumb = 0.380639941'
+p7871
+aS'badS = False'
+p7872
+aS'veteran = False'
+p7873
+aS'tour = False'
+p7874
+aS'state = Available'
+p7875
+aS'inactive = False'
+p7876
+aS'inactiveTimeEnd = 0'
+p7877
+aS'gExperienced = 0'
+p7878
+aS'outDueToG = False'
+p7879
+aS'ToD = 87007.188356933591'
+p7880
+aS'idx = -1'
+p7881
+aS'extraXP = 0'
+p7882
+aS'CAREER_LOG'
+p7883
+a(lp7884
+S'flight = 0'
+p7885
+aaS'FLIGHT_LOG'
+p7886
+a(lp7887
+S'flight = 0'
+p7888
+aaa(lp7889
+S'name = Asdia Kerman'
+p7890
+aS'gender = Female'
+p7891
+aS'type = Applicant'
+p7892
+aS'trait = Pilot'
+p7893
+aS'brave = 0.332696497'
+p7894
+aS'dumb = 0.719084978'
+p7895
+aS'badS = False'
+p7896
+aS'veteran = False'
+p7897
+aS'tour = False'
+p7898
+aS'state = Available'
+p7899
+aS'inactive = False'
+p7900
+aS'inactiveTimeEnd = 0'
+p7901
+aS'gExperienced = 0'
+p7902
+aS'outDueToG = False'
+p7903
+aS'ToD = 209632.92306762695'
+p7904
+aS'idx = -1'
+p7905
+aS'extraXP = 0'
+p7906
+aS'CAREER_LOG'
+p7907
+a(lp7908
+S'flight = 0'
+p7909
+aaS'FLIGHT_LOG'
+p7910
+a(lp7911
+S'flight = 0'
+p7912
+aaa(lp7913
+S'name = Melie Kerman'
+p7914
+aS'gender = Female'
+p7915
+aS'type = Applicant'
+p7916
+aS'trait = Engineer'
+p7917
+aS'brave = 0.549360514'
+p7918
+aS'dumb = 0.804684937'
+p7919
+aS'badS = False'
+p7920
+aS'veteran = False'
+p7921
+aS'tour = False'
+p7922
+aS'state = Available'
+p7923
+aS'inactive = False'
+p7924
+aS'inactiveTimeEnd = 0'
+p7925
+aS'gExperienced = 0'
+p7926
+aS'outDueToG = False'
+p7927
+aS'ToD = 104527.7724633789'
+p7928
+aS'idx = -1'
+p7929
+aS'extraXP = 0'
+p7930
+aS'CAREER_LOG'
+p7931
+a(lp7932
+S'flight = 0'
+p7933
+aaS'FLIGHT_LOG'
+p7934
+a(lp7935
+S'flight = 0'
+p7936
+aaa(lp7937
+S'name = Tedbus Kerman'
+p7938
+aS'gender = Male'
+p7939
+aS'type = Applicant'
+p7940
+aS'trait = Pilot'
+p7941
+aS'brave = 0.544576406'
+p7942
+aS'dumb = 0.463964611'
+p7943
+aS'badS = False'
+p7944
+aS'veteran = False'
+p7945
+aS'tour = False'
+p7946
+aS'state = Available'
+p7947
+aS'inactive = False'
+p7948
+aS'inactiveTimeEnd = 0'
+p7949
+aS'gExperienced = 0'
+p7950
+aS'outDueToG = False'
+p7951
+aS'ToD = 139487.27449279785'
+p7952
+aS'idx = -1'
+p7953
+aS'extraXP = 0'
+p7954
+aS'CAREER_LOG'
+p7955
+a(lp7956
+S'flight = 0'
+p7957
+aaS'FLIGHT_LOG'
+p7958
+a(lp7959
+S'flight = 0'
+p7960
+aaa(lp7961
+S'name = Nancy Kerman'
+p7962
+aS'gender = Female'
+p7963
+aS'type = Applicant'
+p7964
+aS'trait = Pilot'
+p7965
+aS'brave = 0.291846871'
+p7966
+aS'dumb = 0.786935151'
+p7967
+aS'badS = True'
+p7968
+aS'veteran = False'
+p7969
+aS'tour = False'
+p7970
+aS'state = Available'
+p7971
+aS'inactive = False'
+p7972
+aS'inactiveTimeEnd = 0'
+p7973
+aS'gExperienced = 0'
+p7974
+aS'outDueToG = False'
+p7975
+aS'ToD = 92549.900759277341'
+p7976
+aS'idx = -1'
+p7977
+aS'extraXP = 0'
+p7978
+aS'CAREER_LOG'
+p7979
+a(lp7980
+S'flight = 0'
+p7981
+aaS'FLIGHT_LOG'
+p7982
+a(lp7983
+S'flight = 0'
+p7984
+aaa(lp7985
+S'name = Ribming Kerman'
+p7986
+aS'gender = Male'
+p7987
+aS'type = Applicant'
+p7988
+aS'trait = Scientist'
+p7989
+aS'brave = 0.592381537'
+p7990
+aS'dumb = 0.796283901'
+p7991
+aS'badS = False'
+p7992
+aS'veteran = False'
+p7993
+aS'tour = False'
+p7994
+aS'state = Available'
+p7995
+aS'inactive = False'
+p7996
+aS'inactiveTimeEnd = 0'
+p7997
+aS'gExperienced = 0'
+p7998
+aS'outDueToG = False'
+p7999
+aS'ToD = 233308.78290039062'
+p8000
+aS'idx = -1'
+p8001
+aS'extraXP = 0'
+p8002
+aS'CAREER_LOG'
+p8003
+a(lp8004
+S'flight = 0'
+p8005
+aaS'FLIGHT_LOG'
+p8006
+a(lp8007
+S'flight = 0'
+p8008
+aaa(lp8009
+S'name = Lemuki Kerman'
+p8010
+aS'gender = Male'
+p8011
+aS'type = Applicant'
+p8012
+aS'trait = Pilot'
+p8013
+aS'brave = 0.869743049'
+p8014
+aS'dumb = 0.657572508'
+p8015
+aS'badS = False'
+p8016
+aS'veteran = False'
+p8017
+aS'tour = False'
+p8018
+aS'state = Available'
+p8019
+aS'inactive = False'
+p8020
+aS'inactiveTimeEnd = 0'
+p8021
+aS'gExperienced = 0'
+p8022
+aS'outDueToG = False'
+p8023
+aS'ToD = 172002.08505493164'
+p8024
+aS'idx = -1'
+p8025
+aS'extraXP = 0'
+p8026
+aS'CAREER_LOG'
+p8027
+a(lp8028
+S'flight = 0'
+p8029
+aaS'FLIGHT_LOG'
+p8030
+a(lp8031
+S'flight = 0'
+p8032
+aaa(lp8033
+S'name = Bartdous Kerman'
+p8034
+aS'gender = Male'
+p8035
+aS'type = Applicant'
+p8036
+aS'trait = Scientist'
+p8037
+aS'brave = 0.575524032'
+p8038
+aS'dumb = 0.674983978'
+p8039
+aS'badS = False'
+p8040
+aS'veteran = False'
+p8041
+aS'tour = False'
+p8042
+aS'state = Available'
+p8043
+aS'inactive = False'
+p8044
+aS'inactiveTimeEnd = 0'
+p8045
+aS'gExperienced = 0'
+p8046
+aS'outDueToG = False'
+p8047
+aS'ToD = 156896.11734252929'
+p8048
+aS'idx = -1'
+p8049
+aS'extraXP = 0'
+p8050
+aS'CAREER_LOG'
+p8051
+a(lp8052
+S'flight = 0'
+p8053
+aaS'FLIGHT_LOG'
+p8054
+a(lp8055
+S'flight = 0'
+p8056
+aaa(lp8057
+S'name = Dogard Kerman'
+p8058
+aS'gender = Male'
+p8059
+aS'type = Unowned'
+p8060
+aS'trait = Engineer'
+p8061
+aS'brave = 0.940008223'
+p8062
+aS'dumb = 0.765069008'
+p8063
+aS'badS = False'
+p8064
+aS'veteran = False'
+p8065
+aS'tour = False'
+p8066
+aS'state = Assigned'
+p8067
+aS'inactive = False'
+p8068
+aS'inactiveTimeEnd = 0'
+p8069
+aS'gExperienced = 0'
+p8070
+aS'outDueToG = False'
+p8071
+aS'ToD = 0'
+p8072
+aS'idx = -1'
+p8073
+aS'extraXP = 0'
+p8074
+aS'CAREER_LOG'
+p8075
+a(lp8076
+S'flight = 0'
+p8077
+aaS'FLIGHT_LOG'
+p8078
+a(lp8079
+S'flight = 0'
+p8080
+aaa(lp8081
+S'name = Geoflong Kerman'
+p8082
+aS'gender = Male'
+p8083
+aS'type = Unowned'
+p8084
+aS'trait = Pilot'
+p8085
+aS'brave = 0.31639272'
+p8086
+aS'dumb = 0.0897890553'
+p8087
+aS'badS = False'
+p8088
+aS'veteran = False'
+p8089
+aS'tour = False'
+p8090
+aS'state = Assigned'
+p8091
+aS'inactive = False'
+p8092
+aS'inactiveTimeEnd = 0'
+p8093
+aS'gExperienced = 0'
+p8094
+aS'outDueToG = False'
+p8095
+aS'ToD = 0'
+p8096
+aS'idx = -1'
+p8097
+aS'extraXP = 0'
+p8098
+aS'CAREER_LOG'
+p8099
+a(lp8100
+S'flight = 0'
+p8101
+aaS'FLIGHT_LOG'
+p8102
+a(lp8103
+S'flight = 0'
+p8104
+aaa(lp8105
+S'name = Johnsby Kerman'
+p8106
+aS'gender = Male'
+p8107
+aS'type = Unowned'
+p8108
+aS'trait = Engineer'
+p8109
+aS'brave = 0.48747474'
+p8110
+aS'dumb = 0.0963192731'
+p8111
+aS'badS = True'
+p8112
+aS'veteran = False'
+p8113
+aS'tour = False'
+p8114
+aS'state = Assigned'
+p8115
+aS'inactive = False'
+p8116
+aS'inactiveTimeEnd = 0'
+p8117
+aS'gExperienced = 0'
+p8118
+aS'outDueToG = False'
+p8119
+aS'ToD = 0'
+p8120
+aS'idx = -1'
+p8121
+aS'extraXP = 0'
+p8122
+aS'CAREER_LOG'
+p8123
+a(lp8124
+S'flight = 0'
+p8125
+aaS'FLIGHT_LOG'
+p8126
+a(lp8127
+S'flight = 0'
+p8128
+aaa(lp8129
+S'name = Jenrys Kerman'
+p8130
+aS'gender = Female'
+p8131
+aS'type = Unowned'
+p8132
+aS'trait = Scientist'
+p8133
+aS'brave = 0.639935315'
+p8134
+aS'dumb = 0.753726065'
+p8135
+aS'badS = False'
+p8136
+aS'veteran = False'
+p8137
+aS'tour = False'
+p8138
+aS'state = Assigned'
+p8139
+aS'inactive = False'
+p8140
+aS'inactiveTimeEnd = 0'
+p8141
+aS'gExperienced = 0'
+p8142
+aS'outDueToG = False'
+p8143
+aS'ToD = 0'
+p8144
+aS'idx = -1'
+p8145
+aS'extraXP = 0'
+p8146
+aS'CAREER_LOG'
+p8147
+a(lp8148
+S'flight = 0'
+p8149
+aaS'FLIGHT_LOG'
+p8150
+a(lp8151
+S'flight = 0'
+p8152
+aaa(lp8153
+S'name = Megicca Kerman'
+p8154
+aS'gender = Female'
+p8155
+aS'type = Unowned'
+p8156
+aS'trait = Engineer'
+p8157
+aS'brave = 0.132682905'
+p8158
+aS'dumb = 0.939594388'
+p8159
+aS'badS = False'
+p8160
+aS'veteran = False'
+p8161
+aS'tour = False'
+p8162
+aS'state = Assigned'
+p8163
+aS'inactive = False'
+p8164
+aS'inactiveTimeEnd = 0'
+p8165
+aS'gExperienced = 0'
+p8166
+aS'outDueToG = False'
+p8167
+aS'ToD = 0'
+p8168
+aS'idx = -1'
+p8169
+aS'extraXP = 0'
+p8170
+aS'CAREER_LOG'
+p8171
+a(lp8172
+S'flight = 0'
+p8173
+aaS'FLIGHT_LOG'
+p8174
+a(lp8175
+S'flight = 0'
+p8176
+aaa(lp8177
+S'name = Bilgard Kerman'
+p8178
+aS'gender = Male'
+p8179
+aS'type = Unowned'
+p8180
+aS'trait = Engineer'
+p8181
+aS'brave = 0.16623579'
+p8182
+aS'dumb = 0.491034478'
+p8183
+aS'badS = True'
+p8184
+aS'veteran = False'
+p8185
+aS'tour = False'
+p8186
+aS'state = Assigned'
+p8187
+aS'inactive = False'
+p8188
+aS'inactiveTimeEnd = 0'
+p8189
+aS'gExperienced = 0'
+p8190
+aS'outDueToG = False'
+p8191
+aS'ToD = 0'
+p8192
+aS'idx = -1'
+p8193
+aS'extraXP = 0'
+p8194
+aS'CAREER_LOG'
+p8195
+a(lp8196
+S'flight = 0'
+p8197
+aaS'FLIGHT_LOG'
+p8198
+a(lp8199
+S'flight = 0'
+p8200
+aaa(lp8201
+S'name = Dusen Kerman'
+p8202
+aS'gender = Male'
+p8203
+aS'type = Unowned'
+p8204
+aS'trait = Pilot'
+p8205
+aS'brave = 0.651257873'
+p8206
+aS'dumb = 0.759452522'
+p8207
+aS'badS = False'
+p8208
+aS'veteran = False'
+p8209
+aS'tour = False'
+p8210
+aS'state = Assigned'
+p8211
+aS'inactive = False'
+p8212
+aS'inactiveTimeEnd = 0'
+p8213
+aS'gExperienced = 0'
+p8214
+aS'outDueToG = False'
+p8215
+aS'ToD = 0'
+p8216
+aS'idx = -1'
+p8217
+aS'extraXP = 0'
+p8218
+aS'CAREER_LOG'
+p8219
+a(lp8220
+S'flight = 0'
+p8221
+aaS'FLIGHT_LOG'
+p8222
+a(lp8223
+S'flight = 0'
+p8224
+aaa(lp8225
+S'name = Tedmy Kerman'
+p8226
+aS'gender = Male'
+p8227
+aS'type = Unowned'
+p8228
+aS'trait = Pilot'
+p8229
+aS'brave = 0.227718994'
+p8230
+aS'dumb = 0.187529042'
+p8231
+aS'badS = False'
+p8232
+aS'veteran = False'
+p8233
+aS'tour = False'
+p8234
+aS'state = Assigned'
+p8235
+aS'inactive = False'
+p8236
+aS'inactiveTimeEnd = 0'
+p8237
+aS'gExperienced = 0'
+p8238
+aS'outDueToG = False'
+p8239
+aS'ToD = 0'
+p8240
+aS'idx = -1'
+p8241
+aS'extraXP = 0'
+p8242
+aS'CAREER_LOG'
+p8243
+a(lp8244
+S'flight = 0'
+p8245
+aaS'FLIGHT_LOG'
+p8246
+a(lp8247
+S'flight = 0'
+p8248
+aaa(lp8249
+S'name = Miemma Kerman'
+p8250
+aS'gender = Female'
+p8251
+aS'type = Unowned'
+p8252
+aS'trait = Engineer'
+p8253
+aS'brave = 0.146106035'
+p8254
+aS'dumb = 0.29276967'
+p8255
+aS'badS = False'
+p8256
+aS'veteran = False'
+p8257
+aS'tour = False'
+p8258
+aS'state = Assigned'
+p8259
+aS'inactive = False'
+p8260
+aS'inactiveTimeEnd = 0'
+p8261
+aS'gExperienced = 0'
+p8262
+aS'outDueToG = False'
+p8263
+aS'ToD = 0'
+p8264
+aS'idx = -1'
+p8265
+aS'extraXP = 0'
+p8266
+aS'CAREER_LOG'
+p8267
+a(lp8268
+S'flight = 0'
+p8269
+aaS'FLIGHT_LOG'
+p8270
+a(lp8271
+S'flight = 0'
+p8272
+aaa(lp8273
+S'name = Camfal Kerman'
+p8274
+aS'gender = Male'
+p8275
+aS'type = Unowned'
+p8276
+aS'trait = Pilot'
+p8277
+aS'brave = 0.6506809'
+p8278
+aS'dumb = 0.735927224'
+p8279
+aS'badS = False'
+p8280
+aS'veteran = False'
+p8281
+aS'tour = False'
+p8282
+aS'state = Assigned'
+p8283
+aS'inactive = False'
+p8284
+aS'inactiveTimeEnd = 0'
+p8285
+aS'gExperienced = 0'
+p8286
+aS'outDueToG = False'
+p8287
+aS'ToD = 0'
+p8288
+aS'idx = -1'
+p8289
+aS'extraXP = 0'
+p8290
+aS'CAREER_LOG'
+p8291
+a(lp8292
+S'flight = 0'
+p8293
+aaS'FLIGHT_LOG'
+p8294
+a(lp8295
+S'flight = 0'
+p8296
+aaa(lp8297
+S'name = Philman Kerman'
+p8298
+aS'gender = Male'
+p8299
+aS'type = Applicant'
+p8300
+aS'trait = Engineer'
+p8301
+aS'brave = 0.900501013'
+p8302
+aS'dumb = 0.251500666'
+p8303
+aS'badS = True'
+p8304
+aS'veteran = False'
+p8305
+aS'tour = False'
+p8306
+aS'state = Available'
+p8307
+aS'inactive = False'
+p8308
+aS'inactiveTimeEnd = 0'
+p8309
+aS'gExperienced = 0'
+p8310
+aS'outDueToG = False'
+p8311
+aS'ToD = 1212682.8109920297'
+p8312
+aS'idx = -1'
+p8313
+aS'extraXP = 0'
+p8314
+aS'CAREER_LOG'
+p8315
+a(lp8316
+S'flight = 0'
+p8317
+aaS'FLIGHT_LOG'
+p8318
+a(lp8319
+S'flight = 0'
+p8320
+aaa(lp8321
+S'name = Kathie Kerman'
+p8322
+aS'gender = Female'
+p8323
+aS'type = Applicant'
+p8324
+aS'trait = Scientist'
+p8325
+aS'brave = 0.40624851'
+p8326
+aS'dumb = 0.492105275'
+p8327
+aS'badS = False'
+p8328
+aS'veteran = False'
+p8329
+aS'tour = False'
+p8330
+aS'state = Available'
+p8331
+aS'inactive = False'
+p8332
+aS'inactiveTimeEnd = 0'
+p8333
+aS'gExperienced = 0'
+p8334
+aS'outDueToG = False'
+p8335
+aS'ToD = 1230625.6820857797'
+p8336
+aS'idx = -1'
+p8337
+aS'extraXP = 0'
+p8338
+aS'CAREER_LOG'
+p8339
+a(lp8340
+S'flight = 0'
+p8341
+aaS'FLIGHT_LOG'
+p8342
+a(lp8343
+S'flight = 0'
+p8344
+aaa(lp8345
+S'name = Netrice Kerman'
+p8346
+aS'gender = Female'
+p8347
+aS'type = Applicant'
+p8348
+aS'trait = Engineer'
+p8349
+aS'brave = 0.812876165'
+p8350
+aS'dumb = 0.540073812'
+p8351
+aS'badS = True'
+p8352
+aS'veteran = False'
+p8353
+aS'tour = False'
+p8354
+aS'state = Available'
+p8355
+aS'inactive = False'
+p8356
+aS'inactiveTimeEnd = 0'
+p8357
+aS'gExperienced = 0'
+p8358
+aS'outDueToG = False'
+p8359
+aS'ToD = 1162267.6979244028'
+p8360
+aS'idx = -1'
+p8361
+aS'extraXP = 0'
+p8362
+aS'CAREER_LOG'
+p8363
+a(lp8364
+S'flight = 0'
+p8365
+aaS'FLIGHT_LOG'
+p8366
+a(lp8367
+S'flight = 0'
+p8368
+aaa(lp8369
+S'name = Elielyn Kerman'
+p8370
+aS'gender = Female'
+p8371
+aS'type = Applicant'
+p8372
+aS'trait = Engineer'
+p8373
+aS'brave = 0.0712071434'
+p8374
+aS'dumb = 0.263740242'
+p8375
+aS'badS = False'
+p8376
+aS'veteran = False'
+p8377
+aS'tour = False'
+p8378
+aS'state = Available'
+p8379
+aS'inactive = False'
+p8380
+aS'inactiveTimeEnd = 0'
+p8381
+aS'gExperienced = 0'
+p8382
+aS'outDueToG = False'
+p8383
+aS'ToD = 1160181.1470210825'
+p8384
+aS'idx = -1'
+p8385
+aS'extraXP = 0'
+p8386
+aS'CAREER_LOG'
+p8387
+a(lp8388
+S'flight = 0'
+p8389
+aaS'FLIGHT_LOG'
+p8390
+a(lp8391
+S'flight = 0'
+p8392
+aaa(lp8393
+S'name = Generod Kerman'
+p8394
+aS'gender = Male'
+p8395
+aS'type = Applicant'
+p8396
+aS'trait = Engineer'
+p8397
+aS'brave = 0.681955755'
+p8398
+aS'dumb = 0.442393243'
+p8399
+aS'badS = True'
+p8400
+aS'veteran = False'
+p8401
+aS'tour = False'
+p8402
+aS'state = Available'
+p8403
+aS'inactive = False'
+p8404
+aS'inactiveTimeEnd = 0'
+p8405
+aS'gExperienced = 0'
+p8406
+aS'outDueToG = False'
+p8407
+aS'ToD = 1253173.4794795786'
+p8408
+aS'idx = -1'
+p8409
+aS'extraXP = 0'
+p8410
+aS'CAREER_LOG'
+p8411
+a(lp8412
+S'flight = 0'
+p8413
+aaS'FLIGHT_LOG'
+p8414
+a(lp8415
+S'flight = 0'
+p8416
+aaa(lp8417
+S'name = Mobie Kerman'
+p8418
+aS'gender = Female'
+p8419
+aS'type = Applicant'
+p8420
+aS'trait = Pilot'
+p8421
+aS'brave = 0.0831862092'
+p8422
+aS'dumb = 0.502218366'
+p8423
+aS'badS = False'
+p8424
+aS'veteran = False'
+p8425
+aS'tour = False'
+p8426
+aS'state = Available'
+p8427
+aS'inactive = False'
+p8428
+aS'inactiveTimeEnd = 0'
+p8429
+aS'gExperienced = 0'
+p8430
+aS'outDueToG = False'
+p8431
+aS'ToD = 1105947.4884212289'
+p8432
+aS'idx = -1'
+p8433
+aS'extraXP = 0'
+p8434
+aS'CAREER_LOG'
+p8435
+a(lp8436
+S'flight = 0'
+p8437
+aaS'FLIGHT_LOG'
+p8438
+a(lp8439
+S'flight = 0'
+p8440
+aaa(lp8441
+S'name = Dovis Kerman'
+p8442
+aS'gender = Male'
+p8443
+aS'type = Applicant'
+p8444
+aS'trait = Engineer'
+p8445
+aS'brave = 0.550025582'
+p8446
+aS'dumb = 0.761609137'
+p8447
+aS'badS = False'
+p8448
+aS'veteran = False'
+p8449
+aS'tour = False'
+p8450
+aS'state = Available'
+p8451
+aS'inactive = False'
+p8452
+aS'inactiveTimeEnd = 0'
+p8453
+aS'gExperienced = 0'
+p8454
+aS'outDueToG = False'
+p8455
+aS'ToD = 1236768.7423885141'
+p8456
+aS'idx = -1'
+p8457
+aS'extraXP = 0'
+p8458
+aS'CAREER_LOG'
+p8459
+a(lp8460
+S'flight = 0'
+p8461
+aaS'FLIGHT_LOG'
+p8462
+a(lp8463
+S'flight = 0'
+p8464
+aaa(lp8465
+S'name = Hudden Kerman'
+p8466
+aS'gender = Male'
+p8467
+aS'type = Applicant'
+p8468
+aS'trait = Engineer'
+p8469
+aS'brave = 0.471255332'
+p8470
+aS'dumb = 0.80138135'
+p8471
+aS'badS = False'
+p8472
+aS'veteran = False'
+p8473
+aS'tour = False'
+p8474
+aS'state = Available'
+p8475
+aS'inactive = False'
+p8476
+aS'inactiveTimeEnd = 0'
+p8477
+aS'gExperienced = 0'
+p8478
+aS'outDueToG = False'
+p8479
+aS'ToD = 1161130.8189571176'
+p8480
+aS'idx = -1'
+p8481
+aS'extraXP = 0'
+p8482
+aS'CAREER_LOG'
+p8483
+a(lp8484
+S'flight = 0'
+p8485
+aaS'FLIGHT_LOG'
+p8486
+a(lp8487
+S'flight = 0'
+p8488
+aaa(lp8489
+S'name = Janlenna Kerman'
+p8490
+aS'gender = Female'
+p8491
+aS'type = Applicant'
+p8492
+aS'trait = Engineer'
+p8493
+aS'brave = 0.855737269'
+p8494
+aS'dumb = 0.449677199'
+p8495
+aS'badS = False'
+p8496
+aS'veteran = False'
+p8497
+aS'tour = False'
+p8498
+aS'state = Available'
+p8499
+aS'inactive = False'
+p8500
+aS'inactiveTimeEnd = 0'
+p8501
+aS'gExperienced = 0'
+p8502
+aS'outDueToG = False'
+p8503
+aS'ToD = 1238029.7325313364'
+p8504
+aS'idx = -1'
+p8505
+aS'extraXP = 0'
+p8506
+aS'CAREER_LOG'
+p8507
+a(lp8508
+S'flight = 0'
+p8509
+aaS'FLIGHT_LOG'
+p8510
+a(lp8511
+S'flight = 0'
+p8512
+aaa(lp8513
+S'name = Newlan Kerman'
+p8514
+aS'gender = Male'
+p8515
+aS'type = Applicant'
+p8516
+aS'trait = Pilot'
+p8517
+aS'brave = 0.757716954'
+p8518
+aS'dumb = 0.720900357'
+p8519
+aS'badS = False'
+p8520
+aS'veteran = False'
+p8521
+aS'tour = False'
+p8522
+aS'state = Available'
+p8523
+aS'inactive = False'
+p8524
+aS'inactiveTimeEnd = 0'
+p8525
+aS'gExperienced = 0'
+p8526
+aS'outDueToG = False'
+p8527
+aS'ToD = 1186502.851122645'
+p8528
+aS'idx = -1'
+p8529
+aS'extraXP = 0'
+p8530
+aS'CAREER_LOG'
+p8531
+a(lp8532
+S'flight = 0'
+p8533
+aaS'FLIGHT_LOG'
+p8534
+a(lp8535
+S'flight = 0'
+p8536
+aaa(lp8537
+S'name = Arselle Kerman'
+p8538
+aS'gender = Female'
+p8539
+aS'type = Applicant'
+p8540
+aS'trait = Engineer'
+p8541
+aS'brave = 0.896895707'
+p8542
+aS'dumb = 0.289364368'
+p8543
+aS'badS = True'
+p8544
+aS'veteran = False'
+p8545
+aS'tour = False'
+p8546
+aS'state = Available'
+p8547
+aS'inactive = False'
+p8548
+aS'inactiveTimeEnd = 0'
+p8549
+aS'gExperienced = 0'
+p8550
+aS'outDueToG = False'
+p8551
+aS'ToD = 1113846.31502035'
+p8552
+aS'idx = -1'
+p8553
+aS'extraXP = 0'
+p8554
+aS'CAREER_LOG'
+p8555
+a(lp8556
+S'flight = 0'
+p8557
+aaS'FLIGHT_LOG'
+p8558
+a(lp8559
+S'flight = 0'
+p8560
+aaa(lp8561
+S'name = Sidton Kerman'
+p8562
+aS'gender = Male'
+p8563
+aS'type = Applicant'
+p8564
+aS'trait = Pilot'
+p8565
+aS'brave = 0.401890725'
+p8566
+aS'dumb = 0.609737575'
+p8567
+aS'badS = False'
+p8568
+aS'veteran = False'
+p8569
+aS'tour = False'
+p8570
+aS'state = Available'
+p8571
+aS'inactive = False'
+p8572
+aS'inactiveTimeEnd = 0'
+p8573
+aS'gExperienced = 0'
+p8574
+aS'outDueToG = False'
+p8575
+aS'ToD = 1192633.9431941782'
+p8576
+aS'idx = -1'
+p8577
+aS'extraXP = 0'
+p8578
+aS'CAREER_LOG'
+p8579
+a(lp8580
+S'flight = 0'
+p8581
+aaS'FLIGHT_LOG'
+p8582
+a(lp8583
+S'flight = 0'
+p8584
+aaa(lp8585
+S'name = Narigh Kerman'
+p8586
+aS'gender = Female'
+p8587
+aS'type = Unowned'
+p8588
+aS'trait = Scientist'
+p8589
+aS'brave = 0.312196791'
+p8590
+aS'dumb = 0.586218417'
+p8591
+aS'badS = True'
+p8592
+aS'veteran = False'
+p8593
+aS'tour = False'
+p8594
+aS'state = Assigned'
+p8595
+aS'inactive = False'
+p8596
+aS'inactiveTimeEnd = 0'
+p8597
+aS'gExperienced = 0'
+p8598
+aS'outDueToG = False'
+p8599
+aS'ToD = 0'
+p8600
+aS'idx = -1'
+p8601
+aS'extraXP = 0'
+p8602
+aS'CAREER_LOG'
+p8603
+a(lp8604
+S'flight = 0'
+p8605
+aaS'FLIGHT_LOG'
+p8606
+a(lp8607
+S'flight = 0'
+p8608
+aaa(lp8609
+S'name = Hayie Kerman'
+p8610
+aS'gender = Female'
+p8611
+aS'type = Unowned'
+p8612
+aS'trait = Engineer'
+p8613
+aS'brave = 0.11238268'
+p8614
+aS'dumb = 0.155541465'
+p8615
+aS'badS = False'
+p8616
+aS'veteran = False'
+p8617
+aS'tour = False'
+p8618
+aS'state = Assigned'
+p8619
+aS'inactive = False'
+p8620
+aS'inactiveTimeEnd = 0'
+p8621
+aS'gExperienced = 0'
+p8622
+aS'outDueToG = False'
+p8623
+aS'ToD = 0'
+p8624
+aS'idx = -1'
+p8625
+aS'extraXP = 0'
+p8626
+aS'CAREER_LOG'
+p8627
+a(lp8628
+S'flight = 0'
+p8629
+aaS'FLIGHT_LOG'
+p8630
+a(lp8631
+S'flight = 0'
+p8632
+aaa(lp8633
+S'name = Donberry Kerman'
+p8634
+aS'gender = Male'
+p8635
+aS'type = Unowned'
+p8636
+aS'trait = Pilot'
+p8637
+aS'brave = 0.366416991'
+p8638
+aS'dumb = 0.894609153'
+p8639
+aS'badS = True'
+p8640
+aS'veteran = False'
+p8641
+aS'tour = False'
+p8642
+aS'state = Assigned'
+p8643
+aS'inactive = False'
+p8644
+aS'inactiveTimeEnd = 0'
+p8645
+aS'gExperienced = 0'
+p8646
+aS'outDueToG = False'
+p8647
+aS'ToD = 0'
+p8648
+aS'idx = -1'
+p8649
+aS'extraXP = 0'
+p8650
+aS'CAREER_LOG'
+p8651
+a(lp8652
+S'flight = 0'
+p8653
+aaS'FLIGHT_LOG'
+p8654
+a(lp8655
+S'flight = 0'
+p8656
+aaa(lp8657
+S'name = Boblan Kerman'
+p8658
+aS'gender = Male'
+p8659
+aS'type = Unowned'
+p8660
+aS'trait = Engineer'
+p8661
+aS'brave = 0.325902671'
+p8662
+aS'dumb = 0.447278619'
+p8663
+aS'badS = True'
+p8664
+aS'veteran = False'
+p8665
+aS'tour = False'
+p8666
+aS'state = Assigned'
+p8667
+aS'inactive = False'
+p8668
+aS'inactiveTimeEnd = 0'
+p8669
+aS'gExperienced = 0'
+p8670
+aS'outDueToG = False'
+p8671
+aS'ToD = 0'
+p8672
+aS'idx = -1'
+p8673
+aS'extraXP = 0'
+p8674
+aS'CAREER_LOG'
+p8675
+a(lp8676
+S'flight = 0'
+p8677
+aaS'FLIGHT_LOG'
+p8678
+a(lp8679
+S'flight = 0'
+p8680
+aaa(lp8681
+S'name = Desfurt Kerman'
+p8682
+aS'gender = Male'
+p8683
+aS'type = Unowned'
+p8684
+aS'trait = Pilot'
+p8685
+aS'brave = 0.978430152'
+p8686
+aS'dumb = 0.31656155'
+p8687
+aS'badS = False'
+p8688
+aS'veteran = False'
+p8689
+aS'tour = False'
+p8690
+aS'state = Assigned'
+p8691
+aS'inactive = False'
+p8692
+aS'inactiveTimeEnd = 0'
+p8693
+aS'gExperienced = 0'
+p8694
+aS'outDueToG = False'
+p8695
+aS'ToD = 0'
+p8696
+aS'idx = -1'
+p8697
+aS'extraXP = 0'
+p8698
+aS'CAREER_LOG'
+p8699
+a(lp8700
+S'flight = 0'
+p8701
+aaS'FLIGHT_LOG'
+p8702
+a(lp8703
+S'flight = 0'
+p8704
+aaa(lp8705
+S'name = Frosy Kerman'
+p8706
+aS'gender = Male'
+p8707
+aS'type = Unowned'
+p8708
+aS'trait = Engineer'
+p8709
+aS'brave = 0.659520507'
+p8710
+aS'dumb = 0.980888128'
+p8711
+aS'badS = False'
+p8712
+aS'veteran = False'
+p8713
+aS'tour = False'
+p8714
+aS'state = Assigned'
+p8715
+aS'inactive = False'
+p8716
+aS'inactiveTimeEnd = 0'
+p8717
+aS'gExperienced = 0'
+p8718
+aS'outDueToG = False'
+p8719
+aS'ToD = 0'
+p8720
+aS'idx = -1'
+p8721
+aS'extraXP = 0'
+p8722
+aS'CAREER_LOG'
+p8723
+a(lp8724
+S'flight = 0'
+p8725
+aaS'FLIGHT_LOG'
+p8726
+a(lp8727
+S'flight = 0'
+p8728
+aaa(lp8729
+S'name = Gijorie Kerman'
+p8730
+aS'gender = Female'
+p8731
+aS'type = Unowned'
+p8732
+aS'trait = Pilot'
+p8733
+aS'brave = 0.917277277'
+p8734
+aS'dumb = 0.905402422'
+p8735
+aS'badS = False'
+p8736
+aS'veteran = False'
+p8737
+aS'tour = False'
+p8738
+aS'state = Assigned'
+p8739
+aS'inactive = False'
+p8740
+aS'inactiveTimeEnd = 0'
+p8741
+aS'gExperienced = 0'
+p8742
+aS'outDueToG = False'
+p8743
+aS'ToD = 0'
+p8744
+aS'idx = -1'
+p8745
+aS'extraXP = 0'
+p8746
+aS'CAREER_LOG'
+p8747
+a(lp8748
+S'flight = 0'
+p8749
+aaS'FLIGHT_LOG'
+p8750
+a(lp8751
+S'flight = 0'
+p8752
+aaa(lp8753
+S'name = Danny Kerman'
+p8754
+aS'gender = Male'
+p8755
+aS'type = Unowned'
+p8756
+aS'trait = Scientist'
+p8757
+aS'brave = 0.602813244'
+p8758
+aS'dumb = 0.588954926'
+p8759
+aS'badS = False'
+p8760
+aS'veteran = False'
+p8761
+aS'tour = False'
+p8762
+aS'state = Assigned'
+p8763
+aS'inactive = False'
+p8764
+aS'inactiveTimeEnd = 0'
+p8765
+aS'gExperienced = 0'
+p8766
+aS'outDueToG = False'
+p8767
+aS'ToD = 0'
+p8768
+aS'idx = -1'
+p8769
+aS'extraXP = 0'
+p8770
+aS'CAREER_LOG'
+p8771
+a(lp8772
+S'flight = 0'
+p8773
+aaS'FLIGHT_LOG'
+p8774
+a(lp8775
+S'flight = 0'
+p8776
+aaa(lp8777
+S'name = Jengee Kerman'
+p8778
+aS'gender = Female'
+p8779
+aS'type = Unowned'
+p8780
+aS'trait = Pilot'
+p8781
+aS'brave = 0.781621218'
+p8782
+aS'dumb = 0.799279928'
+p8783
+aS'badS = False'
+p8784
+aS'veteran = False'
+p8785
+aS'tour = False'
+p8786
+aS'state = Assigned'
+p8787
+aS'inactive = False'
+p8788
+aS'inactiveTimeEnd = 0'
+p8789
+aS'gExperienced = 0'
+p8790
+aS'outDueToG = False'
+p8791
+aS'ToD = 0'
+p8792
+aS'idx = -1'
+p8793
+aS'extraXP = 0'
+p8794
+aS'CAREER_LOG'
+p8795
+a(lp8796
+S'flight = 0'
+p8797
+aaS'FLIGHT_LOG'
+p8798
+a(lp8799
+S'flight = 0'
+p8800
+aaa(lp8801
+S'name = Milayne Kerman'
+p8802
+aS'gender = Female'
+p8803
+aS'type = Unowned'
+p8804
+aS'trait = Pilot'
+p8805
+aS'brave = 0.558476865'
+p8806
+aS'dumb = 0.100251287'
+p8807
+aS'badS = True'
+p8808
+aS'veteran = False'
+p8809
+aS'tour = False'
+p8810
+aS'state = Assigned'
+p8811
+aS'inactive = False'
+p8812
+aS'inactiveTimeEnd = 0'
+p8813
+aS'gExperienced = 0'
+p8814
+aS'outDueToG = False'
+p8815
+aS'ToD = 0'
+p8816
+aS'idx = -1'
+p8817
+aS'extraXP = 0'
+p8818
+aS'CAREER_LOG'
+p8819
+a(lp8820
+S'flight = 0'
+p8821
+aaS'FLIGHT_LOG'
+p8822
+a(lp8823
+S'flight = 0'
+p8824
+aaa(lp8825
+S'name = Berdie Kerman'
+p8826
+aS'gender = Female'
+p8827
+aS'type = Unowned'
+p8828
+aS'trait = Engineer'
+p8829
+aS'brave = 0.102453023'
+p8830
+aS'dumb = 0.0600241385'
+p8831
+aS'badS = False'
+p8832
+aS'veteran = False'
+p8833
+aS'tour = False'
+p8834
+aS'state = Assigned'
+p8835
+aS'inactive = False'
+p8836
+aS'inactiveTimeEnd = 0'
+p8837
+aS'gExperienced = 0'
+p8838
+aS'outDueToG = False'
+p8839
+aS'ToD = 0'
+p8840
+aS'idx = -1'
+p8841
+aS'extraXP = 0'
+p8842
+aS'CAREER_LOG'
+p8843
+a(lp8844
+S'flight = 0'
+p8845
+aaS'FLIGHT_LOG'
+p8846
+a(lp8847
+S'flight = 0'
+p8848
+aaa(lp8849
+S'name = Lizthy Kerman'
+p8850
+aS'gender = Female'
+p8851
+aS'type = Unowned'
+p8852
+aS'trait = Pilot'
+p8853
+aS'brave = 0.602795959'
+p8854
+aS'dumb = 0.144688174'
+p8855
+aS'badS = False'
+p8856
+aS'veteran = False'
+p8857
+aS'tour = False'
+p8858
+aS'state = Assigned'
+p8859
+aS'inactive = False'
+p8860
+aS'inactiveTimeEnd = 0'
+p8861
+aS'gExperienced = 0'
+p8862
+aS'outDueToG = False'
+p8863
+aS'ToD = 0'
+p8864
+aS'idx = -1'
+p8865
+aS'extraXP = 0'
+p8866
+aS'CAREER_LOG'
+p8867
+a(lp8868
+S'flight = 0'
+p8869
+aaS'FLIGHT_LOG'
+p8870
+a(lp8871
+S'flight = 0'
+p8872
+aaa(lp8873
+S'name = Stelgela Kerman'
+p8874
+aS'gender = Female'
+p8875
+aS'type = Unowned'
+p8876
+aS'trait = Engineer'
+p8877
+aS'brave = 0.21684815'
+p8878
+aS'dumb = 0.749196589'
+p8879
+aS'badS = False'
+p8880
+aS'veteran = False'
+p8881
+aS'tour = False'
+p8882
+aS'state = Assigned'
+p8883
+aS'inactive = False'
+p8884
+aS'inactiveTimeEnd = 0'
+p8885
+aS'gExperienced = 0'
+p8886
+aS'outDueToG = False'
+p8887
+aS'ToD = 0'
+p8888
+aS'idx = -1'
+p8889
+aS'extraXP = 0'
+p8890
+aS'CAREER_LOG'
+p8891
+a(lp8892
+S'flight = 0'
+p8893
+aaS'FLIGHT_LOG'
+p8894
+a(lp8895
+S'flight = 0'
+p8896
+aaa(lp8897
+S'name = Gerphie Kerman'
+p8898
+aS'gender = Female'
+p8899
+aS'type = Unowned'
+p8900
+aS'trait = Scientist'
+p8901
+aS'brave = 0.137187928'
+p8902
+aS'dumb = 0.984943986'
+p8903
+aS'badS = False'
+p8904
+aS'veteran = False'
+p8905
+aS'tour = False'
+p8906
+aS'state = Assigned'
+p8907
+aS'inactive = False'
+p8908
+aS'inactiveTimeEnd = 0'
+p8909
+aS'gExperienced = 0'
+p8910
+aS'outDueToG = False'
+p8911
+aS'ToD = 0'
+p8912
+aS'idx = -1'
+p8913
+aS'extraXP = 0'
+p8914
+aS'CAREER_LOG'
+p8915
+a(lp8916
+S'flight = 0'
+p8917
+aaS'FLIGHT_LOG'
+p8918
+a(lp8919
+S'flight = 0'
+p8920
+aaa(lp8921
+S'name = Decella Kerman'
+p8922
+aS'gender = Female'
+p8923
+aS'type = Unowned'
+p8924
+aS'trait = Engineer'
+p8925
+aS'brave = 0.0151030542'
+p8926
+aS'dumb = 0.260621786'
+p8927
+aS'badS = False'
+p8928
+aS'veteran = False'
+p8929
+aS'tour = False'
+p8930
+aS'state = Assigned'
+p8931
+aS'inactive = False'
+p8932
+aS'inactiveTimeEnd = 0'
+p8933
+aS'gExperienced = 0'
+p8934
+aS'outDueToG = False'
+p8935
+aS'ToD = 0'
+p8936
+aS'idx = -1'
+p8937
+aS'extraXP = 0'
+p8938
+aS'CAREER_LOG'
+p8939
+a(lp8940
+S'flight = 0'
+p8941
+aaS'FLIGHT_LOG'
+p8942
+a(lp8943
+S'flight = 0'
+p8944
+aaa(lp8945
+S'name = Gusdorf Kerman'
+p8946
+aS'gender = Male'
+p8947
+aS'type = Unowned'
+p8948
+aS'trait = Engineer'
+p8949
+aS'brave = 0.464655876'
+p8950
+aS'dumb = 0.248310626'
+p8951
+aS'badS = False'
+p8952
+aS'veteran = False'
+p8953
+aS'tour = False'
+p8954
+aS'state = Assigned'
+p8955
+aS'inactive = False'
+p8956
+aS'inactiveTimeEnd = 0'
+p8957
+aS'gExperienced = 0'
+p8958
+aS'outDueToG = False'
+p8959
+aS'ToD = 0'
+p8960
+aS'idx = -1'
+p8961
+aS'extraXP = 0'
+p8962
+aS'CAREER_LOG'
+p8963
+a(lp8964
+S'flight = 0'
+p8965
+aaS'FLIGHT_LOG'
+p8966
+a(lp8967
+S'flight = 0'
+p8968
+aaa(lp8969
+S'name = Danely Kerman'
+p8970
+aS'gender = Male'
+p8971
+aS'type = Unowned'
+p8972
+aS'trait = Engineer'
+p8973
+aS'brave = 0.659828901'
+p8974
+aS'dumb = 0.185269639'
+p8975
+aS'badS = False'
+p8976
+aS'veteran = False'
+p8977
+aS'tour = False'
+p8978
+aS'state = Assigned'
+p8979
+aS'inactive = False'
+p8980
+aS'inactiveTimeEnd = 0'
+p8981
+aS'gExperienced = 0'
+p8982
+aS'outDueToG = False'
+p8983
+aS'ToD = 0'
+p8984
+aS'idx = -1'
+p8985
+aS'extraXP = 0'
+p8986
+aS'CAREER_LOG'
+p8987
+a(lp8988
+S'flight = 0'
+p8989
+aaS'FLIGHT_LOG'
+p8990
+a(lp8991
+S'flight = 0'
+p8992
+aaa(lp8993
+S'SpaceCenter/VehicleAssemblyBuilding/Facility/ksp_pad_cylTank'
+p8994
+a(lp8995
+S'intact = True'
+p8996
+aaS'SpaceCenter/VehicleAssemblyBuilding/Facility/Tank'
+p8997
+a(lp8998
+S'intact = True'
+p8999
+aaS'SpaceCenter/VehicleAssemblyBuilding/Facility/mainBuilding'
+p9000
+a(lp9001
+S'intact = True'
+p9002
+aaS'SpaceCenter/VehicleAssemblyBuilding/Facility/PodMemorial'
+p9003
+a(lp9004
+S'intact = True'
+p9005
+aaS'SpaceCenter/TrackingStation/Facility/dish_array/dish_south'
+p9006
+a(lp9007
+S'intact = True'
+p9008
+aaS'SpaceCenter/TrackingStation/Facility/dish_array/dish_north'
+p9009
+a(lp9010
+S'intact = True'
+p9011
+aaS'SpaceCenter/TrackingStation/Facility/dish_array/dish_east'
+p9012
+a(lp9013
+S'intact = True'
+p9014
+aaS'SpaceCenter/TrackingStation/Facility/MainBuilding'
+p9015
+a(lp9016
+S'intact = True'
+p9017
+aaS'SpaceCenter/SpaceplaneHangar/Facility/Tank'
+p9018
+a(lp9019
+S'intact = True'
+p9020
+aaS'SpaceCenter/SpaceplaneHangar/Facility/ksp_pad_cylTank'
+p9021
+a(lp9022
+S'intact = True'
+p9023
+aaS'SpaceCenter/SpaceplaneHangar/Facility/ksp_pad_waterTower'
+p9024
+a(lp9025
+S'intact = True'
+p9026
+aaS'SpaceCenter/SpaceplaneHangar/Facility/mainBuilding'
+p9027
+a(lp9028
+S'intact = True'
+p9029
+aaS'SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_SE'
+p9030
+a(lp9031
+S'intact = True'
+p9032
+aaS'SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_NE'
+p9033
+a(lp9034
+S'intact = True'
+p9035
+aaS'SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_NW'
+p9036
+a(lp9037
+S'intact = True'
+p9038
+aaS'SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_SW'
+p9039
+a(lp9040
+S'intact = True'
+p9041
+aaS'SpaceCenter/Runway/Facility/End09'
+p9042
+a(lp9043
+S'intact = True'
+p9044
+aaS'SpaceCenter/Runway/Facility/End27'
+p9045
+a(lp9046
+S'intact = True'
+p9047
+aaS'SpaceCenter/Runway/Facility/Section1'
+p9048
+a(lp9049
+S'intact = True'
+p9050
+aaS'SpaceCenter/Runway/Facility/Section2'
+p9051
+a(lp9052
+S'intact = True'
+p9053
+aaS'SpaceCenter/Runway/Facility/Section3'
+p9054
+a(lp9055
+S'intact = True'
+p9056
+aaS'SpaceCenter/Runway/Facility/Section4'
+p9057
+a(lp9058
+S'intact = True'
+p9059
+aaS'SpaceCenter/ResearchAndDevelopment/Facility/ksp_pad_cylTank'
+p9060
+a(lp9061
+S'intact = True'
+p9062
+aaS'SpaceCenter/ResearchAndDevelopment/Facility/SmallLab'
+p9063
+a(lp9064
+S'intact = True'
+p9065
+aaS'SpaceCenter/ResearchAndDevelopment/Facility/CentralBuilding'
+p9066
+a(lp9067
+S'intact = True'
+p9068
+aaS'SpaceCenter/ResearchAndDevelopment/Facility/MainBuilding'
+p9069
+a(lp9070
+S'intact = True'
+p9071
+aaS'SpaceCenter/ResearchAndDevelopment/Facility/CornerLab'
+p9072
+a(lp9073
+S'intact = True'
+p9074
+aaS'SpaceCenter/ResearchAndDevelopment/Facility/WindTunnel'
+p9075
+a(lp9076
+S'intact = True'
+p9077
+aaS'SpaceCenter/ResearchAndDevelopment/Facility/Observatory'
+p9078
+a(lp9079
+S'intact = True'
+p9080
+aaS'SpaceCenter/ResearchAndDevelopment/Facility/SideLab'
+p9081
+a(lp9082
+S'intact = True'
+p9083
+aaS'SpaceCenter/MissionControl/Facility/building'
+p9084
+a(lp9085
+S'intact = True'
+p9086
+aaS'SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_cylTank'
+p9087
+a(lp9088
+S'intact = True'
+p9089
+aaS'SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_launchPad'
+p9090
+a(lp9091
+S'intact = True'
+p9092
+aaS'SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_sphereTank'
+p9093
+a(lp9094
+S'intact = True'
+p9095
+aaS'SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_waterTower'
+p9096
+a(lp9097
+S'intact = True'
+p9098
+aaS'SpaceCenter/LaunchPad/Facility/LaunchPadMedium/KSCFlagPoleLaunchPad'
+p9099
+a(lp9100
+S'intact = True'
+p9101
+aaS'SpaceCenter/AstronautComplex/Facility/building'
+p9102
+a(lp9103
+S'intact = True'
+p9104
+aaS'SpaceCenter/FlagPole/Facility'
+p9105
+a(lp9106
+S'intact = True'
+p9107
+aaS'SpaceCenter/Administration/Facility/mainBuilding'
+p9108
+a(lp9109
+S'intact = True'
+p9110
+aaS'SpaceCenter/VehicleAssemblyBuilding/Facility/VAB2'
+p9111
+a(lp9112
+S'intact = True'
+p9113
+aaS'SpaceCenter/TrackingStation/Facility/building'
+p9114
+a(lp9115
+S'intact = True'
+p9116
+aaS'SpaceCenter/TrackingStation/Facility/OuterDish'
+p9117
+a(lp9118
+S'intact = True'
+p9119
+aaS'SpaceCenter/SpaceplaneHangar/Facility/Building'
+p9120
+a(lp9121
+S'intact = True'
+p9122
+aaS'SpaceCenter/ResearchAndDevelopment/Facility/mainBuilding'
+p9123
+a(lp9124
+S'intact = True'
+p9125
+aaS'SpaceCenter/ResearchAndDevelopment/Facility/ForeverAlone'
+p9126
+a(lp9127
+S'intact = True'
+p9128
+aaS'SpaceCenter/MissionControl/Facility/mainBuilding'
+p9129
+a(lp9130
+S'intact = True'
+p9131
+aaS'SpaceCenter/LaunchPad/Facility/Flag'
+p9132
+a(lp9133
+S'intact = True'
+p9134
+aaS'SpaceCenter/AstronautComplex/Facility/mainBuilding'
+p9135
+a(lp9136
+S'intact = True'
+p9137
+aaS'SpaceCenter/Administration/Facility/Building'
+p9138
+a(lp9139
+S'intact = True'
+p9140
+aaS'SpaceCenter/VehicleAssemblyBuilding/Facility/VAB3'
+p9141
+a(lp9142
+S'intact = True'
+p9143
+aaS'SpaceCenter/VehicleAssemblyBuilding/Facility/SouthComplex'
+p9144
+a(lp9145
+S'intact = True'
+p9146
+aaS'SpaceCenter/LaunchPad/Facility/building'
+p9147
+a(lp9148
+S'intact = True'
+p9149
+aaS'SpaceCenter/LaunchPad/Facility/SmallTanks'
+p9150
+a(lp9151
+S'intact = True'
+p9152
+aaS'SpaceCenter/LaunchPad/Facility/BigTanks'
+p9153
+a(lp9154
+S'intact = True'
+p9155
+aaS'SpaceCenter/TrackingStation/Facility/building/Antenna_South'
+p9156
+a(lp9157
+S'intact = True'
+p9158
+aaS'SpaceCenter/TrackingStation/Facility/building/Antenna_North'
+p9159
+a(lp9160
+S'intact = True'
+p9161
+aaS'SpaceCenter/TrackingStation/Facility/building/Antenna_East'
+p9162
+a(lp9163
+S'intact = True'
+p9164
+aaS'SpaceCenter/TrackingStation/Facility/building/Building'
+p9165
+a(lp9166
+S'intact = True'
+p9167
+aa(lp9168
+S'7f4bf920874c41c88fc50c12d8324bae'
+p9169
+a(dp9170
+g9090
+(lp9171
+S'184.68.166.106'
+p9172
+aS'174.7.112.5'
+p9173
+asS'Stelgela Kerman'
+p9174
+(lp9175
+S'184.68.166.106'
+p9176
+asg9135
+(lp9177
+g9172
+ag9173
+asS'Philman Kerman'
+p9178
+(lp9179
+g9172
+ag9173
+asS'Dusen Kerman'
+p9180
+(lp9181
+g9172
+ag9173
+asS'Desfurt Kerman'
+p9182
+(lp9183
+g9172
+ag9173
+asS'Anpond Kerman'
+p9184
+(lp9185
+g9172
+ag9173
+asS'Bilgard Kerman'
+p9186
+(lp9187
+g9172
+ag9173
+asS'Newlan Kerman'
+p9188
+(lp9189
+g9172
+ag9173
+asS'bc4d0281a5524c979211d6aee96f07a3'
+p9190
+(lp9191
+S'184.68.166.106'
+p9192
+aS'174.7.112.5'
+p9193
+aS'184.68.166.106'
+p9194
+aS'184.68.166.106'
+p9195
+ag9176
+asg9000
+(lp9196
+g9172
+ag9173
+asS'Bartdous Kerman'
+p9197
+(lp9198
+g9172
+ag9173
+asg9021
+(lp9199
+g9172
+ag9173
+asg9150
+(lp9200
+g9172
+ag9173
+asS'Eldorf Kerman'
+p9201
+(lp9202
+g9172
+ag9173
+asg9033
+(lp9203
+g9172
+ag9173
+asg9144
+(lp9204
+g9172
+ag9173
+asS'Wilina Kerman'
+p9205
+(lp9206
+g9172
+ag9173
+asS'7f4bf920874c41c88fc50c12d8324bae'
+p9207
+(lp9208
+sS'Danely Kerman'
+p9209
+(lp9210
+g9176
+asS'Nelgun Kerman'
+p9211
+(lp9212
+g9172
+ag9173
+asg9153
+(lp9213
+g9172
+ag9173
+asS'Nancy Kerman'
+p9214
+(lp9215
+g9172
+ag9173
+asg9075
+(lp9216
+g9172
+ag9173
+asS'Megicca Kerman'
+p9217
+(lp9218
+g9172
+ag9173
+asS'Lemuki Kerman'
+p9219
+(lp9220
+g9172
+ag9173
+asS'Boblan Kerman'
+p9221
+(lp9222
+g9172
+ag9173
+asS'Mobie Kerman'
+p9223
+(lp9224
+g9172
+ag9173
+asg9159
+(lp9225
+g9173
+ag9194
+asS'Gusdorf Kerman'
+p9226
+(lp9227
+g9176
+asg9066
+(lp9228
+g9172
+ag9173
+asS'234f7cc3b79849fb9e9014dbb11383e7'
+p9229
+(lp9230
+g9176
+asS'Geoflong Kerman'
+p9231
+(lp9232
+g9172
+ag9173
+asg9069
+(lp9233
+g9172
+ag9173
+asS'Hennard Kerman'
+p9234
+(lp9235
+g9172
+ag9173
+asS'Sisa Kerman'
+p9236
+(lp9237
+g9172
+ag9173
+asS'Netrice Kerman'
+p9238
+(lp9239
+g9172
+ag9173
+asS'Danny Kerman'
+p9240
+(lp9241
+g9172
+ag9173
+asS'Tedmy Kerman'
+p9242
+(lp9243
+g9172
+ag9173
+asS'Hudden Kerman'
+p9244
+(lp9245
+g9172
+ag9173
+asg9129
+(lp9246
+g9172
+ag9173
+asg9138
+(lp9247
+g9172
+ag9173
+asS'Dogard Kerman'
+p9248
+(lp9249
+g9172
+ag9173
+asS'Melrick Kerman'
+p9250
+(lp9251
+g9172
+ag9173
+asS'Ribming Kerman'
+p9252
+(lp9253
+g9172
+ag9173
+asg9036
+(lp9254
+g9172
+ag9173
+asg9006
+(lp9255
+g9172
+ag9173
+asg9084
+(lp9256
+g9172
+ag9173
+asg9147
+(lp9257
+g9172
+ag9173
+asS'Kathie Kerman'
+p9258
+(lp9259
+g9172
+ag9173
+asS'Melden Kerman'
+p9260
+(lp9261
+g9172
+ag9173
+asS'Jerney Kerman'
+p9262
+(lp9263
+g9172
+ag9173
+asg9123
+(lp9264
+g9172
+ag9173
+asS'50c568fbdda040fda26475e30663d2fb'
+p9265
+(lp9266
+g9172
+ag9173
+ag9192
+ag9193
+ag9194
+ag9195
+ag9176
+asg9162
+(lp9267
+g9173
+ag9194
+asS'Gilly Kerman'
+p9268
+(lp9269
+g9172
+ag9173
+asS'8088257d2c2e49419f3e890385f6ed8c'
+p9270
+(lp9271
+g9172
+ag9173
+ag9192
+ag9193
+ag9194
+ag9195
+ag9176
+asS'Geneming Kerman'
+p9272
+(lp9273
+g9172
+ag9173
+asS'Tedbus Kerman'
+p9274
+(lp9275
+g9172
+ag9173
+asg9108
+(lp9276
+g9172
+ag9173
+asS'Generod Kerman'
+p9277
+(lp9278
+g9172
+ag9173
+asg8994
+(lp9279
+g9172
+ag9173
+asg9102
+(lp9280
+g9172
+ag9173
+asS'Milayne Kerman'
+p9281
+(lp9282
+g9192
+aS'174.7.112.5'
+p9283
+asS'Kerrigh Kerman'
+p9284
+(lp9285
+g9172
+ag9173
+asS'Camfal Kerman'
+p9286
+(lp9287
+g9172
+ag9173
+asg9063
+(lp9288
+g9172
+ag9173
+asS'Sherzer Kerman'
+p9289
+(lp9290
+g9172
+ag9173
+asg9009
+(lp9291
+g9172
+ag9173
+asg9078
+(lp9292
+g9172
+ag9173
+asg9099
+(lp9293
+g9172
+ag9173
+asg9003
+(lp9294
+g9172
+ag9173
+asg9105
+(lp9295
+g9172
+ag9173
+asS'Janlenna Kerman'
+p9296
+(lp9297
+g9172
+ag9173
+asS'Donberry Kerman'
+p9298
+(lp9299
+g9172
+ag9173
+asg9141
+(lp9300
+g9172
+ag9173
+asg9111
+(lp9301
+g9172
+ag9173
+asS'Bob Kerman'
+p9302
+(lp9303
+g9172
+ag9173
+asg9093
+(lp9304
+g9172
+ag9173
+asg9072
+(lp9305
+g9172
+ag9173
+asg9126
+(lp9306
+g9172
+ag9173
+asS'Kirus Kerman'
+p9307
+(lp9308
+g9172
+ag9173
+asS'Bill Kerman'
+p9309
+(lp9310
+g9172
+ag9173
+asS'Frosy Kerman'
+p9311
+(lp9312
+g9172
+ag9173
+asS'Narigh Kerman'
+p9313
+(lp9314
+g9172
+ag9173
+asg9096
+(lp9315
+g9172
+ag9173
+asS'Arselle Kerman'
+p9316
+(lp9317
+g9172
+ag9173
+asg9039
+(lp9318
+g9172
+ag9173
+asg9045
+(lp9319
+g9172
+ag9173
+asS'Samdie Kerman'
+p9320
+(lp9321
+g9172
+ag9173
+asS'Lecine Kerman'
+p9322
+(lp9323
+g9172
+ag9173
+asS'Jenrys Kerman'
+p9324
+(lp9325
+g9172
+ag9173
+asS'f075585e09694cd684c6ac668b0a0bb6'
+p9326
+(lp9327
+g9172
+ag9173
+ag9192
+ag9193
+ag9194
+ag9195
+ag9176
+asg9030
+(lp9328
+g9172
+ag9173
+asS'Johnsby Kerman'
+p9329
+(lp9330
+g9172
+ag9173
+asg9081
+(lp9331
+g9172
+ag9173
+asS'Lodzon Kerman'
+p9332
+(lp9333
+g9172
+ag9173
+asS'Elielyn Kerman'
+p9334
+(lp9335
+g9172
+ag9173
+asS'Gerphie Kerman'
+p9336
+(lp9337
+g9176
+asS'Melie Kerman'
+p9338
+(lp9339
+g9172
+ag9173
+asg9027
+(lp9340
+g9172
+ag9173
+asS'Linbie Kerman'
+p9341
+(lp9342
+g9172
+ag9173
+asS'Stephanie Kerman'
+p9343
+(lp9344
+g9172
+ag9173
+asg9012
+(lp9345
+g9172
+ag9173
+asS'Decella Kerman'
+p9346
+(lp9347
+g9176
+asS'Gijorie Kerman'
+p9348
+(lp9349
+g9172
+ag9173
+asS'Dovis Kerman'
+p9350
+(lp9351
+g9172
+ag9173
+asS'Berdie Kerman'
+p9352
+(lp9353
+g9192
+ag9283
+asg9048
+(lp9354
+g9172
+ag9173
+asg9051
+(lp9355
+g9172
+ag9173
+asg9054
+(lp9356
+g9172
+ag9173
+asg9057
+(lp9357
+g9172
+ag9173
+asS'183fa0078d3847a8a4db98bc258ed23a'
+p9358
+(lp9359
+g9172
+ag9173
+ag9192
+ag9193
+ag9194
+ag9195
+ag9176
+asg8997
+(lp9360
+g9172
+ag9173
+asS'01e35b64d66b41989401953bcf515807'
+p9361
+(lp9362
+g9176
+asS'2ae2346e1f6e4a55946b63725bd58b2e'
+p9363
+(lp9364
+g9172
+ag9173
+ag9192
+ag9193
+ag9194
+ag9195
+ag9176
+asS'Donlie Kerman'
+p9365
+(lp9366
+g9172
+ag9173
+asg9165
+(lp9367
+g9173
+ag9194
+asg9042
+(lp9368
+g9172
+ag9173
+asS'21158475e76e41af9f8db1e94bd8a6f2'
+p9369
+(lp9370
+g9176
+asS'Jengee Kerman'
+p9371
+(lp9372
+g9192
+ag9283
+asS'Lizthy Kerman'
+p9373
+(lp9374
+g9192
+ag9283
+asS'Dunke Kerman'
+p9375
+(lp9376
+g9172
+ag9173
+asS'Sidton Kerman'
+p9377
+(lp9378
+g9172
+ag9173
+asS'Jebediah Kerman'
+p9379
+(lp9380
+g9172
+ag9173
+asS'Valentina Kerman'
+p9381
+(lp9382
+g9172
+ag9173
+asS'Lennard Kerman'
+p9383
+(lp9384
+g9172
+ag9173
+asg9087
+(lp9385
+g9172
+ag9173
+asg9060
+(lp9386
+g9172
+ag9173
+asS'Asdia Kerman'
+p9387
+(lp9388
+g9172
+ag9173
+asg9024
+(lp9389
+g9172
+ag9173
+asg9132
+(lp9390
+g9172
+ag9173
+asg9156
+(lp9391
+g9173
+ag9194
+asS'Hayie Kerman'
+p9392
+(lp9393
+g9172
+ag9173
+asg9018
+(lp9394
+g9172
+ag9173
+asS'Miemma Kerman'
+p9395
+(lp9396
+g9172
+ag9173
+asS'Maulina Kerman'
+p9397
+(lp9398
+g9172
+ag9173
+asg9114
+(lp9399
+g9172
+ag9173
+asS'b582e8f25e7843a28482146056ed8c9e'
+p9400
+(lp9401
+g9194
+ag9283
+ag9195
+ag9176
+asg9015
+(lp9402
+g9172
+ag9173
+asg9117
+(lp9403
+g9172
+ag9173
+asg9120
+(lp9404
+g9172
+ag9173
 ast.
