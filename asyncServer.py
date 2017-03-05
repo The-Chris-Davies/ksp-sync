@@ -20,7 +20,7 @@ except:
 try:
 	raise ValueError
 	saveData = open("serverSave.pkl")
-	serverGraph, kerbalGraph, destructGraph, deletedShips, shipVers = pickle.load(saveData)
+	serverGraph, kerbalGraph, destructGraph, deletedShips, shipVers, utTime = pickle.load(saveData)
 	saveData.close()
 except:
 	serverGraph = []
@@ -28,6 +28,7 @@ except:
 	destructGraph = []
 	deletedShips = []
 	shipVers = {}
+	utTime=0.0
 
 serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 serversocket.bind((socket.gethostname(), port))
@@ -82,11 +83,18 @@ while True:
 		clientGraphKerbal = getFromTree(clientGraph, ["GAME", "ROSTER", "KERBAL"])
 		clientGraphDestructables = getFromTree(clientGraph, ["GAME", "SCENARIO"])
 		clientGraphDestructablesReduced=[]
-	
 		for destruct in clientGraphDestructables:
 			if get_name(destruct)=="ScenarioDestructibles":
 				clientGraphDestructablesReduced=destruct[2:]
-			
+		
+		clientUT=getFromTree(clientGraph, ["GAME", "FLIGHTSTATE"])
+		clientUTreduced=0.0
+		for piece in clientUT[0]:
+			if piece.split(" = ")[0]=="UT":
+				clientUTreduced=float(piece.split(" = ")[1])
+				break
+								
+		#clientUTreduced			
 	
 		#clientGraphKerbal=[]
 	
@@ -223,6 +231,15 @@ while True:
 					shipVers[name].append(client_address[0])'''
 	
 		print "Destructables handled"
+		
+		if clientUTreduced>utTime:
+			utTime=clientUTreduced
+			print "Time Updated"
+		 
+		
+		
+		
+		
 	
 	sendDestruct = []
 	for nod in destructGraph:
@@ -232,13 +249,13 @@ while True:
 	
 	#this is where we send the stuff back
 	print "sending data"
-	returndata=(pickle.dumps((serverGraph,kerbalGraph,sendDestruct)))
+	returndata=(pickle.dumps((serverGraph,kerbalGraph,sendDestruct,utTime)))
 	#print returndata
 	connection.sendall(returndata)
 	connection.sendall('abcdefg')
 	print "data sent"
 
 	saveData = open("serverSave.pkl", 'w')
-	pickle.dump((serverGraph, kerbalGraph, sendDestruct, deletedShips, shipVers), saveData)
+	pickle.dump((serverGraph, kerbalGraph, destructGraph, deletedShips, shipVers,utTime), saveData)
 	saveData.close()
 serversocket.close()
