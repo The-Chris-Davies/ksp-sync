@@ -87,7 +87,7 @@ destructStr = unTree(datafromserver[2], 2)
 upData = ''
 dataStream = StringIO.StringIO(fullData)
 for line in dataStream:
-	if line.strip().split() == 'UT':
+	if line.strip().split()[0] == 'UT':
 		upData += '\t\tUT = ' + str(datafromserver[3]) + '\n'
 	if line == '\t\tVESSEL\n':
 		for waste in dataStream:
