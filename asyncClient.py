@@ -44,6 +44,7 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # - the normal http port
 s.connect((ip, port))
 
+print "connected to socket"
 # Send data
 
 #	1 = download only	2 = delete mode is DISABLED
@@ -82,11 +83,12 @@ kerbalStr = unTree(kerbalList, 2)
 
 
 destructStr = unTree(datafromserver[2], 2)
-#print vesselStr
 
 upData = ''
 dataStream = StringIO.StringIO(fullData)
 for line in dataStream:
+	if line.strip().split() == 'UT':
+		upData += '\t\tUT = ' + str(datafromserver[3]) + '\n'
 	if line == '\t\tVESSEL\n':
 		for waste in dataStream:
 			if waste == '\t}\n':
