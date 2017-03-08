@@ -34,7 +34,10 @@ def compare_tree(old,new):
 		
 		if (i+1==len(old)):						#SAME AS ELSE STATEMENT
 			if ("=" in old[i]):
-				if (old[i]!=new[i]):
+				if i>=len(new):
+					print "\n\nError!\n\n"
+					print old,"\n\n"
+				elif (old[i]!=new[i]):
 					return True
 
 		elif (type(old[i+1]))==type([]):

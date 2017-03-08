@@ -18,11 +18,13 @@ except:
 
 #try to load shipVers and serverGraph from file
 try:
-	raise ValueError
+	#raise ValueError
 	saveData = open("serverSave.pkl")
 	serverGraph, kerbalGraph, destructGraph, deletedShips, shipVers, utTime = pickle.load(saveData)
 	saveData.close()
+	print "Server save data loaded"
 except:
+	print "No server save data found"
 	serverGraph = []
 	kerbalGraph = []
 	destructGraph = []
