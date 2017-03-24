@@ -20,7 +20,7 @@ except:
 try:
 	#raise ValueError
 	saveData = open("serverSave.pkl")
-	serverGraph, kerbalGraph, destructGraph, deletedShips, shipVers, utTime = pickle.load(saveData)
+	serverGraph, kerbalGraph, destructGraph, deletedShips, deleteBackup, shipVers, utTime = pickle.load(saveData)
 	saveData.close()
 	print "Server save data loaded"
 except:
@@ -29,8 +29,11 @@ except:
 	kerbalGraph = []
 	destructGraph = []
 	deletedShips = []
+	deleteBackup = []
 	shipVers = {}
 	utTime=0.0
+
+
 
 serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 serversocket.bind((socket.gethostname(), port))
@@ -143,6 +146,9 @@ while True:
 					deletedShips.append(getPID(x))
 					serverGraph.remove(x)
 					shipVers[getPID(x)]=[]
+					
+					deleteBackup.append(x)
+					
 					#print ""
 					#print serverGraph
 					#print ""
@@ -258,6 +264,6 @@ while True:
 	print "data sent"
 
 	saveData = open("serverSave.pkl", 'w')
-	pickle.dump((serverGraph, kerbalGraph, destructGraph, deletedShips, shipVers,utTime), saveData)
+	pickle.dump((serverGraph, kerbalGraph, destructGraph, deletedShips, deleteBackup, shipVers,utTime), saveData)
 	saveData.close()
 serversocket.close()
