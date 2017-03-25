@@ -51,8 +51,16 @@ while True:
 	#accept connections from outside
 	connection, client_address = serversocket.accept()
 	
-	print 'connection from',client_address
+	print 'connection from',client_address,
 	
+	if client_address[0]=="184.68.166.106":
+		print "Brennan"
+	elif client_address[0]=="chrisip":
+		print "Chris"
+	else:
+		print ""
+	
+		
 	totalData=""
 	
 	# Receive the data in small chunks and retransmit it
@@ -138,9 +146,16 @@ while True:
 					#because we're updating the client
 					pass
 					#shipVers[pid].append(client_address[0])
+	
+	
+	
 		#remove ships if client was up to date
+		
+		#THIS NEEDS TO BE CHANGED TO USE PIDS RIPLOL		
 		for x in serverGraph:
-			if x not in clientGraphVessel and client_address[0] in shipVers[getPID(x)]:
+			#print pidin(x,clientGraphVessel)
+			if ((not pidin(x,clientGraphVessel)) and client_address[0] in shipVers[getPID(x)]):
+			#if x not in clientGraphVessel and client_address[0] in shipVers[getPID(x)]:
 				if delete:
 					print "removed",getPID(x) 
 					deletedShips.append(getPID(x))

@@ -35,8 +35,9 @@ def compare_tree(old,new):
 		if (i+1==len(old)):						#SAME AS ELSE STATEMENT
 			if ("=" in old[i]):
 				if i>=len(new):
-					print "\n\nError!\n\n"
-					print old,"\n\n"
+					print "Error"
+					#print "\n\nError!\n\n"
+					#print old,"\n\n"
 					return True
 				elif (old[i]!=new[i]):
 					return True
@@ -119,3 +120,11 @@ def unTree(tree, depth = 0):
 		else:
 			treeStr += depth*'\t' + '{\n' + unTree(line, depth+1) + depth*'\t' + '}\n'
 	return treeStr
+
+
+def pidin(ship,tree):
+	for i in tree:
+		if getPID(ship)==getPID(i):
+			return True
+	return False
+
