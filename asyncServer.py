@@ -55,8 +55,10 @@ while True:
 	
 	if client_address[0]=="184.68.166.106":
 		print "Brennan"
-	elif client_address[0]=="chrisip":
+	elif client_address[0]=="174.7.112.5":
 		print "Chris"
+	elif client_address[0]=="76.3.136.138":
+		print "Landon"
 	else:
 		print ""
 	
