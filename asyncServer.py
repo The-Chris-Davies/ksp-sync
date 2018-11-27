@@ -51,16 +51,7 @@ while True:
 	#accept connections from outside
 	connection, client_address = serversocket.accept()
 	
-	print 'connection from',client_address,
-	
-	if client_address[0]=="184.68.166.106":
-		print "Brennan"
-	elif client_address[0]=="174.7.112.5":
-		print "Chris"
-	elif client_address[0]=="76.3.136.138":
-		print "Landon"
-	else:
-		print ""
+	print 'connection from',client_address
 	
 		
 	totalData=""
